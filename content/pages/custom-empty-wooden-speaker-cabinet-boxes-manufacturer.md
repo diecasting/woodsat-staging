@@ -580,7 +580,7 @@ and audio enthusiasts.
 
 [Custom Wooden Speaker Cabinet Manufacturer](/custom-wooden-speaker-cabinet-manufacturer/)
 
-[OEM Wooden Speaker Cabinet Manufacturer](/custom-oem-wooden-speaker-cabinet-manufacturer/)
+[OEM Wooden Speaker Cabinet Manufacturer](/oem-wooden-speaker-cabinet-manufacturer/)
 
 [Speaker Cabinet CNC Machining Service](/speaker-cabinet-cnc-machining-service/)
 

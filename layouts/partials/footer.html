@@ -9,7 +9,16 @@
       <nav class="footer-services" aria-label="Footer services">
         {{ range (where site.Data.navigation.items "menus" "intersect" (slice "footer-services")) }}
           {{ if and .target_url (ne .target_url "#") .label }}
-            <a href="{{ .target_url }}">{{ .label }}</a><br>
+            {{ $url := .target_url }}
+            {{ if hasPrefix $url "http" }}
+              {{/* external absolute (https://woodsat.com/...) - keep as-is */}}
+            {{ else if hasPrefix $url "#" }}
+              {{/* in-page anchor - keep as-is */}}
+            {{ else }}
+              {{/* internal - strip leading slash and apply relURL so the staging subpath is honoured */}}
+              {{ $url = relURL (strings.TrimPrefix "/" $url) }}
+            {{ end }}
+            <a href="{{ $url }}">{{ .label }}</a><br>
           {{ end }}
         {{ end }}
       </nav>

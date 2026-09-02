@@ -230,10 +230,10 @@
       ],
       "type": "custom",
       "object_id": "883",
-      "target_url": "/custom-oem-wooden-speaker-cabinet-manufacturer/",
-      "status": "REQUIRES_MANUAL_REVIEW",
-      "migration_action": "DO_NOT_MIGRATE_TARGET_YET",
-      "note": "Label \"OEM Speaker Cabinet Manufacturing\" implies page 847, but target URL resolves to object 241 (/custom-empty-.../ is an alias). Cannot determine whether this is intentional alias architecture or an incorrect menu target without HTTP evidence."
+      "target_url": "/oem-wooden-speaker-cabinet-manufacturer/",
+      "status": "CONFIRMED",
+      "migration_action": "MIGRATE_LINK_TO_PAGE_847",
+      "note": "PHASE 4.9: dead slug /custom-oem-wooden-speaker-cabinet-manufacturer/ remapped to existing real page /oem-wooden-speaker-cabinet-manufacturer/ (page 847)."
     },
     {
       "item_id": 884,

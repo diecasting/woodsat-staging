@@ -103,7 +103,7 @@ and consistent production quality.
 
 - Engineering sample development
 
-[Explore CNC Capability →](/cnc-wood-machining-service/)
+[Explore CNC Capability →](/speaker-cabinet-cnc-machining-service/)
 
 ![High gloss piano lacquer spraying clean room for premium speaker cabinet finishing](https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp)
 
@@ -125,7 +125,7 @@ for luxury speaker cabinets.
 
 - Custom color finishing
 
-[Explore Finishing →](/speaker-cabinet-finishing-service/)
+[Explore Finishing →](/high-gloss-piano-lacquer-finishing-process-wood-speakers/)
 
 ![Mass batch production empty wooden speaker boxes OEM manufacturing](https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp)
 
@@ -146,7 +146,7 @@ from prototype to large volume manufacturing.
 
 - Global export support
 
-[Explore OEM Service →](/oem-speaker-cabinet-manufacturer/)
+[Explore OEM Service →](/oem-wooden-speaker-cabinet-manufacturer/)
 
 ![Wooden speaker cabinet manufacturing factory producing custom acoustic enclosures](https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp)
 
@@ -164,7 +164,7 @@ with modern CNC technology,
 we help audio companies transform designs
 into high-quality finished products.
 
-[Discover Woodsat](/about-woodsat/)
+[Discover Woodsat](/about-us/)
 
 01
 

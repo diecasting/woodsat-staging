@@ -1,0 +1,20 @@
+{{/*
+  PHASE 4.9 ROUTING FIX — render-link hook.
+  Makes raw internal markdown links baseURL-aware so they resolve on the
+  GitHub Pages project site (/woodsat-staging/...) AND on production
+  (https://woodsat.com/). External (http/https), protocol-relative (//),
+  in-page anchors (#), mailto:, tel: and wa.me destinations are left untouched.
+  The hook never invents URLs: it only rewrites the path of links that already
+  point at real internal slugs; dead slugs must be remapped at the source.
+*/}}
+{{- $dest := .Destination -}}
+{{- $text := .Text -}}
+{{- $title := .Title -}}
+{{- if or (hasPrefix $dest "http") (hasPrefix $dest "//") (hasPrefix $dest "#") (hasPrefix $dest "mailto:") (hasPrefix $dest "tel:") (hasPrefix $dest "wa.me") -}}
+  <a href="{{ $dest }}"{{- with $title }} title="{{ . }}"{{ end }}>{{ $text }}</a>
+{{- else -}}
+  {{- $clean := strings.TrimPrefix "/" $dest -}}
+  {{- $url := relURL $clean -}}
+  {{- if not (hasSuffix $url "/") }}{{ $url = printf "%s/" $url }}{{ end -}}
+  <a href="{{ $url }}"{{- with $title }} title="{{ . }}"{{ end }}>{{ $text }}</a>
+{{- end -}}

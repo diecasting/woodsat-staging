@@ -12,9 +12,17 @@
     in data/navigation.json for the pending manual review. This is a presenta-
     tion decision, not a change to migration evidence.
   - Mobile menu uses a CSS-only checkbox toggle (no JS).
+
+  PHASE 4.9 ROUTING FIX:
+  - Internal targets are now baseURL-aware via relURL so they resolve correctly
+    on the GitHub Pages project site (/woodsat-staging/...) AND on production
+    (https://woodsat.com/). External absolute URLs (https://woodsat.com/...)
+    and "#" anchors are left untouched. The two hardcoded literals (/ and
+    /contact/) are replaced with relURL equivalents. No staging subpath is
+    hardcoded into the template.
 */}}
 <header class="site-header">
-  <a class="brand" href="/">Wood<span>Sat</span></a>
+  <a class="brand" href="{{ "/" | relURL }}">Wood<span>Sat</span></a>
   <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
   <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
     <span></span><span></span><span></span>
@@ -22,9 +30,18 @@
   <nav class="site-nav" aria-label="Primary navigation">
     {{ range (where site.Data.navigation.items "menus" "intersect" (slice "mani-menus")) }}
       {{ if and .target_url (ne .target_url "#") .label }}
-        <a href="{{ .target_url }}">{{ .label }}</a>
+        {{ $url := .target_url }}
+        {{ if hasPrefix $url "http" }}
+          {{/* external absolute (e.g. https://woodsat.com/...) - keep as-is */}}
+        {{ else if hasPrefix $url "#" }}
+          {{/* in-page anchor - keep as-is */}}
+        {{ else }}
+          {{/* internal - strip leading slash and apply relURL so the staging subpath is honoured */}}
+          {{ $url = relURL (strings.TrimPrefix "/" $url) }}
+        {{ end }}
+        <a href="{{ $url }}">{{ .label }}</a>
       {{ end }}
     {{ end }}
   </nav>
-  <a class="site-cta" href="/contact/">Request A Quote</a>
+  <a class="site-cta" href="{{ "/contact/" | relURL }}">Request A Quote</a>
 </header>
