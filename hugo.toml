@@ -6,7 +6,15 @@
 #   Set isStaging = true while on any test host: it emits noindex and must not be
 #   included in the production sitemap or submitted to search engines.
 
-baseURL      = "https://woodsat.com/"
+# PHASE 4.6 STAGING-ONLY OVERRIDE.
+# The staging repo is a GitHub Pages PROJECT site served at the /woodsat-staging/
+# subpath. With the production baseURL (no path) every root-relative asset/link URL
+# (e.g. /css/main.css, /about-us/) 404s on the subpath. So baseURL HERE carries the
+# subpath so relURL/RelPermalink/absURL emit correct /woodsat-staging/... URLs.
+# Canonical/JSON-LD/sitemap/OG are pinned to productionBaseURL (below) so NO github.io
+# value ever reaches SEO metadata. The production source migration/hugo.toml is
+# UNCHANGED (baseURL = https://woodsat.com/).
+baseURL      = "https://diecasting.github.io/woodsat-staging/"
 languageCode = "en"
 title        = "Woodsat"
 
@@ -17,6 +25,9 @@ disableKinds = ["taxonomy", "term", "RSS"]
 # Staging guard - flip to false ONLY after the custom domain is live.
 [params]
   isStaging = true
+  # Production canonical host. SEO metadata (canonical/OG/JSON-LD/sitemap) is pinned to
+  # this so the staging subpath host never appears in search-engine-facing tags.
+  productionBaseURL = "https://woodsat.com"
   # formEndpoint = ""   # FORM_BACKEND = NEEDS FORMSPREE / EXTERNAL FORM DECISION
 
 # Raw HTML is required so #rfq / #capability anchors and schema survive conversion.

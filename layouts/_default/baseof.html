@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ $prod := site.Params.productionBaseURL }}
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%234a2e16'/%3E%3Ctext x='16' y='22' font-size='18' font-family='Arial' font-weight='700' fill='%23d99a2b' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
   {{/* Prefer the Yoast SEO title when evidence supplied one, so <title> matches
@@ -10,15 +11,20 @@
        falls back to its WP post_title. */}}
   <title>{{ with .Params.yoast_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</title>
   {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
-  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="canonical" href="{{ .Permalink | replaceRE "^https://diecasting.github.io/woodsat-staging" $prod }}">
   {{/* TEST DOMAIN POLICY: staging must never become canonical. While isStaging is
        true every page carries noindex,nofollow, overriding the per-page robots
-       value carried over from Yoast. */}}
+       value carried over from Yoast. Canonical/OG are pinned to productionBaseURL. */}}
   {{ if site.Params.isStaging }}
     <meta name="robots" content="noindex,nofollow">
   {{ else }}
     <meta name="robots" content="{{ with .Params.robots }}{{ . }}{{ else }}index, follow{{ end }}">
   {{ end }}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:url" content="{{ .Permalink | replaceRE "^https://diecasting.github.io/woodsat-staging" $prod }}">
+  <meta property="og:site_name" content="WoodSat">
+  {{ with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
   {{ partial "schema.html" . }}
 </head>
 <body>

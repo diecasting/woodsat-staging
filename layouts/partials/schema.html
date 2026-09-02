@@ -9,33 +9,33 @@
     - WordPress JSON-LD is translated into Hugo schema semantics, not copied blind.
     - Emit one graph per page; never duplicate Organization/WebSite across blocks.
 
-  IMPLEMENTATION FIX (4.3): the previous version delegated each node to a
-  sub-partial whose body was a bare `{{ dict ... }}` action. A Hugo partial
-  returns its rendered STRING, so those dicts were printed with Go's %v
-  formatter as "map[...]" text; jsonify then emitted an ARRAY OF STRINGS and
-  the JSON-LD was invalid. Here every node is a real dict (dict/slice) appended
-  to a slice, so jsonify produces valid JSON-LD objects.
+  IMPLEMENTATION FIX (4.3): every node is a real dict (dict/slice) appended to a
+  slice, so jsonify produces valid JSON-LD objects.
 
-  Runtime-observable evidence exists only for objects 13, 798 and 424.
-  For all others the WordPress runtime JSON-LD was BLOCKED_BY_CHANNEL.
+  PHASE 4.6 SEO-SAFETY PIN: all @id/url values are built from productionBaseURL
+  (https://woodsat.com) so the staging subpath host (diecasting.github.io) NEVER
+  appears in JSON-LD. The staging baseURL carries /woodsat-staging/ only for
+  asset/link resolution; SEO metadata stays on the production host.
 */}}
-{{ $organization := dict "@type" "Organization" "@id" (absURL "#organization") "name" site.Title "url" site.BaseURL }}
-{{ $website := dict "@type" "WebSite" "@id" (absURL "#website") "url" site.BaseURL "name" site.Title }}
-{{ $breadcrumb := dict "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" site.BaseURL)) }}
+{{ $prod := site.Params.productionBaseURL }}
+{{ $strip := "^https://diecasting.github.io/woodsat-staging" }}
+{{ $organization := dict "@type" "Organization" "@id" (printf "%s#organization" $prod) "name" site.Title "url" $prod }}
+{{ $website := dict "@type" "WebSite" "@id" (printf "%s#website" $prod) "url" $prod "name" site.Title }}
+{{ $breadcrumb := dict "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" $prod)) }}
 {{ $graph := slice $organization $website $breadcrumb }}
 
 {{/* WPCode 902 (is_page(241) || is_page("custom-empty-wooden-speaker-cabinet-boxes-manufacturer"))
      targets page 241 only and was BLOCKED at runtime. Logic preserved as intended,
      applied by wp_id rather than the unreadable schema_snippets list. */}}
 {{ if eq .Params.wp_id 241 }}
-  {{ $graph = $graph | append (dict "@type" "FAQPage" "@id" (print .Permalink "#faq")) }}
-  {{ $graph = $graph | append (dict "@type" "Service" "@id" (print .Permalink "#service") "serviceType" "Empty Wooden Speaker Box Manufacturing" "provider" (dict "@id" (absURL "#organization")) "areaServed" "Worldwide") }}
+  {{ $graph = $graph | append (dict "@type" "FAQPage" "@id" (printf "%s#faq" (.Permalink | replaceRE $strip $prod))) }}
+  {{ $graph = $graph | append (dict "@type" "Service" "@id" (printf "%s#service" (.Permalink | replaceRE $strip $prod)) "serviceType" "Empty Wooden Speaker Box Manufacturing" "provider" (dict "@id" (printf "%s#organization" $prod)) "areaServed" "Worldwide") }}
 {{ end }}
 
 {{ if eq .Type "posts" }}
-  {{ $graph = $graph | append (dict "@type" "Article" "headline" .Title "description" (.Description | default "") "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)) }}
+  {{ $graph = $graph | append (dict "@type" "Article" "headline" .Title "description" (.Description | default "") "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "mainEntityOfPage" (dict "@type" "WebPage" "@id" (.Permalink | replaceRE $strip $prod))) }}
 {{ else }}
-  {{ $graph = $graph | append (dict "@type" "WebPage" "@id" .Permalink "url" .Permalink "name" .Title "isPartOf" (dict "@id" (absURL "#website"))) }}
+  {{ $graph = $graph | append (dict "@type" "WebPage" "@id" (.Permalink | replaceRE $strip $prod) "url" (.Permalink | replaceRE $strip $prod) "name" .Title "isPartOf" (dict "@id" (printf "%s#website" $prod))) }}
 {{ end }}
 
 <script type="application/ld+json">
