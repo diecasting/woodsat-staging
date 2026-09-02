@@ -1,0 +1,225 @@
+{
+  "generated_utc": "2026-09-02T08:11:36Z",
+  "files": [
+    {
+      "path": "content/resource/_index.md",
+      "bytes": 4262,
+      "sha256": "c30b9d6fabdc8db635ed2cb50a348997853232927c11d3f32ecad9800e65578d"
+    },
+    {
+      "path": "content/pages/thanks.md",
+      "bytes": 1371,
+      "sha256": "7047317575ceff67809ac52bfec918baeccb403691909ddd15d0b5960e50c88f"
+    },
+    {
+      "path": "content/pages/contact.md",
+      "bytes": 2681,
+      "sha256": "f0e898954a06e961ca4c17400e72e5b6f5299f4445eab88c97a0d1d85d8816c4"
+    },
+    {
+      "path": "content/_index.md",
+      "bytes": 11612,
+      "sha256": "39e562424f83f89b88ed020a67a4f9ab3a543badbbffb4064d5096f30bb60214"
+    },
+    {
+      "path": "content/pages/about-us.md",
+      "bytes": 5739,
+      "sha256": "322c0d81d6d5a888f5e7cca350cc671d69fba769d8ce83760821a9767d9c67d3"
+    },
+    {
+      "path": "content/pages/custom-empty-wooden-speaker-cabinet-boxes-manufacturer.md",
+      "bytes": 14590,
+      "sha256": "f0c52cb5304397b817422f998acdbae71bbd4690f9d4518f597dc16f7f8f9977"
+    },
+    {
+      "path": "content/posts/wooden-speaker-cabinet-designs.md",
+      "bytes": 9505,
+      "sha256": "8b96fdc956548a9cec4c3d56739ea33c09261a2ad57713e99265dff77a61866d"
+    },
+    {
+      "path": "content/posts/acoustic-wood-speaker-enclosures.md",
+      "bytes": 10697,
+      "sha256": "4a9fdecb7a6c843d64a48a590adc47a68e16ddc1e5fec0304f895666e6e78692"
+    },
+    {
+      "path": "content/posts/best-wood-for-speaker-boxes.md",
+      "bytes": 6637,
+      "sha256": "1b502f14e69590ed2284dca02c8fae1a1f1ab6529f7e249e4a892f9b365960b0"
+    },
+    {
+      "path": "content/posts/subwoofer-enclosure-design.md",
+      "bytes": 6091,
+      "sha256": "553b603eed7013c5b30f8e3c52bb1053a41b31d6c4e69b836bf536213f434adb"
+    },
+    {
+      "path": "content/posts/speaker-cabinet-manufacturing.md",
+      "bytes": 5875,
+      "sha256": "317b7154d71cd866e0939d253e09ff3b046913f3b73ea53955d4ec2d3aba283d"
+    },
+    {
+      "path": "content/posts/speaker-box-calculator.md",
+      "bytes": 6983,
+      "sha256": "bed19eec4ea64d98575b5d4c44143b38a0a4f5b9762ed5dcd39c30e3bb47cda0"
+    },
+    {
+      "path": "content/posts/speaker-box-materials.md",
+      "bytes": 6110,
+      "sha256": "faba2b982441d8e21b9d06a5745858e9cf9c2d53b7823dd9a8551764880e8a89"
+    },
+    {
+      "path": "content/posts/speaker-box-veneering.md",
+      "bytes": 5738,
+      "sha256": "79849522400b22c566c5cb3000b8a77e68706baf4393e20dafd88a7d7a7598d1"
+    },
+    {
+      "path": "content/posts/speaker-box-finishes.md",
+      "bytes": 5228,
+      "sha256": "5437514fddd9fbb02340e071631cc597d3e7b1a00bc8c6be9a89ea8adfbb48ee"
+    },
+    {
+      "path": "content/posts/custom-cnc-wood-routing-services.md",
+      "bytes": 4507,
+      "sha256": "85251b529ab145e95687b6fa26bc5bd1789c63f9f6174bf28d0bf2c8334016ae"
+    },
+    {
+      "path": "content/posts/wooden-vs-mdf-speaker-cabinets.md",
+      "bytes": 6223,
+      "sha256": "823e6fe6b8d98b9b2cff7ce4205f750566a9fdffa2995bc4c00c794f7281f0aa"
+    },
+    {
+      "path": "content/pages/high-gloss-piano-lacquer-finishing-process-wood-speakers.md",
+      "bytes": 8079,
+      "sha256": "5bcaa7c91dd5f7b44a921bcc0be2d04fa460cb9eb4c5cb363ee55bc695d471ef"
+    },
+    {
+      "path": "content/pages/mdf-vs-baltic-birch-plywood-speaker-cabinets.md",
+      "bytes": 8123,
+      "sha256": "79bc9af9d336440bc2cebb69eb246670bee5da3c40665a609abd6b4b0d147a91"
+    },
+    {
+      "path": "content/pages/custom-wooden-speaker-cabinet-manufacturer.md",
+      "bytes": 11291,
+      "sha256": "d951728b579850f177cf07339b46d6682599038dea0188c5a450bb12a935bc5e"
+    },
+    {
+      "path": "content/pages/wooden-speaker-enclosure-manufacturer.md",
+      "bytes": 12868,
+      "sha256": "a2b7a9115ff0ff84db7660c52c4d6c6c5221e777114dffa369b809b021ec9c77"
+    },
+    {
+      "path": "content/pages/oem-wooden-speaker-cabinet-manufacturer.md",
+      "bytes": 11819,
+      "sha256": "6046553c7e7ac890e663578b61bbd1aa2979797eb494e10d597bb33bbfddfacd"
+    },
+    {
+      "path": "content/pages/speaker-cabinet-cnc-machining-service.md",
+      "bytes": 12744,
+      "sha256": "e461d349b147c371ed843638edb63f08dcdcae45ec976bdd0e2f720a8650cfa8"
+    },
+    {
+      "path": "content/pages/wooden-speaker-box-manufacturer.md",
+      "bytes": 12291,
+      "sha256": "8bd37f9f51a31c914622d1f4939022e51f3336e9acecfd953eccbfdce6be8b16"
+    },
+    {
+      "path": "content/pages/hifi-speaker-cabinet-manufacturer.md",
+      "bytes": 11370,
+      "sha256": "93eb47a480f6da0a0c6d8c042a8373e0104b6af470d64cd4bb7009180c3ccdf5"
+    },
+    {
+      "path": "reports/content_index.json",
+      "bytes": 9001,
+      "sha256": "3361d12cedfa5c2f82f1dc916b561d982c1401e581b55157cf279f50e588c228"
+    },
+    {
+      "path": "redirects/confirmed.json",
+      "bytes": 1226,
+      "sha256": "2693dff4e044df01fcd6221831f5874bfc436a4589cf3e64508f1f776126c2ff"
+    },
+    {
+      "path": "redirects/deferred_http_confirmation.json",
+      "bytes": 2922,
+      "sha256": "8132acd344adfbdce565cd5ba3ca21dece2fb524538275454dd6acefb6e8f618"
+    },
+    {
+      "path": "data/navigation.json",
+      "bytes": 7530,
+      "sha256": "a4a0b2f4d20761b9c052dc18ab51c31fba350e31ebcceab21d6af00c53d4006d"
+    },
+    {
+      "path": "data/schema.json",
+      "bytes": 8414,
+      "sha256": "3f6154bc310f7abd6527b4204b1e4f68f990b46085550f4d69319c6ef7c5d8d3"
+    },
+    {
+      "path": "data/media.json",
+      "bytes": 83826,
+      "sha256": "511cacd615e0cf2934d6f0c38d9f267b5d7ac3a582fa8573ac3144e08d1fb84d"
+    },
+    {
+      "path": "layouts/partials/rfq-form.html",
+      "bytes": 1365,
+      "sha256": "1c8214a397f0c037c1029c8659218dbbaac04699687ea2d58b8011b790ce295a"
+    },
+    {
+      "path": "layouts/partials/schema.html",
+      "bytes": 2595,
+      "sha256": "c57a9cc4cc0607c1a01395eea901c3dbbb073e1e5dc2e6d274bc581df29240fe"
+    },
+    {
+      "path": "layouts/_default/baseof.html",
+      "bytes": 1183,
+      "sha256": "c138fec4a5152c84e7bef5b4285c3c891665b8c19da1157bd58ea6fcc8021eec"
+    },
+    {
+      "path": "layouts/_default/single.html",
+      "bytes": 300,
+      "sha256": "8f905c53262442ae80a50bb9adb6e855b7467843949b8d620ff4e48ec0acbe9b"
+    },
+    {
+      "path": "layouts/_default/list.html",
+      "bytes": 171,
+      "sha256": "7b835d3dfb0adff33ef4b95b5c27aa819c8b9c706d31a03c09d78e414a15a8bb"
+    },
+    {
+      "path": "layouts/partials/navigation.html",
+      "bytes": 455,
+      "sha256": "efbe0c0bc9488fdcd955080af12f752b53021bb80ca3f8a05e404ef033264054"
+    },
+    {
+      "path": "layouts/partials/footer.html",
+      "bytes": 241,
+      "sha256": "162bc2fb8464d596c65dc151a85ceccaa75b540f8f8d69264db8d74bed69588b"
+    },
+    {
+      "path": "hugo.toml",
+      "bytes": 1074,
+      "sha256": "a2f0c84ef01e5c7bf141e9ca7251ab9dadb1a1f2a93c29b736d253b5c2441270"
+    },
+    {
+      "path": "static/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "content/pages/_index.md",
+      "bytes": 158,
+      "sha256": "d5ba00091a442670dda0098156f0e5195028a88255988e7261905d5730db8753"
+    },
+    {
+      "path": "content/posts/_index.md",
+      "bytes": 158,
+      "sha256": "30108bb5282045e48075bc9ed9d82b400056c872f0e31242dc9b929b954bd62b"
+    },
+    {
+      "path": "layouts/section/resource.html",
+      "bytes": 422,
+      "sha256": "b6f31335e25a6ec6df7c32b0cbb84ead970e42012502c7b5b72863708b3b32af"
+    }
+  ]
+}

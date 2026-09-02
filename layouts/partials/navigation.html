@@ -1,0 +1,30 @@
+{{/*
+  Navigation built from data/navigation.json (database evidence).
+  RENDERED header/footer placement is NOT_TESTABLE and is not inferred here.
+  Manual-review items 883, 876, 882, 194 are preserved in the data file and
+  their review flags are NOT silently resolved.
+
+  PHASE 4.5 VISUAL FIX (documented):
+  - Wrap nav in a sticky <header> with a wordmark logo linking to / and a
+    "Request A Quote" CTA.
+  - Empty-label items (15, 194, 217) and dead "#" targets (876, 882) are
+    SKIPPED from the visible menu to avoid blank/dead links, while remaining
+    in data/navigation.json for the pending manual review. This is a presenta-
+    tion decision, not a change to migration evidence.
+  - Mobile menu uses a CSS-only checkbox toggle (no JS).
+*/}}
+<header class="site-header">
+  <a class="brand" href="/">Wood<span>Sat</span></a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+  <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+    <span></span><span></span><span></span>
+  </label>
+  <nav class="site-nav" aria-label="Primary navigation">
+    {{ range (where site.Data.navigation.items "menus" "intersect" (slice "mani-menus")) }}
+      {{ if and .target_url (ne .target_url "#") .label }}
+        <a href="{{ .target_url }}">{{ .label }}</a>
+      {{ end }}
+    {{ end }}
+  </nav>
+  <a class="site-cta" href="/contact/">Request A Quote</a>
+</header>

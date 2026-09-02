@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h3>WoodSat</h3>
+      <p>Custom wooden speaker cabinet &amp; acoustic enclosure OEM/ODM manufacturer. Precision woodworking for global audio brands.</p>
+    </div>
+    <div>
+      <h3>Services</h3>
+      <nav class="footer-services" aria-label="Footer services">
+        {{ range (where site.Data.navigation.items "menus" "intersect" (slice "footer-services")) }}
+          {{ if and .target_url (ne .target_url "#") .label }}
+            <a href="{{ .target_url }}">{{ .label }}</a><br>
+          {{ end }}
+        {{ end }}
+      </nav>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>
+        Email: <a href="mailto:jason@woodsat.com">jason@woodsat.com</a><br>
+        WhatsApp: <a href="https://wa.me/8613410992195">+86 134 1099 2195</a><br>
+        Factory: No.12 Xinxing Road, Tangxia Town, Dongguan, Guangdong, China
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; {{ now.Year }} WoodSat (Yuda Acoustics Technology Co., Limited). All rights reserved.</p>
+  </div>
+</footer>

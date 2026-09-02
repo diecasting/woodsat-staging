@@ -1,0 +1,2083 @@
+{
+  "phase": "PHASE 4.2",
+  "generated_utc": "2026-09-02T08:11:36Z",
+  "strategy": "COPY_ALL_ATTACHMENTS (approved in PHASE 4.1B), with documented exclusions",
+  "total_attachments": 48,
+  "counts": {
+    "USED": 28,
+    "ATTACHED": 3,
+    "UNKNOWN": 1,
+    "UNRESOLVED": 10,
+    "LEGACY": 3
+  },
+  "exclusions": [
+    "speaker-box-calculator-tool.png - SOURCE_404_DO_NOT_MIGRATE"
+  ],
+  "deferred": [
+    "attachment 147 - DEFER_DECISION_100MB_MP4"
+  ],
+  "orphan_files_no_attachment_record": [
+    {
+      "filename": "speaker-box-calculator-tool.png",
+      "status": "SOURCE_404_DO_NOT_MIGRATE",
+      "evidence": "HTTP 404 observed twice in PHASE 4.1C",
+      "referenced_by": [
+        13
+      ]
+    },
+    {
+      "filename": "wooden-speaker-box-blueprints.png",
+      "status": "UNRESOLVED_NO_ATTACHMENT_RECORD",
+      "evidence": "referenced by page 13; HTTP unobservable (202 challenge)",
+      "referenced_by": [
+        13
+      ]
+    },
+    {
+      "filename": "handcrafted-wooden-speaker-box-veneer.webp",
+      "status": "UNRESOLVED_NO_ATTACHMENT_RECORD",
+      "evidence": "referenced by page 871; HTTP unobservable (202 challenge)",
+      "referenced_by": [
+        871
+      ]
+    }
+  ],
+  "records": [
+    {
+      "attachment_id": 222,
+      "filename": "Automatic-Drill-Hole-for-speaker.webp",
+      "mime_type": "image/webp",
+      "bytes": 84176,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Automatic acoustic hole drilling machine",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Automatic-Drill-Hole-for-speaker.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Automatic acoustic hole drilling machine",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Automatic-Drill-Hole-for-speaker-300x300.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Automatic acoustic hole drilling machine",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Automatic-Drill-Hole-for-speaker-150x150.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Automatic drilling machine for speaker cabinet production",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Automatic-Drill-Hole-for-speaker.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Automatic drilling process for wooden speaker cabinet manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Automatic-Drill-Hole-for-speaker.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Automatic drilling and CNC machining for speaker cabinet components",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Automatic-Drill-Hole-for-speaker.webp"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 220,
+      "filename": "Wood-CNC-Machine.webp",
+      "mime_type": "image/webp",
+      "bytes": 82612,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Heavy duty multi-axis wood CNC machine center",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Heavy duty multi-axis wood CNC machine center",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine-300x300.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Heavy duty multi-axis wood CNC machine center",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine-150x150.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "CNC machine for wooden speaker cabinet manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Wood CNC machine for OEM speaker cabinet production",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "CNC woodworking machine for speaker cabinet production",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "CNC machining process for wooden speaker box manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine.webp"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 218,
+      "filename": "Paiting-Line.webp",
+      "mime_type": "image/webp",
+      "bytes": 77520,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Wooden speaker cabinet painting line for OEM manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Paiting-Line.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Dust free automatic spray painting line for piano lacquer speaker boxes",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Paiting-Line.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Dust free automatic spray painting line for piano lacquer speaker boxes",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Paiting-Line-300x300.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Dust free automatic spray painting line for piano lacquer speaker boxes",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Paiting-Line-150x150.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Speaker cabinet painting production line manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Paiting-Line.webp"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Professional painting line for wooden speaker cabinet manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Paiting-Line.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Professional speaker cabinet painting production line",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Paiting-Line.webp"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 219,
+      "filename": "Speaker-Box-Surface-Polish.webp",
+      "mime_type": "image/webp",
+      "bytes": 63566,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Speaker cabinet surface polishing process before finishing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Premium speaker cabinet manual surface polish department",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Premium speaker cabinet manual surface polish department",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish-300x300.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Premium speaker cabinet manual surface polish department",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish-150x150.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Wooden speaker box surface polishing process",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Speaker enclosure surface polishing process",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Speaker cabinet polishing and surface finishing service",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Speaker box surface polishing process",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish.webp"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 205,
+      "filename": "Empty-Wooden-speaker-box-products.webp",
+      "mime_type": "image/webp",
+      "bytes": 60066,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Custom empty speaker box supplier for audio brands",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "MDF empty wooden speaker box manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "MDF wooden speaker enclosure production supplier",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Quality controlled wooden speaker enclosure products",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "MDF wooden speaker cabinet CNC machining",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Empty wooden speaker box manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "MDF wooden speaker box manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 196,
+      "filename": "China-blank-wooden-speaker-cabinet-with-PE-coating.webp",
+      "mime_type": "image/webp",
+      "bytes": 50042,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 104,
+          "slug": "thanks",
+          "type": "page",
+          "alt": "China blank wooden speaker cabinet with PE coating",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/China-blank-wooden-speaker-cabinet-with-PE-coating.webp"
+        },
+        {
+          "id": 104,
+          "slug": "thanks",
+          "type": "page",
+          "alt": "China blank wooden speaker cabinet with PE coating",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/China-blank-wooden-speaker-cabinet-with-PE-coating-300x300.webp"
+        },
+        {
+          "id": 104,
+          "slug": "thanks",
+          "type": "page",
+          "alt": "China blank wooden speaker cabinet with PE coating",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/China-blank-wooden-speaker-cabinet-with-PE-coating-150x150.webp"
+        },
+        {
+          "id": 436,
+          "slug": "custom-cnc-wood-routing-services",
+          "type": "post",
+          "alt": "Industrial Wood Cutting Machine",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/China-blank-wooden-speaker-cabinet-with-PE-coating.webp"
+        },
+        {
+          "id": 769,
+          "slug": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+          "type": "page",
+          "alt": "China blank wooden speaker cabinet with PE coating",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/China-blank-wooden-speaker-cabinet-with-PE-coating.webp"
+        },
+        {
+          "id": 798,
+          "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+          "type": "page",
+          "alt": "China blank wooden speaker cabinet with protective PE coating",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/China-blank-wooden-speaker-cabinet-with-PE-coating.webp"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 203,
+      "filename": "High-Quallity-Empty-speaker-box.webp",
+      "mime_type": "image/webp",
+      "bytes": 48218,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Quality inspection of high quality empty wooden speaker box before shipment",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Quality inspection for empty wooden speaker cabinets",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp"
+        },
+        {
+          "id": 436,
+          "slug": "custom-cnc-wood-routing-services",
+          "type": "post",
+          "alt": "File Setup for CNC Wood Routing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Quality inspected wooden speaker cabinet ready for shipment",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "High quality plywood wooden speaker cabinet manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Quality inspection of CNC wooden speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Quality inspection of wooden speaker box manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 198,
+      "filename": "Wooden-speaker-enclosure-manufacturer.webp",
+      "mime_type": "image/webp",
+      "bytes": 39180,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 104,
+          "slug": "thanks",
+          "type": "page",
+          "alt": "Wooden speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp"
+        },
+        {
+          "id": 104,
+          "slug": "thanks",
+          "type": "page",
+          "alt": "Wooden speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer-300x300.webp"
+        },
+        {
+          "id": 104,
+          "slug": "thanks",
+          "type": "page",
+          "alt": "Wooden speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer-150x150.webp"
+        },
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Wooden speaker cabinet manufacturing factory producing custom acoustic enclosures",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp"
+        },
+        {
+          "id": 436,
+          "slug": "custom-cnc-wood-routing-services",
+          "type": "post",
+          "alt": "Quality Control Tolerance Check",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Custom wooden speaker enclosure manufacturer producing OEM speaker cabinets",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Wooden speaker enclosure manufacturer producing custom audio cabinets",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Professional OEM wooden speaker cabinet factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Wooden speaker box manufacturer producing custom audio cabinets",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 197,
+      "filename": "Empty-wooden-speaker-box-with-veneer.webp",
+      "mime_type": "image/webp",
+      "bytes": 32004,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Natural wood veneer speaker cabinet manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Premium empty wooden speaker box finished with real wood veneer overlay",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Premium empty wooden speaker box finished with real wood veneer overlay",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer-300x300.webp"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Premium empty wooden speaker box finished with real wood veneer overlay",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer-150x150.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Plywood empty speaker cabinet manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Natural wood veneer material for custom wooden speaker cabinet production",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Wood veneer speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "CNC prototype wooden speaker enclosure development",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Plywood speaker enclosure CNC machining service",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Plywood wooden speaker enclosure production",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp"
+        },
+        {
+          "id": 871,
+          "slug": "hifi-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Wood veneer speaker enclosure manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 204,
+      "filename": "Speaker-Hone.webp",
+      "mime_type": "image/webp",
+      "bytes": 22996,
+      "usage_status": "ATTACHED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 28,
+      "filename": "Empty-speaker-cabinet.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 20792,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Finished wooden speaker cabinet product with premium surface quality",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Empty wooden speaker box manufacturer producing custom speaker cabinets",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 335,
+          "slug": "wooden-speaker-cabinet-designs",
+          "type": "post",
+          "alt": "Empty speaker cabinet modular",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 342,
+          "slug": "acoustic-wood-speaker-enclosures",
+          "type": "post",
+          "alt": "Empty speaker cabinet CNC layout",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 347,
+          "slug": "best-wood-for-speaker-boxes",
+          "type": "post",
+          "alt": "Empty speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 397,
+          "slug": "speaker-cabinet-manufacturing",
+          "type": "post",
+          "alt": "Acoustic wood craftsmen clamping airtight dowel joints on raw empty cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 416,
+          "slug": "speaker-box-calculator",
+          "type": "post",
+          "alt": "Premium custom empty wooden speaker box cabinet craftsmanship blueprint",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 420,
+          "slug": "speaker-box-materials",
+          "type": "post",
+          "alt": "High density MDF speaker cabinet awaiting industrial surface finish",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 424,
+          "slug": "speaker-box-veneering",
+          "type": "post",
+          "alt": "Veneer application process on speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 601,
+          "slug": "wooden-vs-mdf-speaker-cabinets",
+          "type": "post",
+          "alt": "How speaker cabinet materials affect sound waves",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Empty wooden speaker cabinet enclosure for custom audio manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-speaker-cabinet.jpg"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Custom wooden speaker cabinet manufacturing service",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Empty-speaker-cabinet.jpg"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 29,
+      "filename": "Wooden-Speaker-cabinet.png",
+      "mime_type": "image/png",
+      "bytes": 17180,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Woodsat Manufacturing Plant Header",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Wooden-Speaker-cabinet.png"
+        },
+        {
+          "id": 601,
+          "slug": "wooden-vs-mdf-speaker-cabinets",
+          "type": "post",
+          "alt": "Premium Handcrafted Wooden Speaker Cabinet by Woodsat",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/Wooden-Speaker-cabinet.png"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Custom wooden speaker cabinet structure optimization",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-Speaker-cabinet.png"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Global wooden speaker box manufacturing supplier",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-cabinet.png"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 221,
+      "filename": "Wooden-Speaker-Hone.webp",
+      "mime_type": "image/webp",
+      "bytes": 16630,
+      "usage_status": "ATTACHED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 699,
+      "filename": "cropped-Empty-wood-speaker-box-maker.png",
+      "mime_type": "image/png",
+      "bytes": 5497,
+      "usage_status": "ATTACHED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "MIGRATE_WITH_PARENT"
+    },
+    {
+      "attachment_id": 147,
+      "filename": "202105280950.mp4",
+      "mime_type": "video/mp4",
+      "bytes": 105742671,
+      "usage_status": "UNKNOWN",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "DEFER_DECISION_100MB_MP4"
+    },
+    {
+      "attachment_id": 334,
+      "filename": "Handcrafted-wooden-speaker-boxes.png",
+      "mime_type": "image/png",
+      "bytes": 969966,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Handcrafted wooden Hi-Fi speaker cabinets for premium audio systems",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Solid wood empty speaker cabinet manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 335,
+          "slug": "wooden-speaker-cabinet-designs",
+          "type": "post",
+          "alt": "Custom wooden speaker cabinet designs gallery",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 342,
+          "slug": "acoustic-wood-speaker-enclosures",
+          "type": "post",
+          "alt": "Handcrafted acoustic wood speaker enclosures engineering process",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 347,
+          "slug": "best-wood-for-speaker-boxes",
+          "type": "post",
+          "alt": "Handcrafted wooden speaker boxes",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 769,
+          "slug": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+          "type": "page",
+          "alt": "Handcrafted premium wooden speaker boxes in factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 798,
+          "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+          "type": "page",
+          "alt": "Handcrafted wooden speaker boxes production run on factory floor",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Custom Hi-Fi wooden speaker cabinet manufacturer for premium audio systems",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Handcrafted solid wood speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Custom handcrafted wooden speaker cabinet machining",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Handcrafted solid wood speaker box manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 871,
+          "slug": "hifi-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Handcrafted premium wooden Hi-Fi speaker cabinets",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        },
+        {
+          "id": 871,
+          "slug": "hifi-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Handcrafted wooden Hi-Fi speaker cabinet production",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 332,
+      "filename": "Wooden-speaker-housings.png",
+      "mime_type": "image/png",
+      "bytes": 894433,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 166,
+          "slug": "contact",
+          "type": "page",
+          "alt": "Contact Woodsat Premium Wooden Speaker Boxes Manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        },
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Professional studio monitor wooden speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Custom empty wooden floor standing speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Global OEM wooden speaker enclosure supplier",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "OEM wooden speaker housing manufacturer for custom audio products",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Studio monitor wooden speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Professional studio monitor wooden speaker enclosure supplier",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "OEM studio monitor speaker cabinet supplier",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Professional audio speaker enclosure CNC machining",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Professional audio wooden speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        },
+        {
+          "id": 871,
+          "slug": "hifi-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Plywood wooden speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 331,
+      "filename": "Wood-audio-speaker-boxes.png",
+      "mime_type": "image/png",
+      "bytes": 757948,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Empty wooden bookshelf speaker cabinet manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wood-audio-speaker-boxes.png"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Professional wooden acoustic speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wood-audio-speaker-boxes.png"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Premium Hi-Fi wooden speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wood-audio-speaker-boxes.png"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "OEM Hi-Fi wooden speaker cabinet manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wood-audio-speaker-boxes.png"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "CNC machined Hi-Fi wooden speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wood-audio-speaker-boxes.png"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Hi-Fi wooden speaker box manufacturer for premium audio systems",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2023/08/Wood-audio-speaker-boxes.png"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 333,
+      "filename": "Empty-wooden-subwoofer-enclosures.png",
+      "mime_type": "image/png",
+      "bytes": 682756,
+      "usage_status": "UNRESOLVED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 330,
+      "filename": "Speaker-cabinet-designs.png",
+      "mime_type": "image/png",
+      "bytes": 647096,
+      "usage_status": "UNRESOLVED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 477,
+      "filename": "weatherproof-teak-wood-bluetooth-speaker-enclosure.png",
+      "mime_type": "image/png",
+      "bytes": 236558,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 428,
+          "slug": "speaker-box-finishes",
+          "type": "post",
+          "alt": "Metallic Automotive Paint Speaker Enclosure",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/weatherproof-teak-wood-bluetooth-speaker-enclosure.png"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 475,
+      "filename": "ustom-walnut-speaker-cabinet-for-audiophile.png",
+      "mime_type": "image/png",
+      "bytes": 209029,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 335,
+          "slug": "wooden-speaker-cabinet-designs",
+          "type": "post",
+          "alt": "Walnut audiophile cabinet tower",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/ustom-walnut-speaker-cabinet-for-audiophile.png"
+        },
+        {
+          "id": 342,
+          "slug": "acoustic-wood-speaker-enclosures",
+          "type": "post",
+          "alt": "Walnut audiophile cabinet tower construction",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/ustom-walnut-speaker-cabinet-for-audiophile.png"
+        },
+        {
+          "id": 347,
+          "slug": "best-wood-for-speaker-boxes",
+          "type": "post",
+          "alt": "Custom walnut speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/ustom-walnut-speaker-cabinet-for-audiophile.png"
+        },
+        {
+          "id": 393,
+          "slug": "subwoofer-enclosure-design",
+          "type": "post",
+          "alt": "Premium custom handcrafted walnut subwoofer enclosure cabinet panel assembly",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/ustom-walnut-speaker-cabinet-for-audiophile.png"
+        },
+        {
+          "id": 397,
+          "slug": "speaker-cabinet-manufacturing",
+          "type": "post",
+          "alt": "Handcrafted custom solid walnut cabinet for high-fidelity luxury home audio",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/ustom-walnut-speaker-cabinet-for-audiophile.png"
+        },
+        {
+          "id": 420,
+          "slug": "speaker-box-materials",
+          "type": "post",
+          "alt": "Custom walnut speaker cabinet featuring natural premium wood grain",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/ustom-walnut-speaker-cabinet-for-audiophile.png"
+        },
+        {
+          "id": 424,
+          "slug": "speaker-box-veneering",
+          "type": "post",
+          "alt": "Custom walnut veneer speaker cabinet with book-matched grain",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/ustom-walnut-speaker-cabinet-for-audiophile.png"
+        },
+        {
+          "id": 428,
+          "slug": "speaker-box-finishes",
+          "type": "post",
+          "alt": "Acoustic Matte Polyurethane Cabinet Coating",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/ustom-walnut-speaker-cabinet-for-audiophile.png"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PAGE"
+    },
+    {
+      "attachment_id": 473,
+      "filename": "high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png",
+      "mime_type": "image/png",
+      "bytes": 206457,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 335,
+          "slug": "wooden-speaker-cabinet-designs",
+          "type": "post",
+          "alt": "High gloss bookshelf speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png"
+        },
+        {
+          "id": 342,
+          "slug": "acoustic-wood-speaker-enclosures",
+          "type": "post",
+          "alt": "High gloss bookshelf speaker piano lacquer finish",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png"
+        },
+        {
+          "id": 347,
+          "slug": "best-wood-for-speaker-boxes",
+          "type": "post",
+          "alt": "High gloss bookshelf speaker",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png"
+        },
+        {
+          "id": 397,
+          "slug": "speaker-cabinet-manufacturing",
+          "type": "post",
+          "alt": "Applying premium high-gloss multi-layer piano lacquer coat finish",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png"
+        },
+        {
+          "id": 420,
+          "slug": "speaker-box-materials",
+          "type": "post",
+          "alt": "Eco friendly bamboo composite cabinet featuring premium piano lacquer finish",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png"
+        },
+        {
+          "id": 424,
+          "slug": "speaker-box-veneering",
+          "type": "post",
+          "alt": "Piano lacquer finish over exotic wood veneer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png"
+        },
+        {
+          "id": 428,
+          "slug": "speaker-box-finishes",
+          "type": "post",
+          "alt": "High Gloss Piano Lacquer Speaker Box Finish",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png"
+        },
+        {
+          "id": 769,
+          "slug": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+          "type": "page",
+          "alt": "High gloss piano lacquer bookshelf speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png"
+        },
+        {
+          "id": 798,
+          "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+          "type": "page",
+          "alt": "High gloss piano lacquer bookshelf speaker cabinet profile",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PAGE"
+    },
+    {
+      "attachment_id": 471,
+      "filename": "car-subwoofer-box-with-ported-design.png",
+      "mime_type": "image/png",
+      "bytes": 202178,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Custom car subwoofer cabinet manufacturer with ported design",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Empty wooden subwoofer enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 335,
+          "slug": "wooden-speaker-cabinet-designs",
+          "type": "post",
+          "alt": "Car subwoofer box ported design",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 342,
+          "slug": "acoustic-wood-speaker-enclosures",
+          "type": "post",
+          "alt": "Car subwoofer box ported design",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 347,
+          "slug": "best-wood-for-speaker-boxes",
+          "type": "post",
+          "alt": "Car subwoofer box",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 393,
+          "slug": "subwoofer-enclosure-design",
+          "type": "post",
+          "alt": "High-performance ported car subwoofer enclosure design featuring tuned vent",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 397,
+          "slug": "speaker-cabinet-manufacturing",
+          "type": "post",
+          "alt": "Heavy-duty high-output ported car audio sub box layout",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 420,
+          "slug": "speaker-box-materials",
+          "type": "post",
+          "alt": "Car audio subwoofer box manufactured using custom molded fiberglass shapes",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 424,
+          "slug": "speaker-box-veneering",
+          "type": "post",
+          "alt": "Automotive-grade veneer on subwoofer enclosure",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 798,
+          "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+          "type": "page",
+          "alt": "Car subwoofer box with ported design utilizing Baltic Birch",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Custom car subwoofer wooden speaker cabinet manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Custom wooden subwoofer enclosure cabinet manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Custom automotive wooden subwoofer enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "OEM automotive speaker cabinet manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Automotive speaker enclosure CNC machining",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Custom wooden subwoofer box manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PAGE"
+    },
+    {
+      "attachment_id": 474,
+      "filename": "in-wall-speaker-frame-for-hidden-installation.png",
+      "mime_type": "image/png",
+      "bytes": 188592,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 335,
+          "slug": "wooden-speaker-cabinet-designs",
+          "type": "post",
+          "alt": "In-wall speaker frame enclosure",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/in-wall-speaker-frame-for-hidden-installation.png"
+        },
+        {
+          "id": 342,
+          "slug": "acoustic-wood-speaker-enclosures",
+          "type": "post",
+          "alt": "In-wall speaker frame hidden integration",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/in-wall-speaker-frame-for-hidden-installation.png"
+        },
+        {
+          "id": 347,
+          "slug": "best-wood-for-speaker-boxes",
+          "type": "post",
+          "alt": "In-wall speaker frame",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/in-wall-speaker-frame-for-hidden-installation.png"
+        },
+        {
+          "id": 393,
+          "slug": "subwoofer-enclosure-design",
+          "type": "post",
+          "alt": "Advanced transmission line and hidden architectural subwoofer cabinet frame routing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/in-wall-speaker-frame-for-hidden-installation.png"
+        },
+        {
+          "id": 397,
+          "slug": "speaker-cabinet-manufacturing",
+          "type": "post",
+          "alt": "In-wall backbox enclosure with ultra-low profile framework",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/in-wall-speaker-frame-for-hidden-installation.png"
+        },
+        {
+          "id": 420,
+          "slug": "speaker-box-materials",
+          "type": "post",
+          "alt": "In-wall speaker frame using thin aluminum composite panels",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/in-wall-speaker-frame-for-hidden-installation.png"
+        },
+        {
+          "id": 424,
+          "slug": "speaker-box-veneering",
+          "type": "post",
+          "alt": "In-wall speaker with seamless veneer edge wrapping",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/in-wall-speaker-frame-for-hidden-installation.png"
+        },
+        {
+          "id": 428,
+          "slug": "speaker-box-finishes",
+          "type": "post",
+          "alt": "Exotic Wood Veneer Speaker Box Finishes",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/in-wall-speaker-frame-for-hidden-installation.png"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PAGE"
+    },
+    {
+      "attachment_id": 470,
+      "filename": "baltic-birch-empty-speaker-enclosure-for-studio-monitors.png",
+      "mime_type": "image/png",
+      "bytes": 181399,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 335,
+          "slug": "wooden-speaker-cabinet-designs",
+          "type": "post",
+          "alt": "Baltic birch empty speaker enclosure",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/baltic-birch-empty-speaker-enclosure-for-studio-monitors.png"
+        },
+        {
+          "id": 342,
+          "slug": "acoustic-wood-speaker-enclosures",
+          "type": "post",
+          "alt": "Baltic birch studio monitor enclosure",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/baltic-birch-empty-speaker-enclosure-for-studio-monitors.png"
+        },
+        {
+          "id": 347,
+          "slug": "best-wood-for-speaker-boxes",
+          "type": "post",
+          "alt": "Baltic birch enclosure",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/baltic-birch-empty-speaker-enclosure-for-studio-monitors.png"
+        },
+        {
+          "id": 393,
+          "slug": "subwoofer-enclosure-design",
+          "type": "post",
+          "alt": "Precision sealed subwoofer enclosure made from Baltic Birch Plywood for critical studio listening",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/baltic-birch-empty-speaker-enclosure-for-studio-monitors.png"
+        },
+        {
+          "id": 397,
+          "slug": "speaker-cabinet-manufacturing",
+          "type": "post",
+          "alt": "Multi-axis CNC router cutting high-density Baltic birch plywood panel profiles",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/baltic-birch-empty-speaker-enclosure-for-studio-monitors.png"
+        },
+        {
+          "id": 420,
+          "slug": "speaker-box-materials",
+          "type": "post",
+          "alt": "Multi-layer Baltic birch plywood speaker enclosure built for precision studio monitors",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/baltic-birch-empty-speaker-enclosure-for-studio-monitors.png"
+        },
+        {
+          "id": 424,
+          "slug": "speaker-box-veneering",
+          "type": "post",
+          "alt": "Baltic birch plywood with raw veneer surface",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/baltic-birch-empty-speaker-enclosure-for-studio-monitors.png"
+        }
+      ],
+      "migration_action": "MIGRATE_WITH_PAGE"
+    },
+    {
+      "attachment_id": 476,
+      "filename": "vintage-tube-amplifier-wooden-case-distressed-finish.png",
+      "mime_type": "image/png",
+      "bytes": 150475,
+      "usage_status": "UNRESOLVED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 472,
+      "filename": "curved-guitar-amp-cabinet-cnc-carved-maple.png",
+      "mime_type": "image/png",
+      "bytes": 137633,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 428,
+          "slug": "speaker-box-finishes",
+          "type": "post",
+          "alt": "Hand Rubbed Oil Wax Wood Speaker Finish",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/curved-guitar-amp-cabinet-cnc-carved-maple.png"
+        },
+        {
+          "id": 428,
+          "slug": "speaker-box-finishes",
+          "type": "post",
+          "alt": "Textured Polyurea Paint Speaker Box Finishes",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2025/03/curved-guitar-amp-cabinet-cnc-carved-maple.png"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 797,
+      "filename": "premium-polyethylene-coating-speaker-box-surface.webp",
+      "mime_type": "image/webp",
+      "bytes": 91284,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Premium polyethylene coating treatment for wooden speaker cabinet surface",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Protective coating treatment for wooden speaker enclosure surface",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Protective coating treatment for wooden audio enclosure surface",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Protective coating finishing for speaker cabinet surface",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Protective coating for wooden speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 791,
+      "filename": "gray-matte-finish-speaker-cabinet-ral-color-match.webp",
+      "mime_type": "image/webp",
+      "bytes": 78242,
+      "usage_status": "UNRESOLVED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 33,
+      "filename": "China-wooden-speaker-cabinet-manufacturer-view-min.png",
+      "mime_type": "image/png",
+      "bytes": 71709,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Woodsat 25000 sqm speaker cabinet manufacturing factory floor",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/China-wooden-speaker-cabinet-manufacturer-view-min.png"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Woodsat 25000 sqm speaker cabinet manufacturing factory floor",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/China-wooden-speaker-cabinet-manufacturer-view-min-300x214.png"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Woodsat 25000 sqm speaker cabinet manufacturing factory floor",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/China-wooden-speaker-cabinet-manufacturer-view-min-200x143.png"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Woodsat 25000 sqm speaker cabinet manufacturing factory floor",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/China-wooden-speaker-cabinet-manufacturer-view-min-400x286.png"
+        },
+        {
+          "id": 211,
+          "slug": "about-us",
+          "type": "page",
+          "alt": "Woodsat 25000 sqm speaker cabinet manufacturing factory floor",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2020/08/China-wooden-speaker-cabinet-manufacturer-view-min-600x429.png"
+        }
+      ],
+      "migration_action": "REVIEW_BEFORE_MIGRATION"
+    },
+    {
+      "attachment_id": 794,
+      "filename": "mass-batch-production-empty-wooden-speaker-boxes.webp",
+      "mime_type": "image/webp",
+      "bytes": 68818,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Mass batch production empty wooden speaker boxes OEM manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Mass production empty wooden speaker boxes factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Mass production wooden speaker enclosure manufacturing factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "OEM wooden speaker box production factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "OEM wooden speaker cabinet factory mass production",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Mass production OEM wooden speaker cabinet factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "OEM mass production wooden speaker box factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "OEM wooden speaker box mass production factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 790,
+      "filename": "custom-speaker-cabinet-cnc-machining-factory.webp",
+      "mime_type": "image/webp",
+      "bytes": 66120,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "OEM wooden speaker cabinet manufacturing factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Studio monitor wooden speaker enclosure manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Custom speaker cabinet CNC machining factory production line",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "OEM wooden speaker enclosure manufacturing factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Prototype development for OEM wooden speaker cabinet manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Custom speaker cabinet CNC machining factory",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Complete CNC speaker cabinet manufacturing workflow",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp"
+        },
+        {
+          "id": 871,
+          "slug": "hifi-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Hi-Fi speaker cabinet manufacturing factory with CNC machining capability",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 796,
+      "filename": "multi-axis-cnc-routing-services-for-speaker-baffle.webp",
+      "mime_type": "image/webp",
+      "bytes": 62824,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Multi axis CNC routing services for wooden speaker cabinet manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Multi axis CNC routing services for speaker baffle machining",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Custom speaker cabinet CNC routing and baffle machining",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Multi axis CNC routing services for wooden speaker cabinet baffle machining",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Custom speaker cabinet CNC design and machining capability",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Multi axis CNC machining for wooden speaker enclosure baffle production",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "OEM speaker cabinet engineering and CNC machining service",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "CNC routing speaker cabinet baffle manufacturing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Speaker cabinet CNC machining service with precision wood routing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Multi axis CNC routing service for wooden speaker cabinet baffle",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Multi axis CNC routing for complex wooden speaker enclosure",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        },
+        {
+          "id": 871,
+          "slug": "hifi-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Precision CNC machining for Hi-Fi speaker cabinet structure design",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 789,
+      "filename": "custom-blue-lacquer-speaker-enclosure-finish-option.webp",
+      "mime_type": "image/webp",
+      "bytes": 57840,
+      "usage_status": "UNRESOLVED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 793,
+      "filename": "high-gloss-piano-lacquer-spraying-clean-room.webp",
+      "mime_type": "image/webp",
+      "bytes": 57186,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "High gloss piano lacquer spraying clean room for premium speaker cabinet finishing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp"
+        },
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "High gloss piano lacquer spraying clean room for speaker cabinet finishing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "High gloss piano lacquer finishing for wooden speaker cabinets",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp"
+        },
+        {
+          "id": 833,
+          "slug": "custom-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "High gloss piano lacquer speaker cabinet finishing manufacturer",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp"
+        },
+        {
+          "id": 840,
+          "slug": "wooden-speaker-enclosure-manufacturer",
+          "type": "page",
+          "alt": "Piano gloss lacquer finishing for wooden speaker enclosure",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "OEM piano gloss wooden speaker cabinet finishing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "High gloss piano lacquer finishing for wooden speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Piano lacquer finishing for wooden speaker box",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp"
+        },
+        {
+          "id": 871,
+          "slug": "hifi-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "High gloss piano lacquer finishing for Hi-Fi speaker cabinets",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 792,
+      "filename": "handcrafted-wooden-speaker-box-veneer-processing.webp",
+      "mime_type": "image/webp",
+      "bytes": 47262,
+      "usage_status": "USED",
+      "rendered_confirmation": "CONFIRMED",
+      "referencing_pages": [
+        {
+          "id": 180,
+          "slug": "home",
+          "type": "page",
+          "alt": "Handcrafted wood veneer processing for premium wooden speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp"
+        },
+        {
+          "id": 241,
+          "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+          "type": "page",
+          "alt": "Wood veneer finishing for empty speaker cabinets",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp"
+        },
+        {
+          "id": 847,
+          "slug": "oem-wooden-speaker-cabinet-manufacturer",
+          "type": "page",
+          "alt": "Natural wood veneer processing for OEM speaker cabinet",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp"
+        },
+        {
+          "id": 852,
+          "slug": "speaker-cabinet-cnc-machining-service",
+          "type": "page",
+          "alt": "Wood veneer speaker cabinet manufacturing process",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp"
+        },
+        {
+          "id": 857,
+          "slug": "wooden-speaker-box-manufacturer",
+          "type": "page",
+          "alt": "Natural wood veneer speaker box finishing",
+          "raw_url": "https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp"
+        }
+      ],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 788,
+      "filename": "artisan-hand-sanding-wooden-speaker-enclosure.webp",
+      "mime_type": "image/webp",
+      "bytes": 44480,
+      "usage_status": "UNRESOLVED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 795,
+      "filename": "metallic-champagne-gold-speaker-box-finish.webp",
+      "mime_type": "image/webp",
+      "bytes": 43520,
+      "usage_status": "UNRESOLVED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 161,
+      "filename": "Custom-transparent-acrylic-speaker-enclosure-supplier.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 32695,
+      "usage_status": "LEGACY",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REVIEW_BEFORE_MIGRATION"
+    },
+    {
+      "attachment_id": 157,
+      "filename": "China-Custom-Plexiglass-plates-supplier.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 29939,
+      "usage_status": "LEGACY",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REVIEW_BEFORE_MIGRATION"
+    },
+    {
+      "attachment_id": 261,
+      "filename": "speaker-box-maker-512x512-1.png",
+      "mime_type": "image/png",
+      "bytes": 29242,
+      "usage_status": "UNRESOLVED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 141,
+      "filename": "Horn-Manufacturer.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 23248,
+      "usage_status": "LEGACY",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REVIEW_BEFORE_MIGRATION"
+    },
+    {
+      "attachment_id": 262,
+      "filename": "cropped-speaker-box-maker-512x512-1.png",
+      "mime_type": "image/png",
+      "bytes": 19360,
+      "usage_status": "UNRESOLVED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": 259,
+      "filename": "Empty-wood-speaker-box-maker.png",
+      "mime_type": "image/png",
+      "bytes": 1865,
+      "usage_status": "UNRESOLVED",
+      "rendered_confirmation": "NOT_RENDERED_IN_ANY_CONTENT",
+      "referencing_pages": [],
+      "migration_action": "REQUIRES_RENDERED_EVIDENCE"
+    },
+    {
+      "attachment_id": null,
+      "filename": "speaker-box-calculator-tool.png",
+      "mime_type": null,
+      "bytes": null,
+      "usage_status": "ORPHAN_NO_ATTACHMENT_RECORD",
+      "rendered_confirmation": "RENDERED_REFERENCE_ONLY",
+      "referencing_pages": [
+        13
+      ],
+      "migration_action": "SOURCE_404_DO_NOT_MIGRATE",
+      "evidence": "HTTP 404 observed twice in PHASE 4.1C"
+    },
+    {
+      "attachment_id": null,
+      "filename": "wooden-speaker-box-blueprints.png",
+      "mime_type": null,
+      "bytes": null,
+      "usage_status": "ORPHAN_NO_ATTACHMENT_RECORD",
+      "rendered_confirmation": "RENDERED_REFERENCE_ONLY",
+      "referencing_pages": [
+        13
+      ],
+      "migration_action": "UNRESOLVED_NO_ATTACHMENT_RECORD",
+      "evidence": "referenced by page 13; HTTP unobservable (202 challenge)"
+    },
+    {
+      "attachment_id": null,
+      "filename": "handcrafted-wooden-speaker-box-veneer.webp",
+      "mime_type": null,
+      "bytes": null,
+      "usage_status": "ORPHAN_NO_ATTACHMENT_RECORD",
+      "rendered_confirmation": "RENDERED_REFERENCE_ONLY",
+      "referencing_pages": [
+        871
+      ],
+      "migration_action": "UNRESOLVED_NO_ATTACHMENT_RECORD",
+      "evidence": "referenced by page 871; HTTP unobservable (202 challenge)"
+    }
+  ]
+}

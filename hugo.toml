@@ -1,0 +1,28 @@
+# PHASE 4.2 PREPARATION ONLY - not deployed.
+#
+# TEST DOMAIN POLICY
+#   Final production architecture: GitHub Pages -> custom domain -> https://woodsat.com/
+#   The GitHub Pages host must NEVER become the preferred canonical domain.
+#   Set isStaging = true while on any test host: it emits noindex and must not be
+#   included in the production sitemap or submitted to search engines.
+
+baseURL      = "https://woodsat.com/"
+languageCode = "en"
+title        = "Woodsat"
+
+# WordPress has no /categories/, /tags/ or RSS URLs in the migration set.
+# Disable those kinds so the build does not invent URLs that do not exist in production.
+disableKinds = ["taxonomy", "term", "RSS"]
+
+# Staging guard - flip to false ONLY after the custom domain is live.
+[params]
+  isStaging = true
+  # formEndpoint = ""   # FORM_BACKEND = NEEDS FORMSPREE / EXTERNAL FORM DECISION
+
+# Raw HTML is required so #rfq / #capability anchors and schema survive conversion.
+[markup.goldmark.renderer]
+  unsafe = true
+
+# One canonical URL set. No staging host may appear here.
+[minify]
+  disableXML = true

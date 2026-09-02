@@ -1,0 +1,6 @@
+# Normalize line endings to LF in the repo (CI builds on Linux).
+* text=auto eol=lf
+
+# Build output is gitignored; keep these explicit just in case.
+/public/ -text
+/resources/ -text

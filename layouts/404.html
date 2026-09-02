@@ -1,0 +1,33 @@
+{{/*
+  PHASE 4.5 VISUAL FIX (documented): Hugo generated no 404.html previously.
+  This standalone template reuses the site header/footer partials and the
+  shared stylesheet, so the error page matches the site chrome and does not
+  leak any debug/build information.
+*/}}
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 - Page Not Found | WoodSat</title>
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  {{/* Staging guard — must match every other page so the 404 cannot be indexed while isStaging=true. */}}
+  <meta name="robots" content="noindex,nofollow">
+</head>
+<body>
+  {{ partial "navigation.html" . }}
+  <main>
+    <section class="error-page">
+      <div class="error-code">404</div>
+      <h1>Page Not Found</h1>
+      <p>The page you are looking for may have been moved, renamed, or no longer exists.</p>
+      <p>
+        <a class="site-cta" href="/">Return Home</a>
+        &nbsp;&nbsp;
+        <a class="site-cta" href="/contact/">Contact Us</a>
+      </p>
+    </section>
+  </main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article>
+  {{/* Object 104 (/thanks/) is classified NO_H1 by the Phase 4.1A evidence.
+       An H1 must NOT be invented for it, so the heading is suppressed. */}}
+  {{ if ne .Params.h1_status "NO_H1" }}
+    <h1>{{ .Title }}</h1>
+  {{ end }}
+  {{ .Content }}
+</article>
+{{ end }}

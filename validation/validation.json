@@ -1,0 +1,125 @@
+{
+  "phase": "PHASE 4.2",
+  "generated_utc": "2026-09-02T09:18:40Z",
+  "scope": "LOCAL VALIDATION of the migration-preparation workspace only",
+  "checks_total": 17,
+  "checks_passed": 17,
+  "checks_failed": 0,
+  "overall": "PASS",
+  "checks": [
+    {
+      "check": "all_25_content_objects_represented",
+      "result": "PASS",
+      "detail": "25 content files generated"
+    },
+    {
+      "check": "no_empty_migration_title_except_reviewed",
+      "result": "PASS",
+      "detail": "empty titles: none (none expected)"
+    },
+    {
+      "check": "no_invented_h1",
+      "result": "PASS",
+      "detail": "deviations: none"
+    },
+    {
+      "check": "all_known_redirects_represented",
+      "result": "PASS",
+      "detail": "2 confirmed 301 mappings recorded"
+    },
+    {
+      "check": "nine_unresolved_urls_remain_deferred",
+      "result": "PASS",
+      "detail": "9 out-of-inventory URLs deferred with status UNKNOWN"
+    },
+    {
+      "check": "404_orphan_media_excluded",
+      "result": "PASS",
+      "detail": "speaker-box-calculator-tool.png -> SOURCE_404_DO_NOT_MIGRATE"
+    },
+    {
+      "check": "media_matrix_traceability_preserved",
+      "result": "PASS",
+      "detail": "45 attachment records (expected 45) + 3 orphan files with no attachment record (expected 3, never given invented IDs)"
+    },
+    {
+      "check": "schema_source_traceability_preserved",
+      "result": "PASS",
+      "detail": "13 WPCode snippets with SHA256; 902 is_php=true malformed=false runtime=BLOCKED"
+    },
+    {
+      "check": "cf7_rfq_partial_architecture_represented",
+      "result": "PASS",
+      "detail": "reusable partial present; 22/25 objects carry the form; backend decision still open"
+    },
+    {
+      "check": "rfq_anchor_preserved_where_required",
+      "result": "PASS",
+      "detail": "missing on: none"
+    },
+    {
+      "check": "capability_anchor_preserved_where_required",
+      "result": "PASS",
+      "detail": "missing on: none"
+    },
+    {
+      "check": "canonical_host_is_woodsat_com",
+      "result": "PASS",
+      "detail": "hugo.toml baseURL = https://woodsat.com/"
+    },
+    {
+      "check": "no_staging_canonical_leakage",
+      "result": "PASS",
+      "detail": "github.io references: content=0 config=0"
+    },
+    {
+      "check": "no_duplicate_sitemap_entries",
+      "result": "PASS",
+      "detail": "duplicate urls: none"
+    },
+    {
+      "check": "no_production_redirect_deployment",
+      "result": "PASS",
+      "detail": "redirects/confirmed.json status = PREPARED_NOT_DEPLOYED"
+    },
+    {
+      "check": "no_wordpress_modification",
+      "result": "PASS",
+      "detail": "phase is local-file-only; no connector or network call touched production"
+    },
+    {
+      "check": "shortcodes_well_formed",
+      "result": "PASS",
+      "detail": "malformed shortcode markers: none"
+    }
+  ],
+  "manual_decisions_open": [
+    "page 13 - stored H1 vs rendered NO_H1",
+    "page 601 - two H1 candidates",
+    "page 104 - NO_H1",
+    "menu 883 - OEM label resolving via alias to page 241",
+    "menu 876 - dead # target",
+    "menu 882 - dead # target",
+    "menu 194 - /home/ rather than /",
+    "media 147 - 100.84 MB MP4",
+    "wooden-speaker-box-blueprints.png - orphan, HTTP unconfirmed",
+    "handcrafted-wooden-speaker-box-veneer.webp - orphan, HTTP unconfirmed",
+    "CF7 [your-subject] mail-template defect",
+    "CF7 backend choice (FORM_BACKEND undecided)"
+  ],
+  "unresolved_evidence": {
+    "count": 9,
+    "reason": "SITEGROUND_202_CHALLENGE",
+    "items": [
+      "https://woodsat.com/about-woodsat/",
+      "https://woodsat.com/blueprints/",
+      "https://woodsat.com/cnc-wood-machining-service/",
+      "https://woodsat.com/download-resources/",
+      "https://woodsat.com/high-quality-speaker-enclosures/",
+      "https://woodsat.com/loudspeaker-cabinet-manufacturer/",
+      "https://woodsat.com/most-durable-wood-for-speakers/",
+      "https://woodsat.com/oem-speaker-cabinet-manufacturer/",
+      "https://woodsat.com/speaker-cabinet-finishing-service/"
+    ]
+  }
+}

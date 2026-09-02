@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{/* Posts Page equivalent: WordPress page_for_posts = 13. The posts are a
+     separate section whose URLs sit at the site root, so they are pulled in
+     explicitly rather than via .Pages. */}}
+<ul class="resource-list">
+  {{ range where site.RegularPages "Type" "posts" }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}

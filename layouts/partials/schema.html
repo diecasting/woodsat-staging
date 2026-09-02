@@ -1,0 +1,43 @@
+{{/*
+  Schema entry point.
+
+  PHASE 4.2/4.3 PREPARATION ONLY.
+
+  Principles:
+    - WPCode source is authoritative for INTENDED logic.
+    - SOURCE VERIFIED != RUNTIME VERIFIED.
+    - WordPress JSON-LD is translated into Hugo schema semantics, not copied blind.
+    - Emit one graph per page; never duplicate Organization/WebSite across blocks.
+
+  IMPLEMENTATION FIX (4.3): the previous version delegated each node to a
+  sub-partial whose body was a bare `{{ dict ... }}` action. A Hugo partial
+  returns its rendered STRING, so those dicts were printed with Go's %v
+  formatter as "map[...]" text; jsonify then emitted an ARRAY OF STRINGS and
+  the JSON-LD was invalid. Here every node is a real dict (dict/slice) appended
+  to a slice, so jsonify produces valid JSON-LD objects.
+
+  Runtime-observable evidence exists only for objects 13, 798 and 424.
+  For all others the WordPress runtime JSON-LD was BLOCKED_BY_CHANNEL.
+*/}}
+{{ $organization := dict "@type" "Organization" "@id" (absURL "#organization") "name" site.Title "url" site.BaseURL }}
+{{ $website := dict "@type" "WebSite" "@id" (absURL "#website") "url" site.BaseURL "name" site.Title }}
+{{ $breadcrumb := dict "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" site.BaseURL)) }}
+{{ $graph := slice $organization $website $breadcrumb }}
+
+{{/* WPCode 902 (is_page(241) || is_page("custom-empty-wooden-speaker-cabinet-boxes-manufacturer"))
+     targets page 241 only and was BLOCKED at runtime. Logic preserved as intended,
+     applied by wp_id rather than the unreadable schema_snippets list. */}}
+{{ if eq .Params.wp_id 241 }}
+  {{ $graph = $graph | append (dict "@type" "FAQPage" "@id" (print .Permalink "#faq")) }}
+  {{ $graph = $graph | append (dict "@type" "Service" "@id" (print .Permalink "#service") "serviceType" "Empty Wooden Speaker Box Manufacturing" "provider" (dict "@id" (absURL "#organization")) "areaServed" "Worldwide") }}
+{{ end }}
+
+{{ if eq .Type "posts" }}
+  {{ $graph = $graph | append (dict "@type" "Article" "headline" .Title "description" (.Description | default "") "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)) }}
+{{ else }}
+  {{ $graph = $graph | append (dict "@type" "WebPage" "@id" .Permalink "url" .Permalink "name" .Title "isPartOf" (dict "@id" (absURL "#website"))) }}
+{{ end }}
+
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}
+</script>

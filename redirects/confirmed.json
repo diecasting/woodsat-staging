@@ -1,0 +1,39 @@
+{
+  "phase": "PHASE 4.2",
+  "generated_utc": "2026-09-02T08:11:36Z",
+  "status": "PREPARED_NOT_DEPLOYED",
+  "warning": "Prepared for later implementation. NOT deployed. No production redirect may be created during Phase 4.2.",
+  "evidence_source": "reports/phase40/evidence/phase41c/phase41c_http_observations.json",
+  "redirects": [
+    {
+      "from": "/custom-wooden-speaker-enclosures-manufacturer/",
+      "to": "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "http_status": 301,
+      "status": "HTTP_CONFIRMED_REDIRECT",
+      "repeat_count": 3,
+      "target_object_id": 241,
+      "inbound_internal_links": 7,
+      "also_a_post_tag": true,
+      "evidence": [
+        "single GET probe",
+        "A/B test (curl default UA)",
+        "A/B test (UA curl/8.5.0)"
+      ]
+    },
+    {
+      "from": "/custom-oem-wooden-speaker-cabinet-manufacturer/",
+      "to": "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "http_status": 301,
+      "status": "HTTP_CONFIRMED_REDIRECT",
+      "repeat_count": 1,
+      "target_object_id": 241,
+      "referenced_by": [
+        241
+      ],
+      "menu_item": 883,
+      "evidence": [
+        "scripted run with curl default UA"
+      ]
+    }
+  ]
+}

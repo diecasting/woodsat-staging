@@ -1,0 +1,257 @@
+{
+  "phase": "PHASE 4.2",
+  "generated_utc": "2026-09-02T08:11:36Z",
+  "count": 25,
+  "records": [
+    {
+      "wp_id": 13,
+      "slug": "resource",
+      "type": "page",
+      "url": "https://woodsat.com/resource/",
+      "file": "content/resource/_index.md",
+      "h1_status": "REQUIRES_REVIEW",
+      "title": "Speaker Box Design Resources",
+      "content_bytes": 3210
+    },
+    {
+      "wp_id": 104,
+      "slug": "thanks",
+      "type": "page",
+      "url": "https://woodsat.com/thanks/",
+      "file": "content/pages/thanks.md",
+      "h1_status": "NO_H1",
+      "title": "Thanks",
+      "content_bytes": 438
+    },
+    {
+      "wp_id": 166,
+      "slug": "contact",
+      "type": "page",
+      "url": "https://woodsat.com/contact/",
+      "file": "content/pages/contact.md",
+      "h1_status": "CONFIRMED",
+      "title": "Contact Our Acoustic Engineering Team",
+      "content_bytes": 1729
+    },
+    {
+      "wp_id": 180,
+      "slug": "home",
+      "type": "page",
+      "url": "https://woodsat.com/",
+      "file": "content/_index.md",
+      "h1_status": "CONFIRMED",
+      "title": "Custom Wooden Speaker Cabinet Manufacturer",
+      "content_bytes": 10580
+    },
+    {
+      "wp_id": 211,
+      "slug": "about-us",
+      "type": "page",
+      "url": "https://woodsat.com/about-us/",
+      "file": "content/pages/about-us.md",
+      "h1_status": "CONFIRMED",
+      "title": "20+ Years of Acoustic Engineering Mastery & Precision Wood Manufacturing",
+      "content_bytes": 4664
+    },
+    {
+      "wp_id": 241,
+      "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+      "type": "page",
+      "url": "https://woodsat.com/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "file": "content/pages/custom-empty-wooden-speaker-cabinet-boxes-manufacturer.md",
+      "h1_status": "CONFIRMED",
+      "title": "Empty Wooden Speaker Box Manufacturer",
+      "content_bytes": 13249
+    },
+    {
+      "wp_id": 335,
+      "slug": "wooden-speaker-cabinet-designs",
+      "type": "post",
+      "url": "https://woodsat.com/wooden-speaker-cabinet-designs/",
+      "file": "content/posts/wooden-speaker-cabinet-designs.md",
+      "h1_status": "CONFIRMED",
+      "title": "Custom Wooden Speaker Cabinet Designs: Blending Acoustic Science with Master Craftsmanship",
+      "content_bytes": 8281
+    },
+    {
+      "wp_id": 342,
+      "slug": "acoustic-wood-speaker-enclosures",
+      "type": "post",
+      "url": "https://woodsat.com/acoustic-wood-speaker-enclosures/",
+      "file": "content/posts/acoustic-wood-speaker-enclosures.md",
+      "h1_status": "CONFIRMED",
+      "title": "Best Wood for Acoustic Speaker Enclosures: Enclosure Materials & Engineering Science",
+      "content_bytes": 9421
+    },
+    {
+      "wp_id": 347,
+      "slug": "best-wood-for-speaker-boxes",
+      "type": "post",
+      "url": "https://woodsat.com/best-wood-for-speaker-boxes/",
+      "file": "content/posts/best-wood-for-speaker-boxes.md",
+      "h1_status": "CONFIRMED",
+      "title": "Best Wood for Speaker Boxes: Top Choices for Superior Sound",
+      "content_bytes": 5529
+    },
+    {
+      "wp_id": 393,
+      "slug": "subwoofer-enclosure-design",
+      "type": "post",
+      "url": "https://woodsat.com/subwoofer-enclosure-design/",
+      "file": "content/posts/subwoofer-enclosure-design.md",
+      "h1_status": "CONFIRMED",
+      "title": "Subwoofer Enclosure Design Masterclass",
+      "content_bytes": 4875
+    },
+    {
+      "wp_id": 397,
+      "slug": "speaker-cabinet-manufacturing",
+      "type": "post",
+      "url": "https://woodsat.com/speaker-cabinet-manufacturing/",
+      "file": "content/posts/speaker-cabinet-manufacturing.md",
+      "h1_status": "CONFIRMED",
+      "title": "Speaker Cabinet Manufacturing",
+      "content_bytes": 4725
+    },
+    {
+      "wp_id": 416,
+      "slug": "speaker-box-calculator",
+      "type": "post",
+      "url": "https://woodsat.com/speaker-box-calculator/",
+      "file": "content/posts/speaker-box-calculator.md",
+      "h1_status": "CONFIRMED",
+      "title": "Custom Speaker Box Calculator: Volume, Port Tuning & Cut List",
+      "content_bytes": 5815
+    },
+    {
+      "wp_id": 420,
+      "slug": "speaker-box-materials",
+      "type": "post",
+      "url": "https://woodsat.com/speaker-box-materials/",
+      "file": "content/posts/speaker-box-materials.md",
+      "h1_status": "CONFIRMED",
+      "title": "The Engineering Guide to Speaker Box Materials",
+      "content_bytes": 4831
+    },
+    {
+      "wp_id": 424,
+      "slug": "speaker-box-veneering",
+      "type": "post",
+      "url": "https://woodsat.com/speaker-box-veneering/",
+      "file": "content/posts/speaker-box-veneering.md",
+      "h1_status": "CONFIRMED",
+      "title": "Professional Speaker Box Veneering",
+      "content_bytes": 4671
+    },
+    {
+      "wp_id": 428,
+      "slug": "speaker-box-finishes",
+      "type": "post",
+      "url": "https://woodsat.com/speaker-box-finishes/",
+      "file": "content/posts/speaker-box-finishes.md",
+      "h1_status": "CONFIRMED",
+      "title": "Premium Speaker Box Finishes",
+      "content_bytes": 4142
+    },
+    {
+      "wp_id": 436,
+      "slug": "custom-cnc-wood-routing-services",
+      "type": "post",
+      "url": "https://woodsat.com/custom-cnc-wood-routing-services/",
+      "file": "content/posts/custom-cnc-wood-routing-services.md",
+      "h1_status": "CONFIRMED",
+      "title": "Precision CNC Wood Routing Services",
+      "content_bytes": 3378
+    },
+    {
+      "wp_id": 601,
+      "slug": "wooden-vs-mdf-speaker-cabinets",
+      "type": "post",
+      "url": "https://woodsat.com/wooden-vs-mdf-speaker-cabinets/",
+      "file": "content/posts/wooden-vs-mdf-speaker-cabinets.md",
+      "h1_status": "REQUIRES_REVIEW",
+      "title": "The Ultimate Speaker Cabinet Material Guide",
+      "content_bytes": 4798
+    },
+    {
+      "wp_id": 769,
+      "slug": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+      "type": "page",
+      "url": "https://woodsat.com/high-gloss-piano-lacquer-finishing-process-wood-speakers/",
+      "file": "content/pages/high-gloss-piano-lacquer-finishing-process-wood-speakers.md",
+      "h1_status": "CONFIRMED",
+      "title": "The Art of Reflection: A 20-Year Master’s Cold Truth About High-Gloss Piano Lacquer for Wood Speakers",
+      "content_bytes": 6691
+    },
+    {
+      "wp_id": 798,
+      "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "type": "page",
+      "url": "https://woodsat.com/mdf-vs-baltic-birch-plywood-speaker-cabinets/",
+      "file": "content/pages/mdf-vs-baltic-birch-plywood-speaker-cabinets.md",
+      "h1_status": "CONFIRMED",
+      "title": "MDF vs. Baltic Birch Plywood for Speaker Cabinets: A Manufacturer’s Deep Dive",
+      "content_bytes": 6686
+    },
+    {
+      "wp_id": 833,
+      "slug": "custom-wooden-speaker-cabinet-manufacturer",
+      "type": "page",
+      "url": "https://woodsat.com/custom-wooden-speaker-cabinet-manufacturer/",
+      "file": "content/pages/custom-wooden-speaker-cabinet-manufacturer.md",
+      "h1_status": "CONFIRMED",
+      "title": "Custom Wooden Speaker Cabinet Manufacturer",
+      "content_bytes": 10048
+    },
+    {
+      "wp_id": 840,
+      "slug": "wooden-speaker-enclosure-manufacturer",
+      "type": "page",
+      "url": "https://woodsat.com/wooden-speaker-enclosure-manufacturer/",
+      "file": "content/pages/wooden-speaker-enclosure-manufacturer.md",
+      "h1_status": "CONFIRMED",
+      "title": "Wooden Speaker Enclosure Manufacturer",
+      "content_bytes": 11630
+    },
+    {
+      "wp_id": 847,
+      "slug": "oem-wooden-speaker-cabinet-manufacturer",
+      "type": "page",
+      "url": "https://woodsat.com/oem-wooden-speaker-cabinet-manufacturer/",
+      "file": "content/pages/oem-wooden-speaker-cabinet-manufacturer.md",
+      "h1_status": "CONFIRMED",
+      "title": "OEM Wooden Speaker Cabinet Manufacturer",
+      "content_bytes": 10571
+    },
+    {
+      "wp_id": 852,
+      "slug": "speaker-cabinet-cnc-machining-service",
+      "type": "page",
+      "url": "https://woodsat.com/speaker-cabinet-cnc-machining-service/",
+      "file": "content/pages/speaker-cabinet-cnc-machining-service.md",
+      "h1_status": "CONFIRMED",
+      "title": "Speaker Cabinet CNC Machining Service",
+      "content_bytes": 11509
+    },
+    {
+      "wp_id": 857,
+      "slug": "wooden-speaker-box-manufacturer",
+      "type": "page",
+      "url": "https://woodsat.com/wooden-speaker-box-manufacturer/",
+      "file": "content/pages/wooden-speaker-box-manufacturer.md",
+      "h1_status": "CONFIRMED",
+      "title": "Wooden Speaker Box Manufacturer",
+      "content_bytes": 11075
+    },
+    {
+      "wp_id": 871,
+      "slug": "hifi-speaker-cabinet-manufacturer",
+      "type": "page",
+      "url": "https://woodsat.com/hifi-speaker-cabinet-manufacturer/",
+      "file": "content/pages/hifi-speaker-cabinet-manufacturer.md",
+      "h1_status": "CONFIRMED",
+      "title": "Premium Hi-Fi Speaker Cabinet Manufacturer",
+      "content_bytes": 10199
+    }
+  ]
+}

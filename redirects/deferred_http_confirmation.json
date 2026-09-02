@@ -1,0 +1,85 @@
+{
+  "phase": "PHASE 4.2",
+  "generated_utc": "2026-09-02T08:11:36Z",
+  "policy": "No redirect, no mapping, no classification as 404 or dead. Evidence state preserved until HTTP confirmation is obtained.",
+  "count": 11,
+  "items": [
+    {
+      "url": "https://woodsat.com/about-woodsat/",
+      "gates": "OUT_OF_INVENTORY_URLS",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    },
+    {
+      "url": "https://woodsat.com/blueprints/",
+      "gates": "OUT_OF_INVENTORY_URLS",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    },
+    {
+      "url": "https://woodsat.com/cnc-wood-machining-service/",
+      "gates": "OUT_OF_INVENTORY_URLS",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    },
+    {
+      "url": "https://woodsat.com/download-resources/",
+      "gates": "OUT_OF_INVENTORY_URLS",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    },
+    {
+      "url": "https://woodsat.com/high-quality-speaker-enclosures/",
+      "gates": "OUT_OF_INVENTORY_URLS",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    },
+    {
+      "url": "https://woodsat.com/loudspeaker-cabinet-manufacturer/",
+      "gates": "OUT_OF_INVENTORY_URLS",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    },
+    {
+      "url": "https://woodsat.com/most-durable-wood-for-speakers/",
+      "gates": "OUT_OF_INVENTORY_URLS",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    },
+    {
+      "url": "https://woodsat.com/oem-speaker-cabinet-manufacturer/",
+      "gates": "OUT_OF_INVENTORY_URLS",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    },
+    {
+      "url": "https://woodsat.com/speaker-cabinet-finishing-service/",
+      "gates": "OUT_OF_INVENTORY_URLS",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    },
+    {
+      "url": "https://woodsat.com/wp-content/uploads/2025/03/wooden-speaker-box-blueprints.png",
+      "gates": "MEDIA",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    },
+    {
+      "url": "https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer.webp",
+      "gates": "MEDIA",
+      "current_status": "UNKNOWN",
+      "reason": "SITEGROUND_202_CHALLENGE",
+      "required_action": "HTTP_CONFIRMATION"
+    }
+  ]
+}

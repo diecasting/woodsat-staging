@@ -1,0 +1,17 @@
+{{/*
+  RFQ form shortcode.
+
+  Thin wrapper so `{{< rfq-form >}}` in content resolves to the reusable partial.
+  The partial holds the markup; keeping a single source avoids drift between the
+  shortcode form and any direct partial call.
+
+  PHASE 4.3 NOTE: this shortcode was missing in the Phase 4.2 workspace, so the
+  first Hugo build failed with "template for shortcode rfq-form not found".
+  It was added to make the prepared site buildable. No content, URL, schema,
+  redirect or navigation data was changed to accommodate it.
+
+  BACKEND is deliberately unset:
+    FORM_BACKEND = NEEDS FORMSPREE / EXTERNAL FORM DECISION
+  CF7_SUBJECT_FIELD_REQUIRES_MANUAL_REVIEW remains open.
+*/}}
+{{ partial "rfq-form.html" . }}

@@ -1,0 +1,70 @@
+name: Deploy Hugo site to GitHub Pages
+
+# PHASE 4.4 DEPLOYMENT PACKAGE — PREPARATION ONLY.
+# Builds the Hugo site and deploys it to GitHub Pages.
+#
+# IMPORTANT SEO-SAFETY LOCK (Phase 4.4 — DO NOT RELAX):
+#   * baseURL stays https://woodsat.com/ (set in hugo.toml). Do NOT override it
+#     with the Pages URL while isStaging = true — overriding would emit
+#     github.io canonical/absolute URLs and break the noindex staging contract.
+#   * isStaging = true keeps every page noindex,nofollow. Flipping to false is a
+#     MANUAL CUTOVER action (see cutover_checklist.md), never automatic here.
+#   * The custom domain (static/CNAME -> woodsat.com) is prepared but NOT
+#     activated by this workflow. Do NOT point woodsat.com DNS at GitHub Pages
+#     until the cutover checklist is signed off.
+
+on:
+  # Wire this up only during/after the cutover decision.
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  HUGO_VERSION: 0.163.3
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Hugo CLI (extended)
+        run: |
+          wget -O "${{ runner.temp }}/hugo.deb" \
+            "https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_linux-amd64.deb"
+          sudo dpkg -i "${{ runner.temp }}/hugo.deb"
+
+      - name: Build with Hugo
+        # Intentionally NO --baseURL override: canonical/absolute URLs must stay
+        # https://woodsat.com/ per the Phase 4.4 SEO-safety lock.
+        run: hugo --gc --minify
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

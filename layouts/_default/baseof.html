@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%234a2e16'/%3E%3Ctext x='16' y='22' font-size='18' font-family='Arial' font-weight='700' fill='%23d99a2b' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  {{/* Prefer the Yoast SEO title when evidence supplied one, so <title> matches
+       production instead of being rebuilt from the H1. Object 104 is NO_H1 and
+       falls back to its WP post_title. */}}
+  <title>{{ with .Params.yoast_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</title>
+  {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{/* TEST DOMAIN POLICY: staging must never become canonical. While isStaging is
+       true every page carries noindex,nofollow, overriding the per-page robots
+       value carried over from Yoast. */}}
+  {{ if site.Params.isStaging }}
+    <meta name="robots" content="noindex,nofollow">
+  {{ else }}
+    <meta name="robots" content="{{ with .Params.robots }}{{ . }}{{ else }}index, follow{{ end }}">
+  {{ end }}
+  {{ partial "schema.html" . }}
+</head>
+<body>
+  {{ partial "navigation.html" . }}
+  <main>{{ block "main" . }}{{ end }}</main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

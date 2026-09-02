@@ -1,0 +1,252 @@
+{
+  "phase": "PHASE 4.2",
+  "generated_utc": "2026-09-02T08:11:36Z",
+  "source": "gateA/navigation_migration_matrix.json (database evidence)",
+  "rendered_status": "NOT_TESTABLE - header/footer rendering not inferred from DB rows",
+  "manual_review_items": {
+    "883": "labelled OEM but HTTP-confirmed resolves via alias to page 241 - MENU_883_REQUIRES_MANUAL_DECISION",
+    "876": "dead \"#\" target",
+    "882": "dead \"#\" target",
+    "194": "points to /home/ rather than /"
+  },
+  "menus": {
+    "mani-menus": 13,
+    "footer-services": 5
+  },
+  "items": [
+    {
+      "item_id": 15,
+      "label": "",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "post_type",
+      "object_id": "13",
+      "target_url": "/resource/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "REVIEW_TARGET",
+      "note": "Target does not map to a tracked content object"
+    },
+    {
+      "item_id": 177,
+      "label": "Request A Quote",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "post_type",
+      "object_id": "166",
+      "target_url": "/contact/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "REVIEW_TARGET",
+      "note": "Target does not map to a tracked content object"
+    },
+    {
+      "item_id": 194,
+      "label": "",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "post_type",
+      "object_id": "180",
+      "target_url": "/home/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "REVIEW_TARGET",
+      "note": "Target does not map to a tracked content object"
+    },
+    {
+      "item_id": 217,
+      "label": "",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "post_type",
+      "object_id": "211",
+      "target_url": "/about-us/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "REVIEW_TARGET",
+      "note": "Target does not map to a tracked content object"
+    },
+    {
+      "item_id": 739,
+      "label": "Custom Speaker Cabinets",
+      "menus": [
+        "footer-services"
+      ],
+      "type": "custom",
+      "object_id": "739",
+      "target_url": "https://woodsat.com/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "REVIEW_TARGET",
+      "note": "Target does not map to a tracked content object"
+    },
+    {
+      "item_id": 740,
+      "label": "CNC Wood Routing Services",
+      "menus": [
+        "footer-services"
+      ],
+      "type": "custom",
+      "object_id": "740",
+      "target_url": "https://woodsat.com/custom-cnc-wood-routing-services/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "REVIEW_TARGET",
+      "note": "Target does not map to a tracked content object"
+    },
+    {
+      "item_id": 741,
+      "label": "Speaker Box Finishes",
+      "menus": [
+        "footer-services"
+      ],
+      "type": "custom",
+      "object_id": "741",
+      "target_url": "https://woodsat.com/speaker-box-finishes/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "REVIEW_TARGET",
+      "note": "Target does not map to a tracked content object"
+    },
+    {
+      "item_id": 742,
+      "label": "Speaker Cabinet Manufacturing",
+      "menus": [
+        "footer-services"
+      ],
+      "type": "custom",
+      "object_id": "742",
+      "target_url": "https://woodsat.com/speaker-cabinet-manufacturing/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "REVIEW_TARGET",
+      "note": "Target does not map to a tracked content object"
+    },
+    {
+      "item_id": 743,
+      "label": "Speaker Box Calculator",
+      "menus": [
+        "footer-services"
+      ],
+      "type": "custom",
+      "object_id": "743",
+      "target_url": "https://woodsat.com/speaker-box-calculator/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "REVIEW_TARGET",
+      "note": "Target does not map to a tracked content object"
+    },
+    {
+      "item_id": 876,
+      "label": "Speaker Cabinets",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "custom",
+      "object_id": "876",
+      "target_url": "#",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "DO_NOT_MIGRATE_TARGET_YET",
+      "note": "Dead / placeholder link"
+    },
+    {
+      "item_id": 877,
+      "label": "Wooden Speaker Box",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "custom",
+      "object_id": "877",
+      "target_url": "/wooden-speaker-box-manufacturer/",
+      "status": "CONFIRMED",
+      "migration_action": "MIGRATE_LINK_TO_PAGE_857",
+      "note": "Menu target maps to a published page permalink"
+    },
+    {
+      "item_id": 878,
+      "label": "Custom Speaker Cabinets",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "custom",
+      "object_id": "878",
+      "target_url": "/custom-wooden-speaker-cabinet-manufacturer/",
+      "status": "CONFIRMED",
+      "migration_action": "MIGRATE_LINK_TO_PAGE_833",
+      "note": "Menu target maps to a published page permalink"
+    },
+    {
+      "item_id": 879,
+      "label": "Empty Speaker Cabinets",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "custom",
+      "object_id": "879",
+      "target_url": "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "REVIEW_TARGET",
+      "note": "Target does not map to a tracked content object"
+    },
+    {
+      "item_id": 880,
+      "label": "Hi-Fi Speaker Cabinets",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "custom",
+      "object_id": "880",
+      "target_url": "/hifi-speaker-cabinet-manufacturer/",
+      "status": "CONFIRMED",
+      "migration_action": "MIGRATE_LINK_TO_PAGE_871",
+      "note": "Menu target maps to a published page permalink"
+    },
+    {
+      "item_id": 881,
+      "label": "Speaker Enclosures",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "custom",
+      "object_id": "881",
+      "target_url": "/wooden-speaker-enclosure-manufacturer/",
+      "status": "CONFIRMED",
+      "migration_action": "MIGRATE_LINK_TO_PAGE_840",
+      "note": "Menu target maps to a published page permalink"
+    },
+    {
+      "item_id": 882,
+      "label": "Manufacturing Services",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "custom",
+      "object_id": "882",
+      "target_url": "#",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "DO_NOT_MIGRATE_TARGET_YET",
+      "note": "Dead / placeholder link"
+    },
+    {
+      "item_id": 883,
+      "label": "OEM Speaker Cabinet Manufacturing",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "custom",
+      "object_id": "883",
+      "target_url": "/custom-oem-wooden-speaker-cabinet-manufacturer/",
+      "status": "REQUIRES_MANUAL_REVIEW",
+      "migration_action": "DO_NOT_MIGRATE_TARGET_YET",
+      "note": "Label \"OEM Speaker Cabinet Manufacturing\" implies page 847, but target URL resolves to object 241 (/custom-empty-.../ is an alias). Cannot determine whether this is intentional alias architecture or an incorrect menu target without HTTP evidence."
+    },
+    {
+      "item_id": 884,
+      "label": "CNC Machining Service",
+      "menus": [
+        "mani-menus"
+      ],
+      "type": "custom",
+      "object_id": "884",
+      "target_url": "/speaker-cabinet-cnc-machining-service/",
+      "status": "CONFIRMED",
+      "migration_action": "MIGRATE_LINK_TO_PAGE_852",
+      "note": "Menu target maps to a published page permalink"
+    }
+  ]
+}

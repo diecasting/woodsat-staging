@@ -1,0 +1,32 @@
+{{/*
+  Reusable RFQ form partial.
+
+  PHASE 4.2 PREPARATION ONLY - not wired to a live endpoint.
+
+  Evidence: 22 of 25 WordPress objects embed wpcf7-f22-o1 (CF7 form id 22),
+  including the home page, about page, every commercial page and most articles.
+  It must therefore be a partial, not a per-page block.
+
+  BACKEND: CF7 cannot run on GitHub Pages.
+  FORM_BACKEND = NEEDS FORMSPREE / EXTERNAL FORM DECISION.
+
+  CF7_SUBJECT_FIELD_REQUIRES_MANUAL_REVIEW:
+    the WordPress mail template references [your-subject], but no such field
+    exists on the form. Do not assume it is correct.
+*/}}
+<section id="rfq" class="rfq">
+  <form class="rfq-form" method="post" action="{{ site.Params.formEndpoint | default "" }}">
+    <label for="rfq-name">Your Name (required)
+      <input id="rfq-name" name="your-name" type="text" required autocomplete="name">
+    </label>
+    <label for="rfq-email">Your Email (required)
+      <input id="rfq-email" name="your-email" type="email" required autocomplete="email">
+    </label>
+    <label for="rfq-message">Your Message
+      <textarea id="rfq-message" name="your-message" rows="10" maxlength="2000"></textarea>
+    </label>
+    {{/* Anti-spam: the WordPress build used a math quiz (11+5=16).
+         Replace with the chosen provider's anti-spam before go-live. */}}
+    <button type="submit">Send</button>
+  </form>
+</section>

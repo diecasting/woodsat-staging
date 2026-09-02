@@ -1,0 +1,1258 @@
+{
+  "phase": "PHASE 4.2",
+  "generated_utc": "2026-09-02T09:18:40Z",
+  "workspace": "migration/",
+  "file_count": 208,
+  "total_bytes": 947724,
+  "zero_byte_count": 4,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 182,
+      "sha256": "23cca3121caa9dce2daefeadf3f1da64ffac690246a9d9c953f3bc216e7fd37f",
+      "zero_byte": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 162,
+      "sha256": "d247c4b52a6bab1cd1ca4c6bef9327df6a91ff25a9e50ee3e53838169c582444",
+      "zero_byte": false
+    },
+    {
+      "path": ".hugo_build.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zero_byte": true
+    },
+    {
+      "path": "hugo.toml",
+      "bytes": 1074,
+      "sha256": "a2f0c84ef01e5c7bf141e9ca7251ab9dadb1a1f2a93c29b736d253b5c2441270",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/COMMIT_EDITMSG",
+      "bytes": 69,
+      "sha256": "2246672a5d6b4f847e8aac5b88794661fe761ce9307988fcd2861bb18c09c71c",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/HEAD",
+      "bytes": 23,
+      "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/config",
+      "bytes": 196,
+      "sha256": "8e594acd5f5aae293fcd5ce20114b737fe14baea33f82b45154d0c4ae98ee621",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/description",
+      "bytes": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/index",
+      "bytes": 6006,
+      "sha256": "2f10ada8ce65e03bb595b28c1244763b20aa04ce224b68f608cf1f3bb6acbde1",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/applypatch-msg.sample",
+      "bytes": 478,
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/commit-msg.sample",
+      "bytes": 1972,
+      "sha256": "efc1401b0e99d1ff51494d154d98b46c1e99059bcd8bf9f73cecde19fd3eb23b",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4611,
+      "sha256": "9159720099ad5595b8e66645cbfd47763c1e920f46e0b50ae75e642bbec57ef0",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/post-update.sample",
+      "bytes": 189,
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/pre-applypatch.sample",
+      "bytes": 424,
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/pre-commit.sample",
+      "bytes": 1649,
+      "sha256": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/pre-merge-commit.sample",
+      "bytes": 416,
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/pre-push.sample",
+      "bytes": 1374,
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/pre-rebase.sample",
+      "bytes": 4898,
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/pre-receive.sample",
+      "bytes": 544,
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/prepare-commit-msg.sample",
+      "bytes": 1492,
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/push-to-checkout.sample",
+      "bytes": 2783,
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/sendemail-validate.sample",
+      "bytes": 2308,
+      "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/hooks/update.sample",
+      "bytes": 3650,
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/info/exclude",
+      "bytes": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/logs/HEAD",
+      "bytes": 683,
+      "sha256": "b1fd35ca2cc994b23d009ed5aef1036b9b1475070e262103ddde6f20156e3014",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/logs/refs/heads/master",
+      "bytes": 683,
+      "sha256": "b1fd35ca2cc994b23d009ed5aef1036b9b1475070e262103ddde6f20156e3014",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/01/b73e13d329fb686a69ddbc72337bac76bd0cbd",
+      "bytes": 146,
+      "sha256": "8d6e3ce9229c211b5fc3e956ddebc355254d81766d8581cb783c031f434ba90f",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/02/80cc81a8387d1539bc52224da50cdd99742c4d",
+      "bytes": 148,
+      "sha256": "46a6b4738010cfc81ff7fea9bbc65a0c786e3b9dfaaf86dcc25bf6698f2660c9",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/05/1b89a2a4baf09225491d85934245acb3173dba",
+      "bytes": 186,
+      "sha256": "55e10b234d45335f56fcbac869e5d4501e49d1e9a111396f8bf48964efb29594",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/06/57701f2d4786e42d02c3476b959e60e26975c8",
+      "bytes": 617,
+      "sha256": "839e13c67d4e43d8b31311f357271244ea4abcdc09ea30a1437fbb65c7e1bcbe",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/0c/7596653732052acf3175f696c1fcd165805ac6",
+      "bytes": 134,
+      "sha256": "166b0755ddba5a41b846770ef60443ead8966007f36457375ed317d656d4bf92",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/0d/f4e2dd13b896c169e9cb6282c6984b81c8162b",
+      "bytes": 4666,
+      "sha256": "d093dfcab32b39067e56341121a361a0aed8dabbedb0df36e571616b80d9295b",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/0e/39c0dff443fc88c47fa989084c7fa10245b70c",
+      "bytes": 4083,
+      "sha256": "8e9aad746945ae02f9cad544a9cc3ce77dfe30e210b23876b3c746d28de1784f",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/13/b0eea4e2ee0e80e060d7527929641a2ee9e10a",
+      "bytes": 51,
+      "sha256": "1ef4e37530221c5a62b8932f87103b840c9212266ad35967ecf0d65357ffeab3",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/15/b4a3294e3ddc7c21a11955bda874b65c616abd",
+      "bytes": 5202,
+      "sha256": "a7fab2e732a0e835f48d0f8b76a7666013cf14194ef0420001b60b83ae868ec9",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/16/ee3911fe9a58993092d62c20d8aaef38862d0f",
+      "bytes": 186,
+      "sha256": "6ed13e2becc1bdb8244d5587fc3550b5aef19b99837b9f116e175756a3665fa7",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/18/6701143b466bf5e73418f0a6b16962a33a63ad",
+      "bytes": 785,
+      "sha256": "54bc7deed903be6b279a7fd45834d4e4f0c4a2258dd288d9c649633e5a6799d8",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/1b/a114d3a07a759e33ee15e85c7242c2758d8597",
+      "bytes": 2732,
+      "sha256": "9763b071d7744d48cee36d6d5517471bc8b65688043c36ec4becf9d1096b7cc2",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/21/1137a39056fd03b44b8e138d77ec84d0d07df8",
+      "bytes": 4520,
+      "sha256": "0271c58450f98a383dcff0303938a831c0be5584e8f9c56b60de25c86f96d5b2",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/21/b694138225d3d8ca9beebec06dfaccdb5c2f0c",
+      "bytes": 156,
+      "sha256": "1f658848ed41e484e8eea11d3b779ebf8b2bd4c7530d07dfb91ea71f669c58dc",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/28/65aba5981952ede63470a6752b1da686ed4b79",
+      "bytes": 28,
+      "sha256": "6461921e5a5b30bcb7a2c36cbcdbd03d2e2562e66157c7fc189c3c0a03766b5f",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/29/12f35ea011927fd9e04f09e9e19b6d91039da9",
+      "bytes": 3075,
+      "sha256": "2bc59e023e3d92f88eee0ba6ff02cbc912611f466d04b70a6289188d1ee80fe1",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/2a/9f81985ccf3542628747682887f1373343fa17",
+      "bytes": 1410,
+      "sha256": "2efddac6cea3eebae606c39046524e29d67ee15b01aea103e46aae0727c74729",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/2d/a2d01649bbf106b3c09cbab3c114244bec7fb4",
+      "bytes": 4412,
+      "sha256": "d195b0c61e0276bf75c0b22b56265de219731aa6b8661fedb6847f5bdeef7c61",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/2d/b8cef401fde38da5226a8c105434aa571001e1",
+      "bytes": 145,
+      "sha256": "54dae25e5205549706dc6464e6d54595e75e1ff4157df349687f0c78c3863a5a",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/2f/98efe1a594998cfefc787afc3009610e1611bd",
+      "bytes": 111,
+      "sha256": "f05fbf0d6a7c9a4bd3aac7ce0d45c0173c35e8c842edbefe59a0416929e126bc",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/30/03e988222f2d07c8c3275730e4ab217db6ed0c",
+      "bytes": 3075,
+      "sha256": "05f0189a5f9673ce5921091e2a4bf2956226331411abc58e6be49d7ef8a2b2f2",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/30/c36bc900ab881e86100aab1ab019da326b406d",
+      "bytes": 158,
+      "sha256": "6e0e5c291b9eea18ac3081a78a48744a9e075d041dc3e41ad4f872890f68a629",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/31/d3f35b48f8f51f9d209675046c1a211beabddb",
+      "bytes": 136,
+      "sha256": "820580d67446493be449e966d7e8e7696c75705af47fda9450480cb479de4fd1",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/34/12de5b4575cd57829c6697cc33161f3fbd28ce",
+      "bytes": 55,
+      "sha256": "9e19db7a1b45d9fae2089a76c00c587fc3299b171ab4fba3e52383cbe8ca0c3e",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/35/be25aefea9dd8805d3cf54461e20dcae0c866b",
+      "bytes": 4795,
+      "sha256": "ed202d8a05b89a8c8eccb456a3352cbf5778fdca52b0f7d3d2f96baea6242911",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/36/8dd42ea8b7bc0d427701ebb0d45f4aad21ac95",
+      "bytes": 5450,
+      "sha256": "3620f7f9a2dfcf0dc83327701740376d985b33f7db4f01404dbf9729afd79136",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/40/4d49c6811d17201afdcfc7f71bf262af8fd305",
+      "bytes": 397,
+      "sha256": "1486c70dcc4321e0e5875df1fa003f6840786cd1d3ba2bd689ead718717524fe",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/40/f35cb1d14382648abed1e2b25267aebb501dae",
+      "bytes": 12110,
+      "sha256": "0480db51046f9d11aeff9dc6cee5ba4a9d7831d2b0f06f4e0f487dfd934cd282",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/42/386f655b8436e7a17bc78ecc9681edf7cc49a9",
+      "bytes": 1558,
+      "sha256": "d1b311ab282a565e8a278acf92697f7028168c2641769ea50681f809bcc4b33c",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/49/25df6d23025f62b0149bed3b36ce06a003941d",
+      "bytes": 4620,
+      "sha256": "1c739a29fdb2351a88868c7ee5e7abcef78a7e658652e248e7b0890dbe21ebe9",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/4a/4b320d06a822e37f8f5697af4ae36b1f6138ef",
+      "bytes": 1698,
+      "sha256": "75eb0d7686673b3c72fa5665d75f85268bcbc45e83243d4c8c689ba46d9d6bbf",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/4a/89ba0b012bccb616afc155e21c6ffde628e2ef",
+      "bytes": 4511,
+      "sha256": "c4483a5f3382dfc58095f2e23e9c0811fea41809621d7c44f1f5bfab6b93e04e",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/4c/0df34a3c6745cd138ade27b04466667724f36e",
+      "bytes": 53,
+      "sha256": "b6788900484fb15f00472e08b3581f573fc983e540038bf63c66977e6a668d3f",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/4f/41d4f2f3542e486fcf1f6331e2de943c331843",
+      "bytes": 60,
+      "sha256": "08c65c95a4aaf6028115b7a759492af6cb6408f0d368faec59301f7d3c66cb9d",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/52/2f3a50ec35865ee821ac1cdd79fb6e29ddaabf",
+      "bytes": 60,
+      "sha256": "74c490bbd92bc404c9f21292e303a4357ce8bda1bcf89f3b335213aa6db5a650",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/53/a797d906f2965d5968399ab0d228cae7241c3f",
+      "bytes": 1110,
+      "sha256": "5cda116bc2c083fea34e72dc352157d263396abea92f497d548a4ef97d109d3b",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/55/af6d70dfd8c328e383ad98b193cd07ba49e233",
+      "bytes": 173,
+      "sha256": "72fb5ea90d3a19a9279f1a028da1dd0c68776e7ef1a88c1590bdd91b7527a22a",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/57/85c65593f0135ce7e4208b83013835c08917a7",
+      "bytes": 789,
+      "sha256": "b84fb6afafc2f4d9cc27b54cf81c6c8c81a96302027da11d92f3b4412bb8b3fa",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/58/2faaf9fc5f10ee569d90310dc76d0c5c43f9f4",
+      "bytes": 58,
+      "sha256": "7c2454c778e5ea230c1d6e3951e04b347753eb23a0d2fa679f9171b854dc6de7",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/5c/32487108899b1b9b7d1aa8a14fd002c28f88b0",
+      "bytes": 4587,
+      "sha256": "26e6970f49ee7b0aa432fc593f7ba9fe9bc38c15ad62fa0e9cdc4887b9fdb099",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/5c/ed9bd6473a0a66d0504a120198397b65ef844d",
+      "bytes": 396,
+      "sha256": "58d449c5c8328f8eb3357584ae616bfea60e181df07f33f8d786b316ad2e64d3",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/5e/900bc590abcd6a1c384ed3eb26963e7e543858",
+      "bytes": 8380,
+      "sha256": "9e1fc300804c44bb8b6d3f61edb7d12fe2b48f1406fcd42a4d6558e81b0228fa",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/5e/ed18f097f995a43cfd626bd79c3e56da5df842",
+      "bytes": 853,
+      "sha256": "1b423c136c9f391614d2c642200ce5777a32347b6e528901c2429bec55680906",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/65/661f2f2752a10039e36e70443141393ba7e58b",
+      "bytes": 3505,
+      "sha256": "145dd02036d57b7b9a845bd953b6b785d5264b97a9c1c1a131c89fcc46d578e1",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/65/eed3e729f10a254910897861fccfb304a728c4",
+      "bytes": 550,
+      "sha256": "31c71fd345b0b49e374f04bdc73edfb27544b7a767c340cc5de64244a1db028f",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/6c/eccd32cc49b68abf2a5ee4af4522a4dc04a641",
+      "bytes": 4812,
+      "sha256": "67012681670a1ae87d793de0c4785760ca46c78b59d26108f0c632071fbeecd2",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/6f/311a8fd228229bf2056aeec862a72c80c8983d",
+      "bytes": 567,
+      "sha256": "27787a75051a2978dd9e4293f0a403bd8e5568a415d6b2b508a676929ce3c6bf",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/73/bc38b8b231bce7ce950729d038a61f014809ed",
+      "bytes": 2572,
+      "sha256": "bb1db1a005b8b9740077b3a3db89b900ec25c93c31121c7578ca75333ef7ab55",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/80/279f4f3d1d758b01b28cab5195a0ed8715f193",
+      "bytes": 149,
+      "sha256": "37cff72765ab231c9372e138ec972b3c3cbfeeaff5b192b50091988e0c0e13b2",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/82/d5303ca832f92472bac6108ed7348b1dbfc52f",
+      "bytes": 293,
+      "sha256": "cfd86ee20b5ee348664f6094bbce87c521d2801ba27d5db3d954d16671aa126a",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/86/56ec297658469e99253d666c1fa1efa9e47760",
+      "bytes": 555,
+      "sha256": "f0724cdb47f3dd67d2d17a3fcfc458a67d90d2e4bda70fd4d0e04237c5cad97b",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/8c/a56e57033deaa3508ecf02f815cad973e4d5e2",
+      "bytes": 5444,
+      "sha256": "cbebaa72b9556660c946d9d7f31b113f2198b5764a1c3836fcc5a25e05f259e3",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/93/0e988d9fe897213c84bcaf7ad0a4782d66f620",
+      "bytes": 4835,
+      "sha256": "e358386d8fbab772610d8c3559b79cb4036ccf0bff0450ce0c766b01ba573fd6",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/93/92a13a12fd4178993ba8db4eb03dda6119f21d",
+      "bytes": 117,
+      "sha256": "b89f9b4dd269db0f16b81baba922852f06f10d1c8227dccb85729d2252af49ff",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/94/2a145dbc596353b01e96804fb24b94f973ace6",
+      "bytes": 2900,
+      "sha256": "23874fe265bbffbe1ea272179137815c9b97485242db92223d9803ef85d7ed59",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/95/3fd9e5cb76031031297d1f812c06c25be82882",
+      "bytes": 4480,
+      "sha256": "793a6cd717fb3bb3da77735d6965baaddbf80b9504c6e083fa7c192f522b05d7",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/95/e3b7cde13d65c8e59280dca9a2c064b4632331",
+      "bytes": 1310,
+      "sha256": "1f563bedea9ea9e3ed6dbea0a34682f07773fedb538c13288cdd544977d2f3ff",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/97/e0d0ffe92cf0f6ace7669ae6d9dca9b39d5585",
+      "bytes": 671,
+      "sha256": "f38739af01284918a160bb62d6f9d69658efac8a5ad554402128dc6c264e7071",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/98/29680a54460814fe0a40a5696190e51130e8fd",
+      "bytes": 2976,
+      "sha256": "78420af094d0fd54a066413b20c2f2e07b525241db7d17201e9001c839d8358d",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/9b/af4a9e9900aae8e7ffa62b39a77dff6fe3a757",
+      "bytes": 700,
+      "sha256": "1b950ffe4f9db10f011cf2d43617ce1f6a5cff80b3cec76b3c590c142c5e5918",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/9f/d8372df9b697dec357ac4911f42b1d39785a02",
+      "bytes": 121,
+      "sha256": "1a8c62e250726f45fcf02d1fe9340a5796543fc780812fee95750b2895845104",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/a1/0fc68b48074a2a91838a0c679d5975bdcb47b8",
+      "bytes": 1594,
+      "sha256": "e0a4732a5a5a88ce1d8eea272fab050f93a46720bf6840225164f109394bcf6b",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/a2/1ff088f65ccc52fd090e99f39702f595fb5be8",
+      "bytes": 480,
+      "sha256": "a5cf399c9bbacd5bb7d83524bafffda3db93b13aa9fad002d83518c9ae91db68",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/a9/20d6b3905ef2b640067b8c93105d352f0b4a09",
+      "bytes": 209,
+      "sha256": "1b332a0b26a8951f937a0bcbfd9341ee865aecadaa21e980362fe05c0f497883",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/a9/82f14b33a0ec68ee27cad038cd6a127724883b",
+      "bytes": 137,
+      "sha256": "c993a22d5453000245ed17c13868b2920b39af0e2e557b7c977ddaab69156d41",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/ab/b284dd8a8791ef30aee9af2dfb8073c67f12e6",
+      "bytes": 136,
+      "sha256": "619c93e1cc8a6ecb11fd91b7da06cda5ce6001359de9bb8efe272bb75b431ff3",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/ae/a534b3c1c9600487410f0f63ab30ae8c3740e9",
+      "bytes": 1506,
+      "sha256": "98f309ff3af4a36e255503058dacda391af94f335da87b88076a804141b4fd23",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/b1/c24639296ac259b0c3f655980cea76b442af05",
+      "bytes": 2105,
+      "sha256": "cc4d96deab3472c7dc333b3f67c3c03e9a1d7c32bb9ba121f6c21dcd13426559",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/b9/1ce26a0d19426b2d0a4aa5d1a28c70e0208521",
+      "bytes": 488,
+      "sha256": "395412d2d456355cd5e7a54e0e2f8de777105bb0f03f24a95f9b0dc82b1d24db",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/ba/f20acb314200c82706e10c83512b4f0dd5b5c9",
+      "bytes": 582,
+      "sha256": "805bfe87eef374941447a20ae91b8b4f9a392f618ff6532edbac81b5ed560c99",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/c5/f4ef352d191927275dd0696129dd5529f8dc2f",
+      "bytes": 317,
+      "sha256": "a9411f2adf05e9ba336d6e7ea7e7f11d65d580ae26469a59aa414a480e6590c6",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/c6/7f4c0a764aecb096ce74172fb8ab2d07f07281",
+      "bytes": 54,
+      "sha256": "67ea97d018642f21a353dfefcb3cb2d1e290cec52646d566e6cb0f9ca81b4787",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/ca/d0fdefa9895969e743e495912651068b6ccc91",
+      "bytes": 4674,
+      "sha256": "9049756b6fc9eb8bcdb1b9e9262b2c723493e4455f04d335a6aaf7d7377d010e",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/cc/6be96c982d765a13941b72e783db52ca3b9bb5",
+      "bytes": 133,
+      "sha256": "ac1e706e0c16befce90b1da4f26f241f98aa4ba4950bcbd50572939a1e1c9e7b",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/cd/e791127e0838275c33aa7ac14dbfb74b2b8026",
+      "bytes": 2262,
+      "sha256": "68e797bbc1e661ab0a696fa59f1efdab218b3afa728decdda4895fdb11da1fa5",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/d1/42e5597e3b6805f98f6bf8a3594f232c4ccfea",
+      "bytes": 4714,
+      "sha256": "2902f49b9d43a24c3fa4efab8c440e3742163b1a2a1cf40f3fc1d01e9628f3cf",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/d2/2095125ff69f995d5731961cf8a0d987aa11c2",
+      "bytes": 3199,
+      "sha256": "8eeaac41d81c6a266b9faebfc8468a7f9815199625cc1df0957c1c390e897118",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/d5/64d0bc3dd917926892c55e3706cc116d5b165e",
+      "bytes": 53,
+      "sha256": "1c934bf438aa6350a37a1ae73345b22ff97940a19a14016595971149740becc0",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/d5/fbf1b7b4cdc0fef0a9e40bee8be495692b95b8",
+      "bytes": 1987,
+      "sha256": "c26fbc5564796eddc519e196aa247e4bba701211c3592bb26d67dd451b16e3cb",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/d6/82eb4eaff2d198353c06e0a0ef28f0fcbb013f",
+      "bytes": 761,
+      "sha256": "048e8d3fa5d6ae9f4b68ae77184809a4e0f370ce0159372eb8dbe91aa3ca3d58",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/d6/e2e20db9e526182b4a3abd82c59a1f5d6467da",
+      "bytes": 106,
+      "sha256": "974575cfe340b0b9cfaa65f529a6ad89e2cb2f8025cc7a59b4a096ef087b951e",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/d7/ed12260027e9d7b9bfba8fd238cc740a784cc4",
+      "bytes": 118,
+      "sha256": "b4a82d5c0de03bdc5a4b8a7a866b44a6c78ac2df994ff80e39a9e0b29a2e4cfb",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/d8/93b4005f115f2ecdf39bcc9ce10d865d62ae56",
+      "bytes": 491,
+      "sha256": "80382bb7013491477aaae135aafa6784c0164c05c8d234d5ff5e2548e720ff5f",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/d8/d220a4f5587d9ae76c4c90d0862a6a63417ffe",
+      "bytes": 551,
+      "sha256": "4bd257d852b39943a0f4e61c322bac5e2b3a716358101a2ecb5a1c81496b842d",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/df/352189f9229afc89cc6bb460787b658a913acf",
+      "bytes": 2996,
+      "sha256": "76b8f1d1d9861da8870712723bd7c531d90ea393c9fb15f80cfc351d3ba3d115",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/e0/3f16253df65c1b88ea2c86eff8e20af493ef99",
+      "bytes": 4789,
+      "sha256": "3348befd733c3053203477eccb56a02f67a9d41e329d3dcecc526e1d15e3c84f",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/e2/352e7b2db8b26a3aff0b26ccdaa2dd76826d25",
+      "bytes": 3181,
+      "sha256": "427efa1aace6d72d462ebfa337c7ecb405393e29a7f8e62709b22eb1b32767eb",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/e2/8583833527d2a411c8247fb7399d17e7fe6046",
+      "bytes": 4379,
+      "sha256": "7e5a884df48a8539df4024d0e6b7171fcebecff87e5d913b42312cf9ad978728",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 15,
+      "sha256": "164c5fa8067facf1a43f09ce3d0e35ebf53a7f5723ecbf15a8667cfc53c26f6c",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/e8/18077014c7fbaafc066b66b7e6ba393659de90",
+      "bytes": 4537,
+      "sha256": "ef9ca1d3eb09235548e2a7b87e44d08ee1cd6cf549a64d1b800b4e115d4c8126",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/eb/f7385e2a687b9c59e65e2b8927e35bb683f5d6",
+      "bytes": 157,
+      "sha256": "f17e33a1b1a01802ccf0fa9eb2552e25d73be661b02bb5dbbbdce3cddd302ac2",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/ef/235daa9d48331f79b933d2ad4d11590af3b54f",
+      "bytes": 635,
+      "sha256": "d4ddf750be4e5cc3649245155715ddbf404ecd808755f67afd431c12fd3d9299",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/f0/257dedf6089864b3210327b0488dd3f1d53675",
+      "bytes": 612,
+      "sha256": "b7708231210ea15bc6fa50774cdb97d9da060a01fc131bf4f9e8d78ef1c6d9b9",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/f1/006297554aece8d44e2af782ffb5e39ad93e07",
+      "bytes": 58,
+      "sha256": "a8eb970f66b8dfbf382a9a8fed2cb48b2daf86882c7caab9fef7545f8a17bce5",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/f1/2c4aae5a556ae3e18173df373ff556e9a88c42",
+      "bytes": 4030,
+      "sha256": "ff42645f8d446474191202f3c37e1df12be8a5584bc0cd3dcff6a34e5c9bf416",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/f1/cb6f36bc72b751334841e90b8d467247a00522",
+      "bytes": 4616,
+      "sha256": "342da4ea68dd0115e0c4a4b0849b927966b19475ebae45eb0ecd9bfadd062016",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/f2/56a8ea48a1951f269a941830ed9fe9d5d63450",
+      "bytes": 396,
+      "sha256": "3d5a4713f0404dadd697ccb7718f406a455e9f356dbc3c521baeff6a1422f01b",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/f5/922298a01e444a71a4381c1f1ec0829fb0b5a5",
+      "bytes": 229,
+      "sha256": "d345461618528e842f3ce362876a4e54d7e1484a02fca9327763679e845c50e6",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/f7/0aee26b84dc91caf8aeacb35c9be07b28b3218",
+      "bytes": 2594,
+      "sha256": "7ec741d3dcad5762ff25349456276165da3606a7590e7084f71d9c230a04894a",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/objects/f8/84ebb23c43c3a9ac73bb420a806c34818fc152",
+      "bytes": 82,
+      "sha256": "1f64edd46a5d619c7ea72ac9a317aaa0a76a0b326e71218e0f2380cd57e6a95d",
+      "zero_byte": false
+    },
+    {
+      "path": ".git/refs/heads/master",
+      "bytes": 41,
+      "sha256": "08dfe63bfe0f4cc070e5ff7e68eb0bcb41c0b177680d9a0b18e2f398e1bfc38b",
+      "zero_byte": false
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "bytes": 2114,
+      "sha256": "493f714af09d8993edff6aeb94efb7f3c9d70615841cfa5f07ccd82fe5af3812",
+      "zero_byte": false
+    },
+    {
+      "path": "assets/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zero_byte": true
+    },
+    {
+      "path": "content/_index.md",
+      "bytes": 12035,
+      "sha256": "4d646985a2af8cf5928d0bb72facb8ef77259532088078cd251c329e48242dec",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/_index.md",
+      "bytes": 158,
+      "sha256": "d5ba00091a442670dda0098156f0e5195028a88255988e7261905d5730db8753",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/about-us.md",
+      "bytes": 5739,
+      "sha256": "322c0d81d6d5a888f5e7cca350cc671d69fba769d8ce83760821a9767d9c67d3",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/contact.md",
+      "bytes": 2681,
+      "sha256": "f0e898954a06e961ca4c17400e72e5b6f5299f4445eab88c97a0d1d85d8816c4",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/custom-empty-wooden-speaker-cabinet-boxes-manufacturer.md",
+      "bytes": 15232,
+      "sha256": "b78221466673f51f19c1a4c0f8f2de9097671989e886483b435034ce32d7b618",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/custom-wooden-speaker-cabinet-manufacturer.md",
+      "bytes": 11708,
+      "sha256": "3b965f5ca761af41d9518d5338dd00a0a9b4596d79283fab5411910e8bf7c5e6",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/hifi-speaker-cabinet-manufacturer.md",
+      "bytes": 11872,
+      "sha256": "ae5ac3443ba92799cfe65a1066e450d144031aa3c51fd769785cd60e32de351b",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/high-gloss-piano-lacquer-finishing-process-wood-speakers.md",
+      "bytes": 8079,
+      "sha256": "5bcaa7c91dd5f7b44a921bcc0be2d04fa460cb9eb4c5cb363ee55bc695d471ef",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/mdf-vs-baltic-birch-plywood-speaker-cabinets.md",
+      "bytes": 8123,
+      "sha256": "79bc9af9d336440bc2cebb69eb246670bee5da3c40665a609abd6b4b0d147a91",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/oem-wooden-speaker-cabinet-manufacturer.md",
+      "bytes": 12300,
+      "sha256": "19aaadf45699786a43f0c16ebca8697cdfb4dff941377bbad3d1ba64be56d01a",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/speaker-cabinet-cnc-machining-service.md",
+      "bytes": 13253,
+      "sha256": "2c2fc396826a1b56bf2177a388527ebf8eae71c464d59d7c6a8a555e2a7f9221",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/thanks.md",
+      "bytes": 1371,
+      "sha256": "7047317575ceff67809ac52bfec918baeccb403691909ddd15d0b5960e50c88f",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/wooden-speaker-box-manufacturer.md",
+      "bytes": 12834,
+      "sha256": "48e8c1253c58e37a16ba27280b56bc7f92831c93242b4d5cc1967535c3ae8f7e",
+      "zero_byte": false
+    },
+    {
+      "path": "content/pages/wooden-speaker-enclosure-manufacturer.md",
+      "bytes": 13307,
+      "sha256": "cff4bc9fabe954e70328e3cbf7cb27308af1de765bd658ebf24b60461d8156e7",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/_index.md",
+      "bytes": 158,
+      "sha256": "30108bb5282045e48075bc9ed9d82b400056c872f0e31242dc9b929b954bd62b",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/acoustic-wood-speaker-enclosures.md",
+      "bytes": 10697,
+      "sha256": "4a9fdecb7a6c843d64a48a590adc47a68e16ddc1e5fec0304f895666e6e78692",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/best-wood-for-speaker-boxes.md",
+      "bytes": 6637,
+      "sha256": "1b502f14e69590ed2284dca02c8fae1a1f1ab6529f7e249e4a892f9b365960b0",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/custom-cnc-wood-routing-services.md",
+      "bytes": 4507,
+      "sha256": "85251b529ab145e95687b6fa26bc5bd1789c63f9f6174bf28d0bf2c8334016ae",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/speaker-box-calculator.md",
+      "bytes": 6983,
+      "sha256": "bed19eec4ea64d98575b5d4c44143b38a0a4f5b9762ed5dcd39c30e3bb47cda0",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/speaker-box-finishes.md",
+      "bytes": 5228,
+      "sha256": "5437514fddd9fbb02340e071631cc597d3e7b1a00bc8c6be9a89ea8adfbb48ee",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/speaker-box-materials.md",
+      "bytes": 6110,
+      "sha256": "faba2b982441d8e21b9d06a5745858e9cf9c2d53b7823dd9a8551764880e8a89",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/speaker-box-veneering.md",
+      "bytes": 5738,
+      "sha256": "79849522400b22c566c5cb3000b8a77e68706baf4393e20dafd88a7d7a7598d1",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/speaker-cabinet-manufacturing.md",
+      "bytes": 5875,
+      "sha256": "317b7154d71cd866e0939d253e09ff3b046913f3b73ea53955d4ec2d3aba283d",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/subwoofer-enclosure-design.md",
+      "bytes": 6091,
+      "sha256": "553b603eed7013c5b30f8e3c52bb1053a41b31d6c4e69b836bf536213f434adb",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/wooden-speaker-cabinet-designs.md",
+      "bytes": 9505,
+      "sha256": "8b96fdc956548a9cec4c3d56739ea33c09261a2ad57713e99265dff77a61866d",
+      "zero_byte": false
+    },
+    {
+      "path": "content/posts/wooden-vs-mdf-speaker-cabinets.md",
+      "bytes": 6223,
+      "sha256": "823e6fe6b8d98b9b2cff7ce4205f750566a9fdffa2995bc4c00c794f7281f0aa",
+      "zero_byte": false
+    },
+    {
+      "path": "content/resource/_index.md",
+      "bytes": 4262,
+      "sha256": "c30b9d6fabdc8db635ed2cb50a348997853232927c11d3f32ecad9800e65578d",
+      "zero_byte": false
+    },
+    {
+      "path": "data/media.json",
+      "bytes": 83826,
+      "sha256": "511cacd615e0cf2934d6f0c38d9f267b5d7ac3a582fa8573ac3144e08d1fb84d",
+      "zero_byte": false
+    },
+    {
+      "path": "data/navigation.json",
+      "bytes": 7530,
+      "sha256": "a4a0b2f4d20761b9c052dc18ab51c31fba350e31ebcceab21d6af00c53d4006d",
+      "zero_byte": false
+    },
+    {
+      "path": "data/schema.json",
+      "bytes": 8414,
+      "sha256": "3f6154bc310f7abd6527b4204b1e4f68f990b46085550f4d69319c6ef7c5d8d3",
+      "zero_byte": false
+    },
+    {
+      "path": "layouts/404.html",
+      "bytes": 1198,
+      "sha256": "6ca84ea4bf0349c1283c9d712153ae8fe760ecfc73be443be9655815ab7419ca",
+      "zero_byte": false
+    },
+    {
+      "path": "layouts/partials/footer.html",
+      "bytes": 1087,
+      "sha256": "bb93fba99a017f47b19350349fe8e1ea67d21ec5d085da631cc595320259f836",
+      "zero_byte": false
+    },
+    {
+      "path": "layouts/partials/navigation.html",
+      "bytes": 1431,
+      "sha256": "8d79db0fdefa2814cd5dfda203b7f93408e121d74d7285e6d261413cc872ba6b",
+      "zero_byte": false
+    },
+    {
+      "path": "layouts/partials/rfq-form.html",
+      "bytes": 1365,
+      "sha256": "1c8214a397f0c037c1029c8659218dbbaac04699687ea2d58b8011b790ce295a",
+      "zero_byte": false
+    },
+    {
+      "path": "layouts/partials/schema.html",
+      "bytes": 2595,
+      "sha256": "c57a9cc4cc0607c1a01395eea901c3dbbb073e1e5dc2e6d274bc581df29240fe",
+      "zero_byte": false
+    },
+    {
+      "path": "layouts/section/resource.html",
+      "bytes": 422,
+      "sha256": "b6f31335e25a6ec6df7c32b0cbb84ead970e42012502c7b5b72863708b3b32af",
+      "zero_byte": false
+    },
+    {
+      "path": "layouts/shortcodes/rfq-form.html",
+      "bytes": 720,
+      "sha256": "b645119f2afc0fbe4f9df570a105001c218765e6342a66518f1a581f6e35a6ec",
+      "zero_byte": false
+    },
+    {
+      "path": "layouts/_default/baseof.html",
+      "bytes": 1552,
+      "sha256": "804d47b34dc8ce8685539819ab7626ab22027ee4fa3890bd630fe23cc1b308ba",
+      "zero_byte": false
+    },
+    {
+      "path": "layouts/_default/list.html",
+      "bytes": 171,
+      "sha256": "7b835d3dfb0adff33ef4b95b5c27aa819c8b9c706d31a03c09d78e414a15a8bb",
+      "zero_byte": false
+    },
+    {
+      "path": "layouts/_default/single.html",
+      "bytes": 300,
+      "sha256": "8f905c53262442ae80a50bb9adb6e855b7467843949b8d620ff4e48ec0acbe9b",
+      "zero_byte": false
+    },
+    {
+      "path": "public/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zero_byte": true
+    },
+    {
+      "path": "public/404.html",
+      "bytes": 2683,
+      "sha256": "04cb2a625a70865d3759b30e7a6f39634ee77a6b171d76e68b70e138f38540e9",
+      "zero_byte": false
+    },
+    {
+      "path": "public/CNAME",
+      "bytes": 12,
+      "sha256": "d2e9f87d8de172f77f6a72c25e969afe7a8d33a832b14d134ee58a65cce14354",
+      "zero_byte": false
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 17372,
+      "sha256": "fa6d220bd6fbcc77b50b2f95e09f82a777349047ddc67b5c25bc12df8875f8e4",
+      "zero_byte": false
+    },
+    {
+      "path": "public/sitemap.xml",
+      "bytes": 3366,
+      "sha256": "2f29be917dc8ed5ccc359a2a7aaa340c40c6daa638c7fcaf2630456202c0ee18",
+      "zero_byte": false
+    },
+    {
+      "path": "public/about-us/index.html",
+      "bytes": 9664,
+      "sha256": "105cba7d1594a5cce7b2311bea1766dbb7bd0e615cec3c28b8d8104ce62fbd10",
+      "zero_byte": false
+    },
+    {
+      "path": "public/acoustic-wood-speaker-enclosures/index.html",
+      "bytes": 15313,
+      "sha256": "6e442a422f9552ed3ead6747548214b6aac2472305486287db20d750501d6037",
+      "zero_byte": false
+    },
+    {
+      "path": "public/best-wood-for-speaker-boxes/index.html",
+      "bytes": 11090,
+      "sha256": "5dd6ed6b460a97d281ee4f4d2603b40637c9da8b4d0f7a374dadc59422510ad2",
+      "zero_byte": false
+    },
+    {
+      "path": "public/contact/index.html",
+      "bytes": 6245,
+      "sha256": "5b70774c199e22d119b7a4ddd3d27c0d09acb270b77691d8a64aaf6959fed449",
+      "zero_byte": false
+    },
+    {
+      "path": "public/css/main.css",
+      "bytes": 7291,
+      "sha256": "642906f32fb3ff7425740e89bd928d15597e2aff488fbde7793de3f0c966b12b",
+      "zero_byte": false
+    },
+    {
+      "path": "public/custom-cnc-wood-routing-services/index.html",
+      "bytes": 8468,
+      "sha256": "7308c8b184fcda7c511339eeeaeb3395526dc20d9522262011ca4a1f509be98c",
+      "zero_byte": false
+    },
+    {
+      "path": "public/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/index.html",
+      "bytes": 21225,
+      "sha256": "9e5ff2d9139af6b2eb097a3c910bb968e7cc87047053e74ce22b8c63f0546418",
+      "zero_byte": false
+    },
+    {
+      "path": "public/custom-wooden-speaker-cabinet-manufacturer/index.html",
+      "bytes": 16897,
+      "sha256": "0cfa17234353aed9ad2858f43a36737889e527b5d868b9f6f9be5789525375dd",
+      "zero_byte": false
+    },
+    {
+      "path": "public/hifi-speaker-cabinet-manufacturer/index.html",
+      "bytes": 17005,
+      "sha256": "3b1d2f0ece3f802da9f454deefe8fe5ae97068e6e32d5b00de9af8ea41929275",
+      "zero_byte": false
+    },
+    {
+      "path": "public/high-gloss-piano-lacquer-finishing-process-wood-speakers/index.html",
+      "bytes": 11840,
+      "sha256": "9b89f1eeb41f14ea76f2faae214fd58a7852346927ffde60e65bb179f0b79c0d",
+      "zero_byte": false
+    },
+    {
+      "path": "public/mdf-vs-baltic-birch-plywood-speaker-cabinets/index.html",
+      "bytes": 11968,
+      "sha256": "29ac4ce6e546fff91ecab5e6e5fafd72fdda7195aa855a06e5bfdb7788b7cf86",
+      "zero_byte": false
+    },
+    {
+      "path": "public/oem-wooden-speaker-cabinet-manufacturer/index.html",
+      "bytes": 17860,
+      "sha256": "4e873135197bf11d5e5768686a8c0d4b5a9148ed4dbc9f3e7e2bae0c555295ac",
+      "zero_byte": false
+    },
+    {
+      "path": "public/resource/index.html",
+      "bytes": 8222,
+      "sha256": "95625c967455a7efa42e85765e989733329b1c5426b0e98ee9f204c5223fb556",
+      "zero_byte": false
+    },
+    {
+      "path": "public/speaker-box-calculator/index.html",
+      "bytes": 10862,
+      "sha256": "82c8268b87bbc10927e81cb2c62f7be13afaac0a9d6bb4633ce382040c24bac4",
+      "zero_byte": false
+    },
+    {
+      "path": "public/speaker-box-finishes/index.html",
+      "bytes": 9297,
+      "sha256": "59f7b0d8c0053669903c4998679d1dc54a4b40536e9ee7764ab640ee0cfe705b",
+      "zero_byte": false
+    },
+    {
+      "path": "public/speaker-box-materials/index.html",
+      "bytes": 10145,
+      "sha256": "f01471e878f4152a737f2cab9fd3d90720cf37c18371371000c6e856b719a587",
+      "zero_byte": false
+    },
+    {
+      "path": "public/speaker-box-veneering/index.html",
+      "bytes": 9936,
+      "sha256": "8063f99a7ccd040e3709004782fe1ee6928c022b8cce1e00c6cba24ddee065fc",
+      "zero_byte": false
+    },
+    {
+      "path": "public/speaker-cabinet-cnc-machining-service/index.html",
+      "bytes": 18612,
+      "sha256": "fc055f0c34a947f0aca1fa03a66b7116408726602d6ada4271842ea38254a1b2",
+      "zero_byte": false
+    },
+    {
+      "path": "public/speaker-cabinet-manufacturing/index.html",
+      "bytes": 10017,
+      "sha256": "656620f9e8045c6e4951aefd12dc16cdf056da22d036cd20f9f0ef33f0e556ee",
+      "zero_byte": false
+    },
+    {
+      "path": "public/subwoofer-enclosure-design/index.html",
+      "bytes": 10224,
+      "sha256": "fc20d92132a749b28c4991f0ff7e6d2861e00670623941fa08ca4b895aadc005",
+      "zero_byte": false
+    },
+    {
+      "path": "public/thanks/index.html",
+      "bytes": 4033,
+      "sha256": "f27c56b5d97a4e844583c6b2e504d66d0c070b4e8a0eea54d440160d0437b881",
+      "zero_byte": false
+    },
+    {
+      "path": "public/wooden-speaker-box-manufacturer/index.html",
+      "bytes": 18241,
+      "sha256": "c701d9f33c23818e6118dbfd1be612a0ea663b9a810904cd0216b024b5a63796",
+      "zero_byte": false
+    },
+    {
+      "path": "public/wooden-speaker-cabinet-designs/index.html",
+      "bytes": 14270,
+      "sha256": "dd1bd35a6ffe2dfd522cc4f053fba98293893e1818c8d7dc770614164eeecdf4",
+      "zero_byte": false
+    },
+    {
+      "path": "public/wooden-speaker-enclosure-manufacturer/index.html",
+      "bytes": 18596,
+      "sha256": "4bc0b89d13ecde984667aa2a5233b412255872d4916940d6177d60883592813e",
+      "zero_byte": false
+    },
+    {
+      "path": "public/wooden-vs-mdf-speaker-cabinets/index.html",
+      "bytes": 10663,
+      "sha256": "4409075ea95ba5b797be58a535713056c30298ba039fa3ed6a98c000e3fe263d",
+      "zero_byte": false
+    },
+    {
+      "path": "redirects/confirmed.json",
+      "bytes": 1226,
+      "sha256": "2693dff4e044df01fcd6221831f5874bfc436a4589cf3e64508f1f776126c2ff",
+      "zero_byte": false
+    },
+    {
+      "path": "redirects/deferred_http_confirmation.json",
+      "bytes": 2922,
+      "sha256": "8132acd344adfbdce565cd5ba3ca21dece2fb524538275454dd6acefb6e8f618",
+      "zero_byte": false
+    },
+    {
+      "path": "reports/content_index.json",
+      "bytes": 9001,
+      "sha256": "3361d12cedfa5c2f82f1dc916b561d982c1401e581b55157cf279f50e588c228",
+      "zero_byte": false
+    },
+    {
+      "path": "reports/file_manifest_partial.json",
+      "bytes": 7797,
+      "sha256": "965089e6fc0b957d5c2243520452fc8489a92fba082bee5d55a4f644a06fe1d6",
+      "zero_byte": false
+    },
+    {
+      "path": "reports/manifest.json",
+      "bytes": 43846,
+      "sha256": "a8aba72bd032c058626cd2ad0645e0b015ec4f4fa4ccb814ae58e48376e23599",
+      "zero_byte": false
+    },
+    {
+      "path": "static/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zero_byte": true
+    },
+    {
+      "path": "static/CNAME",
+      "bytes": 12,
+      "sha256": "d2e9f87d8de172f77f6a72c25e969afe7a8d33a832b14d134ee58a65cce14354",
+      "zero_byte": false
+    },
+    {
+      "path": "static/css/main.css",
+      "bytes": 7291,
+      "sha256": "642906f32fb3ff7425740e89bd928d15597e2aff488fbde7793de3f0c966b12b",
+      "zero_byte": false
+    },
+    {
+      "path": "validation/validation.json",
+      "bytes": 4166,
+      "sha256": "3d2b16e49b0ab103e528338fb12d98006c9f19e0810878f72ac0766ff7915f6f",
+      "zero_byte": false
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "phase": "PHASE 4.2",
+  "generated_utc": "2026-09-02T08:11:36Z",
+  "principle": "WPCode SOURCE is authoritative for intended logic. SOURCE VERIFIED != RUNTIME VERIFIED. WordPress JSON-LD is translated into Hugo schema semantics, not copied blind. Schema duplication is avoided.",
+  "snippet_902": "is_php=true, malformed=false, runtime_status=BLOCKED, action=PRESERVE_LOGIC_FOR_LATER_REVIEW",
+  "runtime_observable_objects": [
+    "13",
+    "798",
+    "424"
+  ],
+  "runtime_observable_types": {
+    "13": [
+      "CreativeWork",
+      "ItemList",
+      "ListItem"
+    ],
+    "798": [
+      "Answer",
+      "FAQPage",
+      "ManufacturingBusiness",
+      "Organization",
+      "Question",
+      "TechArticle"
+    ],
+    "424": [
+      "AggregateRating",
+      "Brand",
+      "ContactPoint",
+      "GeoCoordinates",
+      "LocalBusiness",
+      "Manufacturer",
+      "Offer",
+      "OfferCatalog",
+      "OpeningHoursSpecification",
+      "Organization",
+      "Person",
+      "PostalAddress",
+      "Product",
+      "PropertyValue",
+      "QuantitativeValue",
+      "Rating",
+      "Review",
+      "UnitPriceSpecification"
+    ]
+  },
+  "snippets": [
+    {
+      "id": 270,
+      "status": "draft",
+      "source_sha256": "64dee2948b9bd1c8f0fbed4748fff8aee5114b9a67dfd0ec15e078925b47ae98",
+      "source_bytes": 59,
+      "is_php": false,
+      "associated_page": null,
+      "schema_types": [],
+      "runtime_status": "NOT_APPLICABLE",
+      "migration_action": "EXCLUDE_DRAFT",
+      "note": "Draft snippet - not served."
+    },
+    {
+      "id": 271,
+      "status": "draft",
+      "source_sha256": "c4056e17586e1181333a7ae0ffac08fb40dc3f472503a2d1be383fd6b6089eaf",
+      "source_bytes": 1239,
+      "is_php": false,
+      "associated_page": null,
+      "schema_types": [],
+      "runtime_status": "NOT_APPLICABLE",
+      "migration_action": "EXCLUDE_DRAFT",
+      "note": "Draft snippet - not served."
+    },
+    {
+      "id": 772,
+      "status": "publish",
+      "source_sha256": "1b1b7827e85f4ab447cd718a1bf7560e6c0f9d5f032900d6dc406c4b83b98dd8",
+      "source_bytes": 3413,
+      "is_php": false,
+      "associated_page": null,
+      "schema_types": [
+        "AggregateOffer",
+        "GeoCoordinates",
+        "ManufacturingBusiness",
+        "Person",
+        "PostalAddress",
+        "ProductModel",
+        "PropertyValue"
+      ],
+      "runtime_status": "BLOCKED",
+      "migration_action": "PRESERVE_LOGIC_FOR_LATER_REVIEW",
+      "note": "Static JSON-LD in source; rendered output not verifiable."
+    },
+    {
+      "id": 832,
+      "status": "draft",
+      "source_sha256": "e986f9d11167e316c74348f1219382c069ab1ab3219e69111d7027352c40af42",
+      "source_bytes": 1769,
+      "is_php": false,
+      "associated_page": null,
+      "schema_types": [
+        "Answer",
+        "FAQPage",
+        "Organization",
+        "Question",
+        "Service"
+      ],
+      "runtime_status": "NOT_APPLICABLE",
+      "migration_action": "EXCLUDE_DRAFT",
+      "note": "Draft snippet - not served."
+    },
+    {
+      "id": 839,
+      "status": "publish",
+      "source_sha256": "63734e9b671fc5c7b645810a2064df7037cf2707ddb7889a5abed25106d78e59",
+      "source_bytes": 2544,
+      "is_php": false,
+      "associated_page": 833,
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "FAQPage",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service"
+      ],
+      "runtime_status": "BLOCKED",
+      "migration_action": "PRESERVE_LOGIC_FOR_LATER_REVIEW",
+      "note": "Static JSON-LD in source; rendered output not verifiable."
+    },
+    {
+      "id": 846,
+      "status": "publish",
+      "source_sha256": "8342bb0d66220b4cdb14fc9e9ec6d1f6d1aef906b2e1e73c02698c4af6dbd946",
+      "source_bytes": 2558,
+      "is_php": false,
+      "associated_page": 840,
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "FAQPage",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service"
+      ],
+      "runtime_status": "BLOCKED",
+      "migration_action": "PRESERVE_LOGIC_FOR_LATER_REVIEW",
+      "note": "Static JSON-LD in source; rendered output not verifiable."
+    },
+    {
+      "id": 851,
+      "status": "publish",
+      "source_sha256": "2829e0cdcae60b3ecce7a3b77fd22e3ce26ae4770ebf0da4db80f568c4d81b69",
+      "source_bytes": 2605,
+      "is_php": false,
+      "associated_page": 847,
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "FAQPage",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service"
+      ],
+      "runtime_status": "BLOCKED",
+      "migration_action": "PRESERVE_LOGIC_FOR_LATER_REVIEW",
+      "note": "Static JSON-LD in source; rendered output not verifiable."
+    },
+    {
+      "id": 856,
+      "status": "publish",
+      "source_sha256": "012e3f3fa5b1a2974c1767c43b74b4a391c4af71d6ee6a32468c36dc28aefbce",
+      "source_bytes": 2433,
+      "is_php": false,
+      "associated_page": 852,
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "FAQPage",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service"
+      ],
+      "runtime_status": "BLOCKED",
+      "migration_action": "PRESERVE_LOGIC_FOR_LATER_REVIEW",
+      "note": "Static JSON-LD in source; rendered output not verifiable."
+    },
+    {
+      "id": 861,
+      "status": "publish",
+      "source_sha256": "a90986ebb5f7b47297e023d882d1fb1c24a3dab5fe7a835c9ad3235f617cd2af",
+      "source_bytes": 2306,
+      "is_php": false,
+      "associated_page": 857,
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "FAQPage",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service"
+      ],
+      "runtime_status": "BLOCKED",
+      "migration_action": "PRESERVE_LOGIC_FOR_LATER_REVIEW",
+      "note": "Static JSON-LD in source; rendered output not verifiable."
+    },
+    {
+      "id": 869,
+      "status": "draft",
+      "source_sha256": "a3b0149097d4141c569bdc20782808deaed5239f1965bad73d57bda8132104b4",
+      "source_bytes": 1998,
+      "is_php": false,
+      "associated_page": null,
+      "schema_types": [
+        "Answer",
+        "Brand",
+        "BreadcrumbList",
+        "FAQPage",
+        "ListItem",
+        "Organization",
+        "Product",
+        "Question",
+        "Service"
+      ],
+      "runtime_status": "NOT_APPLICABLE",
+      "migration_action": "EXCLUDE_DRAFT",
+      "note": "Draft snippet - not served."
+    },
+    {
+      "id": 870,
+      "status": "publish",
+      "source_sha256": "a3b0149097d4141c569bdc20782808deaed5239f1965bad73d57bda8132104b4",
+      "source_bytes": 1998,
+      "is_php": false,
+      "associated_page": 241,
+      "schema_types": [
+        "Answer",
+        "Brand",
+        "BreadcrumbList",
+        "FAQPage",
+        "ListItem",
+        "Organization",
+        "Product",
+        "Question",
+        "Service"
+      ],
+      "runtime_status": "BLOCKED",
+      "migration_action": "PRESERVE_LOGIC_FOR_LATER_REVIEW",
+      "note": "Static JSON-LD in source; rendered output not verifiable."
+    },
+    {
+      "id": 875,
+      "status": "publish",
+      "source_sha256": "d6b539af7734e583da6927d72bf5a99b39a5f79154557f386ca595642861618e",
+      "source_bytes": 2077,
+      "is_php": false,
+      "associated_page": 871,
+      "schema_types": [
+        "Answer",
+        "Brand",
+        "BreadcrumbList",
+        "FAQPage",
+        "ListItem",
+        "Organization",
+        "Product",
+        "Question",
+        "Service"
+      ],
+      "runtime_status": "BLOCKED",
+      "migration_action": "PRESERVE_LOGIC_FOR_LATER_REVIEW",
+      "note": "Static JSON-LD in source; rendered output not verifiable."
+    },
+    {
+      "id": 902,
+      "status": "publish",
+      "source_sha256": "b993329e6f81162c57bc50d55bf1a4c07a8f29f4f908b898b82d89a56657897e",
+      "source_bytes": 2649,
+      "is_php": true,
+      "associated_page": 241,
+      "schema_types": [
+        "Answer",
+        "FAQPage",
+        "Question",
+        "Service"
+      ],
+      "runtime_status": "BLOCKED",
+      "migration_action": "PRESERVE_LOGIC_FOR_LATER_REVIEW",
+      "note": "PHP snippet, NOT malformed. Guard is_page(241) || is_page(\"custom-empty-wooden-speaker-cabinet-boxes-manufacturer\"). Source declares FAQPage/#faq + Service/#service/serviceType/provider/#organization/areaServed, but JSON-LD was never observed in rendered output."
+    }
+  ]
+}
