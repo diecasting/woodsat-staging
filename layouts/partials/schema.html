@@ -19,7 +19,33 @@
 */}}
 {{ $prod := site.Params.productionBaseURL }}
 {{ $strip := "^https://diecasting.github.io/woodsat-staging" }}
-{{ $organization := dict "@type" "Organization" "@id" (printf "%s#organization" $prod) "name" site.Title "url" $prod }}
+{{/*
+  PHASE 4.10.2 — entity parity: enrich Organization with the production entity
+  facts already present in woodsat-child (functions.php footer identity block +
+  ws-home-content.html + contact page). Additive only — graph structure unchanged,
+  so PHASE 4.9/4.10.1 JSON-LD architecture lock is preserved. Source of truth for
+  these values is the WordPress production child theme (NOT Yoast, which owns the
+  rest of the SEO output).
+*/}}
+{{ $organization := dict
+  "@type" "Organization"
+  "@id" (printf "%s#organization" $prod)
+  "name" site.Title
+  "alternateName" "誉大电声制品有限公司"
+  "legalName" "Yuda Acoustics Technology Co., Limited"
+  "url" $prod
+  "email" "jason@woodsat.com"
+  "address" (dict
+    "@type" "PostalAddress"
+    "streetAddress" "No.12 Xinxing Road, Tangxia Town"
+    "addressLocality" "Dongguan"
+    "addressRegion" "Guangdong"
+    "postalCode" "523721"
+    "addressCountry" "CN")
+  "contactPoint" (slice
+    (dict "@type" "ContactPoint" "contactType" "sales" "email" "jason@woodsat.com" "telephone" "+8613410992195" "areaServed" "Worldwide"))
+  "areaServed" "Worldwide"
+}}
 {{ $website := dict "@type" "WebSite" "@id" (printf "%s#website" $prod) "url" $prod "name" site.Title }}
 {{ $breadcrumb := dict "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" $prod)) }}
 {{ $graph := slice $organization $website $breadcrumb }}
