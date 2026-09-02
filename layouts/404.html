@@ -14,7 +14,7 @@
   {{/* Staging guard — must match every other page so the 404 cannot be indexed while isStaging=true. */}}
   <meta name="robots" content="noindex,nofollow">
 </head>
-<body>
+<body class="page-inner">
   {{ partial "navigation.html" . }}
   <main>
     <section class="error-page">
@@ -22,9 +22,12 @@
       <h1>Page Not Found</h1>
       <p>The page you are looking for may have been moved, renamed, or no longer exists.</p>
       <p>
-        <a class="site-cta" href="/">Return Home</a>
+        {{/* PHASE 4.10.1 ROUTE FIX: these were hardcoded root-relative links and
+             404'd on the /woodsat-staging/ project site. Routed via route.html so
+             they are baseURL-aware on staging AND production. */}}
+        <a class="site-cta" href="{{ partial "route.html" "/" }}">Return Home</a>
         &nbsp;&nbsp;
-        <a class="site-cta" href="/contact/">Contact Us</a>
+        <a class="site-cta" href="{{ partial "route.html" "/contact/" }}">Contact Us</a>
       </p>
     </section>
   </main>

@@ -4,7 +4,11 @@
   Services, Contact Woodsat), thin orange top border, orange uppercase
   headings, dark navy primary text, muted gray-blue secondary text, orange
   email/CTA accents, full-width dark navy copyright bar, back-to-top.
-  All internal targets baseURL-aware via relURL (PHASE 4.9 preserved).
+  All internal targets baseURL-aware via partials/route.html.
+  PHASE 4.10.1 ROUTE FIX: footer links (incl. the Request A Quote CTA) used
+  {{ "/xxx/" | relURL }}, which drops the /woodsat-staging/ subpath because
+  relURL treats a leading slash as host-absolute. route.html strips the leading
+  slash first. No staging subpath is hardcoded.
 */}}
 <footer class="site-footer">
   <div class="footer-grid">
@@ -21,22 +25,22 @@
     <div class="footer-col">
       <h3>Speaker Cabinets</h3>
       <ul>
-        <li><a href="{{ "/wooden-speaker-box-manufacturer/" | relURL }}">Wooden Speaker Box</a></li>
-        <li><a href="{{ "/custom-wooden-speaker-cabinet-manufacturer/" | relURL }}">Custom Speaker Cabinets</a></li>
-        <li><a href="{{ "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/" | relURL }}">Empty Speaker Cabinets</a></li>
-        <li><a href="{{ "/hifi-speaker-cabinet-manufacturer/" | relURL }}">Hi-Fi Speaker Cabinets</a></li>
-        <li><a href="{{ "/wooden-speaker-enclosure-manufacturer/" | relURL }}">Speaker Enclosures</a></li>
+        <li><a href="{{ partial "route.html" "/wooden-speaker-box-manufacturer/" }}">Wooden Speaker Box</a></li>
+        <li><a href="{{ partial "route.html" "/custom-wooden-speaker-cabinet-manufacturer/" }}">Custom Speaker Cabinets</a></li>
+        <li><a href="{{ partial "route.html" "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/" }}">Empty Speaker Cabinets</a></li>
+        <li><a href="{{ partial "route.html" "/hifi-speaker-cabinet-manufacturer/" }}">Hi-Fi Speaker Cabinets</a></li>
+        <li><a href="{{ partial "route.html" "/wooden-speaker-enclosure-manufacturer/" }}">Speaker Enclosures</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
       <h3>Manufacturing Services</h3>
       <ul>
-        <li><a href="{{ "/oem-wooden-speaker-cabinet-manufacturer/" | relURL }}">OEM Speaker Cabinet Manufacturing</a></li>
-        <li><a href="{{ "/speaker-cabinet-cnc-machining-service/" | relURL }}">CNC Machining Service</a></li>
-        <li><a href="{{ "/speaker-cabinet-manufacturing/" | relURL }}">Speaker Cabinet Manufacturing</a></li>
-        <li><a href="{{ "/custom-cnc-wood-routing-services/" | relURL }}">Custom CNC Routing</a></li>
-        <li><a href="{{ "/high-gloss-piano-lacquer-finishing-process-wood-speakers/" | relURL }}">Premium Finishing</a></li>
+        <li><a href="{{ partial "route.html" "/oem-wooden-speaker-cabinet-manufacturer/" }}">OEM Speaker Cabinet Manufacturing</a></li>
+        <li><a href="{{ partial "route.html" "/speaker-cabinet-cnc-machining-service/" }}">CNC Machining Service</a></li>
+        <li><a href="{{ partial "route.html" "/speaker-cabinet-manufacturing/" }}">Speaker Cabinet Manufacturing</a></li>
+        <li><a href="{{ partial "route.html" "/custom-cnc-wood-routing-services/" }}">Custom CNC Routing</a></li>
+        <li><a href="{{ partial "route.html" "/high-gloss-piano-lacquer-finishing-process-wood-speakers/" }}">Premium Finishing</a></li>
       </ul>
     </div>
 
@@ -45,14 +49,14 @@
       <p class="footer-line">Email: <a href="mailto:jason@woodsat.com">jason@woodsat.com</a></p>
       <p class="footer-line">WhatsApp: <a href="https://wa.me/8613410992195">+86 134 1099 2195</a></p>
       <p class="footer-line">Dongguan, Guangdong, China</p>
-      <a class="btn btn--primary" href="{{ "/contact/" | relURL }}">Request A Quote</a>
+      <a class="btn btn--primary" href="{{ partial "route.html" "/contact/" }}">Request A Quote</a>
     </div>
 
   </div>
 
   <div class="footer-copyright">
     <p>Copyright &copy; {{ now.Year }} WoodSat. All Rights Reserved.</p>
-    <p>Yuda Acoustics Technology Co., Limited &middot; <a href="{{ "/about-us/" | relURL }}">About</a> &middot; <a href="{{ "/contact/" | relURL }}">Contact</a></p>
+    <p>Yuda Acoustics Technology Co., Limited &middot; <a href="{{ partial "route.html" "/about-us/" }}">About</a> &middot; <a href="{{ partial "route.html" "/contact/" }}">Contact</a></p>
   </div>
 </footer>
 

@@ -1,7 +1,13 @@
 {{/*
   PHASE 4.10 navigation — visual parity (best-effort per textual spec).
   - Transparent over hero on the homepage; solid white on inner pages.
-  - All internal targets baseURL-aware via relURL (PHASE 4.9 preserved).
+  - All internal targets baseURL-aware via partials/route.html.
+    PHASE 4.10.1 ROUTE FIX: these links previously used {{ "/xxx/" | relURL }}.
+    Hugo's relURL does NOT add the baseURL path when the input starts with "/",
+    so every header link (incl. Request a Quote) lost the /woodsat-staging/
+    subpath and 404'd. route.html strips the leading slash before relURL - the
+    same rule PHASE 4.9 already used in the render-link hook. No subpath is
+    hardcoded anywhere.
   - Top-level structure mirrors the WP menu: Home, Speaker Cabinets (dropdown
     with 5 children), Manufacturing Services (dropdown with 2 children),
     About us, Resource, plus the Request A Quote CTA.
@@ -10,7 +16,7 @@
     remap applied). No invented URLs.
 */}}
 <header class="site-header {{ if .IsHome }}site-header--transparent{{ end }}">
-  <a class="brand" href="{{ "/" | relURL }}">
+  <a class="brand" href="{{ partial "route.html" "/" }}">
     <span class="brand-mark" aria-hidden="true">W</span>
     <span class="brand-name">Wood<span>Sat</span></span>
   </a>
@@ -22,35 +28,35 @@
 
   <ul class="primary-nav" aria-label="Primary navigation">
     <li class="{{ if .IsHome }}active{{ end }}">
-      <a href="{{ "/" | relURL }}" {{ if .IsHome }}aria-current="page"{{ end }}>Home</a>
+      <a href="{{ partial "route.html" "/" }}" {{ if .IsHome }}aria-current="page"{{ end }}>Home</a>
     </li>
 
     <li class="has-children">
       <a href="#" aria-haspopup="true">Speaker Cabinets <span class="dropdown-arrow" aria-hidden="true">▾</span></a>
       <ul class="dropdown" role="menu">
-        <li><a href="{{ "/wooden-speaker-box-manufacturer/" | relURL }}" role="menuitem">Wooden Speaker Box</a></li>
-        <li><a href="{{ "/custom-wooden-speaker-cabinet-manufacturer/" | relURL }}" role="menuitem">Custom Speaker Cabinets</a></li>
-        <li><a href="{{ "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/" | relURL }}" role="menuitem">Empty Speaker Cabinets</a></li>
-        <li><a href="{{ "/hifi-speaker-cabinet-manufacturer/" | relURL }}" role="menuitem">Hi-Fi Speaker Cabinets</a></li>
-        <li><a href="{{ "/wooden-speaker-enclosure-manufacturer/" | relURL }}" role="menuitem">Speaker Enclosures</a></li>
+        <li><a href="{{ partial "route.html" "/wooden-speaker-box-manufacturer/" }}" role="menuitem">Wooden Speaker Box</a></li>
+        <li><a href="{{ partial "route.html" "/custom-wooden-speaker-cabinet-manufacturer/" }}" role="menuitem">Custom Speaker Cabinets</a></li>
+        <li><a href="{{ partial "route.html" "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/" }}" role="menuitem">Empty Speaker Cabinets</a></li>
+        <li><a href="{{ partial "route.html" "/hifi-speaker-cabinet-manufacturer/" }}" role="menuitem">Hi-Fi Speaker Cabinets</a></li>
+        <li><a href="{{ partial "route.html" "/wooden-speaker-enclosure-manufacturer/" }}" role="menuitem">Speaker Enclosures</a></li>
       </ul>
     </li>
 
     <li class="has-children">
       <a href="#" aria-haspopup="true">Manufacturing Services <span class="dropdown-arrow" aria-hidden="true">▾</span></a>
       <ul class="dropdown" role="menu">
-        <li><a href="{{ "/oem-wooden-speaker-cabinet-manufacturer/" | relURL }}" role="menuitem">OEM Speaker Cabinet Manufacturing</a></li>
-        <li><a href="{{ "/speaker-cabinet-cnc-machining-service/" | relURL }}" role="menuitem">CNC Machining Service</a></li>
+        <li><a href="{{ partial "route.html" "/oem-wooden-speaker-cabinet-manufacturer/" }}" role="menuitem">OEM Speaker Cabinet Manufacturing</a></li>
+        <li><a href="{{ partial "route.html" "/speaker-cabinet-cnc-machining-service/" }}" role="menuitem">CNC Machining Service</a></li>
       </ul>
     </li>
 
     <li class="{{ if in .RelPermalink "about-us" }}active{{ end }}">
-      <a href="{{ "/about-us/" | relURL }}">About us</a>
+      <a href="{{ partial "route.html" "/about-us/" }}">About us</a>
     </li>
     <li>
-      <a href="{{ "/resource/" | relURL }}">Resource</a>
+      <a href="{{ partial "route.html" "/resource/" }}">Resource</a>
     </li>
   </ul>
 
-  <a class="site-cta" href="{{ "/contact/" | relURL }}">Request a Quote</a>
+  <a class="site-cta" href="{{ partial "route.html" "/contact/" }}">Request a Quote</a>
 </header>

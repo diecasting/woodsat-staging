@@ -1,0 +1,56 @@
+{{/*
+  PHASE 4.10.1 ROUTE HELPER — single source of internal-route truth.
+
+  WHY THIS EXISTS
+  ---------------
+  Hugo's `relURL` does NOT prepend the baseURL path when the input string
+  starts with "/": a leading slash makes Hugo treat the value as absolute
+  against the HOST root, so it resolves the baseURL *without* its path.
+  Result on this GitHub Pages PROJECT site (baseURL carries /woodsat-staging/):
+
+      {{ "/contact/" | relURL }}  ->  /contact/            (WRONG - 404)
+      {{ "contact/"  | relURL }}  ->  /woodsat-staging/contact/   (CORRECT)
+
+  PHASE 4.9 already used the correct form inside the render-link hook
+  (`relURL (strings.TrimPrefix "/" $dest)`) for markdown links, but the
+  header/hero/footer templates passed leading-slash literals, so every
+  hand-authored nav/CTA link lost the staging subpath.
+
+  This partial centralises that rule so no template has to remember it and
+  the staging subpath is NEVER hardcoded.
+
+  USAGE
+  -----
+      href="{{ partial "route.html" "/contact/" }}"
+      href="{{ partial "route.html" "/" }}"           -> site home
+      href="{{ partial "route.html" "#rfq" }}"        -> passed through
+
+  BEHAVIOUR
+  ---------
+  * http/https, protocol-relative (//), in-page anchors (#), mailto:, tel:
+    and wa.me destinations are returned untouched.
+  * Internal paths have any leading slash stripped, then relURL is applied,
+    so the value is correct on staging (/woodsat-staging/...) AND on
+    production (https://woodsat.com/) with no template change.
+  * "/" (or "") resolves to site.Home.RelPermalink.
+  * A trailing slash is enforced for directory-style routes, but never for
+    values that carry a "#" fragment or a file extension.
+*/}}
+{{- $in := . -}}
+{{- if not $in }}{{ $in = "/" }}{{ end -}}
+{{- $out := "" -}}
+{{- if or (hasPrefix $in "http") (hasPrefix $in "//") (hasPrefix $in "#") (hasPrefix $in "mailto:") (hasPrefix $in "tel:") (hasPrefix $in "wa.me") -}}
+  {{- $out = $in -}}
+{{- else -}}
+  {{- $clean := strings.TrimPrefix "/" $in -}}
+  {{- if eq $clean "" -}}
+    {{- $out = site.Home.RelPermalink -}}
+  {{- else -}}
+    {{- $out = relURL $clean -}}
+    {{- $base := path.Base $out -}}
+    {{- if and (not (strings.Contains $out "#")) (not (strings.Contains $base ".")) (not (hasSuffix $out "/")) -}}
+      {{- $out = printf "%s/" $out -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $out -}}
