@@ -1,47 +1,56 @@
 {{/*
-  Navigation built from data/navigation.json (database evidence).
-  RENDERED header/footer placement is NOT_TESTABLE and is not inferred here.
-  Manual-review items 883, 876, 882, 194 are preserved in the data file and
-  their review flags are NOT silently resolved.
-
-  PHASE 4.5 VISUAL FIX (documented):
-  - Wrap nav in a sticky <header> with a wordmark logo linking to / and a
-    "Request A Quote" CTA.
-  - Empty-label items (15, 194, 217) and dead "#" targets (876, 882) are
-    SKIPPED from the visible menu to avoid blank/dead links, while remaining
-    in data/navigation.json for the pending manual review. This is a presenta-
-    tion decision, not a change to migration evidence.
-  - Mobile menu uses a CSS-only checkbox toggle (no JS).
-
-  PHASE 4.9 ROUTING FIX:
-  - Internal targets are now baseURL-aware via relURL so they resolve correctly
-    on the GitHub Pages project site (/woodsat-staging/...) AND on production
-    (https://woodsat.com/). External absolute URLs (https://woodsat.com/...)
-    and "#" anchors are left untouched. The two hardcoded literals (/ and
-    /contact/) are replaced with relURL equivalents. No staging subpath is
-    hardcoded into the template.
+  PHASE 4.10 navigation — visual parity (best-effort per textual spec).
+  - Transparent over hero on the homepage; solid white on inner pages.
+  - All internal targets baseURL-aware via relURL (PHASE 4.9 preserved).
+  - Top-level structure mirrors the WP menu: Home, Speaker Cabinets (dropdown
+    with 5 children), Manufacturing Services (dropdown with 2 children),
+    About us, Resource, plus the Request A Quote CTA.
+  - Mobile uses the existing CSS-only checkbox toggle (no JS).
+  - Nav URLs are the verified real slugs from data/navigation.json (PHASE 4.9
+    remap applied). No invented URLs.
 */}}
-<header class="site-header">
-  <a class="brand" href="{{ "/" | relURL }}">Wood<span>Sat</span></a>
+<header class="site-header {{ if .IsHome }}site-header--transparent{{ end }}">
+  <a class="brand" href="{{ "/" | relURL }}">
+    <span class="brand-mark" aria-hidden="true">W</span>
+    <span class="brand-name">Wood<span>Sat</span></span>
+  </a>
+
   <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
   <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
     <span></span><span></span><span></span>
   </label>
-  <nav class="site-nav" aria-label="Primary navigation">
-    {{ range (where site.Data.navigation.items "menus" "intersect" (slice "mani-menus")) }}
-      {{ if and .target_url (ne .target_url "#") .label }}
-        {{ $url := .target_url }}
-        {{ if hasPrefix $url "http" }}
-          {{/* external absolute (e.g. https://woodsat.com/...) - keep as-is */}}
-        {{ else if hasPrefix $url "#" }}
-          {{/* in-page anchor - keep as-is */}}
-        {{ else }}
-          {{/* internal - strip leading slash and apply relURL so the staging subpath is honoured */}}
-          {{ $url = relURL (strings.TrimPrefix "/" $url) }}
-        {{ end }}
-        <a href="{{ $url }}">{{ .label }}</a>
-      {{ end }}
-    {{ end }}
-  </nav>
-  <a class="site-cta" href="{{ "/contact/" | relURL }}">Request A Quote</a>
+
+  <ul class="primary-nav" aria-label="Primary navigation">
+    <li class="{{ if .IsHome }}active{{ end }}">
+      <a href="{{ "/" | relURL }}" {{ if .IsHome }}aria-current="page"{{ end }}>Home</a>
+    </li>
+
+    <li class="has-children">
+      <a href="#" aria-haspopup="true">Speaker Cabinets <span class="dropdown-arrow" aria-hidden="true">▾</span></a>
+      <ul class="dropdown" role="menu">
+        <li><a href="{{ "/wooden-speaker-box-manufacturer/" | relURL }}" role="menuitem">Wooden Speaker Box</a></li>
+        <li><a href="{{ "/custom-wooden-speaker-cabinet-manufacturer/" | relURL }}" role="menuitem">Custom Speaker Cabinets</a></li>
+        <li><a href="{{ "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/" | relURL }}" role="menuitem">Empty Speaker Cabinets</a></li>
+        <li><a href="{{ "/hifi-speaker-cabinet-manufacturer/" | relURL }}" role="menuitem">Hi-Fi Speaker Cabinets</a></li>
+        <li><a href="{{ "/wooden-speaker-enclosure-manufacturer/" | relURL }}" role="menuitem">Speaker Enclosures</a></li>
+      </ul>
+    </li>
+
+    <li class="has-children">
+      <a href="#" aria-haspopup="true">Manufacturing Services <span class="dropdown-arrow" aria-hidden="true">▾</span></a>
+      <ul class="dropdown" role="menu">
+        <li><a href="{{ "/oem-wooden-speaker-cabinet-manufacturer/" | relURL }}" role="menuitem">OEM Speaker Cabinet Manufacturing</a></li>
+        <li><a href="{{ "/speaker-cabinet-cnc-machining-service/" | relURL }}" role="menuitem">CNC Machining Service</a></li>
+      </ul>
+    </li>
+
+    <li class="{{ if in .RelPermalink "about-us" }}active{{ end }}">
+      <a href="{{ "/about-us/" | relURL }}">About us</a>
+    </li>
+    <li>
+      <a href="{{ "/resource/" | relURL }}">Resource</a>
+    </li>
+  </ul>
+
+  <a class="site-cta" href="{{ "/contact/" | relURL }}">Request a Quote</a>
 </header>

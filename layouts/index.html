@@ -1,0 +1,64 @@
+{{/*
+  PHASE 4.10 homepage — visual parity (best-effort per textual spec).
+  Structure:
+    1. Hero (full-width background image + dark overlay + two-column content)
+       Left:  orange eyebrow, H1, lede, primary + secondary CTAs
+       Right: semi-transparent Company Identity card
+    2. Bottom stats row (ISO 9001, IATF 16949, Export 30+, OEM/ODM)
+    3. The existing _index.md body content (3 feature sections, etc.)
+  SEO (canonical/og/noindex/schema) is preserved by baseof.html.
+  Hero background image is a candidate local asset (mass-batch-production
+  empty wooden speaker boxes) — the exact WP hero image was not located;
+  flagged in phase410_visual_gap_matrix.
+*/}}
+{{ define "main" }}
+
+<section class="hero" id="top" aria-label="Custom wooden speaker cabinet manufacturer">
+  <div class="hero__bg" style="background-image: url('{{ "uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" | relURL }}');" aria-hidden="true"></div>
+  <div class="hero__overlay" aria-hidden="true"></div>
+  <div class="hero__inner">
+
+    <div class="hero__content">
+      <span class="hero__eyebrow">OEM &amp; ODM Acoustic Enclosure Factory &middot; Dongguan, China</span>
+      <h1 class="hero__title">Custom Wooden<br>Speaker Cabinet<br>Manufacturer</h1>
+      <p class="hero__lede">
+        Master craftsmen of custom wooden speaker cabinets and acoustic
+        enclosures. Hand-built, precision-machined, and finished to
+        audiophile standards for global audio brands.
+      </p>
+      <div class="hero__ctas">
+        <a class="btn btn--primary" href="{{ "/contact/" | relURL }}">Request a Quote <span aria-hidden="true">&rarr;</span></a>
+        <a class="btn btn--ghost-dark" href="{{ "/speaker-cabinet-cnc-machining-service/" | relURL }}">Talk to Engineering</a>
+      </div>
+    </div>
+
+    <aside class="hero__card" aria-label="Company identity">
+      <span class="hero__card-label">Company Identity</span>
+      <h3>Yuda Acoustics Technology Co., Limited</h3>
+      <p class="hero__card-zh">誉大电声制品有限公司</p>
+      <dl>
+        <dt>Factory Address</dt>
+        <dd>No.12 Xinxing Road, Tangxia Town, Dongguan, Guangdong, China</dd>
+      </dl>
+      <span class="hero__card-tag">Acoustic Enclosure &amp; Wooden Cabinet Specialist</span>
+    </aside>
+
+  </div>
+</section>
+
+<ul class="hero__stats" aria-label="Certifications and capabilities">
+  <li>ISO 9001 Certified</li>
+  <li>IATF 16949</li>
+  <li>Export to 30+ Countries</li>
+  <li>OEM / ODM Programs</li>
+</ul>
+
+{{/* Existing verified homepage content (3 feature sections + RFQ + closing).
+     Rendered verbatim; visual styling enhanced by the new main.css. */}}
+<div class="page-content">
+  <article>
+    {{ .Content }}
+  </article>
+</div>
+
+{{ end }}

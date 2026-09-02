@@ -4,7 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ $prod := site.Params.productionBaseURL }}
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%234a2e16'/%3E%3Ctext x='16' y='22' font-size='18' font-family='Arial' font-weight='700' fill='%23d99a2b' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f5a623'/%3E%3Ctext x='16' y='22' font-size='18' font-family='Arial' font-weight='800' fill='%230a0a0a' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
+  {{/* PHASE 4.10: verified production fonts (Open Sans body + Roboto headings). */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;700;800&display=swap">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
   {{/* Prefer the Yoast SEO title when evidence supplied one, so <title> matches
        production instead of being rebuilt from the H1. Object 104 is NO_H1 and
@@ -27,7 +31,7 @@
   {{ with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
   {{ partial "schema.html" . }}
 </head>
-<body>
+<body class="{{ if .IsHome }}page-home{{ else }}page-inner{{ end }}">
   {{ partial "navigation.html" . }}
   <main>{{ block "main" . }}{{ end }}</main>
   {{ partial "footer.html" . }}
