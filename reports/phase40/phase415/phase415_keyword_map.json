@@ -1,0 +1,293 @@
+[
+  {
+    "normalized_query": "wooden speaker cabinet manufacturer",
+    "raw_queries": [
+      "custom wooden speaker cabinet manufacturer",
+      "hifi speaker cabinet manufacturer",
+      "oem wooden speaker cabinet manufacturer",
+      "premium wooden speaker cabinet manufacturer",
+      "wooden speaker cabinet manufacturer"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "target_page": "custom-wooden-speaker-cabinet-manufacturer",
+    "page_type": "commercial",
+    "commercial_value": "HIGH",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "wooden speaker box manufacturer",
+    "raw_queries": [
+      "custom audio enclosure factory",
+      "custom wooden speaker box",
+      "empty wooden speaker box manufacturer",
+      "wooden speaker box manufacturer"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "target_page": "wooden-speaker-box-manufacturer",
+    "page_type": "commercial",
+    "commercial_value": "HIGH",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "wooden speaker enclosure manufacturer",
+    "raw_queries": [
+      "custom audio cabinet oem",
+      "wooden speaker enclosure",
+      "wooden speaker enclosure manufacturer"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "target_page": "wooden-speaker-enclosure-manufacturer",
+    "page_type": "commercial",
+    "commercial_value": "HIGH",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "speaker cabinet cnc machining service",
+    "raw_queries": [
+      "cnc wood routing services for speaker cabinets",
+      "precision wood cnc manufacturer",
+      "speaker cabinet cnc machining service"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "target_page": "speaker-cabinet-cnc-machining-service",
+    "page_type": "commercial",
+    "commercial_value": "HIGH",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "piano lacquer wood speaker finishing",
+    "raw_queries": [
+      "high gloss piano lacquer wood speakers",
+      "piano lacquer wood speaker finishing process",
+      "wood speaker finishing process"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "target_page": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+    "page_type": "commercial",
+    "commercial_value": "MEDIUM",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "mdf vs baltic birch plywood speaker cabinets",
+    "raw_queries": [
+      "mdf vs baltic birch plywood for speaker cabinets",
+      "mdf vs baltic birch speaker cabinets"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "target_page": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+    "page_type": "commercial",
+    "commercial_value": "MEDIUM",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "custom cnc wood routing services",
+    "raw_queries": [
+      "cnc wood routing",
+      "custom cnc wood routing services",
+      "precision cnc wood routing"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "target_page": "custom-cnc-wood-routing-services",
+    "page_type": "editorial",
+    "commercial_value": "HIGH",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "speaker cabinet manufacturing",
+    "raw_queries": [
+      "precision oem/odm factory",
+      "speaker cabinet manufacturing",
+      "speaker enclosure assembly"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "target_page": "speaker-cabinet-manufacturing",
+    "page_type": "editorial",
+    "commercial_value": "HIGH",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "best wood for speaker boxes",
+    "raw_queries": [
+      "best wood for speaker box",
+      "best wood for speaker boxes",
+      "wood for speaker boxes"
+    ],
+    "intent": "INFORMATIONAL",
+    "target_page": "best-wood-for-speaker-boxes",
+    "page_type": "editorial",
+    "commercial_value": "MEDIUM",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "speaker box materials",
+    "raw_queries": [
+      "materials for speaker boxes",
+      "speaker box materials",
+      "wood substrates speaker"
+    ],
+    "intent": "INFORMATIONAL",
+    "target_page": "speaker-box-materials",
+    "page_type": "editorial",
+    "commercial_value": "MEDIUM",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "speaker box finishes",
+    "raw_queries": [
+      "cabinet coating",
+      "premium speaker box finishes",
+      "speaker box finishes"
+    ],
+    "intent": "INFORMATIONAL",
+    "target_page": "speaker-box-finishes",
+    "page_type": "editorial",
+    "commercial_value": "MEDIUM",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "speaker box veneering",
+    "raw_queries": [
+      "speaker box veneering",
+      "veneering service",
+      "wood veneer speaker"
+    ],
+    "intent": "INFORMATIONAL",
+    "target_page": "speaker-box-veneering",
+    "page_type": "editorial",
+    "commercial_value": "MEDIUM",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "subwoofer enclosure design",
+    "raw_queries": [
+      "bass enclosure design",
+      "subwoofer enclosure",
+      "subwoofer enclosure design"
+    ],
+    "intent": "INFORMATIONAL",
+    "target_page": "subwoofer-enclosure-design",
+    "page_type": "editorial",
+    "commercial_value": "MEDIUM",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "speaker box calculator",
+    "raw_queries": [
+      "enclosure volume calculator",
+      "port design tool",
+      "speaker box calculator"
+    ],
+    "intent": "INFORMATIONAL",
+    "target_page": "speaker-box-calculator",
+    "page_type": "editorial",
+    "commercial_value": "LOW",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "wooden speaker cabinet designs",
+    "raw_queries": [
+      "custom wooden speaker cabinet designs",
+      "oem solutions",
+      "wooden speaker cabinet designs"
+    ],
+    "intent": "INFORMATIONAL",
+    "target_page": "wooden-speaker-cabinet-designs",
+    "page_type": "editorial",
+    "commercial_value": "MEDIUM",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "acoustic wood speaker enclosures",
+    "raw_queries": [
+      "acoustic wood speaker enclosures",
+      "best wood for acoustic speaker enclosures",
+      "oem solutions"
+    ],
+    "intent": "INFORMATIONAL",
+    "target_page": "acoustic-wood-speaker-enclosures",
+    "page_type": "editorial",
+    "commercial_value": "MEDIUM",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  },
+  {
+    "normalized_query": "wooden vs mdf speaker cabinets",
+    "raw_queries": [
+      "mdf vs wood speaker cabinets",
+      "wood vs mdf speaker cabinets",
+      "wooden vs mdf speaker cabinets"
+    ],
+    "intent": "INFORMATIONAL",
+    "target_page": "wooden-vs-mdf-speaker-cabinets",
+    "page_type": "editorial",
+    "commercial_value": "MEDIUM",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "position": null,
+    "gsc_note": "GSC_NOT_AVAILABLE"
+  }
+]

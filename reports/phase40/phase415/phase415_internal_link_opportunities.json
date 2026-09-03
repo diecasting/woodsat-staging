@@ -1,0 +1,173 @@
+[
+  {
+    "source_page": "commercial manufacturer pages (custom/oem/hifi/box/enclosure)",
+    "target_page": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+    "topic_relationship": "directly related comparison topic",
+    "current_link_exists": false,
+    "recommended_anchor_direction": "add contextual links from commercial cabinet pages + from wooden-vs-mdf to this deeper comparison",
+    "priority": "P1",
+    "evidence": "inbound_internal_links = 0 (orphan/very weak per 4.14 link graph)"
+  },
+  {
+    "source_page": "commercial manufacturer pages (custom/oem/hifi/box/enclosure)",
+    "target_page": "wooden-vs-mdf-speaker-cabinets",
+    "topic_relationship": "directly related comparison topic",
+    "current_link_exists": "minimal(2)",
+    "recommended_anchor_direction": "add contextual links from commercial cabinet pages + from wooden-vs-mdf to this deeper comparison",
+    "priority": "P2",
+    "evidence": "inbound_internal_links = 2 (orphan/very weak per 4.14 link graph)"
+  },
+  {
+    "source_page": "commercial pages + home + resource",
+    "target_page": "wooden-vs-mdf-speaker-cabinets",
+    "topic_relationship": "editorial support for commercial cabinets",
+    "current_link_exists": "inbound=2",
+    "recommended_anchor_direction": "add links from relevant commercial pages (comm->ed) to build topical authority",
+    "priority": "P2",
+    "evidence": "inbound_internal_links = 2 (weak editorial authority)"
+  },
+  {
+    "source_page": "commercial pages + home + resource",
+    "target_page": "speaker-box-finishes",
+    "topic_relationship": "editorial support for commercial cabinets",
+    "current_link_exists": "inbound=11",
+    "recommended_anchor_direction": "add links from relevant commercial pages (comm->ed) to build topical authority",
+    "priority": "P2",
+    "evidence": "inbound_internal_links = 11 (weak editorial authority)"
+  },
+  {
+    "source_page": "commercial pages + home + resource",
+    "target_page": "speaker-box-veneering",
+    "topic_relationship": "editorial support for commercial cabinets",
+    "current_link_exists": "inbound=6",
+    "recommended_anchor_direction": "add links from relevant commercial pages (comm->ed) to build topical authority",
+    "priority": "P2",
+    "evidence": "inbound_internal_links = 6 (weak editorial authority)"
+  },
+  {
+    "source_page": "commercial pages + home + resource",
+    "target_page": "speaker-box-materials",
+    "topic_relationship": "editorial support for commercial cabinets",
+    "current_link_exists": "inbound=9",
+    "recommended_anchor_direction": "add links from relevant commercial pages (comm->ed) to build topical authority",
+    "priority": "P2",
+    "evidence": "inbound_internal_links = 9 (weak editorial authority)"
+  },
+  {
+    "source_page": "commercial pages + home + resource",
+    "target_page": "speaker-box-calculator",
+    "topic_relationship": "editorial support for commercial cabinets",
+    "current_link_exists": "inbound=11",
+    "recommended_anchor_direction": "add links from relevant commercial pages (comm->ed) to build topical authority",
+    "priority": "P2",
+    "evidence": "inbound_internal_links = 11 (weak editorial authority)"
+  },
+  {
+    "source_page": "commercial pages + home + resource",
+    "target_page": "best-wood-for-speaker-boxes",
+    "topic_relationship": "editorial support for commercial cabinets",
+    "current_link_exists": "inbound=6",
+    "recommended_anchor_direction": "add links from relevant commercial pages (comm->ed) to build topical authority",
+    "priority": "P2",
+    "evidence": "inbound_internal_links = 6 (weak editorial authority)"
+  },
+  {
+    "source_page": "commercial pages + home + resource",
+    "target_page": "acoustic-wood-speaker-enclosures",
+    "topic_relationship": "editorial support for commercial cabinets",
+    "current_link_exists": "inbound=8",
+    "recommended_anchor_direction": "add links from relevant commercial pages (comm->ed) to build topical authority",
+    "priority": "P2",
+    "evidence": "inbound_internal_links = 8 (weak editorial authority)"
+  },
+  {
+    "source_page": "commercial pages + home + resource",
+    "target_page": "wooden-speaker-cabinet-designs",
+    "topic_relationship": "editorial support for commercial cabinets",
+    "current_link_exists": "inbound=6",
+    "recommended_anchor_direction": "add links from relevant commercial pages (comm->ed) to build topical authority",
+    "priority": "P2",
+    "evidence": "inbound_internal_links = 6 (weak editorial authority)"
+  },
+  {
+    "source_page": "custom-cnc-wood-routing-services (editorial)",
+    "target_page": "speaker-cabinet-cnc-machining-service (commercial)",
+    "topic_relationship": "same CNC capability, different sections",
+    "current_link_exists": "weak",
+    "recommended_anchor_direction": "make commercial page the primary CNC target; editorial post links strongly to it",
+    "priority": "P1",
+    "evidence": "CANNIBALIZATION cluster 'cnc-routing' (LIKELY)"
+  },
+  {
+    "source_page": "hifi-speaker-cabinet-manufacturer",
+    "target_page": "2-3 relevant editorials",
+    "topic_relationship": "commercial->editorial topical support",
+    "current_link_exists": "editorials linked=1",
+    "recommended_anchor_direction": "add 1-2 more relevant editorial links per commercial page",
+    "priority": "P2",
+    "evidence": "commercial_to_editorial pathway shows <=1 editorial linked"
+  },
+  {
+    "source_page": "wooden-speaker-box-manufacturer",
+    "target_page": "2-3 relevant editorials",
+    "topic_relationship": "commercial->editorial topical support",
+    "current_link_exists": "editorials linked=1",
+    "recommended_anchor_direction": "add 1-2 more relevant editorial links per commercial page",
+    "priority": "P2",
+    "evidence": "commercial_to_editorial pathway shows <=1 editorial linked"
+  },
+  {
+    "source_page": "speaker-cabinet-cnc-machining-service",
+    "target_page": "2-3 relevant editorials",
+    "topic_relationship": "commercial->editorial topical support",
+    "current_link_exists": "editorials linked=1",
+    "recommended_anchor_direction": "add 1-2 more relevant editorial links per commercial page",
+    "priority": "P2",
+    "evidence": "commercial_to_editorial pathway shows <=1 editorial linked"
+  },
+  {
+    "source_page": "oem-wooden-speaker-cabinet-manufacturer",
+    "target_page": "2-3 relevant editorials",
+    "topic_relationship": "commercial->editorial topical support",
+    "current_link_exists": "editorials linked=1",
+    "recommended_anchor_direction": "add 1-2 more relevant editorial links per commercial page",
+    "priority": "P2",
+    "evidence": "commercial_to_editorial pathway shows <=1 editorial linked"
+  },
+  {
+    "source_page": "wooden-speaker-enclosure-manufacturer",
+    "target_page": "2-3 relevant editorials",
+    "topic_relationship": "commercial->editorial topical support",
+    "current_link_exists": "editorials linked=1",
+    "recommended_anchor_direction": "add 1-2 more relevant editorial links per commercial page",
+    "priority": "P2",
+    "evidence": "commercial_to_editorial pathway shows <=1 editorial linked"
+  },
+  {
+    "source_page": "custom-wooden-speaker-cabinet-manufacturer",
+    "target_page": "2-3 relevant editorials",
+    "topic_relationship": "commercial->editorial topical support",
+    "current_link_exists": "editorials linked=1",
+    "recommended_anchor_direction": "add 1-2 more relevant editorial links per commercial page",
+    "priority": "P2",
+    "evidence": "commercial_to_editorial pathway shows <=1 editorial linked"
+  },
+  {
+    "source_page": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+    "target_page": "2-3 relevant editorials",
+    "topic_relationship": "commercial->editorial topical support",
+    "current_link_exists": "editorials linked=1",
+    "recommended_anchor_direction": "add 1-2 more relevant editorial links per commercial page",
+    "priority": "P2",
+    "evidence": "commercial_to_editorial pathway shows <=1 editorial linked"
+  },
+  {
+    "source_page": "contact",
+    "target_page": "2-3 relevant editorials",
+    "topic_relationship": "commercial->editorial topical support",
+    "current_link_exists": "editorials linked=1",
+    "recommended_anchor_direction": "add 1-2 more relevant editorial links per commercial page",
+    "priority": "P2",
+    "evidence": "commercial_to_editorial pathway shows <=1 editorial linked"
+  }
+]

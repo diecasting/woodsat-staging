@@ -1,0 +1,20 @@
+{
+  "NOW": [
+    "Designate a single PRIMARY 'wooden speaker cabinet manufacturer' page; differentiate the 5 siblings by one clear modifier (custom/oem/hifi/empty-box/enclosure) with distinct H1 angles + internal cross-links. (Resolves STRONG cannibalization.)",
+    "Fix thanks-page title to a thank-you/confirmation message (currently 'Sub-woofer Wooden Box manufacturer').",
+    "Build internal links to the two orphan/weak editorial pages (mdf-vs-baltic-birch=0 inbound, wooden-vs-mdf=2 inbound) from relevant commercial pages.",
+    "Cross-link the CNC cluster: editorial custom-cnc-wood-routing-services -> commercial speaker-cabinet-cnc-machining-service as primary."
+  ],
+  "NEXT": [
+    "Reframe mdf-vs-baltic-birch page as a commercial materials-specification page (remove duplicate comparison intent vs wooden-vs-mdf).",
+    "Strengthen commercial->editorial pathways (most commercial pages link to only 1 editorial; add 1-2 relevant).",
+    "Light metadata uniqueness pass on templated commercial title suffixes + about-us brand/clarity.",
+    "Build 2-3 highest-value content-gap commercial pages (bookshelf/monitor, floorstanding, subwoofer manufacturer)."
+  ],
+  "LATER": [
+    "Broader topical expansion: prototyping/low-volume service, damping/bracing guide, powered/active enclosure OEM.",
+    "International/market-specific landing pages (US/UK/EU/Japan) once GSC data confirms demand.",
+    "Re-run this audit WITH GSC connected to enable empirical position/CTR/impression ranking."
+  ],
+  "blocking_dependency": "Empirical ranking/CTR/impression opportunity sorting REQUIRES GSC data (currently unavailable)."
+}

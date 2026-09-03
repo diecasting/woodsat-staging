@@ -1,0 +1,7 @@
+{
+  "bare_contact_after": 0,
+  "double_prefix_after": 0,
+  "hardcoded_prod_internal_links_after": 0,
+  "gate": "PASS",
+  "note": "0 = routes intact vs PHASE 4.14 fix. Hardcoded production links to EXTERNAL/ghost assets (wp-content) are expected and not internal-route regressions."
+}

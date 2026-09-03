@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "opportunity": "Designate ONE primary 'wooden speaker cabinet manufacturer' page; differentiate the 5 sibling manufacturer pages by a single clear modifier (custom / oem / hifi / empty-box / enclosure) with distinct H1 angles + internal cross-links",
+    "page": "custom-wooden-speaker-cabinet-manufacturer (primary) + 5 siblings",
+    "evidence": "STRONG cannibalization cluster: 6 pages target near-identical head term 'wooden speaker cabinet/box/enclosure manufacturer'.",
+    "expected_impact": "High (consolidates split authority, likely the single biggest organic win)",
+    "risk": "Low",
+    "next_action": "PHASE 4.16: assign primary, rewrite H1/title per modifier, add cross-links"
+  },
+  {
+    "rank": 2,
+    "opportunity": "Fix thanks-page <title> (currently 'Sub-woofer Wooden Box manufacturer') to a thank-you/confirmation message",
+    "page": "thanks",
+    "evidence": "Title/content mismatch; H1 empty. Pre-existing anomaly (noted 4.14).",
+    "expected_impact": "Low-Medium (correctness/UX; minor SEO hygiene)",
+    "risk": "Low",
+    "next_action": "PHASE 4.16: rewrite title only"
+  },
+  {
+    "rank": 3,
+    "opportunity": "Add inbound internal links to the orphaned deep-dive page (0 inbound today)",
+    "page": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+    "evidence": "inbound_internal_links = 0 (4.14 link graph).",
+    "expected_impact": "Medium (rescues an orphaned high-quality asset)",
+    "risk": "Low",
+    "next_action": "PHASE 4.16: link from commercial cabinet pages + wooden-vs-mdf"
+  },
+  {
+    "rank": 4,
+    "opportunity": "Consolidate the CNC cluster: make commercial page primary, editorial post links to it",
+    "page": "speaker-cabinet-cnc-machining-service (primary) + custom-cnc-wood-routing-services",
+    "evidence": "LIKELY cannibalization: editorial + commercial cover same CNC capability in different sections.",
+    "expected_impact": "Medium",
+    "risk": "Low",
+    "next_action": "PHASE 4.16: rewrite editorial as deep guide -> commercial"
+  },
+  {
+    "rank": 5,
+    "opportunity": "Reframe mdf-vs-baltic-birch page as a commercial materials-specification page (remove duplicate comparison intent)",
+    "page": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+    "evidence": "LIKELY cannibalization with wooden-vs-mdf; title/content intent ambiguous.",
+    "expected_impact": "Medium",
+    "risk": "Low",
+    "next_action": "PHASE 4.16: convert to 'materials we stock & why' commercial angle"
+  },
+  {
+    "rank": 6,
+    "opportunity": "Strengthen commercial->editorial pathways (most commercial pages link to only 1 editorial)",
+    "page": "all 9 commercial pages",
+    "evidence": "commercial_to_editorial shows <=1 editorial linked on several pages.",
+    "expected_impact": "Medium (topical authority)",
+    "risk": "Low",
+    "next_action": "PHASE 4.16: add 1-2 relevant editorial links per commercial page"
+  },
+  {
+    "rank": 7,
+    "opportunity": "Improve about-us <title> to include 'speaker cabinet' + Woodsat brand",
+    "page": "about-us",
+    "evidence": "Title 'Custom Woodworking Manufacturer | Precision Craftsmanship' is generic.",
+    "expected_impact": "Low-Medium (brand/clarity)",
+    "risk": "Low",
+    "next_action": "PHASE 4.16: brand + core-term in title"
+  },
+  {
+    "rank": 8,
+    "opportunity": "Light uniqueness pass on templated commercial title suffixes",
+    "page": "6 manufacturer pages",
+    "evidence": "Near-duplicate '| Custom Audio Enclosure Factory' / '| OEM Audio Enclosures' suffixes.",
+    "expected_impact": "Low",
+    "risk": "Low",
+    "next_action": "PHASE 4.16: per-page distinct modifier + benefit"
+  },
+  {
+    "rank": 9,
+    "opportunity": "Build a commercial 'bookshelf / studio monitor speaker cabinet manufacturer' page (content gap)",
+    "page": "(new)",
+    "evidence": "INFERRED gap: standard OEM offering with no dedicated page; only editorial acoustic-wood touches it.",
+    "expected_impact": "Medium",
+    "risk": "Medium",
+    "next_action": "PHASE 4.16: create commercial page + link from editorials"
+  },
+  {
+    "rank": 10,
+    "opportunity": "Build a commercial 'subwoofer enclosure manufacturer' page (content gap)",
+    "page": "(new)",
+    "evidence": "INFERRED gap: only an editorial design guide exists; no commercial manufacturer page for subwoofers.",
+    "expected_impact": "Medium",
+    "risk": "Medium",
+    "next_action": "PHASE 4.16: create commercial page + link from subwoofer design guide"
+  }
+]

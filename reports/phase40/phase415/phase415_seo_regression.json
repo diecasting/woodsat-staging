@@ -1,0 +1,11 @@
+{
+  "title_regressions": 0,
+  "h1_regressions": 0,
+  "meta_regressions": 0,
+  "canonical_regressions": 0,
+  "og_regressions": 0,
+  "robots_regressions": 0,
+  "regressions": 0,
+  "gate": "PASS",
+  "note": "READ-ONLY phase: no content/template/config changed, so titles/H1/meta/canonical/OG/robots are identical to PHASE 4.14 baseline (0 regressions)."
+}

@@ -1,0 +1,78 @@
+{
+  "phase": "4.16",
+  "title": "Internal Link Authority Map",
+  "generated_utc": "2026-09-03T12:15:00Z",
+  "g-sc-data-available": false,
+  "link_type_policy": "New editorial->commercial and commercial->commercial links use RELATIVE URLs (/slug/). Rendered via Hugo render-link hook + route helper as /woodsat-staging/... on staging and /... on production. No absolute https://woodsat.com/ links were added.",
+  "commercial_to_commercial_bands": {
+    "pattern": "{{< card-grid cols=3 >}} with {{< card title=... link=/slug/ >}}",
+    "added_to_pages": [
+      "custom-wooden-speaker-cabinet-manufacturer",
+      "oem-wooden-speaker-cabinet-manufacturer",
+      "hifi-speaker-cabinet-manufacturer",
+      "wooden-speaker-enclosure-manufacturer",
+      "wooden-speaker-box-manufacturer",
+      "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+      "speaker-cabinet-cnc-machining-service"
+    ],
+    "primary_receives_from": ["oem", "hifi", "enclosure", "box", "empty", "cnc"],
+    "band_title_on_primary": "Explore Related Woodsat Speaker Cabinet Services",
+    "verified_in_build": true
+  },
+  "editorial_to_commercial": [
+    {
+      "source": "wooden-vs-mdf-speaker-cabinets",
+      "target": "custom-wooden-speaker-cabinet-manufacturer",
+      "anchor": "wooden speaker cabinet manufacturing team",
+      "url_style": "relative",
+      "verified_in_build": true
+    },
+    {
+      "source": "speaker-box-materials",
+      "target": "custom-wooden-speaker-cabinet-manufacturer",
+      "anchor": "wooden speaker cabinet manufacturer",
+      "url_style": "relative",
+      "verified_in_build": true
+    },
+    {
+      "source": "custom-cnc-wood-routing-services",
+      "target": "speaker-cabinet-cnc-machining-service",
+      "anchor": "speaker cabinet CNC machining service",
+      "url_style": "relative",
+      "verified_in_build": true
+    }
+  ],
+  "orphan_inbound": [
+    {
+      "source": "wooden-vs-mdf-speaker-cabinets",
+      "target": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "anchor": "factory-floor MDF vs Baltic Birch plywood deep dive",
+      "url_style": "relative",
+      "verified_in_build": true
+    },
+    {
+      "source": "speaker-box-materials",
+      "target": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "anchor": "MDF vs Baltic Birch plywood speaker cabinet deep dive",
+      "url_style": "relative",
+      "verified_in_build": true
+    },
+    {
+      "source": "custom-cnc-wood-routing-services",
+      "target": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "anchor": "MDF vs Baltic Birch plywood comparison",
+      "url_style": "relative",
+      "verified_in_build": true
+    },
+    {
+      "source": "custom-wooden-speaker-cabinet-manufacturer",
+      "target": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "anchor": "MDF vs Baltic Birch plywood speaker cabinet deep dive",
+      "url_style": "relative",
+      "verified_in_build": true
+    }
+  ],
+  "orphan_inbound_count_after_4_16": 4,
+  "orphan_inbound_count_before_4_16": 0,
+  "primary_inbound_editorial_count_after_4_16": 2
+}

@@ -1,0 +1,20 @@
+{
+  "GSC_DATA_AVAILABLE": false,
+  "sources_checked": [
+    "workspace recursive search for *gsc*, *search*console*, *keyword*, *ranking*, *serp* -> none found",
+    "workspace recursive search for *.csv (exports) -> none found",
+    "reports/ historical phase*/seo*/gsc*/serp*/keyword*/ranking* -> none found",
+    "sitemap.xml + built public/ HTML (used as the real, verifiable evidence base)"
+  ],
+  "data_freshness": "N/A (no GSC)",
+  "data_completeness": "N/A (no GSC)",
+  "GSC_DATA_LIMITATION": "No live Search Console, no exported CSV, no prior keyword/ranking dataset present in the workspace. Therefore position / impressions / CTR / clicks CANNOT be empirically ranked. This audit is built entirely on verifiable on-page + internal-link evidence.",
+  "empirical_metrics_policy": "ALL clicks/impressions/ctr/position fields are set to null and labelled GSC_NOT_AVAILABLE. No fabrication of ranking data.",
+  "evidence_base_used": {
+    "site_inventory_pages": 25,
+    "internal_link_graph": "phase414_internal_link_graph.json",
+    "commercial_link_opportunities": "phase414_commercial_link_opportunities.json",
+    "built_html_parsed": "public/*.html (current staging build, post PHASE 4.14)"
+  },
+  "verdict_impact": "Because GSC is unavailable, the final state is PHASE_4.15 = SEO_GROWTH_OPPORTUNITY_AUDIT_PARTIAL (per GSC DATA FAILURE RULE). All non-empirical audits (technical, content intent, commercial mapping, cannibalization, content gap, metadata, internal-link) are fully completed."
+}

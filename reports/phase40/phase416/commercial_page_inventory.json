@@ -1,0 +1,118 @@
+{
+  "phase": "4.16",
+  "title": "Commercial Keyword Architecture - Page Inventory",
+  "generated_utc": "2026-09-03T12:10:00Z",
+  "commercial_pages_total": 9,
+  "strong_cannibalization_cluster_pre_4_16": 6,
+  "primary_page": "custom-wooden-speaker-cabinet-manufacturer",
+  "pages": [
+    {
+      "slug": "custom-wooden-speaker-cabinet-manufacturer",
+      "file": "content/pages/custom-wooden-speaker-cabinet-manufacturer.md",
+      "role": "PRIMARY",
+      "intent": "Broad wooden speaker cabinet manufacturer (owns the generic head term)",
+      "title_h1": "Wooden Speaker Cabinet Manufacturer",
+      "yoast_title": "Wooden Speaker Cabinet Manufacturer | Woodsat",
+      "focus_keyword": "Wooden Speaker Cabinet Manufacturer",
+      "pre_4_16_cluster": "STRONG",
+      "inbound_links_added_4_16": [
+        "editorial: wooden-vs-mdf-speaker-cabinets",
+        "editorial: speaker-box-materials",
+        "commercial->commercial band on all 6 sibling pages (oem/hifi/enclosure/box/empty/cnc)"
+      ]
+    },
+    {
+      "slug": "oem-wooden-speaker-cabinet-manufacturer",
+      "file": "content/pages/oem-wooden-speaker-cabinet-manufacturer.md",
+      "role": "SIBLING",
+      "intent": "OEM / ODM contract manufacturing",
+      "title_h1": "OEM Wooden Speaker Cabinet Manufacturer",
+      "yoast_title": "OEM Wooden Speaker Cabinet Manufacturer | Woodsat",
+      "focus_keyword": "OEM Wooden Speaker Cabinet Manufacturer",
+      "pre_4_16_cluster": "STRONG",
+      "inbound_links_added_4_16": ["outbound cross-link band to primary + 5 siblings"]
+    },
+    {
+      "slug": "hifi-speaker-cabinet-manufacturer",
+      "file": "content/pages/hifi-speaker-cabinet-manufacturer.md",
+      "role": "SIBLING",
+      "intent": "Hi-Fi / audiophile / high-end acoustic",
+      "title_h1": "Hi-Fi Speaker Cabinet Manufacturer",
+      "yoast_title": "Hi-Fi Speaker Cabinet Manufacturer | Woodsat",
+      "focus_keyword": "Hi-Fi Speaker Cabinet Manufacturer",
+      "pre_4_16_cluster": "STRONG",
+      "inbound_links_added_4_16": ["outbound cross-link band to primary + 5 siblings"]
+    },
+    {
+      "slug": "wooden-speaker-enclosure-manufacturer",
+      "file": "content/pages/wooden-speaker-enclosure-manufacturer.md",
+      "role": "SIBLING",
+      "intent": "Acoustic enclosures (technical / acoustic focus)",
+      "title_h1": "Wooden Speaker Enclosure Manufacturer",
+      "yoast_title": "Wooden Speaker Enclosure Manufacturer | Woodsat",
+      "focus_keyword": "Wooden Speaker Enclosure Manufacturer",
+      "pre_4_16_cluster": "STRONG",
+      "inbound_links_added_4_16": ["outbound cross-link band to primary + 5 siblings"]
+    },
+    {
+      "slug": "wooden-speaker-box-manufacturer",
+      "file": "content/pages/wooden-speaker-box-manufacturer.md",
+      "role": "SIBLING",
+      "intent": "Speaker boxes (general cabinets/boxes)",
+      "title_h1": "Wooden Speaker Box Manufacturer",
+      "yoast_title": "Wooden Speaker Box Manufacturer | Woodsat",
+      "focus_keyword": "Wooden Speaker Box Manufacturer",
+      "pre_4_16_cluster": "STRONG",
+      "inbound_links_added_4_16": ["outbound cross-link band to primary + 5 siblings"]
+    },
+    {
+      "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+      "file": "content/pages/custom-empty-wooden-speaker-cabinet-boxes-manufacturer.md",
+      "role": "SIBLING",
+      "intent": "Empty / unfinished cabinets (blank boxes)",
+      "title_h1": "Empty Wooden Speaker Box Manufacturer",
+      "yoast_title": "Empty Wooden Speaker Box Manufacturer | Woodsat",
+      "focus_keyword": "Empty Wooden Speaker Box Manufacturer",
+      "pre_4_16_cluster": "STRONG",
+      "inbound_links_added_4_16": ["outbound cross-link band to primary + 5 siblings; Hi-Fi card added"]
+    },
+    {
+      "slug": "speaker-cabinet-cnc-machining-service",
+      "file": "content/pages/speaker-cabinet-cnc-machining-service.md",
+      "role": "SERVICE",
+      "intent": "CNC machining service (process / capability)",
+      "title_h1": "Speaker Cabinet CNC Machining Service",
+      "yoast_title": "Speaker Cabinet CNC Machining Service | Woodsat",
+      "focus_keyword": "Speaker Cabinet CNC Machining Service",
+      "pre_4_16_cluster": "OUTSIDE_STRONG (CNC cluster secondary)",
+      "inbound_links_added_4_16": ["editorial: custom-cnc-wood-routing-services; outbound cross-link band to 5 siblings"]
+    },
+    {
+      "slug": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+      "file": "content/pages/high-gloss-piano-lacquer-finishing-process-wood-speakers.md",
+      "role": "SUPPORT",
+      "intent": "Finishing process (distinct capability, not in STRONG cluster)",
+      "title_h1": "High-Gloss Piano Lacquer Finishing Process for Wood Speakers",
+      "yoast_title": "High-Gloss Piano Lacquer Finishing Process | Woodsat",
+      "focus_keyword": "High-Gloss Piano Lacquer Finishing",
+      "pre_4_16_cluster": "OUTSIDE_STRONG",
+      "inbound_links_added_4_16": []
+    },
+    {
+      "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "file": "content/pages/mdf-vs-baltic-birch-plywood-speaker-cabinets.md",
+      "role": "ORPHAN (de-orphaned in 4.16)",
+      "intent": "Materials deep-dive: MDF vs Baltic Birch (manufacturer's perspective)",
+      "title_h1": "MDF vs. Baltic Birch Plywood for Speaker Cabinets: A Manufacturer's Deep Dive",
+      "yoast_title": "MDF vs. Baltic Birch Plywood for Speaker Cabinets | Woodsat",
+      "focus_keyword": "MDF vs Baltic Birch speaker cabinet",
+      "pre_4_16_cluster": "ORPHAN (0 inbound before 4.16)",
+      "inbound_links_added_4_16": [
+        "editorial: wooden-vs-mdf-speaker-cabinets",
+        "editorial: speaker-box-materials",
+        "editorial: custom-cnc-wood-routing-services",
+        "commercial primary: custom-wooden-speaker-cabinet-manufacturer"
+      ]
+    }
+  ]
+}

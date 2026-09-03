@@ -1,0 +1,7 @@
+{
+  "pages_total": 26,
+  "pages_with_noindex": 26,
+  "robots_value": "noindex,nofollow",
+  "gate": "PASS",
+  "note": "Staging must remain noindex,nofollow. All built pages carry it."
+}

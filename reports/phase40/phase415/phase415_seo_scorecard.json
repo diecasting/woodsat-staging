@@ -1,0 +1,39 @@
+{
+  "methodology": "Qualitative categories only. No single fabricated 'SEO score'. Where GSC-dependent metrics cannot be measured, they are marked GSC_NOT_AVAILABLE. Each category rated OK / WEAK / GAP with rationale.",
+  "indexability": {
+    "rating": "OK",
+    "note": "Staging is noindex,nofollow (expected for staging). Confirmed in lock check."
+  },
+  "technical_seo": {
+    "rating": "OK",
+    "note": "Routes clean (no bare/double-prefix, no hardcoded production internal links after 4.14). Schema JSON-LD present. Formspree intact. Verified in lock checks."
+  },
+  "commercial_keyword_coverage": {
+    "rating": "WEAK",
+    "note": "Good breadth of manufacturer pages BUT heavy cannibalization across 6 'cabinet/box/enclosure manufacturer' pages splits authority."
+  },
+  "content_coverage": {
+    "rating": "OK",
+    "note": "Strong editorial depth on materials/finishes/design. Some commercial sub-niches uncovered (see content_gap)."
+  },
+  "internal_link_authority": {
+    "rating": "OK",
+    "note": "Commercial pages well-linked (48-54 inbound). Some editorial pages weak/orphan (mdf-vs-baltic-birch=0, wooden-vs-mdf=2)."
+  },
+  "CTR_opportunity": {
+    "rating": "GSC_NOT_AVAILABLE",
+    "note": "Cannot be measured without GSC impressions/CTR."
+  },
+  "ranking_opportunity": {
+    "rating": "GSC_NOT_AVAILABLE",
+    "note": "Position zones (4-10/11-20/21-30) cannot be empirically ranked without GSC. Qualitative opportunity scoring used instead."
+  },
+  "cannibalization_risk": {
+    "rating": "HIGH",
+    "note": "5 clusters identified; 1 STRONG (cabinet/box/enclosure manufacturer), 2 LIKELY, 2 POSSIBLE."
+  },
+  "metadata_quality": {
+    "rating": "WEAK",
+    "note": "thanks-page title mismatch (P1); about-us generic; templated commercial title suffixes."
+  }
+}

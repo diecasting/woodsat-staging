@@ -1,0 +1,98 @@
+[
+  {
+    "topic": "Bookshelf / studio monitor speaker cabinet manufacturer",
+    "queries": [
+      "bookshelf speaker cabinet manufacturer",
+      "studio monitor cabinet manufacturer",
+      "monitor speaker enclosure OEM"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "estimated_opportunity": "MEDIUM",
+    "existing_supporting_pages": [
+      "acoustic-wood-speaker-enclosures",
+      "custom-wooden-speaker-cabinet-manufacturer"
+    ],
+    "recommended_landing_page_type": "commercial manufacturer page",
+    "priority": "P2",
+    "evidence": "INFERRED_FROM_TOPIC_COVERAGE (no GSC). Standard OEM offering; only an editorial acoustic-wood page touches it."
+  },
+  {
+    "topic": "Floorstanding speaker cabinet manufacturer",
+    "queries": [
+      "floorstanding speaker cabinet manufacturer",
+      "tower speaker enclosure OEM"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "estimated_opportunity": "MEDIUM",
+    "existing_supporting_pages": [
+      "custom-wooden-speaker-cabinet-manufacturer"
+    ],
+    "recommended_landing_page_type": "commercial manufacturer page",
+    "priority": "P2",
+    "evidence": "INFERRED_FROM_TOPIC_COVERAGE. Common cabinet form-factor with no dedicated page."
+  },
+  {
+    "topic": "Subwoofer enclosure manufacturer (commercial)",
+    "queries": [
+      "subwoofer enclosure manufacturer",
+      "custom subwoofer box OEM"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "estimated_opportunity": "MEDIUM",
+    "existing_supporting_pages": [
+      "subwoofer-enclosure-design"
+    ],
+    "recommended_landing_page_type": "commercial manufacturer page",
+    "priority": "P2",
+    "evidence": "INFERRED_FROM_TOPIC_COVERAGE. Only an editorial design guide exists; no commercial manufacturer page for subwoofers specifically."
+  },
+  {
+    "topic": "Speaker cabinet prototyping / low-volume / rapid prototype service",
+    "queries": [
+      "speaker cabinet prototype",
+      "low volume speaker box manufacturing",
+      "rapid prototyping audio enclosure"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "estimated_opportunity": "MEDIUM",
+    "existing_supporting_pages": [
+      "contact",
+      "speaker-cabinet-cnc-machining-service"
+    ],
+    "recommended_landing_page_type": "commercial service page",
+    "priority": "P2",
+    "evidence": "INFERRED_FROM_TOPIC_COVERAGE. High-value B2B need; only the contact page addresses it today."
+  },
+  {
+    "topic": "Speaker cabinet damping / bracing / isolation engineering",
+    "queries": [
+      "speaker cabinet damping",
+      "internal bracing speaker box",
+      "speaker cabinet isolation"
+    ],
+    "intent": "INFORMATIONAL",
+    "estimated_opportunity": "LOW-MEDIUM",
+    "existing_supporting_pages": [
+      "speaker-box-materials",
+      "wooden-speaker-cabinet-designs"
+    ],
+    "recommended_landing_page_type": "editorial deep-dive",
+    "priority": "P3",
+    "evidence": "INFERRED_FROM_TOPIC_COVERAGE. Adjacent acoustic-engineering topic with no dedicated asset."
+  },
+  {
+    "topic": "Powered / active wooden speaker cabinet OEM",
+    "queries": [
+      "active speaker cabinet manufacturer",
+      "powered monitor enclosure OEM"
+    ],
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "estimated_opportunity": "LOW-MEDIUM",
+    "existing_supporting_pages": [
+      "wooden-speaker-enclosure-manufacturer"
+    ],
+    "recommended_landing_page_type": "commercial manufacturer page",
+    "priority": "P3",
+    "evidence": "INFERRED_FROM_TOPIC_COVERAGE. Adjacent to enclosure manufacturing; no dedicated page."
+  }
+]

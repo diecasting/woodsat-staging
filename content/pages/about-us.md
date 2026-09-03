@@ -14,7 +14,7 @@ params:
   title_source: "RENDERED_H1 (CONFIRMED)"
   h1_status: CONFIRMED
   h1_count: 1
-  yoast_title: "Custom Woodworking Manufacturer | Precision Craftsmanship"
+  yoast_title: "Woodsat — Wooden Speaker Cabinet Manufacturer | About Us"
   focus_keyword: "Premium Custom Wood Products Manufacturer"
   robots: "index, follow"
   canonical_intent: "https://woodsat.com/about-us/"

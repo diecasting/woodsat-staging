@@ -367,8 +367,9 @@ Empty speaker cabinets for hobbyists and audio enthusiasts.
 {{< band bg="warm" >}}
 {{< card-grid cols=3 >}}
 {{< card title="Wooden Speaker Box Manufacturer" link="/wooden-speaker-box-manufacturer/" >}}{{< /card >}}
-{{< card title="Custom Wooden Speaker Cabinet Manufacturer" link="/custom-wooden-speaker-cabinet-manufacturer/" >}}{{< /card >}}
+{{< card title="Wooden Speaker Cabinet Manufacturer" link="/custom-wooden-speaker-cabinet-manufacturer/" >}}{{< /card >}}
 {{< card title="OEM Wooden Speaker Cabinet Manufacturer" link="/oem-wooden-speaker-cabinet-manufacturer/" >}}{{< /card >}}
+{{< card title="Hi-Fi Speaker Cabinet Manufacturer" link="/hifi-speaker-cabinet-manufacturer/" >}}{{< /card >}}
 {{< card title="Speaker Cabinet CNC Machining Service" link="/speaker-cabinet-cnc-machining-service/" >}}{{< /card >}}
 {{< card title="Wooden Speaker Enclosure Manufacturer" link="/wooden-speaker-enclosure-manufacturer/" >}}{{< /card >}}
 {{< /card-grid >}}

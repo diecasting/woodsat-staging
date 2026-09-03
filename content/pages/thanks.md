@@ -5,7 +5,7 @@ url: "/thanks/"
 date: 2020-09-10T04:27:13+00:00
 lastmod: 2024-07-18T03:50:20+00:00
 draft: false
-description: "Sub-woofer Wooden Box manufacturer; offer various blank wooden box or cabinet; high quality and great surface treatment, contact now!"
+description: "Thank you for contacting Woodsat. Our engineering team will respond to your wooden speaker cabinet manufacturing inquiry within 24 hours."
 params:
   wp_id: 104
   wp_type: page
@@ -14,8 +14,8 @@ params:
   title_source: "WP post_title - page has NO_H1, do not invent an H1"
   h1_status: NO_H1
   h1_count: 0
-  yoast_title: "Sub-woofer Wooden Box manufacturer"
-  focus_keyword: "Wooden Box manufacturer"
+  yoast_title: "Thank You | Woodsat"
+  focus_keyword: "Thank You"
   robots: "index, follow"
   canonical_intent: "https://woodsat.com/thanks/"
   rfq_anchor: false

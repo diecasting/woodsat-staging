@@ -1,0 +1,13 @@
+{
+  "expected_action": "https://formspree.io/f/xdaqjegz",
+  "action_present": true,
+  "method_POST": true,
+  "fields_present": {
+    "your-name": true,
+    "your-email": true,
+    "your-message": true
+  },
+  "regressions": 0,
+  "gate": "PASS",
+  "note": "Formspree endpoint + POST + 3 fields unchanged; Form changes = 0."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "page": "thanks",
+    "current_title": "Sub-woofer Wooden Box manufacturer",
+    "problem": "Title 'Sub-woofer Wooden Box manufacturer' does NOT match page content (a thank-you page, H1 empty). Misleading for users and SERPs.",
+    "opportunity": "Rewrite title to a thank-you/confirmation message (e.g., 'Thank You | Woodsat').",
+    "priority": "P1",
+    "gsc_evidence": "On-page (title vs content mismatch); no GSC needed."
+  },
+  {
+    "page": "about-us",
+    "current_title": "Custom Woodworking Manufacturer | Precision Craftsmanship",
+    "problem": "Title 'Custom Woodworking Manufacturer | Precision Craftsmanship' is generic: omits the core term 'speaker cabinet' and the brand 'Woodsat'.",
+    "opportunity": "Strengthen to include speaker-cabinet manufacturing + Woodsat brand while keeping it human.",
+    "priority": "P2",
+    "gsc_evidence": "On-page (brand/clarity); no GSC needed."
+  },
+  {
+    "page": "multiple commercial",
+    "current_title": "e.g. '... | Custom Audio Enclosure Factory' / '| OEM Audio Enclosures' / '| Premium Wooden Speaker Enclosures'",
+    "problem": "Six manufacturer pages share near-duplicate title suffix templates, reducing differentiation of the unique modifier (custom/oem/hifi/empty/box/enclosure).",
+    "opportunity": "Differentiate each title around its single unique modifier + a distinct benefit; avoid identical suffix boilerplate.",
+    "priority": "P3",
+    "gsc_evidence": "On-page (title templating); no GSC needed."
+  },
+  {
+    "page": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+    "current_title": "MDF vs. Baltic Birch Plywood for Speaker Cabinets | Woodsat",
+    "problem": "Page is commercial-classified but its H1 is an informational 'deep dive' comparison; title/template vs content intent is ambiguous.",
+    "opportunity": "Reframe as a manufacturer materials-specification/commercial page (what we stock & why) rather than a duplicate comparison to wooden-vs-mdf.",
+    "priority": "P2",
+    "gsc_evidence": "On-page (intent/title mismatch); no GSC needed."
+  },
+  {
+    "page": "site-wide",
+    "current_title": "meta_description present on all 25 pages (none missing)",
+    "problem": "No missing meta descriptions detected. Some commercial meta descriptions may be templated; recommend a light uniqueness pass.",
+    "opportunity": "Per-page unique meta description with the page's modifier + CTA (no rewrite this phase).",
+    "priority": "P3",
+    "gsc_evidence": "On-page (meta presence check)."
+  }
+]

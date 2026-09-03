@@ -1,0 +1,83 @@
+{
+  "phase": "4.16",
+  "title": "Commercial Keyword Architecture Implementation - Executive Decision Matrix",
+  "generated_utc": "2026-09-03T12:20:00Z",
+  "objective": "Resolve STRONG commercial keyword cannibalization identified in 4.15 by establishing ONE primary commercial landing page, differentiating 6 siblings by intent, and strengthening internal authority flow.",
+  "g_sc_data_available": false,
+  "hard_locks_respected": {
+    "wordpress_production_cloudflare_dns": true,
+    "schema_architecture": true,
+    "canonical_robots_sitemap": true,
+    "formspree": true,
+    "header_hero_footer_walnut_copper_sand": true,
+    "images": true,
+    "no_fabricated_content_or_gsc": true
+  },
+  "decisions": [
+    {
+      "id": "D1",
+      "decision": "Select custom-wooden-speaker-cabinet-manufacturer as the single primary",
+      "rationale": "4.15 rank-1 recommendation; broadest existing scope; lowest content-loss risk",
+      "status": "APPLIED"
+    },
+    {
+      "id": "D2",
+      "decision": "Broaden primary title/H1/focus to 'Wooden Speaker Cabinet Manufacturer'",
+      "rationale": "Own the generic head term unambiguously",
+      "status": "APPLIED"
+    },
+    {
+      "id": "D3",
+      "decision": "Keep 5 siblings + CNC with distinct intent-modified titles (no rewrite)",
+      "rationale": "Differentiate by intent, not duplicate",
+      "status": "APPLIED"
+    },
+    {
+      "id": "D4",
+      "decision": "Add commercial->commercial cross-link bands to 7 commercial pages",
+      "rationale": "Concentrate authority on primary; reduce STRONG cluster structurally",
+      "status": "APPLIED"
+    },
+    {
+      "id": "D5",
+      "decision": "Add 4 inbound contextual links to orphan mdf-vs-baltic-birch",
+      "rationale": "De-isolate the orphan (0 -> 4 inbound)",
+      "status": "APPLIED"
+    },
+    {
+      "id": "D6",
+      "decision": "Add 3 editorial->commercial relative links",
+      "rationale": "Primary receives editorial authority; CNC editorial links to CNC service",
+      "status": "APPLIED"
+    },
+    {
+      "id": "D7",
+      "decision": "Fix thanks title anomaly; improve about-us title (P1/P2)",
+      "rationale": "Remove 'Sub-woofer Wooden Box manufacturer' mis-title; align about-us",
+      "status": "APPLIED"
+    },
+    {
+      "id": "D8",
+      "decision": "Do NOT modify legacy https://woodsat.com/ body links or schema/canonical/form/visual",
+      "rationale": "HARD LOCKS; preserve all route/SEO/form/schema/visual behavior",
+      "status": "APPLIED"
+    }
+  ],
+  "acceptance_gates_total": 18,
+  "acceptance_gates_passed": 18,
+  "acceptance_gates_failed": 0,
+  "regression_summary": {
+    "seo": "PASS (0 regressions)",
+    "route": "PASS (0 4.16-introduced broken links; 15 pre-existing legacy missing-subpath documented, out of scope)",
+    "schema": "PASS (25 blocks, 0 github.io, no edits)",
+    "form": "PASS (Formspree endpoint intact)",
+    "visual": "PASS (additive bands only; no new colors/images/CSS)",
+    "content_loss": 0
+  },
+  "commit_policy": "Commit + push ONLY after all 18 gates pass -> all pass, authorized",
+  "out_of_scope_documented": [
+    "Legacy https://woodsat.com/ body links missing /woodsat-staging/ subpath (pre-existing render-link quirk; ROUTE HARD LOCK)",
+    "Pixel-level multi-viewport screenshots (no headless browser in sandbox; structural checks substituted)"
+  ],
+  "final_state": "PHASE_4.16 = COMMERCIAL_KEYWORD_ARCHITECTURE_IMPLEMENTED"
+}

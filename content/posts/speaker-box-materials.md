@@ -116,6 +116,11 @@ An eco-conscious architectural choice offering a superior tensile strength-to-we
 {{< /checklist >}}
 {{< /card >}}
 {{< /card-grid >}}
+
+{{< band bg="sand" >}}
+Want a side-by-side, factory-floor comparison of MDF versus Baltic Birch plywood? Read our [MDF vs Baltic Birch plywood speaker cabinet deep dive](/mdf-vs-baltic-birch-plywood-speaker-cabinets/) for the real damping, stiffness and routing trade-offs. When your design is finalized, our [wooden speaker cabinet manufacturer](/custom-wooden-speaker-cabinet-manufacturer/) service produces both substrates to spec.
+{{< /band >}}
+
 ## Request Expert Material Recommendation
 {{< band bg="warm" >}}
 From custom studio monitors to heavy-duty touring array enclosures, our engineering team assists you in selecting, cutting, and finishing the ideal substrate for your acoustic target.

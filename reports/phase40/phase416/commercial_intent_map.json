@@ -1,0 +1,87 @@
+{
+  "phase": "4.16",
+  "title": "Commercial Intent Ownership Map",
+  "generated_utc": "2026-09-03T12:12:00Z",
+  "primary_page": "custom-wooden-speaker-cabinet-manufacturer",
+  "intent_ownership": [
+    {
+      "slug": "custom-wooden-speaker-cabinet-manufacturer",
+      "role": "PRIMARY",
+      "owns_keyword": "wooden speaker cabinet manufacturer",
+      "intent": "Generic, full-capability manufacturer landing page. The hub all siblings and editorials link up to.",
+      "differentiators": ["broadest scope", "custom + OEM + ODM + CNC + finishing", "authority hub"],
+      "must_not_cannibalize": "must be the ONLY page targeting the bare 'wooden speaker cabinet manufacturer' head term"
+    },
+    {
+      "slug": "oem-wooden-speaker-cabinet-manufacturer",
+      "role": "SIBLING",
+      "owns_keyword": "OEM / ODM wooden speaker cabinet manufacturer",
+      "intent": "Contract manufacturing for brands that supply drawings/specs.",
+      "differentiators": ["OEM", "ODM", "brand-private production"],
+      "must_not_cannibalize": "stays on OEM/ODM intent; links to primary but keeps distinct focus"
+    },
+    {
+      "slug": "hifi-speaker-cabinet-manufacturer",
+      "role": "SIBLING",
+      "owns_keyword": "Hi-Fi / audiophile speaker cabinet manufacturer",
+      "intent": "High-end acoustic / audiophile enclosures.",
+      "differentiators": ["audiophile", "premium acoustic", "reference systems"],
+      "must_not_cannibalize": "stays on Hi-Fi intent"
+    },
+    {
+      "slug": "wooden-speaker-enclosure-manufacturer",
+      "role": "SIBLING",
+      "owns_keyword": "wooden speaker enclosure manufacturer",
+      "intent": "Acoustic enclosures with technical/acoustic emphasis.",
+      "differentiators": ["enclosure", "acoustic structure", "engineering"],
+      "must_not_cannibalize": "stays on enclosure terminology"
+    },
+    {
+      "slug": "wooden-speaker-box-manufacturer",
+      "role": "SIBLING",
+      "owns_keyword": "wooden speaker box manufacturer",
+      "intent": "Speaker boxes (general cabinets).",
+      "differentiators": ["box", "cabinet", "generalist"],
+      "must_not_cannibalize": "stays on 'box' terminology"
+    },
+    {
+      "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+      "role": "SIBLING",
+      "owns_keyword": "empty / blank wooden speaker cabinet boxes manufacturer",
+      "intent": "Unfinished / empty cabinets for DIY or finishing.",
+      "differentiators": ["empty", "blank", "unfinished", "DIY"],
+      "must_not_cannibalize": "stays on empty/blank intent; Hi-Fi card added for sibling coverage"
+    },
+    {
+      "slug": "speaker-cabinet-cnc-machining-service",
+      "role": "SERVICE",
+      "owns_keyword": "speaker cabinet CNC machining service",
+      "intent": "CNC machining as a process/service offering.",
+      "differentiators": ["CNC", "routing", "machining service"],
+      "must_not_cannibalize": "stays on the service/process angle, not the manufacturer head term"
+    },
+    {
+      "slug": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+      "role": "SUPPORT",
+      "owns_keyword": "high-gloss piano lacquer finishing process",
+      "intent": "Finishing capability (supporting, not a manufacturer landing page).",
+      "differentiators": ["finishing", "piano lacquer", "process"],
+      "must_not_cannibalize": "out of STRONG cluster; left unchanged"
+    },
+    {
+      "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "role": "ORPHAN (de-orphaned)",
+      "owns_keyword": "MDF vs Baltic Birch plywood speaker cabinet",
+      "intent": "Materials deep-dive from a manufacturer's perspective.",
+      "differentiators": ["materials", "comparison", "DFM trade-offs"],
+      "must_not_cannibalize": "editorial-style comparison; now receives inbound authority"
+    }
+  ],
+  "constraints": {
+    "exactly_one_primary": true,
+    "siblings_differentiated_by_intent": true,
+    "no_sitewide_title_rewrite": true,
+    "no_new_pages_created": true,
+    "no_faq_schema_added": true
+  }
+}

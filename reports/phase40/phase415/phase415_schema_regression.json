@@ -1,0 +1,10 @@
+{
+  "jsonld_present": true,
+  "@graph": true,
+  "Organization": true,
+  "WebPage": true,
+  "BreadcrumbList": true,
+  "regressions": 0,
+  "gate": "PASS",
+  "note": "JSON-LD @graph with Organization/WebPage/Breadcrumb present; no changes this phase (Schema changes = 0)."
+}

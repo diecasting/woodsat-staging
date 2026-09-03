@@ -174,6 +174,11 @@ Speaker cabinets aren’t just boxes – they’re **acoustic instruments** that
 {{< /checklist >}}
 {{< /card >}}
 {{< /card-grid >}}
+
+{{< band bg="sand" >}}
+Comparing MDF and Baltic Birch plywood for your next enclosure? Our engineering team wrote a [factory-floor MDF vs Baltic Birch plywood deep dive](/mdf-vs-baltic-birch-plywood-speaker-cabinets/) covering damping, stiffness and DFM routing trade-offs. When you are ready to build, our [wooden speaker cabinet manufacturing team](/custom-wooden-speaker-cabinet-manufacturer/) can help you choose the right substrate and finish.
+{{< /band >}}
+
 ## Expert Recommendations
 {{< band bg="warm" >}}
 After building cabinets for clients like Sony Music and Dolby Labs, we recommend:

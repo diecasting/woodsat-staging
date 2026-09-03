@@ -1,0 +1,50 @@
+[
+  {
+    "query": "wooden speaker cabinet manufacturer (cluster)",
+    "page": "custom-wooden-speaker-cabinet-manufacturer",
+    "position": "GSC_NOT_AVAILABLE",
+    "impressions": "GSC_NOT_AVAILABLE",
+    "clicks": "GSC_NOT_AVAILABLE",
+    "ctr": "GSC_NOT_AVAILABLE",
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "why_it_matters": "Six pages compete for the bare head term; designating one primary + differentiating siblings can consolidate authority with zero new content.",
+    "recommended_action": "Assign primary page + modifier-differentiated H1/titles + internal cross-links.",
+    "priority": "P1"
+  },
+  {
+    "query": "thanks page title",
+    "page": "thanks",
+    "position": "GSC_NOT_AVAILABLE",
+    "impressions": "GSC_NOT_AVAILABLE",
+    "clicks": "GSC_NOT_AVAILABLE",
+    "ctr": "GSC_NOT_AVAILABLE",
+    "intent": "NAVIGATIONAL",
+    "why_it_matters": "Title currently mismatches content; cheap, safe metadata correctness fix.",
+    "recommended_action": "Rewrite title to thank-you/confirmation.",
+    "priority": "P1"
+  },
+  {
+    "query": "mdf-vs-baltic-birch (orphan)",
+    "page": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+    "position": "GSC_NOT_AVAILABLE",
+    "impressions": "GSC_NOT_AVAILABLE",
+    "clicks": "GSC_NOT_AVAILABLE",
+    "ctr": "GSC_NOT_AVAILABLE",
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "why_it_matters": "0 inbound internal links; a high-quality deep-dive page is completely orphaned.",
+    "recommended_action": "Add contextual inbound links from commercial cabinet pages + wooden-vs-mdf.",
+    "priority": "P1"
+  },
+  {
+    "query": "CNC wood routing (cluster)",
+    "page": "speaker-cabinet-cnc-machining-service",
+    "position": "GSC_NOT_AVAILABLE",
+    "impressions": "GSC_NOT_AVAILABLE",
+    "clicks": "GSC_NOT_AVAILABLE",
+    "ctr": "GSC_NOT_AVAILABLE",
+    "intent": "COMMERCIAL_INVESTIGATION",
+    "why_it_matters": "Editorial + commercial page cover same topic; consolidating to one primary avoids split.",
+    "recommended_action": "Make commercial page primary; editorial links to it.",
+    "priority": "P1"
+  }
+]

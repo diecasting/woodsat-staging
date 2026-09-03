@@ -100,6 +100,11 @@ Our tools cut complex driver recess profiles. This ensures clean flush-mounting 
 We offer fast production scaling for [custom speaker designs](https://woodsat.com/custom-wooden-speaker-enclosures-manufacturer/). Usually, we finish initial prototypes within 3 to 5 business days.
 {{< /card >}}
 {{< /card-grid >}}
+
+{{< band bg="sand" >}}
+Routing MDF and Baltic Birch plywood demands different tooling strategies on the factory floor. Our [MDF vs Baltic Birch plywood comparison](/mdf-vs-baltic-birch-plywood-speaker-cabinets/) explains the DFM trade-offs in detail. For production-scale machining, our [speaker cabinet CNC machining service](/speaker-cabinet-cnc-machining-service/) delivers ±0.1mm tolerance on both substrates.
+{{< /band >}}
+
 ## Get a CNC Wood Routing RFQ
 {{< band bg="warm" >}}
 Please upload your DXF or STEP design files today. Our engineering team will send a detailed cost estimate within 24 hours.

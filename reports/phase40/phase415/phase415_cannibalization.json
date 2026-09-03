@@ -1,0 +1,89 @@
+[
+  {
+    "query_cluster": "wooden-speaker-cabinet/box/enclosure-manufacturer",
+    "pages": [
+      "custom-wooden-speaker-cabinet-manufacturer",
+      "oem-wooden-speaker-cabinet-manufacturer",
+      "hifi-speaker-cabinet-manufacturer",
+      "wooden-speaker-enclosure-manufacturer",
+      "wooden-speaker-box-manufacturer",
+      "custom-empty-wooden-speaker-cabinet-boxes-manufacturer"
+    ],
+    "head_term": "wooden speaker cabinet / box / enclosure manufacturer",
+    "evidence": "Six commercial pages target near-identical head terms in title+H1 (manufacturer of wooden speaker cabinet/box/enclosure). They differ only by modifiers (custom/oem/hifi/empty) and by noun (cabinet/box/enclosure). Search engines may split authority across all six.",
+    "likely_primary": "custom-wooden-speaker-cabinet-manufacturer (broadest, most modifier-inclusive H1)",
+    "secondary_pages": [
+      "wooden-speaker-box-manufacturer",
+      "wooden-speaker-enclosure-manufacturer",
+      "oem-wooden-speaker-cabinet-manufacturer",
+      "hifi-speaker-cabinet-manufacturer",
+      "custom-empty-wooden-speaker-cabinet-boxes-manufacturer"
+    ],
+    "severity": "STRONG",
+    "recommended_resolution": "Designate ONE primary 'wooden speaker cabinet manufacturer' page; differentiate siblings by a single clear modifier (use-case: hifi / oem / empty-box / enclosure) with distinct H1 angle + internal cross-links so each ranks for its own modifier rather than competing for the bare head term."
+  },
+  {
+    "query_cluster": "cnc-routing",
+    "pages": [
+      "custom-cnc-wood-routing-services",
+      "speaker-cabinet-cnc-machining-service"
+    ],
+    "head_term": "CNC wood routing / machining for speaker cabinets",
+    "evidence": "An editorial post (custom-cnc-wood-routing-services) and a commercial page (speaker-cabinet-cnc-machining-service) cover the same capability from the same site, in different sections, with overlapping H2s (CNC workflow, specifications, RFQ).",
+    "likely_primary": "speaker-cabinet-cnc-machining-service (commercial, conversion-oriented)",
+    "secondary_pages": [
+      "custom-cnc-wood-routing-services"
+    ],
+    "severity": "LIKELY",
+    "recommended_resolution": "Make the commercial page the primary CNC target; rewrite the editorial post to be a deep technical guide that links strongly to the commercial service page (currently weak cross-link)."
+  },
+  {
+    "query_cluster": "mdf-vs-wood",
+    "pages": [
+      "wooden-vs-mdf-speaker-cabinets",
+      "mdf-vs-baltic-birch-plywood-speaker-cabinets"
+    ],
+    "head_term": "MDF vs wood / Baltic birch for speaker cabinets",
+    "evidence": "Two pages cover the same comparison: an editorial 'wooden vs mdf' and a commercial-classified 'mdf vs baltic birch'. The commercial one carries an informational comparison H1, creating intent ambiguity.",
+    "likely_primary": "wooden-vs-mdf-speaker-cabinets (clearer informational intent)",
+    "secondary_pages": [
+      "mdf-vs-baltic-birch-plywood-speaker-cabinets"
+    ],
+    "severity": "LIKELY",
+    "recommended_resolution": "Keep the editorial comparison as the primary informational asset; reframe the 'mdf vs baltic birch' page as a manufacturer-specification/commercial page (materials we stock & why) rather than a duplicate comparison."
+  },
+  {
+    "query_cluster": "materials-wood",
+    "pages": [
+      "best-wood-for-speaker-boxes",
+      "speaker-box-materials",
+      "acoustic-wood-speaker-enclosures"
+    ],
+    "head_term": "best wood / materials for speaker boxes",
+    "evidence": "Three editorial pages approach the same 'which wood/material' topic with overlapping H2s (wood comparison, acoustic properties). Less severe because each has a distinct angle (best choices / materials matrix / acoustic science).",
+    "likely_primary": "best-wood-for-speaker-boxes (highest commercial-adjacent intent)",
+    "secondary_pages": [
+      "speaker-box-materials",
+      "acoustic-wood-speaker-enclosures"
+    ],
+    "severity": "POSSIBLE",
+    "recommended_resolution": "Interlink the three so they form a clear topical cluster; avoid rewriting into one page (distinct reader intents)."
+  },
+  {
+    "query_cluster": "finishes",
+    "pages": [
+      "speaker-box-finishes",
+      "speaker-box-veneering",
+      "high-gloss-piano-lacquer-finishing-process-wood-speakers"
+    ],
+    "head_term": "speaker box finishing / veneering / lacquer",
+    "evidence": "Three finish pages (two editorial: finishes, veneering; one commercial: piano lacquer). Distinct sub-topics, low cannibalization risk, but worth explicit cross-linking.",
+    "likely_primary": "high-gloss-piano-lacquer-finishing-process-wood-speakers (commercial)",
+    "secondary_pages": [
+      "speaker-box-finishes",
+      "speaker-box-veneering"
+    ],
+    "severity": "POSSIBLE",
+    "recommended_resolution": "Cross-link finishes <-> veneering <-> lacquer to build a finishes topical cluster."
+  }
+]
