@@ -550,6 +550,16 @@ body.page-home main .page-content { max-width: var(--maxw); margin: 0 auto; padd
 }
 .rfq-form button:hover { background: var(--wood-copper-800); }
 
+/* PHASE 4.11.2 — RFQ form placed inside a split (contact page IMAGE | FORM).
+   Reuses .split-feature rather than adding a page-specific component; these two
+   rules just neutralise the standalone-form card margin so the form column
+   aligns with the image column. No form logic, fields or labels are touched. */
+.split-feature__body > .rfq:first-child { margin-top: 0; }
+.split-feature__body > .rfq:last-child { margin-bottom: 0; }
+@media (max-width: 640px) {
+  .rfq-form button { width: 100%; }
+}
+
 /* ---------- FOOTER ----------------------------------------------------- */
 .site-footer {
   background: linear-gradient(160deg, var(--wood-walnut-900), var(--wood-walnut-600) 55%, var(--wood-walnut));
