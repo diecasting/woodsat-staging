@@ -1,0 +1,112 @@
+{
+  "gate": "PASS",
+  "overflow_pages": 0,
+  "broken_images": 0,
+  "viewport": "1280x900",
+  "per_page": [
+    {
+      "slug": "best-wood-for-speaker-boxes",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "wooden-vs-mdf-speaker-cabinets",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "custom-cnc-wood-routing-services",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "acoustic-wood-speaker-enclosures",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "speaker-box-calculator",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "speaker-box-finishes",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "speaker-box-materials",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "speaker-box-veneering",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "speaker-cabinet-manufacturing",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "subwoofer-enclosure-design",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    },
+    {
+      "slug": "wooden-speaker-cabinet-designs",
+      "status": 200,
+      "overflow_px": 0,
+      "overflow": false,
+      "image_count": 0,
+      "broken_images": 0
+    }
+  ]
+}

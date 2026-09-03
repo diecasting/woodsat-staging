@@ -1,0 +1,19 @@
+{
+  "objective": "Upgrade 13 editorial/technical pages to professional editorial layouts WITHOUT changing content, SEO, schema, URLs, or links.",
+  "method": "Lossless structural transformer (reports/phase40/phase413/_harness/transform.py) applied once per page from clean HEAD.",
+  "rules": [
+    "Intro + prose paragraphs wrapped in {{< band >}} (4.12 CSS already constrains width to 760px).",
+    "Bulleted lists converted to {{< checklist >}} (2 columns).",
+    "H3 subsections become {{< card-grid >}} with a {{< card >}} per subsection (title -> h3).",
+    "H4 steps directly under an H2 become a FAQ-style {{< card-grid cols=1 >}} (leading intro preserved).",
+    "Orphan comparison tables (terse cells, no sentence punctuation, with a bold label or numeric hint) converted to {{< card-grid >}} cards with a Comparison Overview header.",
+    "rfq-form shortcode emitted bare (its partial renders its own <section id=rfq>); never nested in a band/markdownify.",
+    "No markdown wrapped in raw <div> (Goldmark would disable link/bold rendering)."
+  ],
+  "constraints": [
+    "heading/paragraph/list/link loss = 0",
+    "overflow = 0",
+    "broken images = 0",
+    "credentials/SEO/route/canonical/JSON-LD unchanged"
+  ]
+}

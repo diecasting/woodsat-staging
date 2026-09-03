@@ -32,129 +32,169 @@ params:
   MANUAL_REVIEW: "two H1 candidates preserved, not merged"
   migration_title_status: REQUIRES_MANUAL_REVIEW
 ---
+{{< band bg="sand" >}}
 Discover how wood and MDF transform sound quality in our comprehensive engineering analysis
-
+{{< /band >}}
 # Wood vs MDF Speaker Cabinets: The Complete Comparison
-
+{{< band bg="sand" >}}
 Selecting the right cabinet material is the most critical decision in speaker design. At Woodsat, we’ve manufactured over 5,000 speaker cabinets using both solid wood and MDF, and this comprehensive guide reveals everything we’ve learned about how material choice impacts sound quality, durability, and value.
-
+{{< /band >}}
 ## The Science Behind Speaker Cabinet Materials
-
+{{< band bg="warm" >}}
 Speaker cabinets aren’t just boxes – they’re **acoustic instruments** that directly affect sound reproduction. When drivers vibrate, they create backwaves that interact with the cabinet walls. The material’s density, internal damping, and stiffness determine how these vibrations are controlled.
-
-### Material Density Comparison
-
-Material
-Density (kg/m³)
-Speed of Sound
-Internal Damping
-
-Baltic Birch Plywood
-680-720
-3300 m/s
-Medium
-
-MDF (Medium Density)
-700-750
-2400 m/s
-High
-
-American Cherry
-580-620
-3600 m/s
-Low-Medium
-
-European Oak
-740-790
-3800 m/s
-Low
-
+{{< /band >}}
+{{< card-grid cols=2 >}}
+{{< card title="Material Density Comparison" >}}
+{{< card-grid cols=2 >}}
+{{< card title="Material" >}}
+- Density (kg/m³)
+- Speed of Sound
+- Internal Damping
+{{< /card >}}
+{{< /card-grid >}}
+{{< card-grid cols=2 >}}
+{{< card title="Baltic Birch Plywood" >}}
+- 680-720
+- 3300 m/s
+- Medium
+{{< /card >}}
+{{< card title="MDF (Medium Density)" >}}
+- 700-750
+- 2400 m/s
+- High
+{{< /card >}}
+{{< card title="American Cherry" >}}
+- 580-620
+- 3600 m/s
+- Low-Medium
+{{< /card >}}
+{{< card title="European Oak" >}}
+- 740-790
+- 3800 m/s
+- Low
+{{< /card >}}
+{{< /card-grid >}}
+{{< /card >}}
+{{< /card-grid >}}
 ## Detailed Material Analysis
-
 ### Solid Wood Cabinets
-
-#### ✓ Advantages
-
-- **Natural Sound Enhancement**: Hardwoods like mahogany add pleasing harmonics in the 200-2000Hz range, creating a “warm” sound signature preferred by audiophiles.
-
-- **Structural Integrity**: Properly seasoned wood develops 3-5 times greater tensile strength than MDF, resisting deformation in large enclosures.
-
-- **Moisture Resistance**: Closed-grain woods (e.g., maple) with our [professional finishes](https://woodsat.com/speaker-box-finishes/) withstand 60-80% humidity with minimal expansion.
-
-- **Aesthetic Value**: Each piece develops unique patina over time, increasing in visual appeal (see our [design gallery](https://woodsat.com/wooden-speaker-cabinet-designs/)).
-
-#### ✗ Disadvantages
-
-- **Cost Premium**: High-end woods cost $8-15 per board foot versus $1-3 for MDF sheets.
-
-- **Seasoning Requirements**: We kiln-dry all wood to 6-8% moisture content to prevent future warping.
-
-- **Weight Considerations**: A 2ft³ oak cabinet weighs ~45lbs vs 35lbs for MDF.
-
+{{< card-grid cols=1 >}}
+{{< card title="✓ Advantages" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Natural Sound Enhancement**: Hardwoods like mahogany add pleasing harmonics in the 200-2000Hz range, creating a “warm” sound signature preferred by audiophiles.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Structural Integrity**: Properly seasoned wood develops 3-5 times greater tensile strength than MDF, resisting deformation in large enclosures.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Moisture Resistance**: Closed-grain woods (e.g., maple) with our [professional finishes](https://woodsat.com/speaker-box-finishes/) withstand 60-80% humidity with minimal expansion.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Aesthetic Value**: Each piece develops unique patina over time, increasing in visual appeal (see our [design gallery](https://woodsat.com/wooden-speaker-cabinet-designs/)).{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /card >}}
+{{< card title="✗ Disadvantages" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Cost Premium**: High-end woods cost $8-15 per board foot versus $1-3 for MDF sheets.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Seasoning Requirements**: We kiln-dry all wood to 6-8% moisture content to prevent future warping.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Weight Considerations**: A 2ft³ oak cabinet weighs ~45lbs vs 35lbs for MDF.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /card >}}
+{{< /card-grid >}}
 ### MDF Cabinets
-
-#### ✓ Advantages
-
-- **Consistent Performance**: Uniform density (±2% variation) ensures predictable frequency response across production batches.
-
-- **Vibration Control**: The resin binder in MDF provides 30% better damping than most woods at 100-500Hz.
-
-- **Manufacturing Precision**: Our [CNC routing services](https://woodsat.com/custom-cnc-wood-routing-services/) achieve ±0.2mm tolerances consistently.
-
-- **Cost Efficiency**: Material costs are 60-70% lower than premium woods.
-
-#### ✗ Disadvantages
-
-- **Humidity Sensitivity**: Unsealed MDF can swell up to 15% in thickness when exposed to moisture.
-
-- **Screw Holding**: Requires threaded inserts or bonding nuts for secure driver mounting.
-
-- **Aesthetic Limitations**: Requires veneers (added $25-50/cabinet) to match wood’s visual appeal.
-
-### Real-World Case Study: Recording Studio Monitor Upgrade
-
+{{< card-grid cols=1 >}}
+{{< card title="✓ Advantages" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Consistent Performance**: Uniform density (±2% variation) ensures predictable frequency response across production batches.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Vibration Control**: The resin binder in MDF provides 30% better damping than most woods at 100-500Hz.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Manufacturing Precision**: Our [CNC routing services](https://woodsat.com/custom-cnc-wood-routing-services/) achieve ±0.2mm tolerances consistently.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Cost Efficiency**: Material costs are 60-70% lower than premium woods.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /card >}}
+{{< card title="✗ Disadvantages" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Humidity Sensitivity**: Unsealed MDF can swell up to 15% in thickness when exposed to moisture.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Screw Holding**: Requires threaded inserts or bonding nuts for secure driver mounting.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Aesthetic Limitations**: Requires veneers (added $25-50/cabinet) to match wood’s visual appeal.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /card >}}
+{{< /card-grid >}}
+{{< card-grid cols=1 >}}
+{{< card title="Real-World Case Study: Recording Studio Monitor Upgrade" >}}
 **Client:** Blue Wave Studios (Nashville, TN)
-
 **Challenge:** Needed monitors with both accurate response and visual appeal for control room
-
 **Our Solution:** Hybrid construction using 18mm Baltic birch plywood for structural rigidity with 6mm walnut veneered MDF baffles for precise midrange reproduction. The result:
-
-- 3dB smoother response between 500-3000Hz compared to all-MDF competitors
-
-- 20% reduction in cabinet resonance at 280Hz (measured with accelerometers)
-
-- Client reported “immediate improvement in mix translation” to other playback systems
-
+{{< checklist cols=2 >}}
+{{< checklist-item >}}3dB smoother response between 500-3000Hz compared to all-MDF competitors{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}20% reduction in cabinet resonance at 280Hz (measured with accelerometers){{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}Client reported “immediate improvement in mix translation” to other playback systems{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /card >}}
+{{< /card-grid >}}
 ## Material Selection Guide
-
-### When to Choose Wood:
-
-- **High-End Home Audio**: Where both sound quality and furniture-grade aesthetics matter
-
-- **Vintage Speaker Restoration**: Maintaining original acoustic character
-
-- **Humid Environments**: Coastal areas or tropical climates where MDF may degrade
-
-### When to Choose MDF:
-
-- **Professional Studio Monitors**: Where neutral response is critical
-
-- **Subwoofer Enclosures**: Especially for frequencies below 100Hz (see our [subwoofer design guide](https://woodsat.com/subwoofer-enclosure-design/))
-
-- **Budget-Conscious Projects**: Where $/performance ratio is key
-
+{{< card-grid cols=2 >}}
+{{< card title="When to Choose Wood:" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**High-End Home Audio**: Where both sound quality and furniture-grade aesthetics matter{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Vintage Speaker Restoration**: Maintaining original acoustic character{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Humid Environments**: Coastal areas or tropical climates where MDF may degrade{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /card >}}
+{{< card title="When to Choose MDF:" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Professional Studio Monitors**: Where neutral response is critical{{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Subwoofer Enclosures**: Especially for frequencies below 100Hz (see our [subwoofer design guide](https://woodsat.com/subwoofer-enclosure-design/)){{< /checklist-item >}}
+{{< /checklist >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Budget-Conscious Projects**: Where $/performance ratio is key{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /card >}}
+{{< /card-grid >}}
 ## Expert Recommendations
-
+{{< band bg="warm" >}}
 After building cabinets for clients like Sony Music and Dolby Labs, we recommend:
-
-- **For audiophile bookshelf speakers**: 15-18mm solid cherry or walnut with internal bracing
-
-- **For PA systems**: 18-25mm void-free plywood with bitumen damping
-
-- **For home theater**: 25mm MDF with constrained layer damping (ask about our [advanced materials](https://woodsat.com/speaker-box-materials/))
-
+{{< /band >}}
+{{< band bg="warm" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**For audiophile bookshelf speakers**: 15-18mm solid cherry or walnut with internal bracing{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /band >}}
+{{< band bg="warm" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**For PA systems**: 18-25mm void-free plywood with bitumen damping{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /band >}}
+{{< band bg="warm" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**For home theater**: 25mm MDF with constrained layer damping (ask about our [advanced materials](https://woodsat.com/speaker-box-materials/)){{< /checklist-item >}}
+{{< /checklist >}}
+{{< /band >}}
 ### Get Personalized Advice From Our Engineers
-
+{{< band bg="sand" >}}
 Every project has unique requirements. Our team can help you select the perfect material and design for your specific needs.
-
+{{< /band >}}
 {{< rfq-form >}}

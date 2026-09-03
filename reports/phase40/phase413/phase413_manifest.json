@@ -1,0 +1,35 @@
+{
+  "phase": "4.13 EDITORIAL_CONTENT_LAYOUT_REDESIGN",
+  "final_gate": "EDITORIAL_LAYOUT_PASS",
+  "content_preservation": "PASS",
+  "visual_regression": "PASS",
+  "deliverables": [
+    "phase413_target_inventory.json",
+    "phase413_before_baseline.json",
+    "phase413_layout_plan.json",
+    "phase413_content_preservation.json",
+    "phase413_visual_changes.json",
+    "phase413_visual_validation.json",
+    "phase413_seo_regression.json",
+    "phase413_route_regression.json",
+    "phase413_form_regression.json",
+    "phase413_screenshot_index.md",
+    "phase413_report.md",
+    "phase413_manifest.json"
+  ],
+  "screenshots": [
+    "acoustic-wood-speaker-enclosures.png",
+    "best-wood-for-speaker-boxes.png",
+    "custom-cnc-wood-routing-services.png",
+    "high-gloss-piano-lacquer-finishing-process-wood-speakers.png",
+    "mdf-vs-baltic-birch-plywood-speaker-cabinets.png",
+    "speaker-box-calculator.png",
+    "speaker-box-finishes.png",
+    "speaker-box-materials.png",
+    "speaker-box-veneering.png",
+    "speaker-cabinet-manufacturing.png",
+    "subwoofer-enclosure-design.png",
+    "wooden-speaker-cabinet-designs.png",
+    "wooden-vs-mdf-speaker-cabinets.png"
+  ]
+}

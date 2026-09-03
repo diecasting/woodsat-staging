@@ -1,0 +1,135 @@
+{
+  "summary": "All 13 pages relaid out with band/card-grid/checklist components; orphan tables converted to cards; rfq-form preserved bare.",
+  "per_page": {
+    "best-wood-for-speaker-boxes": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 24,
+        "card_grid": 7,
+        "card": 12,
+        "checklist": 24,
+        "rfq_form": 1
+      }
+    },
+    "mdf-vs-baltic-birch-plywood-speaker-cabinets": {
+      "kind": "page",
+      "shortcodes": {
+        "band": 21,
+        "card_grid": 1,
+        "card": 2,
+        "checklist": 0,
+        "rfq_form": 1
+      }
+    },
+    "wooden-vs-mdf-speaker-cabinets": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 8,
+        "card_grid": 7,
+        "card": 13,
+        "checklist": 52,
+        "rfq_form": 1
+      }
+    },
+    "custom-cnc-wood-routing-services": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 7,
+        "card_grid": 4,
+        "card": 13,
+        "checklist": 0,
+        "rfq_form": 1
+      }
+    },
+    "high-gloss-piano-lacquer-finishing-process-wood-speakers": {
+      "kind": "page",
+      "shortcodes": {
+        "band": 18,
+        "card_grid": 1,
+        "card": 3,
+        "checklist": 0,
+        "rfq_form": 1
+      }
+    },
+    "acoustic-wood-speaker-enclosures": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 18,
+        "card_grid": 10,
+        "card": 14,
+        "checklist": 18,
+        "rfq_form": 1
+      }
+    },
+    "speaker-box-calculator": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 35,
+        "card_grid": 4,
+        "card": 5,
+        "checklist": 6,
+        "rfq_form": 0
+      }
+    },
+    "speaker-box-finishes": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 13,
+        "card_grid": 7,
+        "card": 11,
+        "checklist": 10,
+        "rfq_form": 1
+      }
+    },
+    "speaker-box-materials": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 6,
+        "card_grid": 7,
+        "card": 12,
+        "checklist": 6,
+        "rfq_form": 1
+      }
+    },
+    "speaker-box-veneering": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 14,
+        "card_grid": 8,
+        "card": 12,
+        "checklist": 12,
+        "rfq_form": 1
+      }
+    },
+    "speaker-cabinet-manufacturing": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 11,
+        "card_grid": 3,
+        "card": 10,
+        "checklist": 8,
+        "rfq_form": 1
+      }
+    },
+    "subwoofer-enclosure-design": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 10,
+        "card_grid": 4,
+        "card": 9,
+        "checklist": 18,
+        "rfq_form": 1
+      }
+    },
+    "wooden-speaker-cabinet-designs": {
+      "kind": "post",
+      "shortcodes": {
+        "band": 11,
+        "card_grid": 8,
+        "card": 12,
+        "checklist": 62,
+        "rfq_form": 1
+      }
+    }
+  }
+}

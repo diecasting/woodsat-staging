@@ -28,98 +28,128 @@ params:
   content_sha256: 576f1aa2ee0779d64890306b18185b4c3d3a49c2e9a2d83a9cba64a81dd7edcf
   migration_title_status: CONFIRMED
 ---
+{{< band bg="sand" >}}
 Expert wood veneer application methods engineered to create premium, durable acoustic cabinet surfaces.
-
+{{< /band >}}
+{{< band bg="sand" >}}
 Woodsat specializes in high-precision **speaker box veneering** services for OEM partners worldwide. We handle complex geometric enclosures carefully. Furthermore, our calibrated pressing methods eliminate glue starvation. Therefore, our beautiful wood surfaces protect the underlying cabinetry while maintaining excellent resonance profiles.
-
+{{< /band >}}
 ## Veneering Techniques for Acoustic Cabinets
-
+{{< band bg="warm" >}}
 First, explore our foundational veneering techniques. We calibrate these specific methods to meet high-end audio aesthetic standards.
-
-### Book-Matched Veneering
-
+{{< /band >}}
+{{< card-grid cols=3 >}}
+{{< card title="Book-Matched Veneering" >}}
 Sequential wood slicing creates perfectly symmetrical patterns. This method fits premium, luxury [high-end speaker pairs](https://woodsat.com/high-quality-speaker-enclosures/) beautifully. However, it requires precise manual grain alignment.
-
-### Continuous Corner Wrap
-
+{{< /card >}}
+{{< card title="Continuous Corner Wrap" >}}
 We utilize single-piece veneer sheets around structural corners. This step yields smooth, [diffraction-free edges](https://woodsat.com/acoustic-wood-speaker-enclosures/). Consequently, it works best for clean, built-in custom speaker boxes.
-
-### Lacquer-Ready Veneering
-
+{{< /card >}}
+{{< card title="Lacquer-Ready Veneering" >}}
 We deploy special polyurethane pore fillers onto the wood sheet. Next, operators sand the substrate down completely. This technique prepares the surface for high-gloss [speaker box finishes](https://woodsat.com/speaker-box-finishes/).
-
+{{< /card >}}
+{{< /card-grid >}}
 ## Technical Wood Veneer Comparison Matrix
-
+{{< band bg="warm" >}}
 Next, evaluate our core inventory materials to determine the ideal raw substrate thickness for your audio setup:
-
-Veneer Type
-Standard Thickness
-Best Production Use
-Structural Acoustic Impact
-
-**Peel-and-Stick Backed**
-0.6mm
-Rapid prototyping & [DIY projects](https://woodsat.com/speaker-box-calculator/)
-Minimal damping effect
-
-**Raw Wood Veneer**
-0.4mm – 0.8mm
-Premium [professional cabinets](https://woodsat.com/loudspeaker-cabinet-manufacturer/)
-Preserves natural organic cabinet resonance
-
-**Reconstituted Veneer**
-0.3mm – 1.2mm
-High-volume [painted substrates](https://woodsat.com/speaker-box-finishes/)
-Slightly dampens extreme high frequencies
-
+{{< /band >}}
+{{< card-grid cols=2 >}}
+{{< card title="Comparison Overview" >}}
+- Veneer Type
+- Standard Thickness
+- Best Production Use
+- Structural Acoustic Impact
+{{< /card >}}
+{{< /card-grid >}}
+{{< card-grid cols=2 >}}
+{{< card title="Peel-and-Stick Backed" >}}
+- 0.6mm
+- Rapid prototyping & [DIY projects](https://woodsat.com/speaker-box-calculator/)
+- Minimal damping effect
+{{< /card >}}
+{{< /card-grid >}}
+{{< card-grid cols=2 >}}
+{{< card title="Raw Wood Veneer" >}}
+- 0.4mm – 0.8mm
+- Premium [professional cabinets](https://woodsat.com/loudspeaker-cabinet-manufacturer/)
+- Preserves natural organic cabinet resonance
+{{< /card >}}
+{{< /card-grid >}}
+{{< card-grid cols=2 >}}
+{{< card title="Reconstituted Veneer" >}}
+- 0.3mm – 1.2mm
+- High-volume [painted substrates](https://woodsat.com/speaker-box-finishes/)
+- Slightly dampens extreme high frequencies
+{{< /card >}}
+{{< /card-grid >}}
 ## Advanced Production Veneering Methods
-
+{{< band bg="warm" >}}
 Furthermore, our facility runs heavy mechanical presses. This equipment allows us to handle specialized materials for demanding engineering jobs.
-
-### Automotive-Grade Processing
-
+{{< /band >}}
+{{< card-grid cols=3 >}}
+{{< card title="Automotive-Grade Processing" >}}
 We bond flexible backed sheets using specialized temperature-resistant adhesives. Therefore, the resulting wood surfaces withstand heavy vibration inside [mobile audio applications](https://woodsat.com/subwoofer-enclosure-design/) easily.
-
-### Substrate Surface Optimization
-
+{{< /card >}}
+{{< card title="Substrate Surface Optimization" >}}
 Our engineers sand industrial-grade [Baltic birch plywood](https://woodsat.com/speaker-box-materials/) down flawlessly. This rigorous preparation process stops wood-grain telegraphing or bubbling defects completely.
-
-### Vacuum Press Bonding
-
+{{< /card >}}
+{{< card title="Vacuum Press Bonding" >}}
 Industrial machinery applies equalized 360-degree force across the assembly. Consequently, this step forces veneer onto [complex cabinet shapes](https://woodsat.com/custom-speaker-and-subwoofer-cabinet-box-factory/) without creating dry voids.
-
+{{< /card >}}
+{{< /card-grid >}}
 ## Our Step-by-Step Veneering Process
-
+{{< band bg="warm" >}}
 We execute six rigid procedural phases to ensure professional-grade surface adhesion across all production lots:
-
-- **Substrate Preparation:** First, we sand raw [MDF or plywood](https://woodsat.com/speaker-box-materials/) down to 220 grit using precision CNC machinery.
-
-- **Veneer Material Selection:** Next, experts match unique wood sheets to build consistent [multi-cabinet audio systems](https://woodsat.com/custom-wooden-speaker-enclosures-manufacturer/).
-
-- **Adhesive Coating Application:** Then, we apply premium heat-activated glues featuring a safe 40-minute open window.
-
-- **Thermal Press Curing:** Subsequently, hydraulic tools deliver 90 PSI of continuous pressure at 150°F for two full hours.
-
-- **Precision Edge Trimming:** Next, automated router bits trim flashing back smoothly along bearing guides.
-
-- **Final Micro-Sanding:** Finally, operators sand the panels up to 400 grit to achieve optimal pore-filling performance.
-
+{{< /band >}}
+{{< band bg="warm" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Substrate Preparation:** First, we sand raw [MDF or plywood](https://woodsat.com/speaker-box-materials/) down to 220 grit using precision CNC machinery.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /band >}}
+{{< band bg="warm" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Veneer Material Selection:** Next, experts match unique wood sheets to build consistent [multi-cabinet audio systems](https://woodsat.com/custom-wooden-speaker-enclosures-manufacturer/).{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /band >}}
+{{< band bg="warm" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Adhesive Coating Application:** Then, we apply premium heat-activated glues featuring a safe 40-minute open window.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /band >}}
+{{< band bg="warm" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Thermal Press Curing:** Subsequently, hydraulic tools deliver 90 PSI of continuous pressure at 150°F for two full hours.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /band >}}
+{{< band bg="warm" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Precision Edge Trimming:** Next, automated router bits trim flashing back smoothly along bearing guides.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /band >}}
+{{< band bg="warm" >}}
+{{< checklist cols=2 >}}
+{{< checklist-item >}}**Final Micro-Sanding:** Finally, operators sand the panels up to 400 grit to achieve optimal pore-filling performance.{{< /checklist-item >}}
+{{< /checklist >}}
+{{< /band >}}
 ## Get Custom Veneer Samples
-
+{{< band bg="warm" >}}
 Tell our engineering group about your structural cabinet requirements. We will send tailored recommendations within 24 hours.
-
+{{< /band >}}
 {{< rfq-form >}}
-
+{{< band bg="warm" >}}
 Want to test real-time panel configurations? Try our interactive [3D veneer visualizer](https://woodsat.com/custom-speaker-cabinet-builder/) now.
-
-### Woodsat Acoustics Co., Ltd.
-
-Industrial Zone, TangXia Town,
-DongGuan,
-GD,
-523721
-
+{{< /band >}}
+{{< card-grid cols=2 >}}
+{{< card title="Woodsat Acoustics Co., Ltd." >}}
+{{< card-grid cols=2 >}}
+{{< card title="Industrial Zone, TangXia Town," >}}
+- DongGuan,
+- GD,
+- 523721
+{{< /card >}}
+{{< /card-grid >}}
 Tel: +86-134-1099-2195 | Email: jason@woodsat.com
-
 [Facebook](https://facebook.com/woodsatacoustics)
 [LinkedIn](https://linkedin.com/company/woodsat-acoustics)
+{{< /card >}}
+{{< /card-grid >}}

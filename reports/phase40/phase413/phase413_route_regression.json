@@ -1,0 +1,83 @@
+{
+  "gate": "PASS",
+  "per_page": {
+    "acoustic-wood-speaker-enclosures": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "best-wood-for-speaker-boxes": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "custom-cnc-wood-routing-services": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "high-gloss-piano-lacquer-finishing-process-wood-speakers": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "mdf-vs-baltic-birch-plywood-speaker-cabinets": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "speaker-box-calculator": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "speaker-box-finishes": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "speaker-box-materials": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "speaker-box-veneering": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "speaker-cabinet-manufacturing": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "subwoofer-enclosure-design": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "wooden-speaker-cabinet-designs": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    },
+    "wooden-vs-mdf-speaker-cabinets": {
+      "before_path": true,
+      "after_path": true,
+      "canonical": null,
+      "status": "unchanged"
+    }
+  }
+}

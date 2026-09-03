@@ -1,0 +1,65 @@
+{
+  "gate": "PASS",
+  "sentences_checked": 740,
+  "real_problems": 0,
+  "problems": [],
+  "id_warnings_nonblocking": 13,
+  "id_warnings": [
+    {
+      "slug": "acoustic-wood-speaker-enclosures",
+      "msg": "ID GONE: ['micro-penetrating-natural-oils', '1-micro-vibration--resonance-control', 'why-baltic-birch-plywood-remains-the-industry-benchmark', 'wall-thickness-optimization-guidelines', 'solid-premium-hardwoods-vs-isotropic-engineered-composites']"
+    },
+    {
+      "slug": "best-wood-for-speaker-boxes",
+      "msg": "ID GONE: ['1-baltic-birch-plywood', '2-medium-density-fiberboard-mdf', 'bamboo', 'african-mahogany', '3-solid-hardwoods-oak-maple-walnut']"
+    },
+    {
+      "slug": "custom-cnc-wood-routing-services",
+      "msg": "ID GONE: ['multi-axis-accuracy', '2-precision-cutting', 'substrate-expertise', '3-quality-inspection', 'front-speaker-baffles']"
+    },
+    {
+      "slug": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+      "msg": "ID GONE: ['1-does-a-high-gloss-piano-finish-alter-the-speakers-acoustic-sound-profiles', '3-what-is-the-moq-for-piano-lacquer-enclosures-at-woodsat', '2-why-does-cheap-high-gloss-black-paint-look-wavy-over-time']"
+    },
+    {
+      "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "msg": "ID GONE: ['can-you-mix-mdf-and-baltic-birch-in-the-same-cabinet-layout', 'does-baltic-birch-sound-fundamentally-different-from-mdf']"
+    },
+    {
+      "slug": "speaker-box-calculator",
+      "msg": "ID GONE: ['1-sealed-enclosures-acoustic-suspension', 'vent-port-specifications', 'precision-cutting-matrix-butt-joint-configuration', '2-ported-enclosures-bass-reflex--vented', 'enclosure-volume-summary']"
+    },
+    {
+      "slug": "speaker-box-finishes",
+      "msg": "ID GONE: ['hand-rubbed-oil-wax', 'metallic-automotive-paint', 'exotic-wood-veneers', 'acoustic-texture-paint', 'matte-polyurethane']"
+    },
+    {
+      "slug": "speaker-box-materials",
+      "msg": "ID GONE: ['industrial-high-density-mdf', 'molded-fiberglass-frp', 'solid-american-walnut', 'baltic-birch-plywood', 'multi-ply-bamboo-composite']"
+    },
+    {
+      "slug": "speaker-box-veneering",
+      "msg": "ID GONE: ['book-matched-veneering', 'automotive-grade-processing', 'vacuum-press-bonding', 'substrate-surface-optimization', 'lacquer-ready-veneering']"
+    },
+    {
+      "slug": "speaker-cabinet-manufacturing",
+      "msg": "ID GONE: ['acoustic-sweep-analysis', 'premium-hi-fi-enclosures', 'volumetric-verification', '1-precision-cnc-machining', '3-professional-surface-finishing']"
+    },
+    {
+      "slug": "subwoofer-enclosure-design",
+      "msg": "ID GONE: ['optimal-density-weights-for-subwoofer-rigidity', 'ported-bass-reflex-design', 'transmission-line--horn-matrices', 'sealed-enclosure-design']"
+    },
+    {
+      "slug": "wooden-speaker-cabinet-designs",
+      "msg": "ID GONE: ['3-architectural--commercial-integration-series', '2-audiophile-artisan-luxury-series', 'advanced-front-baffle-engineering', 'exotic-veneer-marquetry-options', 'ready-to-engineer-a-custom-speaker-cabinet']"
+    },
+    {
+      "slug": "wooden-vs-mdf-speaker-cabinets",
+      "msg": "ID GONE: ['when-to-choose-wood', 'material-density-comparison', '-advantages-1', '-disadvantages', '-advantages']"
+    }
+  ],
+  "href_equality": "all 13 pages: PASS",
+  "heading_text_presence": "all 13 pages: PASS",
+  "seo_unchanged": true,
+  "json_ld_unchanged": true
+}
