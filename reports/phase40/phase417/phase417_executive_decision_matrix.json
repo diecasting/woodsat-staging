@@ -1,0 +1,218 @@
+{
+  "phase": "4.17",
+  "GSC_DATA_AVAILABLE": false,
+  "phase_status": "PARTIAL",
+  "evidence_class_summary": {
+    "gsc_backed": 0,
+    "structural_internal_link": 7,
+    "structural_onpage": "OPP-3, OPP-4, P-01..P-14",
+    "inferred_future": [
+      "bookshelf speaker cabinet content gap (OPP-6)"
+    ]
+  },
+  "decision_matrix": [
+    {
+      "priority": "P0",
+      "id": "OPP-1",
+      "title": "25 commercial-anchor links 301-redirect to blank empty-box sibling",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "gsc_validated": false,
+      "internal_link_opportunity_refs": [
+        "ILO-1",
+        "ILO-2",
+        "ILO-3",
+        "ILO-4",
+        "ILO-5",
+        "ILO-6"
+      ],
+      "decision": "Fix in next content/link phase: re-point by anchor semantics to 4.16 owners (ILO-1..4) + carryover 301s (ILO-6).",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P0",
+      "id": "OPP-2",
+      "title": "6 legacy production URLs absent from Hugo build; 404 risk at cutover",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "gsc_validated": false,
+      "internal_link_opportunity_refs": [
+        "ILO-6"
+      ],
+      "decision": "Carry 6 legacy->owner 301 redirects into the Hugo cutover plan (ILO-6).",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P1",
+      "id": "P-01",
+      "title": "hifi-speaker-cabinet-manufacturer lowest commercial inbound (4) + title clip",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Add contextual handoff + trim title in next phase.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P1",
+      "id": "P-02",
+      "title": "oem title clip (72)",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Trim title in next phase.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P1",
+      "id": "P-03",
+      "title": "cnc title clip (71)",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Trim title in next phase.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P1",
+      "id": "OPP-3",
+      "title": "3 commercial titles over SERP budget",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Trim titles (4.16 differentiators preserved).",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P1",
+      "id": "OPP-4",
+      "title": "17/25 meta descriptions over snippet budget",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Rewrite descriptions to <=160.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P1",
+      "id": "P-04",
+      "title": "primary hub out-linked 4.5:1 by sibling",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "gsc_validated": false,
+      "internal_link_opportunity_refs": [
+        "ILO-1"
+      ],
+      "decision": "Resolved by ILO-1 re-pointing.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P1",
+      "id": "OPP-5",
+      "title": "5 anchors promise non-existent 3D builder tool",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Either build the tool or remove the promise; do not mislink to empty-box.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P2",
+      "id": "P-05",
+      "title": "high-gloss finishing near-orphan (1 inbound)",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "gsc_validated": false,
+      "internal_link_opportunity_refs": [
+        "ILO-7"
+      ],
+      "decision": "Add contextual handoff (ILO-7).",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P2",
+      "id": "P-06",
+      "title": "bookshelf speaker cabinet content gap",
+      "evidence_type": "INFERRED_FUTURE",
+      "gsc_validated": false,
+      "decision": "Consider a new owner page in a future content phase.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P2",
+      "id": "P-07",
+      "title": "enclosure description 209 + moderate support",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Trim description; reinforce handoff.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P2",
+      "id": "P-08",
+      "title": "box description 195 + moderate support",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Trim description; reinforce handoff.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P2",
+      "id": "P-09",
+      "title": "cnc-routing thin (619w) yet well linked",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Add depth; keep link support.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P2",
+      "id": "P-10",
+      "title": "speaker-cabinet-manufacturing thin (675w)",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Add depth.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P2",
+      "id": "P-11",
+      "title": "info->commercial handoff misrouted",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "gsc_validated": false,
+      "internal_link_opportunity_refs": [
+        "ILO-7"
+      ],
+      "decision": "Implement 6 per-page contextual handoffs (ILO-7).",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P3",
+      "id": "P-12",
+      "title": "about-us commercial outbound misrouted",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "gsc_validated": false,
+      "internal_link_opportunity_refs": [
+        "ILO-1"
+      ],
+      "decision": "Re-point via ILO-1.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P3",
+      "id": "P-13",
+      "title": "thanks noindex yet in sitemap",
+      "evidence_type": "STRUCTURAL_ONPAGE",
+      "gsc_validated": false,
+      "decision": "Remove from sitemap or allow index; low impact.",
+      "blocked_by_gsc": false
+    },
+    {
+      "priority": "P3",
+      "id": "P-14",
+      "title": "home zero contextual inbound",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "gsc_validated": false,
+      "decision": "Acceptable for brand queries; monitor.",
+      "blocked_by_gsc": false
+    }
+  ],
+  "gsc_dependent_actions_deferred": [
+    "Position 4-10 / 11-20 / 21-30 / 31-50 opportunity lists (no data)",
+    "High-impression / low-CTR page list (no data)",
+    "Empirical cannibalization confirmation (no data)",
+    "Brand vs non-brand split (no data)",
+    "Device / country / search-appearance breakdown (no data)",
+    "Trend analysis (no data)"
+  ],
+  "next_step": "Re-run PHASE 4.17 once the service account is granted read access to the Woodsat GSC property; until then the structural remediation above is independently actionable."
+}

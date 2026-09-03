@@ -1,0 +1,814 @@
+{
+  "phase": "4.17",
+  "GSC_DATA_AVAILABLE": false,
+  "WARNING": "This is NOT a list of search-performance opportunities. No GSC data exists for the Woodsat property, so query-level opportunities (position 4-10, 11-20, CTR gaps) CANNOT be produced. The list below is a STRUCTURAL readiness ranking only.",
+  "ranking_basis": "STRUCTURAL_INFERRED",
+  "score_formula": "commercial_role_weight(35) + authority_deficit(25) + serp_presentation_risk(25) + content_depth_headroom(15); NO clicks/impressions/CTR/position input",
+  "is_google_ranking_probability": false,
+  "is_traffic_prediction": false,
+  "meaningful_query_level_opportunities_found": 0,
+  "reason_zero": "GSC_DATA_AVAILABLE=false (service account has no access to any Woodsat property)",
+  "structural_candidates_count": 21,
+  "structural_candidates": [
+    {
+      "slug": "hifi-speaker-cabinet-manufacturer",
+      "production_url": "https://woodsat.com/hifi-speaker-cabinet-manufacturer/",
+      "structural_priority_score": 72.0,
+      "components": {
+        "commercial_role_weight": 28,
+        "authority_deficit": 16.7,
+        "serp_presentation_risk": 25,
+        "content_depth_headroom": 2.3
+      },
+      "contextual_inbound_count": 4,
+      "title_tag_len": 70,
+      "meta_description_len": 182,
+      "word_count": 1270,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "oem-wooden-speaker-cabinet-manufacturer",
+      "production_url": "https://woodsat.com/oem-wooden-speaker-cabinet-manufacturer/",
+      "structural_priority_score": 68.2,
+      "components": {
+        "commercial_role_weight": 30,
+        "authority_deficit": 10.4,
+        "serp_presentation_risk": 25,
+        "content_depth_headroom": 2.8
+      },
+      "contextual_inbound_count": 7,
+      "title_tag_len": 72,
+      "meta_description_len": 199,
+      "word_count": 1224,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "speaker-cabinet-cnc-machining-service",
+      "production_url": "https://woodsat.com/speaker-cabinet-cnc-machining-service/",
+      "structural_priority_score": 65.4,
+      "components": {
+        "commercial_role_weight": 28,
+        "authority_deficit": 10.4,
+        "serp_presentation_risk": 25,
+        "content_depth_headroom": 2.0
+      },
+      "contextual_inbound_count": 7,
+      "title_tag_len": 71,
+      "meta_description_len": 184,
+      "word_count": 1298,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "custom-wooden-speaker-cabinet-manufacturer",
+      "production_url": "https://woodsat.com/custom-wooden-speaker-cabinet-manufacturer/",
+      "structural_priority_score": 57.9,
+      "components": {
+        "commercial_role_weight": 35,
+        "authority_deficit": 8.3,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 2.6
+      },
+      "contextual_inbound_count": 8,
+      "title_tag_len": 45,
+      "meta_description_len": 198,
+      "word_count": 1239,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "wooden-speaker-enclosure-manufacturer",
+      "production_url": "https://woodsat.com/wooden-speaker-enclosure-manufacturer/",
+      "structural_priority_score": 53.3,
+      "components": {
+        "commercial_role_weight": 26,
+        "authority_deficit": 12.5,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 2.8
+      },
+      "contextual_inbound_count": 6,
+      "title_tag_len": 64,
+      "meta_description_len": 209,
+      "word_count": 1220,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "wooden-speaker-box-manufacturer",
+      "production_url": "https://woodsat.com/wooden-speaker-box-manufacturer/",
+      "structural_priority_score": 52.8,
+      "components": {
+        "commercial_role_weight": 26,
+        "authority_deficit": 12.5,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 2.3
+      },
+      "contextual_inbound_count": 6,
+      "title_tag_len": 64,
+      "meta_description_len": 195,
+      "word_count": 1272,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "wooden-vs-mdf-speaker-cabinets",
+      "production_url": "https://woodsat.com/wooden-vs-mdf-speaker-cabinets/",
+      "structural_priority_score": 51.4,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 20.8,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 6.6
+      },
+      "contextual_inbound_count": 2,
+      "title_tag_len": 56,
+      "meta_description_len": 196,
+      "word_count": 837,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+      "production_url": "https://woodsat.com/high-gloss-piano-lacquer-finishing-process-wood-speakers/",
+      "structural_priority_score": 50.5,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 22.9,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 3.6
+      },
+      "contextual_inbound_count": 1,
+      "title_tag_len": 54,
+      "meta_description_len": 170,
+      "word_count": 1141,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "production_url": "https://woodsat.com/mdf-vs-baltic-birch-plywood-speaker-cabinets/",
+      "structural_priority_score": 44.8,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 16.7,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 4.1
+      },
+      "contextual_inbound_count": 4,
+      "title_tag_len": 59,
+      "meta_description_len": 336,
+      "word_count": 1087,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "about-us",
+      "production_url": "https://woodsat.com/about-us/",
+      "structural_priority_score": 40.1,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 20.8,
+        "serp_presentation_risk": 0,
+        "content_depth_headroom": 7.3
+      },
+      "contextual_inbound_count": 2,
+      "title_tag_len": 56,
+      "meta_description_len": 150,
+      "word_count": 772,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "wooden-speaker-cabinet-designs",
+      "production_url": "https://woodsat.com/wooden-speaker-cabinet-designs/",
+      "structural_priority_score": 40.1,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 12.5,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 3.6
+      },
+      "contextual_inbound_count": 6,
+      "title_tag_len": 53,
+      "meta_description_len": 180,
+      "word_count": 1139,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "speaker-box-materials",
+      "production_url": "https://woodsat.com/speaker-box-materials/",
+      "structural_priority_score": 39.8,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 8.3,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 7.5
+      },
+      "contextual_inbound_count": 8,
+      "title_tag_len": 61,
+      "meta_description_len": 214,
+      "word_count": 751,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+      "production_url": "https://woodsat.com/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "structural_priority_score": 38.7,
+      "components": {
+        "commercial_role_weight": 24,
+        "authority_deficit": 2.1,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 0.6
+      },
+      "contextual_inbound_count": 11,
+      "title_tag_len": 55,
+      "meta_description_len": 189,
+      "word_count": 1441,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "speaker-cabinet-manufacturing",
+      "production_url": "https://woodsat.com/speaker-cabinet-manufacturing/",
+      "structural_priority_score": 38.4,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 6.2,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 8.2
+      },
+      "contextual_inbound_count": 9,
+      "title_tag_len": 56,
+      "meta_description_len": 183,
+      "word_count": 675,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "custom-cnc-wood-routing-services",
+      "production_url": "https://woodsat.com/custom-cnc-wood-routing-services/",
+      "structural_priority_score": 34.9,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 2.1,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 8.8
+      },
+      "contextual_inbound_count": 11,
+      "title_tag_len": 56,
+      "meta_description_len": 173,
+      "word_count": 619,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "acoustic-wood-speaker-enclosures",
+      "production_url": "https://woodsat.com/acoustic-wood-speaker-enclosures/",
+      "structural_priority_score": 34.0,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 8.3,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 1.7
+      },
+      "contextual_inbound_count": 8,
+      "title_tag_len": 57,
+      "meta_description_len": 176,
+      "word_count": 1331,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "speaker-box-calculator",
+      "production_url": "https://woodsat.com/speaker-box-calculator/",
+      "structural_priority_score": 33.9,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 4.2,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 5.7
+      },
+      "contextual_inbound_count": 10,
+      "title_tag_len": 60,
+      "meta_description_len": 226,
+      "word_count": 931,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "speaker-box-veneering",
+      "production_url": "https://woodsat.com/speaker-box-veneering/",
+      "structural_priority_score": 32.9,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 12.5,
+        "serp_presentation_risk": 0,
+        "content_depth_headroom": 8.4
+      },
+      "contextual_inbound_count": 6,
+      "title_tag_len": 52,
+      "meta_description_len": 160,
+      "word_count": 663,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "subwoofer-enclosure-design",
+      "production_url": "https://woodsat.com/subwoofer-enclosure-design/",
+      "structural_priority_score": 32.0,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 0.0,
+        "serp_presentation_risk": 12,
+        "content_depth_headroom": 8.0
+      },
+      "contextual_inbound_count": 12,
+      "title_tag_len": 54,
+      "meta_description_len": 177,
+      "word_count": 695,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "best-wood-for-speaker-boxes",
+      "production_url": "https://woodsat.com/best-wood-for-speaker-boxes/",
+      "structural_priority_score": 31.2,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 12.5,
+        "serp_presentation_risk": 0,
+        "content_depth_headroom": 6.7
+      },
+      "contextual_inbound_count": 6,
+      "title_tag_len": 57,
+      "meta_description_len": 148,
+      "word_count": 829,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    },
+    {
+      "slug": "speaker-box-finishes",
+      "production_url": "https://woodsat.com/speaker-box-finishes/",
+      "structural_priority_score": 25.0,
+      "components": {
+        "commercial_role_weight": 12,
+        "authority_deficit": 4.2,
+        "serp_presentation_risk": 0,
+        "content_depth_headroom": 8.8
+      },
+      "contextual_inbound_count": 10,
+      "title_tag_len": 56,
+      "meta_description_len": 155,
+      "word_count": 623,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "gsc_note": "GSC_NOT_AVAILABLE"
+    }
+  ],
+  "site_wide_structural_opportunities": [
+    {
+      "rank": 1,
+      "id": "OPP-1",
+      "scope": "SITE_WIDE",
+      "severity": "P0",
+      "title": "25 contextual links carrying primary/hifi/enclosure/CNC anchor text 301-redirect into the empty-box sibling",
+      "evidence": "_harness/legacy_absolute_link_evidence.json",
+      "instances": 25,
+      "source_pages": 10,
+      "legacy_urls_involved": 5,
+      "effective_inbound_empty_box": 36,
+      "effective_inbound_primary_hub": 8,
+      "inversion_ratio": 4.5,
+      "requires_gsc": false,
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null,
+      "internal_link_opportunity_refs": [
+        "ILO-1",
+        "ILO-2",
+        "ILO-3",
+        "ILO-4",
+        "ILO-5",
+        "ILO-6"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "OPP-2",
+      "scope": "SITE_WIDE",
+      "severity": "P0",
+      "title": "Six legacy production URLs referenced from body copy do not exist in the Hugo build",
+      "evidence": "_harness/legacy_absolute_link_evidence.json",
+      "instances": 28,
+      "legacy_urls": [
+        "custom-wooden-speaker-enclosures-manufacturer",
+        "custom-speaker-cabinet-builder",
+        "high-quality-speaker-enclosures",
+        "loudspeaker-cabinet-manufacturer",
+        "custom-speaker-and-subwoofer-cabinet-box-factory",
+        "most-durable-wood-for-speakers"
+      ],
+      "post_hugo_cutover_risk": "links become 404 unless redirects are carried over",
+      "requires_gsc": false,
+      "internal_link_opportunity_refs": [
+        "ILO-6"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "OPP-3",
+      "scope": "SITE_WIDE",
+      "severity": "P1",
+      "title": "Three commercial titles exceed the ~65 char SERP budget, clipping the 4.16 differentiating suffix",
+      "pages": [
+        "oem-wooden-speaker-cabinet-manufacturer (72)",
+        "speaker-cabinet-cnc-machining-service (71)",
+        "hifi-speaker-cabinet-manufacturer (70)"
+      ],
+      "requires_gsc": false
+    },
+    {
+      "rank": 4,
+      "id": "OPP-4",
+      "scope": "SITE_WIDE",
+      "severity": "P1",
+      "title": "17 of 25 meta descriptions exceed the ~160 char snippet budget, including all 7 commercial pages",
+      "worst": "mdf-vs-baltic-birch-plywood-speaker-cabinets (336)",
+      "requires_gsc": false
+    },
+    {
+      "rank": 5,
+      "id": "OPP-5",
+      "scope": "SITE_WIDE",
+      "severity": "P1",
+      "title": "Five anchors promise a 3D Cabinet Builder tool that does not exist anywhere in the build",
+      "instances": 5,
+      "requires_gsc": false
+    },
+    {
+      "rank": 6,
+      "id": "OPP-6",
+      "scope": "CONTENT_GAP",
+      "severity": "P2",
+      "title": "bookshelf speaker cabinet has no owner page although the topic already appears in production asset naming",
+      "requires_gsc": false
+    }
+  ],
+  "integrated_top_20_narrative": "top_20_search_opportunities.md — combines these site-wide opportunities with the page-level structural candidates below into a single ranked list of 20.",
+  "page_level_candidates_note": "structural_candidates below are page-level only and were scored before the legacy-link discovery; they remain valid as page-level ranking.",
+  "internal_link_opportunities": [
+    {
+      "id": "ILO-1",
+      "internal_link_opportunity": true,
+      "scope": "REPOINT_LEGACY_TO_4_16_OWNER",
+      "target_url": "https://woodsat.com/custom-wooden-speaker-cabinet-manufacturer/",
+      "target_owner_4_16": "custom-wooden-speaker-cabinet-manufacturer (primary hub)",
+      "source_pages": [
+        "about-us",
+        "best-wood-for-speaker-boxes",
+        "custom-cnc-wood-routing-services",
+        "speaker-box-finishes",
+        "speaker-box-materials",
+        "speaker-box-veneering",
+        "speaker-cabinet-manufacturing",
+        "subwoofer-enclosure-design",
+        "wooden-speaker-cabinet-designs"
+      ],
+      "instance_count": 13,
+      "anchor_type": "contextual-commercial-descriptor (varied; no repeated exact-match)",
+      "anchor_examples": [
+        "custom wooden speaker enclosures manufacturer",
+        "speaker cabinet builders",
+        "custom wooden speaker enclosures",
+        "custom speaker designs",
+        "luxury speaker cabinets",
+        "color-matched finishes",
+        "custom builder",
+        "Custom Speaker Cabinet Builder Tool",
+        "multi-cabinet audio systems",
+        "3D veneer visualizer",
+        "3D cabinet builder",
+        "3D Cabinet Builder interface",
+        "custom wooden speaker enclosures manufacturer"
+      ],
+      "contextual_reason": "Every source page discusses a stage of cabinet manufacturing (materials, finishes, veneering, design, CNC routing, acoustic enclosures) and naturally names a manufacturer. The current legacy absolute URL 301-redirects to the blank empty-box placeholder, which cannot satisfy the commercial intent and drains authority from the 4.16 primary hub.",
+      "implementation_status": "NOT_IMPLEMENTED_PROPOSED_ANALYSIS_ONLY",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "evidence": "_harness/legacy_absolute_link_evidence.json",
+      "relates_to": [
+        "OPP-1",
+        "OPP-2"
+      ],
+      "gsc_validated": false,
+      "requires_gsc": false
+    },
+    {
+      "id": "ILO-2",
+      "internal_link_opportunity": true,
+      "scope": "REPOINT_LEGACY_TO_4_16_OWNER",
+      "target_url": "https://woodsat.com/wooden-speaker-enclosure-manufacturer/",
+      "target_owner_4_16": "wooden-speaker-enclosure-manufacturer (acoustic-enclosure sibling)",
+      "source_pages": [
+        "acoustic-wood-speaker-enclosures",
+        "speaker-box-finishes",
+        "speaker-box-materials",
+        "speaker-box-veneering",
+        "subwoofer-enclosure-design"
+      ],
+      "instance_count": 8,
+      "anchor_type": "contextual-acoustic-enclosure-descriptor",
+      "anchor_examples": [
+        "acoustic enclosure manufacturers",
+        "reference monitor enclosures",
+        "precision loudspeaker cabinets",
+        "High-end home audio",
+        "hi-fi cabinets",
+        "high-end speaker pairs",
+        "professional cabinets",
+        "high-fidelity"
+      ],
+      "contextual_reason": "Anchors explicitly describe acoustic / reference-monitor / hi-fi / professional enclosures. Per 4.16 the acoustic-enclosure intent is owned by wooden-speaker-enclosure-manufacturer, not the blank empty-box sibling the legacy URL redirects to.",
+      "implementation_status": "NOT_IMPLEMENTED_PROPOSED_ANALYSIS_ONLY",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "evidence": "_harness/legacy_absolute_link_evidence.json",
+      "relates_to": [
+        "OPP-1",
+        "OPP-2"
+      ],
+      "gsc_validated": false,
+      "requires_gsc": false
+    },
+    {
+      "id": "ILO-3",
+      "internal_link_opportunity": true,
+      "scope": "REPOINT_LEGACY_TO_4_16_OWNER",
+      "target_url": "https://woodsat.com/speaker-cabinet-cnc-machining-service/",
+      "target_owner_4_16": "speaker-cabinet-cnc-machining-service (CNC sibling)",
+      "source_pages": [
+        "custom-cnc-wood-routing-services",
+        "speaker-box-veneering"
+      ],
+      "instance_count": 2,
+      "anchor_type": "contextual-cnc-descriptor",
+      "anchor_examples": [
+        "CNC routers",
+        "complex cabinet shapes"
+      ],
+      "contextual_reason": "Anchors describe CNC routing and complex cabinet shapes; 4.16 ownership of the CNC-service intent is speaker-cabinet-cnc-machining-service.",
+      "implementation_status": "NOT_IMPLEMENTED_PROPOSED_ANALYSIS_ONLY",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "evidence": "_harness/legacy_absolute_link_evidence.json",
+      "relates_to": [
+        "OPP-1",
+        "OPP-2"
+      ],
+      "gsc_validated": false,
+      "requires_gsc": false
+    },
+    {
+      "id": "ILO-4",
+      "internal_link_opportunity": true,
+      "scope": "REPOINT_LEGACY_TO_4_16_OWNER",
+      "target_url": "https://woodsat.com/wooden-speaker-box-manufacturer/",
+      "target_owner_4_16": "wooden-speaker-box-manufacturer (box sibling)",
+      "source_pages": [
+        "speaker-box-materials",
+        "subwoofer-enclosure-design"
+      ],
+      "instance_count": 2,
+      "anchor_type": "contextual-box-descriptor",
+      "anchor_examples": [
+        "Marine & Rugged Outdoor Enclosures",
+        "Home theater subwoofers"
+      ],
+      "contextual_reason": "Anchors describe rugged/marine and subwoofer boxes; per 4.16 these map to wooden-speaker-box-manufacturer.",
+      "implementation_status": "NOT_IMPLEMENTED_PROPOSED_ANALYSIS_ONLY",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "evidence": "_harness/legacy_absolute_link_evidence.json",
+      "relates_to": [
+        "OPP-1",
+        "OPP-2"
+      ],
+      "gsc_validated": false,
+      "requires_gsc": false
+    },
+    {
+      "id": "ILO-5",
+      "internal_link_opportunity": false,
+      "scope": "VERIFIED_CORRECT_NO_CHANGE",
+      "target_url": "https://woodsat.com/best-wood-for-speaker-boxes/",
+      "target_owner_4_16": "best-wood-for-speaker-boxes (materials page)",
+      "source_pages": [
+        "speaker-box-finishes",
+        "speaker-box-materials",
+        "speaker-cabinet-manufacturing"
+      ],
+      "instance_count": 3,
+      "anchor_type": "contextual-material-descriptor",
+      "anchor_examples": [
+        "closed-grain woods",
+        "wood stability",
+        "hardwood construction"
+      ],
+      "contextual_reason": "These 3 legacy links already 301-redirect to the correct owner (best-wood-for-speaker-boxes). Recorded to prove the methodology preserves correct routing and that only the 25 mis-routed links are in scope for ILO-1..4.",
+      "implementation_status": "VERIFIED_CORRECT_NO_CHANGE",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "evidence": "_harness/legacy_absolute_link_evidence.json",
+      "relates_to": [
+        "OPP-1"
+      ],
+      "gsc_validated": false,
+      "requires_gsc": false
+    },
+    {
+      "id": "ILO-6",
+      "internal_link_opportunity": true,
+      "scope": "SERVER_SIDE_REDIRECT_SAFETY_NET",
+      "target_url": "see target_map (one 301 per legacy URL to its 4.16 owner slug)",
+      "target_owner_4_16": "per-legacy-URL owner slug",
+      "source_pages": [
+        "about-us",
+        "acoustic-wood-speaker-enclosures",
+        "best-wood-for-speaker-boxes",
+        "custom-cnc-wood-routing-services",
+        "speaker-box-finishes",
+        "speaker-box-materials",
+        "speaker-box-veneering",
+        "speaker-cabinet-manufacturing",
+        "subwoofer-enclosure-design",
+        "wooden-speaker-cabinet-designs"
+      ],
+      "instance_count": 28,
+      "anchor_type": "n/a-server-redirect",
+      "anchor_examples": [],
+      "target_map": {
+        "custom-wooden-speaker-enclosures-manufacturer": "https://woodsat.com/custom-wooden-speaker-cabinet-manufacturer/",
+        "custom-speaker-cabinet-builder": "https://woodsat.com/custom-wooden-speaker-cabinet-manufacturer/",
+        "high-quality-speaker-enclosures": "https://woodsat.com/wooden-speaker-enclosure-manufacturer/",
+        "loudspeaker-cabinet-manufacturer": "https://woodsat.com/wooden-speaker-enclosure-manufacturer/",
+        "custom-speaker-and-subwoofer-cabinet-box-factory": "https://woodsat.com/wooden-speaker-box-manufacturer/",
+        "most-durable-wood-for-speakers": "https://woodsat.com/best-wood-for-speaker-boxes/"
+      },
+      "contextual_reason": "These 6 legacy production URLs are referenced from 28 body-copy links; after the WordPress->Hugo cutover they will 404 unless each is 301-redirected to its correct 4.16 owner slug. Server-side redirect is the safety net; ILO-1..4 fix the source markup so equity passes directly without a redirect hop.",
+      "implementation_status": "NOT_IMPLEMENTED_PROPOSED_ANALYSIS_ONLY",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "evidence": "_harness/legacy_absolute_link_evidence.json",
+      "relates_to": [
+        "OPP-2"
+      ],
+      "gsc_validated": false,
+      "requires_gsc": false
+    },
+    {
+      "id": "ILO-7",
+      "internal_link_opportunity": true,
+      "scope": "INFORMATIONAL_TO_COMMERCIAL_HANDOFF",
+      "target_url": "per handoff target (single per page)",
+      "target_owner_4_16": "4.16 commercial owner per page",
+      "source_pages": [
+        "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+        "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+        "best-wood-for-speaker-boxes",
+        "subwoofer-enclosure-design",
+        "wooden-speaker-cabinet-designs",
+        "acoustic-wood-speaker-enclosures"
+      ],
+      "instance_count": 6,
+      "anchor_type": "contextual-descriptive (single per page, varied)",
+      "anchor_examples": [],
+      "handoff_targets": [
+        {
+          "source": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+          "target_url": "https://woodsat.com/custom-wooden-speaker-cabinet-manufacturer/",
+          "contextual_reason": "Premium-finish buyers are in-market for custom cabinets; the page's only commercial link currently points to the blank empty-box sibling. A single contextual link to the primary hub closes the loop."
+        },
+        {
+          "source": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+          "target_url": "https://woodsat.com/custom-wooden-speaker-cabinet-manufacturer/",
+          "contextual_reason": "Material-comparison readers are pre-purchase; the only commercial link today goes to the empty-box placeholder. Add one contextual link to the primary hub."
+        },
+        {
+          "source": "best-wood-for-speaker-boxes",
+          "target_url": "https://woodsat.com/wooden-speaker-box-manufacturer/",
+          "contextual_reason": "Material-selection page; add one contextual link to the box hub so the material->product handoff is direct (today its commercial references are misrouted legacy 301s)."
+        },
+        {
+          "source": "subwoofer-enclosure-design",
+          "target_url": "https://woodsat.com/wooden-speaker-box-manufacturer/",
+          "contextual_reason": "Subwoofer-design readers; add one contextual link to the box hub."
+        },
+        {
+          "source": "wooden-speaker-cabinet-designs",
+          "target_url": "https://woodsat.com/custom-wooden-speaker-cabinet-manufacturer/",
+          "contextual_reason": "Design gallery; add one contextual link to the primary hub."
+        },
+        {
+          "source": "acoustic-wood-speaker-enclosures",
+          "target_url": "https://woodsat.com/wooden-speaker-enclosure-manufacturer/",
+          "contextual_reason": "Acoustic-enclosure page; add one contextual link to the enclosure hub."
+        }
+      ],
+      "contextual_reason": "Six information pages whose content is adjacent to a commercial purchase currently have no working contextual link to the correct 4.16 owner (they link to the blank empty-box sibling or nowhere). Each proposal below is a single, semantically justified, per-page link -- not a sitewide nav addition and not repeated exact-match anchor text.",
+      "implementation_status": "NOT_IMPLEMENTED_PROPOSED_ANALYSIS_ONLY",
+      "evidence_type": "STRUCTURAL_INTERNAL_LINK",
+      "evidence": "_harness/phase417_structural_facts.json (contextual_outbound graph)",
+      "relates_to": [
+        "P-11"
+      ],
+      "gsc_validated": false,
+      "requires_gsc": false
+    }
+  ],
+  "internal_link_model": {
+    "refinement_rule": "contextual-only",
+    "principles_applied": [
+      "Keep only links semantically justified by source content AND target intent.",
+      "Do not add sitewide / navigation links.",
+      "Do not add artificial exact-match anchor repetition.",
+      "Do not create links solely to increase link counts.",
+      "Preserve PHASE 4.16 commercial intent ownership (each commercial query maps to its 4.16 owner page).",
+      "The blank empty-box sibling is never a re-pointing target; it is the placeholder the legacy 301s wrongly credit."
+    ],
+    "gsc_dependency": "none. All opportunities are STRUCTURAL / INTERNAL-LINK evidence. gsc_validated=false for every item.",
+    "repointing_totals": {
+      "legacy_body_links_total": 28,
+      "misrouted_to_empty_box": 25,
+      "already_correct_best_wood": 3,
+      "per_owner_repoint": {
+        "primary": 13,
+        "enclosure": 8,
+        "cnc": 2,
+        "box": 2,
+        "best_wood_correct": 3
+      }
+    }
+  },
+  "internal_link_model_note": "Section 'internal_link_opportunities' is the contextual-only refinement of the OPP-1/OPP-2 legacy-link findings and the P-11 handoff gap. Every item is STRUCTURAL/INTERNAL-LINK evidence; none is GSC-validated. See internal_link_opportunities.md for the narrative twin."
+}

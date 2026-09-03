@@ -1,0 +1,274 @@
+{
+  "phase": "4.17",
+  "purpose": "Production<->staging URL equivalence for ANALYSIS ONLY. Not written to production, not used to alter any route.",
+  "GSC_DATA_AVAILABLE": false,
+  "production_base": "https://woodsat.com/",
+  "staging_base": "https://diecasting.github.io/woodsat-staging/",
+  "staging_path_prefix": "/woodsat-staging/",
+  "normalization_rules": [
+    "lowercase host",
+    "force single trailing slash on directory-style routes",
+    "strip #fragment",
+    "strip ?query (no parameterised routes exist in this site)",
+    "treat https://woodsat.com/<slug>/ == /woodsat-staging/<slug>/ as the same logical page",
+    "www and non-www treated as the same logical host"
+  ],
+  "mapped_count": 25,
+  "unmapped_count": 0,
+  "unmapped_urls": [],
+  "gsc_rows_mapped": "NOT_AVAILABLE",
+  "gsc_urls_unmappable": "NOT_AVAILABLE",
+  "note": "No GSC rows exist for the Woodsat property, so no GSC URL could be mapped. The mapping table below is the complete site-side equivalence table, ready for use the moment GSC access is granted.",
+  "mapping": [
+    {
+      "slug": "(home)",
+      "production_url": "https://woodsat.com/",
+      "staging_route": "/woodsat-staging/",
+      "canonical_in_build": "https://woodsat.com/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "about-us",
+      "production_url": "https://woodsat.com/about-us/",
+      "staging_route": "/woodsat-staging/about-us/",
+      "canonical_in_build": "https://woodsat.com/about-us/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "acoustic-wood-speaker-enclosures",
+      "production_url": "https://woodsat.com/acoustic-wood-speaker-enclosures/",
+      "staging_route": "/woodsat-staging/acoustic-wood-speaker-enclosures/",
+      "canonical_in_build": "https://woodsat.com/acoustic-wood-speaker-enclosures/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "best-wood-for-speaker-boxes",
+      "production_url": "https://woodsat.com/best-wood-for-speaker-boxes/",
+      "staging_route": "/woodsat-staging/best-wood-for-speaker-boxes/",
+      "canonical_in_build": "https://woodsat.com/best-wood-for-speaker-boxes/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "contact",
+      "production_url": "https://woodsat.com/contact/",
+      "staging_route": "/woodsat-staging/contact/",
+      "canonical_in_build": "https://woodsat.com/contact/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "custom-cnc-wood-routing-services",
+      "production_url": "https://woodsat.com/custom-cnc-wood-routing-services/",
+      "staging_route": "/woodsat-staging/custom-cnc-wood-routing-services/",
+      "canonical_in_build": "https://woodsat.com/custom-cnc-wood-routing-services/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "custom-empty-wooden-speaker-cabinet-boxes-manufacturer",
+      "production_url": "https://woodsat.com/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "staging_route": "/woodsat-staging/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "canonical_in_build": "https://woodsat.com/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "custom-wooden-speaker-cabinet-manufacturer",
+      "production_url": "https://woodsat.com/custom-wooden-speaker-cabinet-manufacturer/",
+      "staging_route": "/woodsat-staging/custom-wooden-speaker-cabinet-manufacturer/",
+      "canonical_in_build": "https://woodsat.com/custom-wooden-speaker-cabinet-manufacturer/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "hifi-speaker-cabinet-manufacturer",
+      "production_url": "https://woodsat.com/hifi-speaker-cabinet-manufacturer/",
+      "staging_route": "/woodsat-staging/hifi-speaker-cabinet-manufacturer/",
+      "canonical_in_build": "https://woodsat.com/hifi-speaker-cabinet-manufacturer/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "high-gloss-piano-lacquer-finishing-process-wood-speakers",
+      "production_url": "https://woodsat.com/high-gloss-piano-lacquer-finishing-process-wood-speakers/",
+      "staging_route": "/woodsat-staging/high-gloss-piano-lacquer-finishing-process-wood-speakers/",
+      "canonical_in_build": "https://woodsat.com/high-gloss-piano-lacquer-finishing-process-wood-speakers/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "production_url": "https://woodsat.com/mdf-vs-baltic-birch-plywood-speaker-cabinets/",
+      "staging_route": "/woodsat-staging/mdf-vs-baltic-birch-plywood-speaker-cabinets/",
+      "canonical_in_build": "https://woodsat.com/mdf-vs-baltic-birch-plywood-speaker-cabinets/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "oem-wooden-speaker-cabinet-manufacturer",
+      "production_url": "https://woodsat.com/oem-wooden-speaker-cabinet-manufacturer/",
+      "staging_route": "/woodsat-staging/oem-wooden-speaker-cabinet-manufacturer/",
+      "canonical_in_build": "https://woodsat.com/oem-wooden-speaker-cabinet-manufacturer/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "resource",
+      "production_url": "https://woodsat.com/resource/",
+      "staging_route": "/woodsat-staging/resource/",
+      "canonical_in_build": "https://woodsat.com/resource/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "speaker-box-calculator",
+      "production_url": "https://woodsat.com/speaker-box-calculator/",
+      "staging_route": "/woodsat-staging/speaker-box-calculator/",
+      "canonical_in_build": "https://woodsat.com/speaker-box-calculator/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "speaker-box-finishes",
+      "production_url": "https://woodsat.com/speaker-box-finishes/",
+      "staging_route": "/woodsat-staging/speaker-box-finishes/",
+      "canonical_in_build": "https://woodsat.com/speaker-box-finishes/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "speaker-box-materials",
+      "production_url": "https://woodsat.com/speaker-box-materials/",
+      "staging_route": "/woodsat-staging/speaker-box-materials/",
+      "canonical_in_build": "https://woodsat.com/speaker-box-materials/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "speaker-box-veneering",
+      "production_url": "https://woodsat.com/speaker-box-veneering/",
+      "staging_route": "/woodsat-staging/speaker-box-veneering/",
+      "canonical_in_build": "https://woodsat.com/speaker-box-veneering/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "speaker-cabinet-cnc-machining-service",
+      "production_url": "https://woodsat.com/speaker-cabinet-cnc-machining-service/",
+      "staging_route": "/woodsat-staging/speaker-cabinet-cnc-machining-service/",
+      "canonical_in_build": "https://woodsat.com/speaker-cabinet-cnc-machining-service/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "speaker-cabinet-manufacturing",
+      "production_url": "https://woodsat.com/speaker-cabinet-manufacturing/",
+      "staging_route": "/woodsat-staging/speaker-cabinet-manufacturing/",
+      "canonical_in_build": "https://woodsat.com/speaker-cabinet-manufacturing/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "subwoofer-enclosure-design",
+      "production_url": "https://woodsat.com/subwoofer-enclosure-design/",
+      "staging_route": "/woodsat-staging/subwoofer-enclosure-design/",
+      "canonical_in_build": "https://woodsat.com/subwoofer-enclosure-design/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "thanks",
+      "production_url": "https://woodsat.com/thanks/",
+      "staging_route": "/woodsat-staging/thanks/",
+      "canonical_in_build": "https://woodsat.com/thanks/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "wooden-speaker-box-manufacturer",
+      "production_url": "https://woodsat.com/wooden-speaker-box-manufacturer/",
+      "staging_route": "/woodsat-staging/wooden-speaker-box-manufacturer/",
+      "canonical_in_build": "https://woodsat.com/wooden-speaker-box-manufacturer/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "wooden-speaker-cabinet-designs",
+      "production_url": "https://woodsat.com/wooden-speaker-cabinet-designs/",
+      "staging_route": "/woodsat-staging/wooden-speaker-cabinet-designs/",
+      "canonical_in_build": "https://woodsat.com/wooden-speaker-cabinet-designs/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "wooden-speaker-enclosure-manufacturer",
+      "production_url": "https://woodsat.com/wooden-speaker-enclosure-manufacturer/",
+      "staging_route": "/woodsat-staging/wooden-speaker-enclosure-manufacturer/",
+      "canonical_in_build": "https://woodsat.com/wooden-speaker-enclosure-manufacturer/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    },
+    {
+      "slug": "wooden-vs-mdf-speaker-cabinets",
+      "production_url": "https://woodsat.com/wooden-vs-mdf-speaker-cabinets/",
+      "staging_route": "/woodsat-staging/wooden-vs-mdf-speaker-cabinets/",
+      "canonical_in_build": "https://woodsat.com/wooden-vs-mdf-speaker-cabinets/",
+      "canonical_host_is_production": true,
+      "in_sitemap": true,
+      "meta_robots": "noindex,nofollow",
+      "mapping_status": "MAPPED"
+    }
+  ]
+}
