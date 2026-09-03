@@ -99,7 +99,7 @@ Manufacturing empty speaker cabinets ready for customer drivers, electronics and
 {{< /card >}}
 {{< /card-grid >}}
 
-{{< split image="https://woodsat.com/wp-content/uploads/2023/02/Empty-speaker-cabinet.jpg" alt="Custom wooden speaker cabinet manufacturing service" reverse="true" >}}
+{{< split image="https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg" alt="Custom wooden speaker cabinet manufacturing service" reverse="true" >}}
 Woodsat manufactures a wide range of wooden speaker boxes for consumer audio, professional sound systems and customized OEM projects.
 {{< /split >}}
 {{< /band >}}
@@ -302,7 +302,7 @@ Verify appearance, dimensions and packaging before shipment.
 ## Reliable Wooden Speaker Box Manufacturer
 For Worldwide Customers
 
-{{< split image="https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-cabinet.png" alt="Global wooden speaker box manufacturing supplier" >}}
+{{< split image="https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png" alt="Global wooden speaker box manufacturing supplier" >}}
 Woodsat supports international audio brands, distributors and product developers with reliable wooden speaker box manufacturing.
 
 With complete production capability, we provide prototype development, custom manufacturing and long-term supply solutions.

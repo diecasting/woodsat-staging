@@ -90,7 +90,7 @@ From Design To Production
 Woodsat provides complete manufacturing solutions for custom wooden speaker enclosures, supporting product development, prototype production and mass manufacturing.
 
 {{< card-grid cols=3 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Empty-speaker-cabinet.jpg" alt="Empty wooden speaker cabinet enclosure for custom audio manufacturing" title="Custom Cabinet Development" >}}
+{{< card image="https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg" alt="Empty wooden speaker cabinet enclosure for custom audio manufacturing" title="Custom Cabinet Development" >}}
 Develop speaker enclosures according to customer drawings, samples, 3D models and acoustic requirements.
 {{< /card >}}
 {{< card image="https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="Mass production wooden speaker enclosure manufacturing factory" title="Mass Production Capability" >}}

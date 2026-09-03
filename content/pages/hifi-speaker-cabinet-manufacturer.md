@@ -42,7 +42,7 @@ Combining traditional woodworking craftsmanship with advanced CNC machining tech
 
 {{< band bg="warm" >}}
 {{< card-grid cols=2 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer.webp" alt="Premium Hi-Fi wooden speaker cabinet manufacturer with natural veneer finishing" >}}{{< /card >}}
+{{< card image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Premium Hi-Fi wooden speaker cabinet manufacturer with natural veneer finishing" >}}{{< /card >}}
 {{< card image="https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted premium wooden Hi-Fi speaker cabinets" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
@@ -134,7 +134,7 @@ Material selection plays a critical role in the performance and appearance of Hi
 Woodsat provides multiple material options for different acoustic requirements and product positioning.
 
 {{< card-grid cols=4 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer.webp" alt="Natural wood veneer premium Hi-Fi speaker cabinet manufacturer" title="Natural Wood Veneer" >}}
+{{< card image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Natural wood veneer premium Hi-Fi speaker cabinet manufacturer" title="Natural Wood Veneer" >}}
 Premium veneer surfaces provide a luxury appearance with unique natural wood grain patterns.
 
 Suitable for high-end audiophile speaker products.

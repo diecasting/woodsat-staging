@@ -745,6 +745,32 @@ body.page-home main .page-content { max-width: var(--maxw); margin: 0 auto; padd
 .measure { max-width: 720px; }            /* readable single-column measure */
 .measure--narrow { max-width: 640px; }
 
+/* PHASE 4.12 (PART 9) — readable body measure.
+   Running body copy was spanning the full container (~1070-1136px line length), far
+   above a comfortable reading measure. Constrain prose to ~760px.
+   Deliberately EXCLUDES component text (.grid-card__text, .feature-item p, .stat,
+   .checklist-item) so those keep filling their own component, and leaves headings
+   full width so section hierarchy is unaffected. */
+.section > .container > p,
+.split-feature__body > p,
+.feature-grid__content > p,
+/* Component prose is included too: max-width only bites when the component is
+   WIDER than 760px (e.g. a feature-item or col after the grid collapses to one
+   column at <=1024px). Inside a narrow card it is a no-op, so cards are unaffected. */
+.feature-item p,
+.col > p,
+.grid-card__text p,
+.page-header__inner > p,
+article > p,
+article > ul,
+article > ol,
+article > blockquote,
+article > blockquote > p,
+.section > .container > blockquote,
+.split-feature__body > blockquote {
+  max-width: 760px;
+}
+
 /* ---- Section rhythm ---- */
 .section { padding-block: clamp(2.5rem, 6vw, 4.5rem); }
 .section--sand  { background: var(--wood-sand); }

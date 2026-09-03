@@ -60,7 +60,7 @@ Woodsat specializes in manufacturing empty wooden speaker boxes, custom speaker 
 ## Professional Empty Wooden Speaker Box Manufacturer
 For Custom Audio Projects
 
-{{< split image="https://woodsat.com/wp-content/uploads/2023/02/Empty-speaker-cabinet.jpg" alt="Empty wooden speaker box manufacturer producing custom speaker cabinets" >}}
+{{< split image="https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg" alt="Empty wooden speaker box manufacturer producing custom speaker cabinets" >}}
 Woodsat is a professional manufacturer of empty wooden speaker boxes and custom speaker cabinets.
 
 We provide complete manufacturing solutions for audio companies requiring high-quality wooden enclosures without speaker drivers.

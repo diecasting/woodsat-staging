@@ -182,7 +182,7 @@ High accuracy machining for repeatable production.
 {{< card image="https://woodsat.com/wp-content/uploads/2023/02/Automatic-Drill-Hole-for-speaker.webp" alt="Automatic drilling process for wooden speaker cabinet manufacturing" title="Precision Drilling" >}}
 Consistent component installation and assembly preparation.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Wooden-Speaker-cabinet.png" alt="Custom wooden speaker cabinet structure optimization" >}}{{< /card >}}
+{{< card image="https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png" alt="Custom wooden speaker cabinet structure optimization" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
 
