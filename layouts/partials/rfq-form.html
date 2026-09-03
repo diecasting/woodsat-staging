@@ -20,9 +20,15 @@
   4-space indented line is parsed by Goldmark as an indented code block - the
   submit button was rendered as <pre><code>&lt;button ...&gt;</code></pre> and
   disappeared from the page. Keep every output line at column 0.
+
+  PHASE 4.11.3 BACKEND ACTIVATION:
+  FORM_BACKEND = FORMSPREE_CONNECTED. The action is an external Formspree
+  endpoint taken from site.Params.formEndpoint; it is intentionally NOT passed
+  through route.html / relURL. No field, name, id, label, required flag,
+  validation rule or accessibility attribute was changed.
 */}}
 <section id="rfq" class="rfq">
-<form class="rfq-form" method="post" action="{{ site.Params.formEndpoint | default "" }}">
+<form class="rfq-form" method="POST" action="{{ site.Params.formEndpoint | default "https://formspree.io/f/xdaqjegz" }}">
 <label for="rfq-name">Your Name (required)
 <input id="rfq-name" name="your-name" type="text" required autocomplete="name">
 </label>

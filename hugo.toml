@@ -28,7 +28,12 @@ disableKinds = ["taxonomy", "term", "RSS"]
   # Production canonical host. SEO metadata (canonical/OG/JSON-LD/sitemap) is pinned to
   # this so the staging subpath host never appears in search-engine-facing tags.
   productionBaseURL = "https://woodsat.com"
-  # formEndpoint = ""   # FORM_BACKEND = NEEDS FORMSPREE / EXTERNAL FORM DECISION
+  # PHASE 4.11.3 - FORM_BACKEND = FORMSPREE_CONNECTED
+  # External Formspree endpoint. Deliberately NOT routed through route.html/relURL:
+  # this is a third-party absolute URL, not a site-internal route, so it must never
+  # be rewritten to /woodsat-staging/... . The endpoint is public by design
+  # (standard Formspree HTML integration); no credentials or keys are stored here.
+  formEndpoint = "https://formspree.io/f/xdaqjegz"
 
 # Raw HTML is required so #rfq / #capability anchors and schema survive conversion.
 [markup.goldmark.renderer]
