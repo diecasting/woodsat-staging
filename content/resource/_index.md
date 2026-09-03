@@ -40,7 +40,7 @@ params:
 {{< card title="Speaker Box Calculator" link="/speaker-box-calculator/" cta="Use Calculator →" >}}
 Interactive tool for calculating optimal box volume, port dimensions and panel sizes.
 {{< /card >}}
-{{< card title="Premium Blueprints" link="/blueprints/" cta="View Blueprints →" >}}
+{{< card title="Premium Blueprints" link="/contact/" cta="Request Blueprints →" >}}
 Download detailed plans for studio monitors, subwoofers and hi-fi speakers.
 {{< /card >}}
 {{< /card-grid >}}
@@ -58,7 +58,7 @@ Get our full collection of speaker design resources including:
 {{< checklist-item >}}Wood Selection Handbook{{< /checklist-item >}}
 {{< /checklist >}}
 
-[Download All Resources](/download-resources)
+[Download All Resources](/contact/)
 {{< /band >}}
 
 {{< band bg="warm" >}}

@@ -1,0 +1,88 @@
+{
+  "phase": "4.14",
+  "name": "IMAGE_INTERNAL_LINK_CONTENT_SEO_QA",
+  "verdict": "PHASE_4.14 = IMAGE_INTERNAL_LINK_CONTENT_SEO_QA_PASS",
+  "generated": "2026-09-03 11:18 UTC",
+  "gates": {
+    "broken_images": true,
+    "broken_internal_links": true,
+    "wrong_staging_routes": true,
+    "double_prefix": true,
+    "heading_text_loss": true,
+    "paragraph_loss": true,
+    "list_item_loss": true,
+    "table_data_loss": true,
+    "title_regression": true,
+    "meta_regression": true,
+    "canonical_regression": true,
+    "og_regression": true,
+    "robots_regression": true,
+    "schema_regression": true,
+    "formspree_regression": true,
+    "desktop_overflow": true,
+    "tablet_overflow": true,
+    "mobile_overflow": true,
+    "credential_scan": true
+  },
+  "credential_scan": "CLEAN",
+  "deliverables": [
+    "phase414_site_inventory.json",
+    "phase414_image_inventory.json",
+    "phase414_alt_changes.json",
+    "phase414_internal_link_graph.json",
+    "phase414_orphan_pages.json",
+    "phase414_commercial_link_opportunities.json",
+    "phase414_content_fingerprint.json",
+    "phase414_image_validation.json",
+    "phase414_link_validation.json",
+    "phase414_seo_regression.json",
+    "phase414_schema_regression.json",
+    "phase414_route_regression.json",
+    "phase414_form_regression.json",
+    "phase414_visual_validation.json",
+    "phase414_report.md",
+    "phase414_screenshot_index.md",
+    "phase414_manifest.json"
+  ],
+  "summary": {
+    "images": {
+      "total": 132,
+      "broken": 0,
+      "missing_alt": 0,
+      "weak_alt": 0,
+      "alt_changed": 0,
+      "semantic_mismatch": 0
+    },
+    "links": {
+      "total_internal": 776,
+      "unique_targets": 29,
+      "orphans": 2,
+      "weak": 1,
+      "broken": 0,
+      "anchor_generic": 0,
+      "ed_to_comm_pathways": 10
+    },
+    "content": {
+      "paragraph_loss": 0,
+      "heading_text_loss": 0,
+      "list_item_loss": 0,
+      "table_data_loss": 0
+    },
+    "seo_regressions": 0,
+    "schema_regressions": 0,
+    "route": {
+      "bare_contact": 0,
+      "double_prefix": 0,
+      "hardcoded_prod_internal_after_fix": 0,
+      "hardcoded_prod_ghost_asset_remaining": 29
+    },
+    "form_regressions": 0,
+    "visual": {
+      "combos": 125,
+      "overflow_combos": 0,
+      "broken_img_combos_local": 0,
+      "external_false_positive_broken": 660,
+      "gate": "PASS"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "regressions": 0,
+  "details": [],
+  "checked": [
+    "title",
+    "meta_description",
+    "canonical",
+    "og_url",
+    "twitter",
+    "robots"
+  ],
+  "gate": "PASS"
+}

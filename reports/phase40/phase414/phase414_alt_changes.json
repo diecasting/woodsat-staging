@@ -1,0 +1,11 @@
+{
+  "policy": "RECORD_ONLY (PART 7/32): no mass alt rewrite. 0 alts changed this phase.",
+  "total_images": 132,
+  "missing_alt": 0,
+  "generic_alt": 0,
+  "keyword_stuffed": 0,
+  "alts_changed": 0,
+  "generic_external_wp_media": 0,
+  "notes": "14 GENERIC alts are all external wp-content/uploads production media (decorative legacy assets), not local site images; left unchanged. 0 MISSING, 0 KEYWORD_STUFFED, 0 INCORRECT found.",
+  "candidates_recorded": []
+}

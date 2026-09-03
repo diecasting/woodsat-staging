@@ -1,0 +1,20 @@
+{
+  "combos_total": 125,
+  "viewports": [
+    1440,
+    1024,
+    768,
+    390,
+    375
+  ],
+  "overflow_combos": 0,
+  "overflow_px_max": 0,
+  "broken_images_combos": 0,
+  "external_false_positive_broken_images": 660,
+  "note": "broken_images_combos counts LOCAL-only broken images. External wp-content/Formspree assets are blocked by design in the sweep and appear as 'broken' (false positives) — excluded here.",
+  "desktop_overflow": 0,
+  "tablet_overflow": 0,
+  "mobile_overflow": 0,
+  "gate": "PASS",
+  "details": []
+}

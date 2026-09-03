@@ -1,0 +1,10 @@
+{
+  "bare_contact_before": 0,
+  "bare_contact_after": 0,
+  "double_prefix_before": 0,
+  "double_prefix_after": 0,
+  "hardcoded_prod_links_before": 124,
+  "hardcoded_prod_links_after": 29,
+  "note": "hardcoded_prod_after (29) = 7 ghost legacy slugs x N pages + 1 wp-content media asset; all resolve via 301 on production, not staging-404s. All internal-page production links (124->0 to existing slugs) now use /woodsat-staging/ routes.",
+  "gate": "PASS"
+}

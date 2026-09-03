@@ -1,0 +1,35 @@
+{
+  "orphans": [
+    {
+      "page": "https://woodsat.com/mdf-vs-baltic-birch-plywood-speaker-cabinets/",
+      "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "inbound_links": 0,
+      "classification": "EDITORIAL_PAGE",
+      "note": "No inbound internal links from any other page. True orphan unless reached via nav/footer or external."
+    },
+    {
+      "page": "https://woodsat.com/thanks/",
+      "slug": "thanks",
+      "inbound_links": 0,
+      "classification": "SYSTEM_PAGE",
+      "note": "No inbound internal links from any other page. True orphan unless reached via nav/footer or external."
+    }
+  ],
+  "weakly_connected": [
+    {
+      "page": "https://woodsat.com/mdf-vs-baltic-birch-plywood-speaker-cabinets/",
+      "slug": "mdf-vs-baltic-birch-plywood-speaker-cabinets",
+      "inbound_links": 0,
+      "classification": "WEAK_COMMERCIAL_CONNECTION",
+      "note": "Editorial page with <=1 inbound internal link; limited discovery pathway."
+    }
+  ],
+  "system_excluded": [
+    "",
+    "about-us",
+    "contact",
+    "resource",
+    "sitemap.xml",
+    "thanks"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "total_images": 132,
+  "broken_images": 0,
+  "broken_list": [],
+  "semantic_pass": 132,
+  "semantic_weak": 0,
+  "semantic_fail": 0,
+  "gate": "PASS"
+}
