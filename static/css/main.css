@@ -781,6 +781,11 @@ body.page-home main .page-content { max-width: var(--maxw); margin: 0 auto; padd
 .grid-card__body { padding: 1.25rem 1.35rem 1.5rem; display: flex; flex-direction: column; gap: .5rem; flex: 1; }
 .grid-card__title { color: var(--wood-walnut); font-size: 1.12rem; margin: 0; line-height: 1.25; }
 .grid-card__text { color: var(--wood-text-2); font-size: .95rem; line-height: 1.55; margin: 0; flex: 1; }
+/* 404 help cards: the titles are component labels, not section headings, so they are
+   <span> there (keeps the page H1-only hierarchy clean). Restore block layout. */
+.error-links .grid-card__title,
+.error-links .grid-card__text { display: block; }
+.error-links { padding: 1.25rem 1.35rem 1.5rem; display: flex; flex-direction: column; gap: .5rem; }
 .grid-card__cta { margin-top: .5rem; }
 .grid-card--simple { background: transparent; border: 0; box-shadow: none; }
 .grid-card--simple:hover { transform: none; box-shadow: none; border: 0; }
