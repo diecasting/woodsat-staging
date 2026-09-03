@@ -1,0 +1,13 @@
+{{/* PHASE 4.11 — content band: full container with optional background.
+   param: bg = sand | warm | sand2 (default sand).
+
+   IMPORTANT: this template emits NO leading indentation. Nested shortcodes are
+   rendered to HTML first and then passed through markdownify; any 4-space
+   indented line would be parsed by Goldmark as an indented code block
+   (which rendered content inside <code> and caused horizontal overflow).
+   Keep every output line at column 0. */}}
+<section class="section section--{{ .Get "bg" | default "sand" }}">
+<div class="container">
+{{ .Inner | markdownify }}
+</div>
+</section>

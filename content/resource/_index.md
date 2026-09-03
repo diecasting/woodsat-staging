@@ -27,38 +27,41 @@ params:
   MANUAL_REVIEW: "stored H1 \"Speaker Box Design Resources\" vs rendered NO_H1"
   migration_title_status: REQUIRES_MANUAL_REVIEW
 ---
-Speaker Box Design Resources | Woodsat Acoustics
 
-Expert guides, calculators and blueprints for perfect acoustics
+{{< band bg="sand" >}}
+<p class="section__eyebrow">Speaker Box Design Resources | Woodsat Acoustics</p>
+<p class="section__lead">Expert guides, calculators and blueprints for perfect acoustics</p>
+{{< /band >}}
 
 ## Featured Resources
 
-### Speaker Box Calculator
-
+{{< band bg="warm" >}}
+{{< card-grid cols=2 >}}
+{{< card title="Speaker Box Calculator" link="/speaker-box-calculator/" cta="Use Calculator →" >}}
 Interactive tool for calculating optimal box volume, port dimensions and panel sizes.
-
-[Use Calculator](/speaker-box-calculator)
-
-### Premium Blueprints
-
+{{< /card >}}
+{{< card title="Premium Blueprints" link="/blueprints/" cta="View Blueprints →" >}}
 Download detailed plans for studio monitors, subwoofers and hi-fi speakers.
-
-[View Blueprints](/blueprints)
+{{< /card >}}
+{{< /card-grid >}}
+{{< /band >}}
 
 ## Complete Resource Package
 
+{{< band bg="sand" >}}
 Get our full collection of speaker design resources including:
 
-- ✓ 15+ Professional Blueprints
-
-- ✓ Acoustic Material Guide
-
-- ✓ Advanced Calculator Tools
-
-- ✓ Wood Selection Handbook
+{{< checklist cols=2 >}}
+{{< checklist-item >}}15+ Professional Blueprints{{< /checklist-item >}}
+{{< checklist-item >}}Acoustic Material Guide{{< /checklist-item >}}
+{{< checklist-item >}}Advanced Calculator Tools{{< /checklist-item >}}
+{{< checklist-item >}}Wood Selection Handbook{{< /checklist-item >}}
+{{< /checklist >}}
 
 [Download All Resources](/download-resources)
+{{< /band >}}
 
+{{< band bg="warm" >}}
 Welcome to our Resource Center, where you’ll find valuable information on custom wooden speaker box manufacturing. From woodworking tips to detailed guides on speaker cabinet construction, our resources are designed to help you make informed decisions and achieve the best results for your projects. Check back regularly for updates and new insights.
 
 Our Commitment to Quality: At Woodsat, quality is our foremost priority. We understand that the foundation of outstanding sound lies in the construction of the speaker cabinet. That’s why we meticulously design and manufacture our empty speaker cabinets to the highest standards. Crafted from premium materials, each cabinet ensures optimal sound projection and resonance control.
@@ -72,3 +75,4 @@ Partner with Us: When you choose Woodsat as your empty speaker cabinets supplier
 Innovation Meets Sound: At the crossroads of innovation and sound lies Woodsat. Our dedication to quality, customization, and customer satisfaction sets us apart as a leading supplier of empty speaker cabinets. Whether you’re crafting a personal audio haven or a professional sound system, our cabinets provide the foundation for outstanding audio delivery.
 
 Elevate your audio projects with the finest empty speaker cabinets in the industry. Contact us today to discover how we can empower your sound journey with our high-quality solutions. Unleash the potential of your speakers and embrace the power of sound like never before!
+{{< /band >}}

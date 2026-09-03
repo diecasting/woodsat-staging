@@ -1,0 +1,6 @@
+{{/* PHASE 4.11 — centered section header. params: eyebrow, title, lead */}}
+<div class="section__head">
+  {{ with .Get "eyebrow" }}<span class="section__eyebrow">{{ . }}</span>{{ end }}
+  {{ with .Get "title" }}<h2 class="section__title">{{ . }}</h2>{{ end }}
+  {{ with .Get "lead" }}<p class="section__lead">{{ . }}</p>{{ end }}
+</div>

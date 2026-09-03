@@ -23,12 +23,30 @@
       <p>The page you are looking for may have been moved, renamed, or no longer exists.</p>
       <p>
         {{/* PHASE 4.10.1 ROUTE FIX: these were hardcoded root-relative links and
-             404'd on the /woodsat-staging/ project site. Routed via route.html so
-             they are baseURL-aware on staging AND production. */}}
+           404'd on the /woodsat-staging/ project site. Routed via route.html so
+           they are baseURL-aware on staging AND production. */}}
         <a class="site-cta" href="{{ partial "route.html" "/" }}">Return Home</a>
         &nbsp;&nbsp;
         <a class="site-cta" href="{{ partial "route.html" "/contact/" }}">Contact Us</a>
       </p>
+      <div class="card-grid card-grid--2 error-links">
+        <a class="grid-card" href="{{ partial "route.html" "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/" }}">
+          <h3 class="grid-card__title">Empty Speaker Cabinets</h3>
+          <span class="grid-card__text">Explore custom wooden speaker box manufacturing.</span>
+        </a>
+        <a class="grid-card" href="{{ partial "route.html" "/speaker-cabinet-cnc-machining-service/" }}">
+          <h3 class="grid-card__title">CNC Machining Service</h3>
+          <span class="grid-card__text">Precision CNC routing and finishing for audio enclosures.</span>
+        </a>
+        <a class="grid-card" href="{{ partial "route.html" "/resource/" }}">
+          <h3 class="grid-card__title">Design Resources</h3>
+          <span class="grid-card__text">Calculators, blueprints and woodworking guides.</span>
+        </a>
+        <a class="grid-card" href="{{ partial "route.html" "/about-us/" }}">
+          <h3 class="grid-card__title">About Woodsat</h3>
+          <span class="grid-card__text">20+ years of acoustic engineering mastery.</span>
+        </a>
+      </div>
     </section>
   </main>
   {{ partial "footer.html" . }}

@@ -1,0 +1,11 @@
+{{/* PHASE 4.11 — split-feature: image | content (reversible).
+   params: image, alt, reverse, eyebrow. Zero-indent output (see band.html). */}}
+<section class="split-feature{{ if .Get "reverse" }} split-feature--reverse{{ end }}">
+<div class="split-feature__media">
+<img src="{{ .Get "image" }}" alt="{{ .Get "alt" | default "" }}" loading="lazy">
+</div>
+<div class="split-feature__body">
+{{ with .Get "eyebrow" }}<span class="eyebrow">{{ . }}</span>{{ end }}
+{{ .Inner | markdownify }}
+</div>
+</section>

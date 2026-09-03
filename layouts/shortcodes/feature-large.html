@@ -1,0 +1,14 @@
+{{/* PHASE 4.11 — feature-grid main panel (large image + optional title + body).
+   params: image, alt, eyebrow, title. Zero-indent output (see band.html). */}}
+{{ $image := .Get "image" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $eyebrow := .Get "eyebrow" }}
+{{ $title := .Get "title" }}
+<div class="feature-grid__main">
+{{ with $image }}<img src="{{ . }}" alt="{{ $alt }}" loading="lazy">{{ end }}
+<div class="feature-grid__content">
+{{ with $eyebrow }}<span class="eyebrow">{{ . }}</span>{{ end }}
+{{ with $title }}<h2>{{ . }}</h2>{{ end }}
+{{ .Inner | markdownify }}
+</div>
+</div>

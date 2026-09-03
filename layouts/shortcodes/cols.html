@@ -1,0 +1,5 @@
+{{/* PHASE 4.11 — generic multi-column grid. param: count = 2|3|4 (default 2).
+   Inner = rendered {{< col >}} blocks. */}}
+<div class="section-grid-{{ .Get "count" | default "2" }}">
+  {{ .Inner }}
+</div>

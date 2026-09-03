@@ -1,0 +1,6 @@
+{{/* PHASE 4.11 — stat cell. params: num, label, sub */}}
+<div class="stat">
+  {{ with .Get "num" }}<span class="stat__num">{{ . }}</span>{{ end }}
+  {{ with .Get "label" }}<span class="stat__label">{{ . }}</span>{{ end }}
+  {{ with .Get "sub" }}<span class="stat__sub">{{ . }}</span>{{ end }}
+</div>

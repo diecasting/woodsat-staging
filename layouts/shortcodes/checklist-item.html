@@ -1,0 +1,3 @@
+{{/* PHASE 4.11 — checklist item. The ✓ prefix is rendered by CSS (.checklist-item::before),
+   so pass the item text WITHOUT the ✓ glyph. Inner = short label/phrase. */}}
+<div class="checklist-item">{{ .Inner | markdownify }}</div>

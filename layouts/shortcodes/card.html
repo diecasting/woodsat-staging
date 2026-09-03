@@ -1,0 +1,16 @@
+{{/* PHASE 4.11 — card: image + title + description + optional CTA.
+   params: image, alt, title, link (internal -> route.html), cta (label).
+   Zero-indent output (see band.html). */}}
+{{ $image := .Get "image" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $title := .Get "title" }}
+{{ $link := .Get "link" }}
+{{ $cta := .Get "cta" }}
+<div class="grid-card">
+{{ with $image }}<div class="grid-card__media"><img src="{{ . }}" alt="{{ $alt }}" loading="lazy"></div>{{ end }}
+<div class="grid-card__body">
+{{ with $title }}<h3 class="grid-card__title">{{ . }}</h3>{{ end }}
+{{ with .Inner }}<div class="grid-card__text">{{ . | markdownify }}</div>{{ end }}
+{{ with $link }}<a class="cta-link grid-card__cta" href="{{ partial "route.html" . }}">{{ if $cta }}{{ $cta }}{{ else }}Learn more{{ end }} &rarr;</a>{{ end }}
+</div>
+</div>

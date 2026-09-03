@@ -1,0 +1,6 @@
+{{/* PHASE 4.11 — feature-item (supporting feature inside feature-side).
+   param: title. Zero-indent output (see band.html). */}}
+<div class="feature-item">
+{{ with .Get "title" }}<h3 class="feature-item__title">{{ . }}</h3>{{ end }}
+{{ with .Inner }}<p>{{ . | markdownify }}</p>{{ end }}
+</div>

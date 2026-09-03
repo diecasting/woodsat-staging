@@ -1,0 +1,5 @@
+{{/* PHASE 4.11 — checklist grid wrapper. Nested {{< checklist-item >}} render first.
+   param: cols = 2 | 4 (defaults to 2) */}}
+<div class="checklist-grid{{ if eq (.Get "cols" | default "2") "4" }} checklist-grid--4{{ end }}">
+  {{ .Inner }}
+</div>
