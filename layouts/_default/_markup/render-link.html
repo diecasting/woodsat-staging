@@ -20,7 +20,7 @@
   {{- $p = strings.TrimPrefix "/" $p -}}
   {{- $p = strings.TrimSuffix "/" $p -}}
   {{- if in $known $p -}}
-    {{- if eq $p "" }}{{ $dest = relURL "/" }}{{ else }}{{ $dest = relURL (printf "/%s/" $p) }}{{ end -}}
+    {{- if eq $p "" }}{{ $dest = partial "route.html" "/" }}{{ else }}{{ $dest = partial "route.html" (printf "/%s/" $p) }}{{ end -}}
     {{- $rewritten = true -}}
   {{- end -}}
 {{- end -}}
