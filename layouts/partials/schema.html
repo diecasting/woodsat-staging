@@ -29,7 +29,7 @@
 */}}
 {{ $organization := dict
   "@type" "Organization"
-  "@id" (printf "%s#organization" $prod)
+  "@id" (printf "%s/#organization" $prod)
   "name" site.Title
   "alternateName" "誉大电声制品有限公司"
   "legalName" "Yuda Acoustics Technology Co., Limited"
@@ -46,7 +46,7 @@
     (dict "@type" "ContactPoint" "contactType" "sales" "email" "jason@woodsat.com" "telephone" "+8613410992195" "areaServed" "Worldwide"))
   "areaServed" "Worldwide"
 }}
-{{ $website := dict "@type" "WebSite" "@id" (printf "%s#website" $prod) "url" $prod "name" site.Title }}
+{{ $website := dict "@type" "WebSite" "@id" (printf "%s/#website" $prod) "url" $prod "name" site.Title "publisher" (dict "@id" (printf "%s/#organization" $prod)) }}
 {{ $breadcrumb := dict "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" $prod)) }}
 {{ $graph := slice $organization $website $breadcrumb }}
 
