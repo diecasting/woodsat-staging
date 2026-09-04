@@ -119,6 +119,7 @@ Competition-level SPL applications
 Selecting your primary building [enclosure material](https://woodsat.com/speaker-box-materials/) remains deeply integrated with low-frequency purity.
 Specifically, structural panels must be entirely inert to stand up against intense internal acoustic pressures.
 In addition, proper density dampening ensures your cabinet frame does not introduce resonant ringing into the audio spectrum.
+For turnkey builds, our [custom wooden enclosure manufacturer](/custom-wooden-speaker-cabinet-manufacturer/) service integrates the right panel into a finished subwoofer.
 Material Classification
 Nominal Density
 Engineering Structural Application

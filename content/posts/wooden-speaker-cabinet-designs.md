@@ -30,6 +30,7 @@ params:
 ---
 {{< band bg="sand" >}}
 In high-end audio reproduction, a cabinet is never just an enclosure—it is an acoustic instrument. As an experienced [custom wooden speaker enclosures manufacturer](https://woodsat.com/custom-wooden-speaker-enclosures-manufacturer/), Woodsat engineers cabinets that completely neutralize unwanted resonances while complementing high-end interior spaces. Below is a curated gallery of our core cabinet designs, built using advanced CNC machining technology to guarantee tight engineering tolerances.
+As a [custom cabinet manufacturer](/custom-wooden-speaker-cabinet-manufacturer/), we turn these designs into production-ready enclosures.
 {{< /band >}}
 {{< band bg="sand" >}}
 Piano Lacquer Bookshelf Enclosure

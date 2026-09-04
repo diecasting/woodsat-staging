@@ -107,6 +107,7 @@ We create striking [color-matched finishes](https://woodsat.com/custom-wooden-sp
 ## Our Multi-Stage Application Process
 {{< band bg="warm" >}}
 We use five strict procedural steps to guarantee professional execution for all order batches:
+After coating cures, our [custom wooden cabinet production](/custom-wooden-speaker-cabinet-manufacturer/) line assembles and inspects every enclosure.
 {{< /band >}}
 {{< band bg="warm" >}}
 {{< checklist cols=2 >}}

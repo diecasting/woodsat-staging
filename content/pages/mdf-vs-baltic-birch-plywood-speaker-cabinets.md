@@ -5,7 +5,7 @@ url: "/mdf-vs-baltic-birch-plywood-speaker-cabinets/"
 date: 2026-06-26T07:51:09+00:00
 lastmod: 2026-06-26T07:51:13+00:00
 draft: false
-description: "MDF vs Baltic Birch speaker cabinet, wooden speaker boxes, CNC wood routing services, acoustic wood speaker enclosures, custom speaker box manufacturerMeta Description: A raw, 20-year factory floor comparison of MDF vs. Baltic Birch plywood for speaker cabinets. Discover structural damping, acoustic truths, and DFM routing trade-offs."
+description: "MDF vs Baltic Birch plywood for speaker cabinets: a 20-year manufacturer's factory-floor comparison of structural damping, flexural stiffness and DFM routing trade-offs."
 params:
   wp_id: 798
   wp_type: page

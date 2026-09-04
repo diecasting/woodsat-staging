@@ -137,7 +137,7 @@ Tell our engineering group about your structural cabinet requirements. We will s
 {{< /band >}}
 {{< rfq-form >}}
 {{< band bg="warm" >}}
-Want to test real-time panel configurations? Try our interactive [3D veneer visualizer](https://woodsat.com/custom-speaker-cabinet-builder/) now.
+Want to test real-time panel configurations? Try our interactive [3D veneer visualizer](https://woodsat.com/custom-speaker-cabinet-builder/) now. Many OEM partners pair this veneering workflow with [unfinished speaker cabinet boxes](/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/) shipped blank from our factory directly to their finishing line.
 {{< /band >}}
 {{< card-grid cols=2 >}}
 {{< card title="Woodsat Acoustics Co., Ltd." >}}

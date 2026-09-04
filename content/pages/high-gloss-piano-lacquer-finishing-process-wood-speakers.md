@@ -107,6 +107,6 @@ Due to the extensive labor, dedicated cleanroom booth setups, and multi-day curi
 {{< /card-grid >}}
 ## Bring Uncompromising Luxury to Your Audio Brand
 {{< band bg="warm" >}}
-Don’t settle for mass-produced, imitation finishes. Let our 20-year technical tooling team review your blueprints, analyze your acoustics, and create mirror-perfect cabinets that sell themselves.
+Don’t settle for mass-produced, imitation finishes. Let our 20-year technical tooling team review your blueprints, analyze your acoustics, and create mirror-perfect [speaker cabinet designs](/wooden-speaker-cabinet-designs/) that sell themselves.
 {{< /band >}}
 {{< rfq-form >}}

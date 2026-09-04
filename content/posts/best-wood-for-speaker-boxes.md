@@ -30,6 +30,7 @@ params:
 ---
 {{< band bg="sand" >}}
 When building high-quality speaker enclosures, the choice of wood significantly impacts acoustic performance, durability, and aesthetic appeal. As professional [speaker cabinet builders](https://woodsat.com/custom-speaker-cabinet-builder/), we’ve tested numerous wood types to identify the best materials for different audio applications.
+As a [custom wooden speaker cabinet manufacturer](/custom-wooden-speaker-cabinet-manufacturer/), we pair each wood species with the right build method for your project.
 {{< /band >}}
 ## Why Wood Choice Matters in Speaker Design
 {{< band bg="warm" >}}

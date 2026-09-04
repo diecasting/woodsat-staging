@@ -85,7 +85,7 @@ Prevents dynamic surface delamination while keeping native grain expansion unifo
 {{< card-grid cols=3 >}}
 {{< card title="Premium Hi-Fi Enclosures" >}}
 Tailored explicitly for reference-level audiophile platforms.
-We form these premium cabinets using exotic solid [hardwood construction](https://woodsat.com/most-durable-wood-for-speakers/) matrix assemblies alongside integrated internal acoustic diffraction baffles.
+We form these premium cabinets for our [wooden speaker cabinet designs](/wooden-speaker-cabinet-designs/) using exotic solid [hardwood construction](https://woodsat.com/most-durable-wood-for-speakers/) matrix assemblies alongside integrated internal acoustic diffraction baffles.
 {{< /card >}}
 {{< card title="High-Output Car Sub Boxes" >}}
 Engineered explicitly to withstand extreme physical shifts and massive acoustic strokes.

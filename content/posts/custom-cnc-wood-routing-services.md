@@ -102,7 +102,7 @@ We offer fast production scaling for [custom speaker designs](https://woodsat.co
 {{< /card-grid >}}
 
 {{< band bg="sand" >}}
-Routing MDF and Baltic Birch plywood demands different tooling strategies on the factory floor. Our [MDF vs Baltic Birch plywood comparison](/mdf-vs-baltic-birch-plywood-speaker-cabinets/) explains the DFM trade-offs in detail. For production-scale machining, our [speaker cabinet CNC machining service](/speaker-cabinet-cnc-machining-service/) delivers ±0.1mm tolerance on both substrates.
+Routing MDF and Baltic Birch plywood demands different tooling strategies on the factory floor. Our [MDF vs Baltic Birch plywood comparison](/mdf-vs-baltic-birch-plywood-speaker-cabinets/) explains the DFM trade-offs in detail. For production-scale machining, our [speaker cabinet CNC machining service](/speaker-cabinet-cnc-machining-service/) delivers ±0.1mm tolerance on both substrates. Brands that need [ready-to-finish wooden speaker boxes](/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/) can have our CNC shop cut and ship blank enclosures directly from our production line.
 {{< /band >}}
 
 ## Get a CNC Wood Routing RFQ

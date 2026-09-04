@@ -194,5 +194,5 @@ The structure of your enclosure must be as inert as possible to prevent panel re
 First, Medium-Density Fiberboard (MDF) is completely isotropic with no internal voids. MDF offers incredible internal acoustic dampening and is easy to router or CNC machine. However, it is remarkably heavy and sensitive to environmental moisture.
 {{< /band >}}
 {{< band bg="warm" >}}
-Second, Baltic Birch Plywood features multi-layered void-free construction. It is significantly lighter than MDF while offering superior mechanical strength and structural rigidity. Consequently, it holds screws tightly and showcases a gorgeous natural wood grain when varnished.
+Second, Baltic Birch Plywood features multi-layered void-free construction. It is significantly lighter than MDF while offering superior mechanical strength and structural rigidity. Consequently, it holds screws tightly and showcases a gorgeous natural wood grain when varnished. Once your dimensions are dialed in, our factory can manufacture [blank speaker cabinet boxes](/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/) to your exact specifications.
 {{< /band >}}

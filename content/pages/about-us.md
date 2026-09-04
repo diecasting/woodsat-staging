@@ -127,7 +127,7 @@ Supplying custom tailored, heavy-duty ported or sealed vehicular subwoofer housi
 ## Connect Directly With Our Engineering Office
 
 {{< band bg="sand" >}}
-Ready to lock down your production parameters or request an operational prototyping evaluation? Drop your CAD file details below.
+Ready to lock down your production parameters or request an operational prototyping evaluation for your [speaker cabinet designs](/wooden-speaker-cabinet-designs/)? Drop your CAD file details below.
 
 {{< rfq-form >}}
 {{< /band >}}
