@@ -7,14 +7,16 @@
 #   included in the production sitemap or submitted to search engines.
 
 # PHASE 4.6 STAGING-ONLY OVERRIDE.
-# The staging repo is a GitHub Pages PROJECT site served at the /woodsat-staging/
-# subpath. With the production baseURL (no path) every root-relative asset/link URL
-# (e.g. /css/main.css, /about-us/) 404s on the subpath. So baseURL HERE carries the
-# subpath so relURL/RelPermalink/absURL emit correct /woodsat-staging/... URLs.
-# Canonical/JSON-LD/sitemap/OG are pinned to productionBaseURL (below) so NO github.io
-# value ever reaches SEO metadata. The production source migration/hugo.toml is
-# UNCHANGED (baseURL = https://woodsat.com/).
-baseURL      = "https://diecasting.github.io/woodsat-staging/"
+# PRODUCTION baseURL = custom domain ROOT. GitHub Pages serves the custom domain
+# (static/CNAME -> woodsat.com) at the root path, so every relURL/RelPermalink
+# asset/link (e.g. /css/main.css, /about-us/) must be root-relative with NO
+# /woodsat-staging/ segment, otherwise they 404 on woodsat.com.
+# NOTE: the github.io/woodsat-staging/ project URL is a noindex staging artifact;
+# its subpath-prefixed preview URLs are intentionally NOT supported (SEO lock in
+# deploy.yml mandates baseURL = https://woodsat.com/).
+# Canonical/JSON-LD/sitemap/OG are pinned to productionBaseURL (below) so NO
+# github.io value ever reaches SEO metadata.
+baseURL      = "https://woodsat.com/"
 languageCode = "en"
 title        = "Woodsat"
 
