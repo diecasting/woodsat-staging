@@ -35,5 +35,7 @@
   {{ partial "navigation.html" . }}
   <main>{{ block "main" . }}{{ end }}</main>
   {{ partial "footer.html" . }}
+  {{/* PHASE 5.5-C: mobile nav submenu toggle (P1). Vanilla, no dependency. */}}
+  <script src="{{ "js/nav.js" | relURL }}" defer></script>
 </body>
 </html>
