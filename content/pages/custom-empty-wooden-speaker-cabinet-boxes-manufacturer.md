@@ -60,7 +60,7 @@ Woodsat specializes in manufacturing empty wooden speaker boxes, custom speaker 
 ## Professional Empty Wooden Speaker Box Manufacturer
 For Custom Audio Projects
 
-{{< split image="https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg" alt="Empty wooden speaker box manufacturer producing custom speaker cabinets" >}}
+{{< split image="https://woodsat.com/uploads/2020/08/Empty-speaker-cabinet.webp" alt="Empty wooden speaker box manufacturer producing custom speaker cabinets" >}}
 Woodsat is a professional manufacturer of empty wooden speaker boxes and custom speaker cabinets.
 
 We provide complete manufacturing solutions for audio companies requiring high-quality wooden enclosures without speaker drivers.
@@ -98,28 +98,28 @@ For Different Audio Applications
 Woodsat manufactures various types of empty wooden speaker cabinets according to audio performance requirements, design concepts and customer specifications.
 
 {{< card-grid cols=2 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="Empty wooden bookshelf speaker cabinet manufacturer" title="Bookshelf Speaker Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="Empty wooden bookshelf speaker cabinet manufacturer" title="Bookshelf Speaker Cabinets" >}}
 Compact empty speaker boxes for bookshelf speakers, home audio systems and premium Hi-Fi products.
 
 - Custom dimensions
 - Driver opening machining
 - Veneer and painting options
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png" alt="Custom empty wooden floor standing speaker cabinet" title="Floor Standing Speaker Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Custom empty wooden floor standing speaker cabinet" title="Floor Standing Speaker Cabinets" >}}
 Large-size empty speaker cabinets designed for high-performance home audio systems.
 
 - Large cabinet production
 - Internal structure customization
 - Premium surface finishing
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Empty wooden subwoofer enclosure manufacturer" title="Subwoofer Enclosures" >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Empty wooden subwoofer enclosure manufacturer" title="Subwoofer Enclosures" >}}
 Custom empty subwoofer boxes for automotive audio, home theater and professional applications.
 
 - Ported design
 - Custom volume requirements
 - CNC precision machining
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Studio monitor wooden speaker enclosure manufacturer" title="Studio Monitor Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Studio monitor wooden speaker enclosure manufacturer" title="Studio Monitor Cabinets" >}}
 Professional empty speaker cabinets for recording studios, monitor speakers and commercial audio equipment.
 
 - Accurate dimensions
@@ -159,16 +159,16 @@ Material selection directly affects cabinet strength, acoustic performance and f
 Woodsat provides different material options for various audio applications.
 
 {{< card-grid cols=4 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp" alt="MDF empty wooden speaker box manufacturer" title="MDF Speaker Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Empty-Wooden-speaker-box-products.webp" alt="MDF empty wooden speaker box manufacturer" title="MDF Speaker Cabinets" >}}
 MDF is widely used for speaker cabinets because of its excellent stability, smooth surface and machining performance.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Plywood empty speaker cabinet manufacturer" title="Plywood Speaker Enclosures" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Plywood empty speaker cabinet manufacturer" title="Plywood Speaker Enclosures" >}}
 Plywood provides strong structure, durability and is suitable for professional audio applications.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Wood veneer finishing for empty speaker cabinets" title="Natural Wood Veneer" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Wood veneer finishing for empty speaker cabinets" title="Natural Wood Veneer" >}}
 Premium veneer solutions provide high-end appearance for luxury audio products.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Solid wood empty speaker cabinet manufacturer" title="Solid Wood Options" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Solid wood empty speaker cabinet manufacturer" title="Solid Wood Options" >}}
 Custom solid wood cabinets for special acoustic designs and premium products.
 {{< /card >}}
 {{< /card-grid >}}
@@ -201,7 +201,7 @@ Woodsat can manufacture customized empty speaker cabinets based on:
 For Consistent Speaker Cabinet Production
 
 {{< feature-grid >}}
-{{< feature-large image="https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Custom speaker cabinet CNC routing and baffle machining" >}}
+{{< feature-large image="https://woodsat.com/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Custom speaker cabinet CNC routing and baffle machining" >}}
 Advanced CNC machining allows Woodsat to produce accurate speaker cabinets with repeatable quality.
 {{< /feature-large >}}
 {{< feature-side >}}
@@ -252,8 +252,8 @@ Woodsat provides multiple finishing options for different market requirements.
 {{< /checklist >}}
 
 {{< card-grid cols=2 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="High gloss piano lacquer finishing for wooden speaker cabinets" >}}{{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish.webp" alt="Wooden speaker box surface polishing process" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="High gloss piano lacquer finishing for wooden speaker cabinets" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Speaker-Box-Surface-Polish.webp" alt="Wooden speaker box surface polishing process" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
 
@@ -265,7 +265,7 @@ Woodsat provides multiple finishing options for different market requirements.
 Woodsat supports audio brands with flexible OEM manufacturing solutions.
 
 {{< feature-grid >}}
-{{< feature-large image="https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp" alt="Quality inspection for empty wooden speaker cabinets" >}}
+{{< feature-large image="https://woodsat.com/uploads/2023/02/High-Quallity-Empty-speaker-box.webp" alt="Quality inspection for empty wooden speaker cabinets" >}}
 Woodsat supports audio brands with flexible OEM manufacturing solutions.
 {{< /feature-large >}}
 {{< feature-side >}}
@@ -305,16 +305,16 @@ For Empty Wooden Speaker Boxes
 Woodsat combines traditional woodworking skills with modern CNC manufacturing technology to deliver reliable speaker cabinet solutions.
 
 {{< card-grid cols=4 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine.webp" alt="CNC machine for wooden speaker cabinet manufacturing" title="CNC Wood Machining" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Wood-CNC-Machine.webp" alt="CNC machine for wooden speaker cabinet manufacturing" title="CNC Wood Machining" >}}
 Precision CNC routing, cutting and drilling for accurate cabinet production.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Paiting-Line.webp" alt="Speaker cabinet painting production line manufacturer" title="Professional Painting Line" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Paiting-Line.webp" alt="Speaker cabinet painting production line manufacturer" title="Professional Painting Line" >}}
 Controlled finishing process for matte, gloss and premium surface effects.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Automatic-Drill-Hole-for-speaker.webp" alt="Automatic drilling machine for speaker cabinet production" title="Precision Drilling" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Automatic-Drill-Hole-for-speaker.webp" alt="Automatic drilling machine for speaker cabinet production" title="Precision Drilling" >}}
 Accurate speaker openings, mounting holes and component preparation.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="Mass production empty wooden speaker boxes factory" title="Mass Production" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="Mass production empty wooden speaker boxes factory" title="Mass Production" >}}
 Stable production capability for OEM customers requiring continuous supply.
 {{< /card >}}
 {{< /card-grid >}}
@@ -330,7 +330,7 @@ Woodsat works with international customers requiring custom empty wooden speaker
 
 Our manufacturing process supports:
 
-{{< split image="https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png" alt="Global OEM wooden speaker enclosure supplier" >}}
+{{< split image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Global OEM wooden speaker enclosure supplier" >}}
 {{< checklist cols=2 >}}
 {{< checklist-item >}}Prototype Development{{< /checklist-item >}}
 {{< checklist-item >}}Small Batch Production{{< /checklist-item >}}

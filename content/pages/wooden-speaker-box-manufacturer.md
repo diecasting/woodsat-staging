@@ -44,7 +44,7 @@ From product development, CNC machining, surface finishing to mass production, w
 ## Experienced Manufacturer
 Of Custom Wooden Speaker Boxes
 
-{{< split image="https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp" alt="Wooden speaker box manufacturer producing custom audio cabinets" >}}
+{{< split image="https://woodsat.com/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp" alt="Wooden speaker box manufacturer producing custom audio cabinets" >}}
 A high-quality speaker box requires more than wood cutting.
 
 It requires accurate structure design, proper material selection, precision machining and professional finishing.
@@ -85,21 +85,21 @@ For Different Audio Applications
 Woodsat manufactures a wide range of wooden speaker boxes for consumer audio, professional sound systems and customized OEM projects.
 
 {{< card-grid cols=2 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="Hi-Fi wooden speaker box manufacturer for premium audio systems" title="Hi-Fi Wooden Speaker Boxes" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="Hi-Fi wooden speaker box manufacturer for premium audio systems" title="Hi-Fi Wooden Speaker Boxes" >}}
 Premium speaker cabinets designed for audiophile systems, home audio and high-end sound products.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Custom wooden subwoofer box manufacturer" title="Subwoofer Speaker Boxes" >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Custom wooden subwoofer box manufacturer" title="Subwoofer Speaker Boxes" >}}
 Custom bass enclosure solutions with optimized structures for automotive and home audio applications.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png" alt="Professional audio wooden speaker enclosure manufacturer" title="Professional Audio Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Professional audio wooden speaker enclosure manufacturer" title="Professional Audio Cabinets" >}}
 Speaker cabinets for studio monitors, commercial audio systems and professional sound equipment.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp" alt="Empty wooden speaker box manufacturer" title="Empty Speaker Boxes" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Empty-Wooden-speaker-box-products.webp" alt="Empty wooden speaker box manufacturer" title="Empty Speaker Boxes" >}}
 Manufacturing empty speaker cabinets ready for customer drivers, electronics and assembly.
 {{< /card >}}
 {{< /card-grid >}}
 
-{{< split image="https://woodsat.com/wp-content/uploads/2020/08/Empty-speaker-cabinet.jpg" alt="Custom wooden speaker cabinet manufacturing service" reverse="true" >}}
+{{< split image="https://woodsat.com/uploads/2020/08/Empty-speaker-cabinet.webp" alt="Custom wooden speaker cabinet manufacturing service" reverse="true" >}}
 Woodsat manufactures a wide range of wooden speaker boxes for consumer audio, professional sound systems and customized OEM projects.
 {{< /split >}}
 {{< /band >}}
@@ -158,16 +158,16 @@ Different audio applications require different material characteristics.
 Woodsat selects suitable materials according to acoustic, structural and appearance requirements.
 
 {{< card-grid cols=4 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp" alt="MDF wooden speaker box manufacturing" title="MDF Speaker Boxes" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Empty-Wooden-speaker-box-products.webp" alt="MDF wooden speaker box manufacturing" title="MDF Speaker Boxes" >}}
 MDF provides excellent stability, smooth machining performance and is widely used for commercial audio products.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Plywood wooden speaker enclosure production" title="Plywood Speaker Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Plywood wooden speaker enclosure production" title="Plywood Speaker Cabinets" >}}
 Strong structure, excellent durability and suitable for professional audio applications.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Natural wood veneer speaker box finishing" title="Wood Veneer Finish" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Natural wood veneer speaker box finishing" title="Wood Veneer Finish" >}}
 Premium natural appearance for Hi-Fi and luxury speaker products.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted solid wood speaker box manufacturer" title="Solid Wood Options" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted solid wood speaker box manufacturer" title="Solid Wood Options" >}}
 Unique natural wood solutions for special custom audio products.
 {{< /card >}}
 {{< /card-grid >}}
@@ -196,7 +196,7 @@ From raw material preparation to finished speaker cabinet delivery, Woodsat cont
 ## Advanced CNC Processing
 For Accurate Speaker Box Production
 
-{{< split image="https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine.webp" alt="CNC machining process for wooden speaker box manufacturing" >}}
+{{< split image="https://woodsat.com/uploads/2023/02/Wood-CNC-Machine.webp" alt="CNC machining process for wooden speaker box manufacturing" >}}
 CNC machining ensures precise dimensions, clean edges and repeatable quality for every speaker cabinet.
 
 {{< checklist >}}
@@ -217,9 +217,9 @@ CNC machining ensures precise dimensions, clean edges and repeatable quality for
 ## Premium Finishing For High Quality Speaker Boxes
 
 {{< card-grid cols=3 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="Piano lacquer finishing for wooden speaker box" title="Piano Lacquer" >}}{{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish.webp" alt="Speaker box surface polishing process" title="Surface Polishing" >}}{{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp" alt="Protective coating for wooden speaker cabinet" title="Protective Coating" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="Piano lacquer finishing for wooden speaker box" title="Piano Lacquer" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Speaker-Box-Surface-Polish.webp" alt="Speaker box surface polishing process" title="Surface Polishing" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp" alt="Protective coating for wooden speaker cabinet" title="Protective Coating" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
 
@@ -230,7 +230,7 @@ CNC machining ensures precise dimensions, clean edges and repeatable quality for
 For Global Audio Brands
 
 {{< feature-grid >}}
-{{< feature-large image="https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="OEM wooden speaker box mass production factory" >}}
+{{< feature-large image="https://woodsat.com/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="OEM wooden speaker box mass production factory" >}}
 Woodsat works with audio companies, speaker brands and product developers to manufacture customized wooden speaker boxes.
 
 From initial concept review, engineering optimization, prototype production to mass manufacturing, we provide complete OEM solutions.
@@ -273,7 +273,7 @@ Component installation, inspection and finished product preparation.
 ## Quality Control From Prototype
 To Mass Production
 
-{{< split image="https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp" alt="Quality inspection of wooden speaker box manufacturing" >}}
+{{< split image="https://woodsat.com/uploads/2023/02/High-Quallity-Empty-speaker-box.webp" alt="Quality inspection of wooden speaker box manufacturing" >}}
 Reliable speaker boxes require stable dimensions, consistent appearance and strict production control.
 {{< /split >}}
 
@@ -302,7 +302,7 @@ Verify appearance, dimensions and packaging before shipment.
 ## Reliable Wooden Speaker Box Manufacturer
 For Worldwide Customers
 
-{{< split image="https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png" alt="Global wooden speaker box manufacturing supplier" >}}
+{{< split image="https://woodsat.com/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png" alt="Global wooden speaker box manufacturing supplier" >}}
 Woodsat supports international audio brands, distributors and product developers with reliable wooden speaker box manufacturing.
 
 With complete production capability, we provide prototype development, custom manufacturing and long-term supply solutions.

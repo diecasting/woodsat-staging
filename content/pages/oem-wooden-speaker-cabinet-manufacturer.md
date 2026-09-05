@@ -44,7 +44,7 @@ Woodsat provides OEM wooden speaker cabinet manufacturing solutions for global a
 ## More Than A Woodworking Supplier
 We Are Your Manufacturing Partner
 
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="OEM wooden speaker cabinet factory mass production" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="OEM wooden speaker cabinet factory mass production" >}}
 Building a successful audio product requires more than producing a wooden box.
 
 It requires engineering capability, production stability and consistent quality.
@@ -90,7 +90,7 @@ From initial product concept to final shipment, Woodsat provides a complete manu
 {{< stat num="06" label="Quality Inspection" sub="Final inspection, packaging and shipment." >}}
 {{< /stats-grid >}}
 
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Prototype development for OEM wooden speaker cabinet manufacturing" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Prototype development for OEM wooden speaker cabinet manufacturing" >}}
 From initial product concept to final shipment, Woodsat provides a complete manufacturing process for global audio brands.
 {{< /split >}}
 {{< /band >}}
@@ -124,7 +124,7 @@ Prepare manufacturing methods for stable production.
 ## Reliable Production Capacity
 For Global Audio Brands
 
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="Mass production OEM wooden speaker cabinet factory" reverse="true" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="Mass production OEM wooden speaker cabinet factory" reverse="true" >}}
 After prototype approval, Woodsat provides stable manufacturing for ongoing production requirements.
 
 {{< checklist >}}
@@ -159,7 +159,7 @@ Develop practical manufacturing processes for stable commercial production.
 {{< /card >}}
 {{< /card-grid >}}
 
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="OEM speaker cabinet engineering and CNC machining service" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="OEM speaker cabinet engineering and CNC machining service" >}}
 Successful OEM audio products require careful engineering before manufacturing.
 {{< /split >}}
 {{< /band >}}
@@ -173,16 +173,16 @@ For OEM Wooden Speaker Cabinets
 Advanced CNC processing ensures accurate dimensions, clean edges and consistent production quality.
 
 {{< card-grid cols=3 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="CNC routing speaker cabinet baffle manufacturing" title="Speaker Baffle Machining" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="CNC routing speaker cabinet baffle manufacturing" title="Speaker Baffle Machining" >}}
 Precision cutting for speaker holes, mounting areas and complex designs.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine.webp" alt="Wood CNC machine for OEM speaker cabinet production" title="CNC Wood Processing" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Wood-CNC-Machine.webp" alt="Wood CNC machine for OEM speaker cabinet production" title="CNC Wood Processing" >}}
 High accuracy machining for repeatable production.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Automatic-Drill-Hole-for-speaker.webp" alt="Automatic drilling process for wooden speaker cabinet manufacturing" title="Precision Drilling" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Automatic-Drill-Hole-for-speaker.webp" alt="Automatic drilling process for wooden speaker cabinet manufacturing" title="Precision Drilling" >}}
 Consistent component installation and assembly preparation.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png" alt="Custom wooden speaker cabinet structure optimization" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png" alt="Custom wooden speaker cabinet structure optimization" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
 
@@ -214,9 +214,9 @@ The speaker cabinet structure directly influences product durability, appearance
 For OEM Audio Products
 
 {{< card-grid cols=3 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="OEM piano gloss wooden speaker cabinet finishing" title="Piano Gloss Painting" >}}{{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Natural wood veneer processing for OEM speaker cabinet" title="Natural Veneer Finish" >}}{{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Paiting-Line.webp" alt="Professional speaker cabinet painting production line" title="Industrial Coating" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="OEM piano gloss wooden speaker cabinet finishing" title="Piano Gloss Painting" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Natural wood veneer processing for OEM speaker cabinet" title="Natural Veneer Finish" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Paiting-Line.webp" alt="Professional speaker cabinet painting production line" title="Industrial Coating" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
 
@@ -229,16 +229,16 @@ For Different Audio Markets
 Woodsat supports audio brands across multiple industries with customized cabinet manufacturing solutions.
 
 {{< card-grid cols=4 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="OEM Hi-Fi wooden speaker cabinet manufacturer" title="Hi-Fi Audio Brands" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="OEM Hi-Fi wooden speaker cabinet manufacturer" title="Hi-Fi Audio Brands" >}}
 Premium speaker cabinets for audiophile products, home audio systems and luxury sound equipment.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png" alt="OEM studio monitor speaker cabinet supplier" title="Professional Audio" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="OEM studio monitor speaker cabinet supplier" title="Professional Audio" >}}
 Studio monitors, professional speakers and commercial audio systems.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="OEM automotive speaker cabinet manufacturer" title="Automotive Audio" >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="OEM automotive speaker cabinet manufacturer" title="Automotive Audio" >}}
 Custom subwoofer boxes and vehicle audio enclosure solutions.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="OEM mass production wooden speaker box factory" title="Private Label Audio" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="OEM mass production wooden speaker box factory" title="Private Label Audio" >}}
 Manufacturing support for brands developing their own speaker products.
 {{< /card >}}
 {{< /card-grid >}}
@@ -256,7 +256,7 @@ Manufacturing support for brands developing their own speaker products.
 {{< stat num="04" label="Long-Term Cooperation" sub="Support product updates, new models and future production needs." >}}
 {{< /stats-grid >}}
 
-{{< split image="https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp" alt="Professional OEM wooden speaker cabinet factory" >}}
+{{< split image="https://woodsat.com/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp" alt="Professional OEM wooden speaker cabinet factory" >}}
 Woodsat supports audio brands across multiple industries with customized cabinet manufacturing solutions.
 {{< /split >}}
 {{< /band >}}

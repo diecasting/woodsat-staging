@@ -46,7 +46,7 @@ Woodsat provides professional CNC machining services for wooden speaker cabinets
 ## Precision Manufacturing
 For High Quality Speaker Cabinets
 
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Speaker cabinet CNC machining service with precision wood routing" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Speaker cabinet CNC machining service with precision wood routing" >}}
 Modern speaker products require accurate dimensions, clean machining edges and consistent production quality.
 
 Woodsat uses advanced CNC woodworking technology to manufacture complex speaker cabinet structures for OEM audio brands and product developers.
@@ -83,7 +83,7 @@ Precision CNC processing improves cabinet accuracy, appearance quality and produ
 ## Advanced CNC Routing For Precision Speaker Cabinets
 
 {{< feature-grid >}}
-{{< feature-large image="https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Multi axis CNC routing service for wooden speaker cabinet baffle" >}}
+{{< feature-large image="https://woodsat.com/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Multi axis CNC routing service for wooden speaker cabinet baffle" >}}
 Woodsat uses professional CNC woodworking equipment to create accurate cabinet structures, speaker openings and complex design features.
 
 ### Precision CNC Routing Process
@@ -130,16 +130,16 @@ Create grooves, patterns and special design elements.
 For Complex Speaker Cabinet Designs
 
 {{< card-grid cols=3 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Wood-CNC-Machine.webp" alt="CNC woodworking machine for speaker cabinet production" title="3 Axis CNC Machining" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Wood-CNC-Machine.webp" alt="CNC woodworking machine for speaker cabinet production" title="3 Axis CNC Machining" >}}
 Suitable for standard speaker boxes, flat panels, holes and basic structures.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Multi axis CNC routing for complex wooden speaker enclosure" title="Multi Axis CNC Processing" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Multi axis CNC routing for complex wooden speaker enclosure" title="Multi Axis CNC Processing" >}}
 Manufacture complex shapes, curved surfaces and premium designs.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Custom speaker cabinet CNC machining factory" title="Custom CNC Solutions" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Custom speaker cabinet CNC machining factory" title="Custom CNC Solutions" >}}
 Develop unique machining methods for special OEM projects.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="CNC prototype wooden speaker enclosure development" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="CNC prototype wooden speaker enclosure development" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
 
@@ -165,13 +165,13 @@ For Different Speaker Cabinet Materials
 Different audio products require different materials. Woodsat provides CNC machining solutions for various cabinet materials and structures.
 
 {{< card-grid cols=3 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Empty-Wooden-speaker-box-products.webp" alt="MDF wooden speaker cabinet CNC machining" title="MDF Speaker Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Empty-Wooden-speaker-box-products.webp" alt="MDF wooden speaker cabinet CNC machining" title="MDF Speaker Cabinets" >}}
 Stable structure, smooth surface and excellent machining performance for commercial audio products.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Plywood speaker enclosure CNC machining service" title="Plywood Enclosures" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Plywood speaker enclosure CNC machining service" title="Plywood Enclosures" >}}
 Strong construction, excellent durability and suitable for professional audio systems.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Wood veneer speaker cabinet manufacturing process" title="Natural Wood Veneer" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Wood veneer speaker cabinet manufacturing process" title="Natural Wood Veneer" >}}
 Premium appearance solutions for Hi-Fi speakers and luxury audio products.
 {{< /card >}}
 {{< /card-grid >}}
@@ -186,7 +186,7 @@ To Finished Speaker Cabinet
 Woodsat follows a controlled CNC manufacturing workflow to ensure accuracy, efficiency and consistent quality.
 
 {{< feature-grid >}}
-{{< feature-large image="https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Complete CNC speaker cabinet manufacturing workflow" >}}
+{{< feature-large image="https://woodsat.com/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Complete CNC speaker cabinet manufacturing workflow" >}}
 Woodsat follows a controlled CNC manufacturing workflow to ensure accuracy, efficiency and consistent quality.
 {{< /feature-large >}}
 {{< feature-side >}}
@@ -207,13 +207,13 @@ Beyond CNC Machining
 Woodsat combines CNC machining with professional finishing processes to deliver ready-to-use speaker cabinets.
 
 {{< card-grid cols=3 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="High gloss piano lacquer finishing for wooden speaker cabinet" title="Piano Lacquer Finishing" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="High gloss piano lacquer finishing for wooden speaker cabinet" title="Piano Lacquer Finishing" >}}
 High gloss surfaces for premium audio products.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp" alt="Protective coating finishing for speaker cabinet surface" title="Protective Coating" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp" alt="Protective coating finishing for speaker cabinet surface" title="Protective Coating" >}}
 Improve durability and surface protection.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Speaker-Box-Surface-Polish.webp" alt="Speaker cabinet polishing and surface finishing service" title="Surface Polishing" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Speaker-Box-Surface-Polish.webp" alt="Speaker cabinet polishing and surface finishing service" title="Surface Polishing" >}}
 Create smooth, premium appearance finishes.
 {{< /card >}}
 {{< /card-grid >}}
@@ -245,16 +245,16 @@ For Different Audio Products
 Woodsat provides precision CNC machining for a wide range of speaker cabinet applications.
 
 {{< card-grid cols=4 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="CNC machined Hi-Fi wooden speaker cabinet" title="Hi-Fi Speakers" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="CNC machined Hi-Fi wooden speaker cabinet" title="Hi-Fi Speakers" >}}
 Premium CNC machined cabinets for audiophile and home audio systems.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png" alt="Professional audio speaker enclosure CNC machining" title="Professional Audio" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Professional audio speaker enclosure CNC machining" title="Professional Audio" >}}
 Studio monitors, stage speakers and commercial sound systems.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Automotive speaker enclosure CNC machining" title="Automotive Audio" >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Automotive speaker enclosure CNC machining" title="Automotive Audio" >}}
 Custom subwoofer boxes and vehicle audio solutions.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Custom handcrafted wooden speaker cabinet machining" title="Custom Audio Products" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Custom handcrafted wooden speaker cabinet machining" title="Custom Audio Products" >}}
 Special designs, limited editions and premium products.
 {{< /card >}}
 {{< /card-grid >}}
@@ -269,7 +269,7 @@ Throughout CNC Manufacturing
 Every CNC machined speaker cabinet goes through controlled inspection to ensure dimensional accuracy and appearance quality.
 
 {{< feature-grid >}}
-{{< feature-large image="https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp" alt="Quality inspection of CNC wooden speaker cabinet" >}}
+{{< feature-large image="https://woodsat.com/uploads/2023/02/High-Quallity-Empty-speaker-box.webp" alt="Quality inspection of CNC wooden speaker cabinet" >}}
 Every CNC machined speaker cabinet goes through controlled inspection to ensure dimensional accuracy and appearance quality.
 {{< /feature-large >}}
 {{< feature-side >}}

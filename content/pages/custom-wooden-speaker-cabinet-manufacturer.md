@@ -39,7 +39,7 @@ Woodsat specializes in custom wooden speaker cabinets, providing complete OEM an
 ## Professional Custom Wooden Speaker Cabinet Manufacturing
 
 {{< band bg="warm" >}}
-{{< split image="https://woodsat.com/wp-content/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp" alt="Custom wooden speaker enclosure manufacturer producing OEM speaker cabinets" >}}
+{{< split image="https://woodsat.com/uploads/2023/02/Wooden-speaker-enclosure-manufacturer.webp" alt="Custom wooden speaker enclosure manufacturer producing OEM speaker cabinets" >}}
 Custom speaker cabinets require more than woodworking. They require precision engineering, acoustic understanding and consistent production quality.
 
 Woodsat combines advanced CNC machining, professional woodworking craftsmanship and premium surface finishing technology to manufacture high-quality wooden speaker enclosures for audio companies worldwide.
@@ -62,7 +62,7 @@ Whether you need a prototype, limited production run, or large-volume OEM manufa
 From Prototype To Mass Production
 
 {{< feature-grid >}}
-{{< feature-large image="https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png" alt="OEM wooden speaker housing manufacturer for custom audio products" >}}
+{{< feature-large image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="OEM wooden speaker housing manufacturer for custom audio products" >}}
 Woodsat provides full-service OEM wooden speaker cabinet manufacturing including engineering development, precision machining, surface finishing and final assembly.
 
 ### OEM & ODM Speaker Cabinet Solutions
@@ -88,7 +88,7 @@ From initial concept verification to stable production, Woodsat supports complet
 ## Advanced CNC Wood Machining
 For Accurate Speaker Cabinet Production
 
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Multi axis CNC routing services for wooden speaker cabinet baffle machining" reverse="true" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Multi axis CNC routing services for wooden speaker cabinet baffle machining" reverse="true" >}}
 Precision is critical for acoustic products.
 
 Woodsat uses CNC routing, drilling and cutting technology to achieve accurate cabinet dimensions and consistent production quality.
@@ -138,7 +138,7 @@ From engineering review to final inspection, Woodsat follows a structured manufa
 {{< stat num="06" label="Final Inspection" sub="Check appearance, dimensions and quality before shipment." >}}
 {{< /stats-grid >}}
 
-{{< split image="https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Natural wood veneer material for custom wooden speaker cabinet production" >}}
+{{< split image="https://woodsat.com/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Natural wood veneer material for custom wooden speaker cabinet production" >}}
 From engineering review to final inspection, Woodsat follows a structured manufacturing workflow to ensure quality, consistency and reliability.
 {{< /split >}}
 {{< /band >}}
@@ -183,13 +183,13 @@ Appearance is an important part of premium audio products.
 Woodsat provides professional finishing solutions to achieve outstanding visual quality.
 
 {{< card-grid cols=3 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="High gloss piano lacquer speaker cabinet finishing manufacturer" title="Piano Gloss Lacquer" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="High gloss piano lacquer speaker cabinet finishing manufacturer" title="Piano Gloss Lacquer" >}}
 Mirror-like high gloss finishing for luxury speaker cabinets.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Paiting-Line.webp" alt="Professional painting line for wooden speaker cabinet manufacturing" title="Professional Painting" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Paiting-Line.webp" alt="Professional painting line for wooden speaker cabinet manufacturing" title="Professional Painting" >}}
 Controlled painting process for consistent color quality.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp" alt="Protective coating treatment for wooden speaker enclosure surface" title="Protective Coating" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/premium-polyethylene-coating-speaker-box-surface.webp" alt="Protective coating treatment for wooden speaker enclosure surface" title="Protective Coating" >}}
 Durable surface protection for long-term product performance.
 {{< /card >}}
 {{< /card-grid >}}
@@ -204,18 +204,18 @@ For Different Audio Applications
 Woodsat manufactures customized acoustic enclosures for consumer audio, professional audio and specialized sound systems.
 
 {{< card-grid cols=3 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Custom Hi-Fi wooden speaker cabinet manufacturer for premium audio systems" title="Hi-Fi Speaker Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Custom Hi-Fi wooden speaker cabinet manufacturer for premium audio systems" title="Hi-Fi Speaker Cabinets" >}}
 Luxury wooden speaker enclosures designed for audiophile systems requiring premium appearance and acoustic performance.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png" alt="Studio monitor wooden speaker enclosure manufacturer" title="Studio Monitor Enclosures" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Studio monitor wooden speaker enclosure manufacturer" title="Studio Monitor Enclosures" >}}
 Precision speaker cabinets for professional recording studios, monitor systems and commercial audio.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Custom car subwoofer wooden speaker cabinet manufacturer" title="Subwoofer Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Custom car subwoofer wooden speaker cabinet manufacturer" title="Subwoofer Cabinets" >}}
 Strong cabinet structures for powerful bass applications, automotive audio and custom projects.
 {{< /card >}}
 {{< /card-grid >}}
 
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Custom speaker cabinet CNC design and machining capability" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Custom speaker cabinet CNC design and machining capability" >}}
 Woodsat manufactures customized acoustic enclosures for consumer audio, professional audio and specialized sound systems.
 {{< /split >}}
 {{< /band >}}
@@ -253,7 +253,7 @@ Premium audio products require consistent manufacturing quality.
 
 Woodsat applies strict inspection throughout the production process.
 
-{{< split image="https://woodsat.com/wp-content/uploads/2023/02/High-Quallity-Empty-speaker-box.webp" alt="Quality inspected wooden speaker cabinet ready for shipment" >}}
+{{< split image="https://woodsat.com/uploads/2023/02/High-Quallity-Empty-speaker-box.webp" alt="Quality inspected wooden speaker cabinet ready for shipment" >}}
 {{< stats-grid >}}
 {{< stat num="01" label="Incoming Inspection" sub="Material quality verification before production." >}}
 {{< stat num="02" label="Process Control" sub="Monitor machining, assembly and finishing." >}}

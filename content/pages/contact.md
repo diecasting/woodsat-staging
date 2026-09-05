@@ -71,7 +71,7 @@ For urgent architectural project specifications or dynamic real-time production 
 ## Submit a RFQ / Prototyping Request
 
 {{< band bg="sand" >}}
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Handcrafted wooden speaker box veneer processing at the Woodsat factory" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Handcrafted wooden speaker box veneer processing at the Woodsat factory" >}}
 {{< rfq-form >}}
 {{< /split >}}
 {{< /band >}}

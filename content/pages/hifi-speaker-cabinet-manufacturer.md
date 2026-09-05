@@ -42,8 +42,8 @@ Combining traditional woodworking craftsmanship with advanced CNC machining tech
 
 {{< band bg="warm" >}}
 {{< card-grid cols=2 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Premium Hi-Fi wooden speaker cabinet manufacturer with natural veneer finishing" >}}{{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted premium wooden Hi-Fi speaker cabinets" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Premium Hi-Fi wooden speaker cabinet manufacturer with natural veneer finishing" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted premium wooden Hi-Fi speaker cabinets" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
 
@@ -69,7 +69,7 @@ From prototype development to mass production, we provide complete manufacturing
 Require Specialized Manufacturing
 
 {{< feature-grid >}}
-{{< feature-large image="https://woodsat.com/wp-content/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Precision CNC machining for Hi-Fi speaker cabinet structure design" >}}
+{{< feature-large image="https://woodsat.com/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Precision CNC machining for Hi-Fi speaker cabinet structure design" >}}
 A premium speaker cabinet is a precision-engineered acoustic structure.
 
 Material selection, cabinet thickness, internal reinforcement and machining accuracy all influence final sound performance.
@@ -134,18 +134,18 @@ Material selection plays a critical role in the performance and appearance of Hi
 Woodsat provides multiple material options for different acoustic requirements and product positioning.
 
 {{< card-grid cols=4 >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Natural wood veneer premium Hi-Fi speaker cabinet manufacturer" title="Natural Wood Veneer" >}}
+{{< card image="https://woodsat.com/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Natural wood veneer premium Hi-Fi speaker cabinet manufacturer" title="Natural Wood Veneer" >}}
 Premium veneer surfaces provide a luxury appearance with unique natural wood grain patterns.
 
 Suitable for high-end audiophile speaker products.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Wood veneer speaker enclosure manufacturing" title="MDF Speaker Cabinet" >}}
+{{< card image="https://woodsat.com/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Wood veneer speaker enclosure manufacturing" title="MDF Speaker Cabinet" >}}
 High-density MDF provides excellent surface quality, machining performance and structural stability.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Wooden-speaker-housings.png" alt="Plywood wooden speaker enclosure manufacturer" title="Premium Plywood" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Plywood wooden speaker enclosure manufacturer" title="Premium Plywood" >}}
 Plywood construction provides excellent strength and durability for professional audio applications.
 {{< /card >}}
-{{< card image="https://woodsat.com/wp-content/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted wooden Hi-Fi speaker cabinet production" title="Custom Wood Solutions" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted wooden Hi-Fi speaker cabinet production" title="Custom Wood Solutions" >}}
 Special wood materials and customized structures are available according to customer requirements.
 {{< /card >}}
 {{< /card-grid >}}
@@ -169,7 +169,7 @@ Woodsat provides professional finishing solutions to achieve premium appearance 
 {{< checklist-item >}}Protective Coating{{< /checklist-item >}}
 {{< /checklist >}}
 
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="High gloss piano lacquer finishing for Hi-Fi speaker cabinets" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/high-gloss-piano-lacquer-spraying-clean-room.webp" alt="High gloss piano lacquer finishing for Hi-Fi speaker cabinets" >}}
 High-end audio products require exceptional visual quality.
 {{< /split >}}
 {{< /band >}}
@@ -235,7 +235,7 @@ Premium finishes and custom structures for high-value speaker products.
 {{< /card >}}
 {{< /card-grid >}}
 
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Hi-Fi speaker cabinet manufacturing factory with CNC machining capability" reverse="true" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Hi-Fi speaker cabinet manufacturing factory with CNC machining capability" reverse="true" >}}
 Woodsat partners with audio brands, speaker designers and Hi-Fi manufacturers to develop customized cabinet solutions.
 {{< /split >}}
 {{< /band >}}

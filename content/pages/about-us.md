@@ -36,7 +36,7 @@ params:
 ## The Woodsat Story: Crafting the Pillars of Sound
 
 {{< band bg="warm" >}}
-{{< split image="https://woodsat.com/wp-content/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Woodsat precision wood manufacturing facility" eyebrow="OUR STORY" >}}
+{{< split image="https://woodsat.com/uploads/2026/06/custom-speaker-cabinet-cnc-machining-factory.webp" alt="Woodsat precision wood manufacturing facility" eyebrow="OUR STORY" >}}
 
 Every speaker box is more than an aesthetic shell; it is the first boundary condition of acoustic physics. Founded in 2005 in Tangxia Town, Dongguan City, Woodsat Audio Technology started with a straightforward vision: to eliminate the compromises that mass production forces onto high-end acoustics.
 
