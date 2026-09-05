@@ -86,7 +86,7 @@ Every cabinet goes through inspection before shipment to customers worldwide.
 {{< band bg="sand" >}}
 {{< section-head eyebrow="PRODUCT APPLICATIONS" title="Custom Speaker Cabinets For Professional Audio Applications" lead="From luxury Hi-Fi systems to professional audio equipment, Woodsat manufactures customized acoustic enclosures for different applications." >}}
 
-{{< split image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted wooden Hi-Fi speaker cabinets" eyebrow="HI-FI" >}}
+{{< split image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.webp" alt="Handcrafted wooden Hi-Fi speaker cabinets" eyebrow="HI-FI" >}}
 ### Hi-Fi Speaker Cabinets
 Designed for premium audio brands requiring excellent acoustic performance, beautiful wood appearance and luxury finishing.
 
@@ -95,7 +95,7 @@ Designed for premium audio brands requiring excellent acoustic performance, beau
 - Custom Design
 {{< /split >}}
 
-{{< split image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Professional studio monitor wooden enclosure" reverse="true" eyebrow="STUDIO" >}}
+{{< split image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.webp" alt="Professional studio monitor wooden enclosure" reverse="true" eyebrow="STUDIO" >}}
 ### Studio Monitor Enclosures
 Precision manufactured speaker cabinets for professional studios, monitoring systems and commercial audio equipment.
 
@@ -104,7 +104,7 @@ Precision manufactured speaker cabinets for professional studios, monitoring sys
 - OEM Production
 {{< /split >}}
 
-{{< split image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Custom car subwoofer cabinet" eyebrow="SUBWOOFER" >}}
+{{< split image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.webp" alt="Custom car subwoofer cabinet" eyebrow="SUBWOOFER" >}}
 ### Subwoofer Cabinets
 Strong enclosure structures designed for powerful bass applications, automotive audio and custom projects.
 
@@ -144,7 +144,7 @@ High strength and durable construction for professional audio applications.
 {{< card image="https://woodsat.com/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" title="Natural Wood Veneer" >}}
 Premium appearance for luxury audio products.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" title="Solid Wood Options" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.webp" title="Solid Wood Options" >}}
 Unique natural texture and craftsmanship value for special designs.
 {{< /card >}}
 {{< /card-grid >}}

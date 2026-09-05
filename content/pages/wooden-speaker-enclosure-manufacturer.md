@@ -127,7 +127,7 @@ Strong structures designed for high vibration applications.
 {{< /card-grid >}}
 
 {{< card-grid cols=2 >}}
-{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Custom wooden subwoofer enclosure cabinet manufacturer" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.webp" alt="Custom wooden subwoofer enclosure cabinet manufacturer" >}}{{< /card >}}
 {{< card image="https://woodsat.com/uploads/2026/06/multi-axis-cnc-routing-services-for-speaker-baffle.webp" alt="Multi axis CNC machining for wooden speaker enclosure baffle production" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
@@ -138,7 +138,7 @@ Strong structures designed for high vibration applications.
 ## Advanced CNC Technology
 For Accurate Speaker Enclosure Production
 
-{{< split image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="Professional wooden acoustic speaker enclosure manufacturer" reverse="true" >}}
+{{< split image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.webp" alt="Professional wooden acoustic speaker enclosure manufacturer" reverse="true" >}}
 Modern speaker products require precise dimensions, smooth surfaces and repeatable production quality.
 
 Woodsat uses CNC machining technology to achieve accurate cabinet processing.
@@ -197,7 +197,7 @@ Premium appearance with natural texture for luxury audio products.
 {{< card image="https://woodsat.com/uploads/2023/02/High-Quallity-Empty-speaker-box.webp" alt="High quality plywood wooden speaker cabinet manufacturer" title="Plywood Cabinets" >}}
 High strength construction for professional audio applications.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted solid wood speaker enclosure manufacturer" title="Solid Wood Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.webp" alt="Handcrafted solid wood speaker enclosure manufacturer" title="Solid Wood Cabinets" >}}
 Unique natural appearance with handcrafted value.
 {{< /card >}}
 {{< /card-grid >}}
@@ -233,13 +233,13 @@ For Various Audio Applications
 Woodsat produces custom wooden acoustic enclosures for different audio products, from consumer electronics to professional sound systems.
 
 {{< card-grid cols=4 >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="Premium Hi-Fi wooden speaker enclosure manufacturer" title="Hi-Fi Audio Speakers" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.webp" alt="Premium Hi-Fi wooden speaker enclosure manufacturer" title="Hi-Fi Audio Speakers" >}}
 Luxury wooden speaker cabinets designed for audiophile products, premium home audio systems and high-end sound equipment.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Professional studio monitor wooden speaker enclosure supplier" title="Studio Monitor Systems" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.webp" alt="Professional studio monitor wooden speaker enclosure supplier" title="Studio Monitor Systems" >}}
 Precision acoustic cabinets for recording studios, professional monitoring systems and commercial audio applications.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Custom automotive wooden subwoofer enclosure manufacturer" title="Automotive Audio" >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.webp" alt="Custom automotive wooden subwoofer enclosure manufacturer" title="Automotive Audio" >}}
 Custom subwoofer boxes and acoustic enclosures for vehicle audio systems.
 {{< /card >}}
 {{< card image="https://woodsat.com/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="OEM wooden speaker box production factory" title="OEM Audio Products" >}}

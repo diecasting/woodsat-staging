@@ -43,7 +43,7 @@ Combining traditional woodworking craftsmanship with advanced CNC machining tech
 {{< band bg="warm" >}}
 {{< card-grid cols=2 >}}
 {{< card image="https://woodsat.com/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Premium Hi-Fi wooden speaker cabinet manufacturer with natural veneer finishing" >}}{{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted premium wooden Hi-Fi speaker cabinets" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.webp" alt="Handcrafted premium wooden Hi-Fi speaker cabinets" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
 
@@ -142,10 +142,10 @@ Suitable for high-end audiophile speaker products.
 {{< card image="https://woodsat.com/uploads/2023/02/Empty-wooden-speaker-box-with-veneer.webp" alt="Wood veneer speaker enclosure manufacturing" title="MDF Speaker Cabinet" >}}
 High-density MDF provides excellent surface quality, machining performance and structural stability.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Plywood wooden speaker enclosure manufacturer" title="Premium Plywood" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.webp" alt="Plywood wooden speaker enclosure manufacturer" title="Premium Plywood" >}}
 Plywood construction provides excellent strength and durability for professional audio applications.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Handcrafted wooden Hi-Fi speaker cabinet production" title="Custom Wood Solutions" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.webp" alt="Handcrafted wooden Hi-Fi speaker cabinet production" title="Custom Wood Solutions" >}}
 Special wood materials and customized structures are available according to customer requirements.
 {{< /card >}}
 {{< /card-grid >}}

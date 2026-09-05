@@ -98,21 +98,21 @@ For Different Audio Applications
 Woodsat manufactures various types of empty wooden speaker cabinets according to audio performance requirements, design concepts and customer specifications.
 
 {{< card-grid cols=2 >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="Empty wooden bookshelf speaker cabinet manufacturer" title="Bookshelf Speaker Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.webp" alt="Empty wooden bookshelf speaker cabinet manufacturer" title="Bookshelf Speaker Cabinets" >}}
 Compact empty speaker boxes for bookshelf speakers, home audio systems and premium Hi-Fi products.
 
 - Custom dimensions
 - Driver opening machining
 - Veneer and painting options
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Custom empty wooden floor standing speaker cabinet" title="Floor Standing Speaker Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.webp" alt="Custom empty wooden floor standing speaker cabinet" title="Floor Standing Speaker Cabinets" >}}
 Large-size empty speaker cabinets designed for high-performance home audio systems.
 
 - Large cabinet production
 - Internal structure customization
 - Premium surface finishing
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Empty wooden subwoofer enclosure manufacturer" title="Subwoofer Enclosures" >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.webp" alt="Empty wooden subwoofer enclosure manufacturer" title="Subwoofer Enclosures" >}}
 Custom empty subwoofer boxes for automotive audio, home theater and professional applications.
 
 - Ported design
@@ -168,7 +168,7 @@ Plywood provides strong structure, durability and is suitable for professional a
 {{< card image="https://woodsat.com/uploads/2026/06/handcrafted-wooden-speaker-box-veneer-processing.webp" alt="Wood veneer finishing for empty speaker cabinets" title="Natural Wood Veneer" >}}
 Premium veneer solutions provide high-end appearance for luxury audio products.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Solid wood empty speaker cabinet manufacturer" title="Solid Wood Options" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.webp" alt="Solid wood empty speaker cabinet manufacturer" title="Solid Wood Options" >}}
 Custom solid wood cabinets for special acoustic designs and premium products.
 {{< /card >}}
 {{< /card-grid >}}
@@ -330,7 +330,7 @@ Woodsat works with international customers requiring custom empty wooden speaker
 
 Our manufacturing process supports:
 
-{{< split image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Global OEM wooden speaker enclosure supplier" >}}
+{{< split image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.webp" alt="Global OEM wooden speaker enclosure supplier" >}}
 {{< checklist cols=2 >}}
 {{< checklist-item >}}Prototype Development{{< /checklist-item >}}
 {{< checklist-item >}}Small Batch Production{{< /checklist-item >}}

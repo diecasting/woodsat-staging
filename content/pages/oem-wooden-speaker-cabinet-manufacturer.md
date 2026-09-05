@@ -182,7 +182,7 @@ High accuracy machining for repeatable production.
 {{< card image="https://woodsat.com/uploads/2023/02/Automatic-Drill-Hole-for-speaker.webp" alt="Automatic drilling process for wooden speaker cabinet manufacturing" title="Precision Drilling" >}}
 Consistent component installation and assembly preparation.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png" alt="Custom wooden speaker cabinet structure optimization" >}}{{< /card >}}
+{{< card image="https://woodsat.com/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.webp" alt="Custom wooden speaker cabinet structure optimization" >}}{{< /card >}}
 {{< /card-grid >}}
 {{< /band >}}
 
@@ -229,13 +229,13 @@ For Different Audio Markets
 Woodsat supports audio brands across multiple industries with customized cabinet manufacturing solutions.
 
 {{< card-grid cols=4 >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="OEM Hi-Fi wooden speaker cabinet manufacturer" title="Hi-Fi Audio Brands" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.webp" alt="OEM Hi-Fi wooden speaker cabinet manufacturer" title="Hi-Fi Audio Brands" >}}
 Premium speaker cabinets for audiophile products, home audio systems and luxury sound equipment.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="OEM studio monitor speaker cabinet supplier" title="Professional Audio" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.webp" alt="OEM studio monitor speaker cabinet supplier" title="Professional Audio" >}}
 Studio monitors, professional speakers and commercial audio systems.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="OEM automotive speaker cabinet manufacturer" title="Automotive Audio" >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.webp" alt="OEM automotive speaker cabinet manufacturer" title="Automotive Audio" >}}
 Custom subwoofer boxes and vehicle audio enclosure solutions.
 {{< /card >}}
 {{< card image="https://woodsat.com/uploads/2026/06/mass-batch-production-empty-wooden-speaker-boxes.webp" alt="OEM mass production wooden speaker box factory" title="Private Label Audio" >}}

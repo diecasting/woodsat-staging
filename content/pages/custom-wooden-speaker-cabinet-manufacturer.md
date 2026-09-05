@@ -62,7 +62,7 @@ Whether you need a prototype, limited production run, or large-volume OEM manufa
 From Prototype To Mass Production
 
 {{< feature-grid >}}
-{{< feature-large image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="OEM wooden speaker housing manufacturer for custom audio products" >}}
+{{< feature-large image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.webp" alt="OEM wooden speaker housing manufacturer for custom audio products" >}}
 Woodsat provides full-service OEM wooden speaker cabinet manufacturing including engineering development, precision machining, surface finishing and final assembly.
 
 ### OEM & ODM Speaker Cabinet Solutions
@@ -204,13 +204,13 @@ For Different Audio Applications
 Woodsat manufactures customized acoustic enclosures for consumer audio, professional audio and specialized sound systems.
 
 {{< card-grid cols=3 >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Custom Hi-Fi wooden speaker cabinet manufacturer for premium audio systems" title="Hi-Fi Speaker Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.webp" alt="Custom Hi-Fi wooden speaker cabinet manufacturer for premium audio systems" title="Hi-Fi Speaker Cabinets" >}}
 Luxury wooden speaker enclosures designed for audiophile systems requiring premium appearance and acoustic performance.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Studio monitor wooden speaker enclosure manufacturer" title="Studio Monitor Enclosures" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.webp" alt="Studio monitor wooden speaker enclosure manufacturer" title="Studio Monitor Enclosures" >}}
 Precision speaker cabinets for professional recording studios, monitor systems and commercial audio.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Custom car subwoofer wooden speaker cabinet manufacturer" title="Subwoofer Cabinets" >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.webp" alt="Custom car subwoofer wooden speaker cabinet manufacturer" title="Subwoofer Cabinets" >}}
 Strong cabinet structures for powerful bass applications, automotive audio and custom projects.
 {{< /card >}}
 {{< /card-grid >}}

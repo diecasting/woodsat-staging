@@ -191,7 +191,7 @@ The right finish protects your investment while enhancing aesthetics. Popular op
 {{< /band >}}
 {{< band bg="warm" >}}
 {{< checklist cols=2 >}}
-{{< checklist-item >}}**Lacquers:** Provide a durable, high-gloss surface (see our [piano lacquer example](https://woodsat.com/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.png)){{< /checklist-item >}}
+{{< checklist-item >}}**Lacquers:** Provide a durable, high-gloss surface (see our [piano lacquer example](https://woodsat.com/uploads/2025/03/high-gloss-piano-lacquer-bookshelf-speaker-cabinet.webp)){{< /checklist-item >}}
 {{< /checklist >}}
 {{< /band >}}
 {{< band bg="warm" >}}

@@ -245,16 +245,16 @@ For Different Audio Products
 Woodsat provides precision CNC machining for a wide range of speaker cabinet applications.
 
 {{< card-grid cols=4 >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.png" alt="CNC machined Hi-Fi wooden speaker cabinet" title="Hi-Fi Speakers" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wood-audio-speaker-boxes.webp" alt="CNC machined Hi-Fi wooden speaker cabinet" title="Hi-Fi Speakers" >}}
 Premium CNC machined cabinets for audiophile and home audio systems.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.png" alt="Professional audio speaker enclosure CNC machining" title="Professional Audio" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.webp" alt="Professional audio speaker enclosure CNC machining" title="Professional Audio" >}}
 Studio monitors, stage speakers and commercial sound systems.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.png" alt="Automotive speaker enclosure CNC machining" title="Automotive Audio" >}}
+{{< card image="https://woodsat.com/uploads/2025/03/car-subwoofer-box-with-ported-design.webp" alt="Automotive speaker enclosure CNC machining" title="Automotive Audio" >}}
 Custom subwoofer boxes and vehicle audio solutions.
 {{< /card >}}
-{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.png" alt="Custom handcrafted wooden speaker cabinet machining" title="Custom Audio Products" >}}
+{{< card image="https://woodsat.com/uploads/2023/08/Handcrafted-wooden-speaker-boxes.webp" alt="Custom handcrafted wooden speaker cabinet machining" title="Custom Audio Products" >}}
 Special designs, limited editions and premium products.
 {{< /card >}}
 {{< /card-grid >}}
