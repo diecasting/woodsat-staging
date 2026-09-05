@@ -1,38 +1,423 @@
 {
-  "phase": "PHASE 4.2",
-  "generated_utc": "2026-09-02T08:11:36Z",
-  "status": "PREPARED_NOT_DEPLOYED",
-  "warning": "Prepared for later implementation. NOT deployed. No production redirect may be created during Phase 4.2.",
-  "evidence_source": "reports/phase40/evidence/phase41c/phase41c_http_observations.json",
+  "phase": "PHASE 7_RECONCILED",
+  "generated_utc": "2026-09-05T07:58:30Z",
+  "reconciled_from": "PHASE 7 legacy redirect pre-write audit (PASS_WITH_FINDINGS)",
+  "reconciliation_evidence": "D:/woodsat_qa_tmp/phase7/PHASE_7_LEGACY_REDIRECT_PREWRITE_AUDIT.md",
+  "status": "RECONCILED_WITH_CLOUDFLARE",
+  "note": "Cloudflare edge is the authoritative 301 source; GitHub Pages cannot emit server-side 301. This file is the repo-side registry only. DEPLOYED_LIVE = confirmed serving 301 from Cloudflare at audit time. READY_TO_DEPLOY = evidence-supported, not yet live in Cloudflare, pending deployment.",
   "redirects": [
     {
       "from": "/custom-wooden-speaker-enclosures-manufacturer/",
       "to": "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
       "http_status": 301,
-      "status": "HTTP_CONFIRMED_REDIRECT",
-      "repeat_count": 3,
+      "status": "DEPLOYED_LIVE",
+      "deployed_at": "cloudflare_edge_PRE_PHASE7",
       "target_object_id": 241,
-      "inbound_internal_links": 7,
-      "also_a_post_tag": true,
+      "priority": "INFO",
+      "class": "A",
       "evidence": [
-        "single GET probe",
-        "A/B test (curl default UA)",
-        "A/B test (UA curl/8.5.0)"
+        "PHASE 7 no-follow probe: 301 served by Cloudflare (Server: cloudflare, CF-RAY present)",
+        "PHASE 4.2 A/B tests (curl default UA / curl/8.5.0)"
+      ]
+    },
+    {
+      "from": "/high-quality-speaker-enclosures/",
+      "to": "/wooden-speaker-enclosure-manufacturer/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "deployed_at": "cloudflare_edge_PRE_PHASE7",
+      "priority": "INFO",
+      "class": "A",
+      "evidence": [
+        "PHASE 7 no-follow probe: 301 served by Cloudflare (Server: cloudflare, CF-RAY present)"
       ]
     },
     {
       "from": "/custom-oem-wooden-speaker-cabinet-manufacturer/",
       "to": "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
       "http_status": 301,
-      "status": "HTTP_CONFIRMED_REDIRECT",
-      "repeat_count": 1,
+      "status": "DEFERRED_PAGE_FIRST",
       "target_object_id": 241,
-      "referenced_by": [
-        241
-      ],
       "menu_item": 883,
+      "priority": "P1",
+      "class": "A",
       "evidence": [
-        "scripted run with curl default UA"
+        "PHASE 4.2 HTTP_CONFIRMED_REDIRECT (scripted run, curl default UA)",
+        "PHASE 7: source returns 404 in Cloudflare => NOT yet live; ready for deployment",
+        "PHASE 8-D human decision D3: PAGE-FIRST / KEEP 404 — this URL must NOT be redirected; a real page is intended (uncommitted content/custom-oem-wooden-speaker-cabinet-manufacturer.md exists in the working tree)",
+        "HUMAN_REVIEW_REQUIRED / NOT_AUTOMATICALLY_AUTHORIZED — target NOT approved for deployment",
+        "the 'to' value above is retained as historical proposal evidence ONLY and must not be used as a redirect destination; PHASE 4.32A also lists this URL as a Protected BUILD URL",
+        "verified 2026-09-05: https://woodsat.com/custom-oem-wooden-speaker-cabinet-manufacturer/ and the no-slash form both return 404"
+      ]
+    },
+    {
+      "from": "/oem-speaker-cabinet-manufacturer/",
+      "to": "/oem-wooden-speaker-cabinet-manufacturer/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P1",
+      "class": "A",
+      "evidence": [
+        "PHASE 7: committed live page /oem-wooden-speaker-cabinet-manufacturer/ returns 200",
+        "Slug normalization: legacy /oem-speaker-cabinet-manufacturer/ (no 'wooden') -> canonical /oem-wooden-speaker-cabinet-manufacturer/",
+        "PHASE 8-E: deployed as authorized rule A4 (both slash and no-slash source forms) — 301 -> /oem-wooden-speaker-cabinet-manufacturer/",
+        "PHASE 8-E live HTTP verification: both forms return 301 (single hop, final 200)"
+      ]
+    },
+    {
+      "from": "/about/",
+      "to": "/about-us/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "target_object_id": 211,
+      "priority": "P2",
+      "class": "B",
+      "evidence": [
+        "PHASE 7: /about/ returns 404; /about-us/ is the unique About page (wp_id 211, canonical https://woodsat.com/about-us/)",
+        "PHASE 8-E: deployed as authorized rule A5 — 301 -> /about-us/ (single hop, final 200)",
+        "PHASE 8-E live HTTP verification: https://woodsat.com/about/ returns 301 to /about-us/"
+      ]
+    },
+    {
+      "from": "/custom-speaker-cabinet-builder/",
+      "to": "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P1",
+      "evidence": [
+        "PHASE 8-D authorized rule A1 (P1)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /custom-empty-wooden-speaker-cabinet-boxes-manufacturer/ (single hop, final 200, HTTPS woodsat.com)",
+        "4.32B live edge rule covered the no-slash form only; this slash variant 404'd with 7 internal links at HEAD"
+      ]
+    },
+    {
+      "from": "/loudspeaker-cabinet-manufacturer/",
+      "to": "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P1",
+      "class": "A",
+      "evidence": [
+        "PHASE 8-D authorized rule A2 (P1)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /custom-empty-wooden-speaker-cabinet-boxes-manufacturer/ (single hop, final 200, HTTPS woodsat.com)",
+        "PHASE 4.17 s5 + PHASE 4.21 row 31 (historical 301 evidence)",
+        "3 internal links at HEAD resolved to this 404 slash form"
+      ]
+    },
+    {
+      "from": "/most-durable-wood-for-speakers/",
+      "to": "/best-wood-for-speaker-boxes/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P1",
+      "class": "A",
+      "evidence": [
+        "PHASE 8-D authorized rule A3 (P1)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /best-wood-for-speaker-boxes/ (single hop, final 200, HTTPS woodsat.com)",
+        "PHASE 4.17 s5 + PHASE 4.21 row 32 (historical 301 evidence)",
+        "3 internal links at HEAD resolved to this 404 slash form"
+      ]
+    },
+    {
+      "from": "/oem-speaker-cabinet-manufacturer",
+      "to": "/oem-wooden-speaker-cabinet-manufacturer/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P1",
+      "class": "A",
+      "evidence": [
+        "PHASE 8-D authorized rule A4 (P1)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /oem-wooden-speaker-cabinet-manufacturer/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of confirmed.json entry 4 (slug normalization)"
+      ]
+    },
+    {
+      "from": "/about-woodsat/",
+      "to": "/about-us/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P2",
+      "class": "B",
+      "evidence": [
+        "PHASE 8-D authorized rule A6 (P2)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /about-us/ (single hop, final 200, HTTPS woodsat.com)",
+        "PHASE 8-B Class B; PHASE 4.9 mapping; legacy homepage CTA provenance"
+      ]
+    },
+    {
+      "from": "/about-woodsat",
+      "to": "/about-us/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P2",
+      "class": "B",
+      "evidence": [
+        "PHASE 8-D authorized rule A6 (P2)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /about-us/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of A6"
+      ]
+    },
+    {
+      "from": "/cnc-wood-machining-service/",
+      "to": "/speaker-cabinet-cnc-machining-service/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P2",
+      "class": "B",
+      "evidence": [
+        "PHASE 8-D authorized rule A7 (P2)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /speaker-cabinet-cnc-machining-service/ (single hop, final 200, HTTPS woodsat.com)",
+        "PHASE 8-B Class B; PHASE 4.9 mapping; homepage CTA provenance"
+      ]
+    },
+    {
+      "from": "/cnc-wood-machining-service",
+      "to": "/speaker-cabinet-cnc-machining-service/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P2",
+      "class": "B",
+      "evidence": [
+        "PHASE 8-D authorized rule A7 (P2)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /speaker-cabinet-cnc-machining-service/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of A7"
+      ]
+    },
+    {
+      "from": "/download-resources/",
+      "to": "/resource/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P3",
+      "class": "B",
+      "evidence": [
+        "PHASE 8-D authorized rule A8 (P3)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /resource/ (single hop, final 200, HTTPS woodsat.com)",
+        "PHASE 8-B Class B; resource page CTA provenance"
+      ]
+    },
+    {
+      "from": "/download-resources",
+      "to": "/resource/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P3",
+      "class": "B",
+      "evidence": [
+        "PHASE 8-D authorized rule A8 (P3)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /resource/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of A8"
+      ]
+    },
+    {
+      "from": "/blueprints/",
+      "to": "/resource/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P3",
+      "class": "B",
+      "evidence": [
+        "PHASE 8-D authorized rule A9 (P3)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /resource/ (single hop, final 200, HTTPS woodsat.com)",
+        "PHASE 8-B Class B; /resource/ hosts the Premium Blueprints content"
+      ]
+    },
+    {
+      "from": "/blueprints",
+      "to": "/resource/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P3",
+      "class": "B",
+      "evidence": [
+        "PHASE 8-D authorized rule A9 (P3)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /resource/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of A9"
+      ]
+    },
+    {
+      "from": "/home/",
+      "to": "/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P3",
+      "evidence": [
+        "PHASE 8-D authorized rule A10 (P3)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> / (single hop, final 200, HTTPS woodsat.com)",
+        "slash source variant of the pre-existing live /home rule"
+      ]
+    },
+    {
+      "from": "/wooden-speaker-box/",
+      "to": "/wooden-speaker-box-manufacturer/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P3",
+      "evidence": [
+        "PHASE 8-D authorized rule A11 (P3)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /wooden-speaker-box-manufacturer/ (single hop, final 200, HTTPS woodsat.com)",
+        "slash source variant of the pre-existing live /wooden-speaker-box rule"
+      ]
+    },
+    {
+      "from": "/speaker-box/",
+      "to": "/speaker-box-calculator/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P3",
+      "evidence": [
+        "PHASE 8-D authorized rule A12 (P3)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /speaker-box-calculator/ (single hop, final 200, HTTPS woodsat.com)",
+        "slash source variant of the pre-existing live /speaker-box rule"
+      ]
+    },
+    {
+      "from": "/custom-wooden-speaker-enclosures-manufacturer",
+      "to": "/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P4",
+      "class": "A",
+      "evidence": [
+        "PHASE 8-D authorized rule A13 (P4)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /custom-empty-wooden-speaker-cabinet-boxes-manufacturer/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of confirmed.json entry 1"
+      ]
+    },
+    {
+      "from": "/high-quality-speaker-enclosures",
+      "to": "/wooden-speaker-enclosure-manufacturer/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P4",
+      "class": "A",
+      "evidence": [
+        "PHASE 8-D authorized rule A14 (P4)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /wooden-speaker-enclosure-manufacturer/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of confirmed.json entry 2"
+      ]
+    },
+    {
+      "from": "/oem-speaker-cabinet-manufacturer-china",
+      "to": "/oem-wooden-speaker-cabinet-manufacturer/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P4",
+      "evidence": [
+        "PHASE 8-D authorized rule A15 (P4)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /oem-wooden-speaker-cabinet-manufacturer/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of the pre-existing live -china rule"
+      ]
+    },
+    {
+      "from": "/best-speaker-boxes-expert-guide-2025-woodsat",
+      "to": "/best-wood-for-speaker-boxes/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P4",
+      "evidence": [
+        "PHASE 8-D authorized rule A16 (P4)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /best-wood-for-speaker-boxes/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of the pre-existing live rule"
+      ]
+    },
+    {
+      "from": "/category/speaker-box-and-cabinet",
+      "to": "/resource/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P4",
+      "evidence": [
+        "PHASE 8-D authorized rule A17 (P4)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /resource/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of the pre-existing live taxonomy rule"
+      ]
+    },
+    {
+      "from": "/category/uncategorized",
+      "to": "/resource/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P4",
+      "evidence": [
+        "PHASE 8-D authorized rule A17 (P4)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /resource/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of the pre-existing live taxonomy rule"
+      ]
+    },
+    {
+      "from": "/tag/acoustic-wood-speaker-enclosures",
+      "to": "/acoustic-wood-speaker-enclosures/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P4",
+      "evidence": [
+        "PHASE 8-D authorized rule A17 (P4)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /acoustic-wood-speaker-enclosures/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of the pre-existing live taxonomy rule"
+      ]
+    },
+    {
+      "from": "/tag/wooden-speaker-cabinet-designs",
+      "to": "/wooden-speaker-cabinet-designs/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P4",
+      "evidence": [
+        "PHASE 8-D authorized rule A17 (P4)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /wooden-speaker-cabinet-designs/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of the pre-existing live taxonomy rule"
+      ]
+    },
+    {
+      "from": "/speaker-cabinet-finishing-service/",
+      "to": "/speaker-box-finishes/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P2",
+      "class": "B",
+      "evidence": [
+        "PHASE 8-D authorized rule A18 (P2)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /speaker-box-finishes/ (single hop, final 200, HTTPS woodsat.com)",
+        "PHASE 8-B Class B; PHASE 8-D human decision D4 selected /speaker-box-finishes/ (high-gloss historical mapping rejected)"
+      ]
+    },
+    {
+      "from": "/speaker-cabinet-finishing-service",
+      "to": "/speaker-box-finishes/",
+      "http_status": 301,
+      "status": "DEPLOYED_LIVE",
+      "priority": "P2",
+      "class": "B",
+      "evidence": [
+        "PHASE 8-D authorized rule A18 (P2)",
+        "PHASE 8-E: appended to Cloudflare bulk redirect list woodsat_production20260905 (operation e635363dc3714fb7b389c65bd89fe87d)",
+        "PHASE 8-E live HTTP verification: 301 -> /speaker-box-finishes/ (single hop, final 200, HTTPS woodsat.com)",
+        "no-slash source variant of A18"
       ]
     }
   ]
