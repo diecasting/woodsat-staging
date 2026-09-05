@@ -29,6 +29,11 @@
   <meta property="og:url" content="{{ .Permalink | replaceRE "^https://diecasting.github.io/woodsat-staging" $prod }}">
   <meta property="og:site_name" content="WoodSat">
   {{ with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
+  <meta property="og:image" content="{{ site.Params.socialImage }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ end }}">
+  <meta name="twitter:image" content="{{ site.Params.socialImage }}">
   {{ partial "schema.html" . }}
 </head>
 <body class="{{ if .IsHome }}page-home{{ else }}page-inner{{ end }}">

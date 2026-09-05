@@ -36,6 +36,9 @@ disableKinds = ["taxonomy", "term", "RSS"]
   # be rewritten to /woodsat-staging/... . The endpoint is public by design
   # (standard Formspree HTML integration); no credentials or keys are stored here.
   formEndpoint = "https://formspree.io/f/xdaqjegz"
+  # PHASE 6-E: global default social share image (OG + Twitter + Article schema image).
+  # Existing production-safe asset; never the broken F1 asset. Pinned to production host.
+  socialImage = "https://woodsat.com/uploads/2023/08/Wooden-speaker-housings.webp"
 
 # Raw HTML is required so #rfq / #capability anchors and schema survive conversion.
 [markup.goldmark.renderer]

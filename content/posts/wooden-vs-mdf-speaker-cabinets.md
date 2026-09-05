@@ -35,7 +35,7 @@ params:
 {{< band bg="sand" >}}
 Discover how wood and MDF transform sound quality in our comprehensive engineering analysis
 {{< /band >}}
-# Wood vs MDF Speaker Cabinets: The Complete Comparison
+## Wood vs MDF Speaker Cabinets: The Complete Comparison
 {{< band bg="sand" >}}
 Selecting the right cabinet material is the most critical decision in speaker design. At Woodsat, we’ve manufactured over 5,000 speaker cabinets using both solid wood and MDF, and this comprehensive guide reveals everything we’ve learned about how material choice impacts sound quality, durability, and value.
 {{< /band >}}

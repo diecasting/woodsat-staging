@@ -58,8 +58,48 @@
   {{ $graph = $graph | append (dict "@type" "Service" "@id" (printf "%s#service" (.Permalink | replaceRE $strip $prod)) "serviceType" "Empty Wooden Speaker Box Manufacturing" "provider" (dict "@id" (printf "%s#organization" $prod)) "areaServed" "Worldwide") }}
 {{ end }}
 
+{{/*
+  PHASE 4.26 — controlled page-level schema selector (NEW PAGES).
+  The legacy wp_id 241 block above is PRESERVED UNCHANGED: page 241 keeps its
+  Service + FAQPage without any front-matter change (per 4.26 NON-SCHEMA/legacy
+  preservation rules). New pages opt in EXPLICITLY via params.schema_types so
+  they no longer depend on the wp_id gate.
+
+  Safety constraints (4.26):
+    - Only evidence-supported types are honored. Currently ONLY "Service".
+    - FAQPage is intentionally NOT emitted by this selector: the 4 new pages
+      contain visible FAQ sections but the generator has no safe FAQ-entity
+      parser, and 4.26 forbids inventing one. FAQ_SCHEMA = DEFERRED.
+    - Article/WebPage are produced by the universal block below; values other
+      than "Service" are ignored to prevent schema pollution. The 9 unsafe
+      types (ManufacturingBusiness, Product, ProductModel, AggregateOffer,
+      Brand, ImageObject, SearchAction, GeoCoordinates, Person) are NOT
+      implemented and remain BLOCKED_FOR_LATER_REVIEW.
+    - $ is used for page context because `range` rebinds `.`.
+*/}}
+{{ $page := . }}
+{{ with .Params.schema_types }}
+  {{ range . }}
+    {{ if eq . "Service" }}
+      {{ $graph = $graph | append (dict "@type" "Service" "@id" (printf "%s#service" ($page.Permalink | replaceRE $strip $prod)) "serviceType" $page.Title "provider" (dict "@id" (printf "%s#organization" $prod)) "areaServed" "Worldwide") }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 {{ if eq .Type "posts" }}
-  {{ $graph = $graph | append (dict "@type" "Article" "headline" .Title "description" (.Description | default "") "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "mainEntityOfPage" (dict "@type" "WebPage" "@id" (.Permalink | replaceRE $strip $prod))) }}
+  {{ $graph = $graph | append (dict
+    "@type" "Article"
+    "@id" (printf "%s#article" (.Permalink | replaceRE $strip $prod))
+    "url" (.Permalink | replaceRE $strip $prod)
+    "headline" .Title
+    "description" (.Description | default "")
+    "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "mainEntityOfPage" (dict "@type" "WebPage" "@id" (.Permalink | replaceRE $strip $prod))
+    "author" (dict "@id" (printf "%s#organization" $prod) "name" site.Title)
+    "publisher" (dict "@id" (printf "%s#organization" $prod) "name" site.Title)
+    "image" site.Params.socialImage
+  ) }}
 {{ else }}
   {{ $graph = $graph | append (dict "@type" "WebPage" "@id" (.Permalink | replaceRE $strip $prod) "url" (.Permalink | replaceRE $strip $prod) "name" .Title "isPartOf" (dict "@id" (printf "%s#website" $prod))) }}
 {{ end }}

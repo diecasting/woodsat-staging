@@ -27,7 +27,7 @@ params:
   MANUAL_REVIEW: "NO_H1 - do not invent an H1"
   migration_title_status: REQUIRES_MANUAL_REVIEW
 ---
-## Thank You!
+# Thank You!
 
 Thank you very much for your concern, your inquiry will replied in 24 hours.
 Now, maybe you want to [visit here](https://woodsat.com/) to know more about our [speaker box](https://woodsat.com/custom-empty-wooden-speaker-cabinet-boxes-manufacturer/)
