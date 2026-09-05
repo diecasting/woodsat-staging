@@ -16,7 +16,7 @@ params:
   h1_count: 0
   yoast_title: "Thank You | Woodsat"
   focus_keyword: "Thank You"
-  robots: "index, follow"
+  robots: "noindex,nofollow"
   canonical_intent: "https://woodsat.com/thanks/"
   rfq_anchor: false
   capability_anchor: false

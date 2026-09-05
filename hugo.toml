@@ -26,7 +26,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
 
 # Staging guard - flip to false ONLY after the custom domain is live.
 [params]
-  isStaging = true
+  isStaging = false
   # Production canonical host. SEO metadata (canonical/OG/JSON-LD/sitemap) is pinned to
   # this so the staging subpath host never appears in search-engine-facing tags.
   productionBaseURL = "https://woodsat.com"
